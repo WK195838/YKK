@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" />
+							<xsd:attribute name="type" type="xsd:string" />
+							<xsd:attribute name="mimetype" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="ResMimeType">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="Version">
+		<value>1.0.0.0</value>
+	</resheader>
+	<resheader name="Reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="Writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="FileManager.Text">
+		<value>ファイル マネージャ</value>
+	</data>
+	<data name="HostRoot.Text">
+		<value>ホスト ルート</value>
+	</data>
+	<data name="PortalRoot.Text">
+		<value>ポータル ルート</value>
+	</data>
+	<data name="FileName.Header">
+		<value>ファイル名</value>
+	</data>
+	<data name="Size.Header">
+		<value>サイズ (Kb)</value>
+	</data>
+	<data name="DiskSpace.Text">
+		<value>ディスク容量</value>
+	</data>
+	<data name="Capacity.Text">
+		<value>上限</value>
+	</data>
+	<data name="Used.Text">
+		<value>使用中</value>
+	</data>
+	<data name="Free.Text">
+		<value>空き</value>
+	</data>
+	<data name="MB.Text">
+		<value>MB</value>
+	</data>
+	<data name="cmdSynchronize.Text">
+		<value>データベースとファイル システムを同期</value>
+	</data>
+	<data name="AddContent.Action">
+		<value>新たなファイルのアップロード</value>
+	</data>
+	<data name="ControlTitle_.Text">
+		<value>ファイル マネージャ</value>
+	</data>
+	<data name="Ok.Text">
+		<value>OK</value>
+	</data>
+	<data name="Cancel.Text">
+		<value>取消</value>
+	</data>
+	<data name="CopyFiles.Text">
+		<value>コピー</value>
+	</data>
+	<data name="CancelCopy.Text">
+		<value>コピーの取消</value>
+	</data>
+	<data name="MoveFiles.Text">
+		<value>移動</value>
+	</data>
+	<data name="CancelMove.Text">
+		<value>移動の取消</value>
+	</data>
+	<data name="NoFilesChecked.Text">
+		<value>ファイルが選択されていません</value>
+	</data>
+	<data name="PleaseSpecifyAFolderNameFirst.Text">
+		<value>まずフォルダ名を指定してください</value>
+	</data>
+	<data name="CopyCheckedFiles.Text">
+		<value>選択したファイルをコピーしますか？</value>
+	</data>
+	<data name="MoveCheckedFiles.Text">
+		<value>選択したファイルを移動しますか？</value>
+	</data>
+	<data name="DeleteFolder.Text">
+		<value>削除するフォルダ:</value>
+	</data>
+	<data name="MoveSelectedFilesTo.Text">
+		<value>選択したファイルの移動先:</value>
+	</data>
+	<data name="CopySelectedFilesTo.Text">
+		<value>選択したファイルのコピー先:</value>
+	</data>
+	<data name="UnzipSelectedFilesTo.Text">
+		<value>選択した圧縮ファイルの解凍先:</value>
+	</data>
+	<data name="AddFolderImg.AlternateText">
+		<value>フォルダの追加</value>
+	</data>
+	<data name="DeleteFolderImg.AlternateText">
+		<value>フォルダの削除</value>
+	</data>
+	<data name="RefreshImg.AlternateText">
+		<value>更新</value>
+	</data>
+	<data name="CopyImg.AlternateText">
+		<value>ファイルコピー</value>
+	</data>
+	<data name="MoveImg.AlternateText">
+		<value>ファイル移動</value>
+	</data>
+	<data name="UploadImg.AlternateText">
+		<value>アップロード</value>
+	</data>
+	<data name="DeleteImg.AlternateText">
+		<value>ファイル削除</value>
+	</data>
+	<data name="FilterImg.AlternateText">
+		<value>フィルダー</value>
+	</data>
+	<data name="RenameFileImg.AlternateText">
+		<value>ファイル名の変更</value>
+	</data>
+	<data name="SaveChangesImg.AlternateText">
+		<value>保存</value>
+	</data>
+	<data name="DeleteFileImg.AlternateText">
+		<value>ファイル削除</value>
+	</data>
+	<data name="CancelRenameImg.AlternateText">
+		<value>ファイル名の変更取消</value>
+	</data>
+	<data name="UnzipFileImg.AlternateText">
+		<value>ZIPファイルの解凍</value>
+	</data>
+	<data name="GetFolderProperties.AlternateText">
+		<value>フォルダ プロパティの取得</value>
+	</data>
+	<data name="NotAllowedToDeleteRootFolder.Text">
+		<value>ルート フォルダを削除することはできません</value>
+	</data>
+	<data name="FolderAlreadyRemoved.Text">
+		<value>フォルダは既に削除されています</value>
+	</data>
+	<data name="PleaseRemoveFilesBeforeDeleting.Text">
+		<value>フォルダを削除する前にファイル/サブフォルダを削除してください</value>
+	</data>
+	<data name="ErrorMovingFile.Text">
+		<value>ファイル移動エラー:</value>
+	</data>
+	<data name="ErrorCopyingFile.Text">
+		<value>ファイル コピー エラー:</value>
+	</data>
+	<data name="plPermissions.Text">
+		<value>パーミッション:</value>
+	</data>
+	<data name="plPermissions.Help">
+		<value>フォルダ パーミッションの設定。</value>
+	</data>
+	<data name="Folders.Text">
+		<value>フォルダ</value>
+	</data>
+	<data name="Date.Header">
+		<value>日付</value>
+	</data>
+	<data name="ErrorDeletingFolder.Text">
+		<value>フォルダ削除エラー:&lt;BR&gt;</value>
+	</data>
+	<data name="NotEnoughSpace.Text">
+		<value>ポータルの領域が足りません</value>
+	</data>
+	<data name="PleaseLogin.Text">
+		<value>ファイルのコピー/移動の前にログインしてください</value>
+	</data>
+	<data name="ErrorUnzippingFile.Text">
+		<value>ZIPファイルの解凍エラー:</value>
+	</data>
+	<data name="ItemsPerPage.Text">
+		<value>1ページに表示する数:</value>
+	</data>
+	<data name="SpaceUsed.Text">
+		<value>{0} / {1} 使用中</value>
+	</data>
+	<data name="MovingFiles.Text">
+		<value>ファイルの移動:</value>
+	</data>
+	<data name="CopyingFiles.Text">
+		<value>ファイルのコピー:</value>
+	</data>
+	<data name="UnzippingFile.Text">
+		<value>ファイルの解凍:</value>
+	</data>
+	<data name="FromFolder.Text">
+		<value>元フォルダ:</value>
+	</data>
+	<data name="ToFolder.Text">
+		<value>先フォルダ:  フォルダ エクスプローラから選択してください。</value>
+	</data>
+	<data name="DeleteFiles.Text">
+		<value>ファイルの削除</value>
+	</data>
+	<data name="Security.Text">
+		<value>セキュリティの設定</value>
+	</data>
+	<data name="SelectAll.Text">
+		<value>すべて選択</value>
+	</data>
+	<data name="UnSelectAll.Text">
+		<value>すべて選択解除</value>
+	</data>
+	<data name="Rename.Error">
+		<value>ファイル名の変更エラー: &lt;BR&gt;</value>
+	</data>
+	<data name="SetAttrubute.Error">
+		<value>ファイル属性を変更中にエラー発生: &lt;BR&gt;</value>
+	</data>
+	<data name="ModuleHelp.Text">
+		<value>&lt;h1&gt;ファイル マネージャについて&lt;/h1&gt;&lt;p&gt;管理者はアップロード ディレクトリに保存されるファイルの管理を行うことができます。このモジュールは、新しいファイルのアップロード、ファイルのダウンロード、ファイルの削除、アップロードディレクトリの同期の機能を提供します。また使用済みディスク容量や使用可能な残量に関する情報を確認することも可能です。&lt;/p&gt;</value>
+	</data>
+	<data name="Refresh.Text">
+		<value>更新</value>
+	</data>
+	<data name="EnsureDeleteFile.Text">
+		<value>ファイル{0}を削除して良いですか？</value>
+	</data>
+	<data name="EnsureDeleteFolder.Text">
+		<value>フォルダ{0}を削除して良いですか？</value>
+	</data>
+	<data name="ErrorDeletingFile.Text">
+		<value>ファイルの削除エラー:&amp;nbsp;</value>
+	</data>
+</root>

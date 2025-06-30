@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="plFirstName.Text">
+    <value>名:</value>
+  </data>
+  <data name="plLastName.Text">
+    <value>姓:</value>
+  </data>
+  <data name="plUserName.Text">
+    <value>ユーザー名:</value>
+  </data>
+  <data name="plUserName.Help">
+    <value>ユーザー名を入力してください。ユーザー名が既に登録されている場合は改めて別のユーザー名を指定してください。</value>
+  </data>
+  <data name="plPassword.Text">
+    <value>パスワード:</value>
+  </data>
+  <data name="plPassword.Help">
+    <value>パスワードを入力してください。</value>
+  </data>
+  <data name="plConfirm.Text">
+    <value>パスワードの確認:</value>
+  </data>
+  <data name="plConfirm.Help">
+    <value>確認のためパスワードを再入力してください。</value>
+  </data>
+  <data name="plEmail.Text">
+    <value>電子メール アドレス:</value>
+  </data>
+  <data name="valFirstName.Text">
+    <value>&lt;br&gt;名を入力してください。</value>
+  </data>
+  <data name="valLastName.Text">
+    <value>&lt;br&gt;姓を入力してください。</value>
+  </data>
+  <data name="valUsername.Text">
+    <value>&lt;br&gt;ユーザー名を入力してください。</value>
+  </data>
+  <data name="valPassword.Text">
+    <value>&lt;br&gt;パスワードは必ず入力してください。</value>
+  </data>
+  <data name="valConfirm1.Text">
+    <value>&lt;br&gt;"パスワードの確認"は必ず入力してください。</value>
+  </data>
+  <data name="valConfirm2.Text">
+    <value>&lt;br&gt;入力されたパスワードの値が一致しません。</value>
+  </data>
+  <data name="valEmail1.Text">
+    <value>&lt;br&gt;電子メール アドレスは必ず入力してください。</value>
+  </data>
+  <data name="valEmail2.Text">
+    <value>&lt;br&gt;入力した電子メール アドレスは正しくありません。</value>
+  </data>
+  <data name="plFirstName.Help">
+    <value>下の名前を入力してください。</value>
+  </data>
+  <data name="plLastName.Help">
+    <value>上の名前を入力してください。</value>
+  </data>
+  <data name="plEmail.Help">
+    <value>電子メール アドレスを入力してください。</value>
+  </data>
+  <data name="plWebsite.Text">
+    <value>Web サイト:</value>
+  </data>
+  <data name="plWebsite.Help">
+    <value>Web サイト アドレスを入力してください。</value>
+  </data>
+  <data name="plIM.Text">
+    <value>インスタント メッセンジャID:</value>
+  </data>
+  <data name="plIM.Help">
+    <value>インスタント メッセンジャ(Yahoo, AOL, MSN など)のID。</value>
+  </data>
+</root>

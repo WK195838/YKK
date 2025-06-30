@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+            <xsd:complexType>
+                <xsd:choice maxOccurs="unbounded">
+                    <xsd:element name="data">
+                        <xsd:complexType>
+                            <xsd:sequence>
+                                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+                            </xsd:sequence>
+                            <xsd:attribute name="name" type="xsd:string" />
+                            <xsd:attribute name="type" type="xsd:string" />
+                            <xsd:attribute name="mimetype" type="xsd:string" />
+                        </xsd:complexType>
+                    </xsd:element>
+                    <xsd:element name="resheader">
+                        <xsd:complexType>
+                            <xsd:sequence>
+                                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                            </xsd:sequence>
+                            <xsd:attribute name="name" type="xsd:string" use="required" />
+                        </xsd:complexType>
+                    </xsd:element>
+                </xsd:choice>
+            </xsd:complexType>
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="ResMimeType">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="Version">
+        <value>1.0.0.0</value>
+    </resheader>
+    <resheader name="Reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="Writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <data name="plTitleField.Text">
+        <value>Title</value>
+    </data>
+    <data name="plTitleField.Help">
+        <value>Enter a title for the thread</value>
+    </data>
+    <data name="valTitleField.ErrorMessage">
+        <value>You Must Enter The Title of The Message</value>
+    </data>
+    <data name="plBodyField.Text">
+        <value>Body</value>
+    </data>
+    <data name="plBodyField.Help">
+        <value>Enter the body of the message</value>
+    </data>
+    <data name="valBodyField.ErrorMessage">
+        <value>You Must Enter The Body Of The Message</value>
+    </data>
+    <data name="cmdSubmit.Text">
+        <value>Submit</value>
+    </data>
+    <data name="Subject.Text">
+        <value>Subject</value>
+    </data>
+    <data name="Author.Text">
+        <value>Author</value>
+    </data>
+    <data name="Date.Text">
+        <value>Date</value>
+    </data>
+    <data name="Body.Text">
+        <value>Body</value>
+    </data>
+    <data name="cmdReply.Text">
+        <value>Reply</value>
+    </data>
+    <data name="ModuleHelp.Text">
+        <value>&lt;h1&gt;About the Discussions Module&lt;/h1&gt;&lt;p&gt;The Discussions Module produces a simple threaded news group-style text discussion.  Each discussion includes a Read/Reply Message page, which allows authorized users to reply to existing messages or add a new discussion topic.&lt;/p&gt;&lt;h1&gt;Add a Discussion Thread&lt;/h1&gt;&lt;ol&gt;&lt;li&gt;Add a &lt;b&gt;Discussions&lt;/b&gt; module, or go to an existing &lt;b&gt;Discussions&lt;/b&gt; module.&lt;li&gt;Click &lt;b&gt;Add New Thread&lt;/b&gt;.&lt;li&gt;At &lt;b&gt;Title&lt;/b&gt;,  enter a title for the discussion.&lt;li&gt;At &lt;b&gt;Body&lt;/b&gt;, enter your message.&lt;li&gt;Click &lt;b&gt;Submit&lt;/b&gt;.&lt;/ol&gt;</value>
+    </data>
+    <data name="ControlTitle_edit.Text">
+        <value>Edit Discussions</value>
+    </data>
+</root>

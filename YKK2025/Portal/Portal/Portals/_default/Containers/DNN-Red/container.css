@@ -1,0 +1,24 @@
+/* 
+================================
+ Container Styles for DotNetNuke
+================================
+*/   
+
+.containermaster_red {
+	width: 100%;
+	background-color: #F9AA96;
+	BORDER-RIGHT: #EB613E 1px solid; 
+	BORDER-TOP: #EB613E 1px solid; 
+	BORDER-LEFT: #EB613E 1px solid; 
+	BORDER-BOTTOM: #EB613E 1px solid; 
+	moz-border-radius-bottomleft: 15px; 
+	moz-border-radius-bottomright: 15px; 
+	moz-border-radius-topleft: 3px; 
+	moz-border-radius-topright: 3px
+}
+.containerrow1_red {
+	BACKGROUND-IMAGE: url(gradient_MidRed.jpg);
+}
+.containerrow2_red {
+	background-color: #FFFFFF
+}

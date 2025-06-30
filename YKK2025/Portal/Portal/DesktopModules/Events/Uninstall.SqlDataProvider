@@ -1,0 +1,47 @@
+﻿/************************************************************/
+/*****              SqlDataProvider                     *****/
+/*****                                                  *****/
+/*****                                                  *****/
+/***** Note: To manually execute this script you must   *****/
+/*****       perform a search and replace operation     *****/
+/*****       for {databaseOwner} and {objectQualifier}  *****/
+/*****                                                  *****/
+/************************************************************/
+
+/** Drop Events Table **/
+
+ALTER TABLE {databaseOwner}[{objectQualifier}Events] DROP CONSTRAINT [FK_{objectQualifier}Events_{objectQualifier}Modules]
+GO
+
+ALTER TABLE {databaseOwner}[{objectQualifier}Events] DROP CONSTRAINT [PK_{objectQualifier}Events]
+GO
+
+DROP INDEX {databaseOwner}[{objectQualifier}Events].[IX_{objectQualifier}Events]
+GO
+
+DROP TABLE {databaseOwner}[{objectQualifier}Events]
+GO
+
+/** Drop Stored Procedures **/
+
+DROP PROCEDURE {databaseOwner}[{objectQualifier}GetEvent]
+GO
+
+DROP PROCEDURE {databaseOwner}[{objectQualifier}GetEventsByDate]
+GO
+
+DROP PROCEDURE {databaseOwner}[{objectQualifier}GetEvents]
+GO
+
+DROP PROCEDURE {databaseOwner}[{objectQualifier}UpdateEvent]
+GO
+
+DROP PROCEDURE {databaseOwner}[{objectQualifier}AddEvent]
+GO
+
+DROP PROCEDURE {databaseOwner}[{objectQualifier}DeleteEvent]
+GO
+
+/************************************************************/
+/*****              SqlDataProvider                     *****/
+/************************************************************/

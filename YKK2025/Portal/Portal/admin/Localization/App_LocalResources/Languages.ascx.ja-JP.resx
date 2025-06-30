@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Duplicate.ErrorMessage">
+    <value>このロケールはすでに登録されています</value>
+  </data>
+  <data name="Delete.ErrorMessage">
+    <value>システム ロケール (en-US) は削除できません</value>
+  </data>
+  <data name="AddNewLocale.Text">
+    <value>新しいロケールの追加</value>
+  </data>
+  <data name="SupportedLocales.Text">
+    <value>サポートされているロケール</value>
+  </data>
+  <data name="KeyFormat.ErrorMessage">
+    <value>&lt;br&gt;キーの形式: xx-YY  ( xx は言語コード、 YY は国/地域コード)</value>
+  </data>
+  <data name="Name.Header">
+    <value>名前</value>
+  </data>
+  <data name="Key.Header">
+    <value>キー</value>
+  </data>
+  <data name="DeleteFiles.Text">
+    <value>ロケール削除と同時にすべてのリソース ファイルを削除しますか？</value>
+  </data>
+  <data name="TimeZones.Action">
+    <value>タイム ゾーン エディタ</value>
+  </data>
+  <data name="Languages.Action">
+    <value>言語エディタ</value>
+  </data>
+  <data name="Save.ErrorMessage">
+    <value>ファイルへのアクセスに失敗しました。リソース ファイルに対する更新権限があることを確認してください。</value>
+  </data>
+  <data name="NewLocale.ErrorMessage">
+    <value>新しいロケール用にデフォルトのタイム ゾーン ファイルが作成されました。このタイム ゾーン ファイルを新しい言語用にローカライズしてください。</value>
+  </data>
+  <data name="Verify.Action">
+    <value>リソース ファイルの検証</value>
+  </data>
+  <data name="ControlTitle_.Text">
+    <value>言語</value>
+  </data>
+  <data name="PackageGenerate.Action">
+    <value>言語パックの作成</value>
+  </data>
+  <data name="PackageImport.Action">
+    <value>言語パックのアップロード</value>
+  </data>
+  <data name="ModuleHelp.Text">
+    <value>&lt;h1&gt;言語について&lt;/h1&gt;&lt;p&gt;スーパー ユーザーはシステム上でサポートする言語の管理を行うことができます。&lt;/p&gt;</value>
+  </data>
+  <data name="lbLocale.Text">
+    <value>言語</value>
+  </data>
+  <data name="lbLocale.Help">
+    <value>ポータルに追加するロケールを選択してください。</value>
+  </data>
+  <data name="Enable.Text">
+    <value>有効</value>
+  </data>
+  <data name="Disable.Text">
+    <value>無効</value>
+  </data>
+  <data name="Enabled.Text">
+    <value>有効</value>
+  </data>
+  <data name="Disabled.Text">
+    <value>無効</value>
+  </data>
+  <data name="Status.Header">
+    <value>状態</value>
+  </data>
+  <data name="Disable.ErrorMessage">
+    <value>有効な言語をすべて削除または無効にすることはできません。</value>
+  </data>
+  <data name="DisableCurrent.ErrorMessage">
+    <value>ポータルのデフォルト言語を削除または無効にすることはできません。
+</value>
+  </data>
+</root>

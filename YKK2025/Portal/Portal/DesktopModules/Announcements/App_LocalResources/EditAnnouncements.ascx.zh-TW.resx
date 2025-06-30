@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="plTitle.Text">
+    <value>公告標題</value>
+  </data>
+  <data name="plTitle.Help">
+    <value>輸入公告標題</value>
+  </data>
+  <data name="plDescription.Text">
+    <value>公告簡要</value>
+  </data>
+  <data name="plDescription.Help">
+    <value>輸入公告的簡單說明</value>
+  </data>
+  <data name="plURL.Text">
+    <value>詳情鏈接</value>
+  </data>
+  <data name="plURL.Help">
+    <value>可以通過 詳情鏈接 更具體的內容</value>
+  </data>
+  <data name="plExpires.Text">
+    <value>過期</value>
+  </data>
+  <data name="plExpires.Help">
+    <value>輸入過期日期</value>
+  </data>
+  <data name="Title.ErrorMessage">
+    <value>必須輸入公告標題</value>
+  </data>
+  <data name="Description.ErrorMessage">
+    <value>必須輸入公告簡要</value>
+  </data>
+  <data name="Expires.ErrorMessage">
+    <value>&lt;br&gt;你輸入的日期無效!</value>
+  </data>
+  <data name="plViewOrder.Text">
+    <value>顯示順序</value>
+  </data>
+  <data name="plViewOrder.Help">
+    <value>輸入顯示順序</value>
+  </data>
+  <data name="AddDate.Text">
+    <value>增加日期?</value>
+  </data>
+  <data name="ViewOrder.ErrorMessage">
+    <value>&lt;br&gt;顯示順序必須是整數</value>
+  </data>
+  <data name="ModuleHelp.Text">
+    <value>公告模組</value>
+  </data>
+  <data name="ControlTitle_edit.Text">
+    <value>編輯公告</value>
+  </data>
+</root>

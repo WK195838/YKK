@@ -1,0 +1,1264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="MakePONO">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pLogID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pBuyer" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pUserID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pGRBuyer" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="MakePONOResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="MakePONOResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CheckPONO">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pLogID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pBuyer" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pUserID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pGRBuyer" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CheckPONOResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="CheckPONOResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="MakeGRPC">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pLogID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pBuyer" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pUserID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pGRBuyer" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="MakeGRPCResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="MakeGRPCResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CheckGRPC">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pLogID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pBuyer" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pUserID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pGRBuyer" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CheckGRPCResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="CheckGRPCResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CheckSampleQty">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pLogID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pBuyer" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pUserID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pGRBuyer" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CheckSampleQtyResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="CheckSampleQtyResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CheckCompanyCode">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pLogID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pBuyer" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pUserID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pGRBuyer" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CheckCompanyCodeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="CheckCompanyCodeResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CheckKeepCode">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pLogID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pBuyer" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pUserID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pGRBuyer" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CheckKeepCodeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="CheckKeepCodeResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="MakeColorCode">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pLogID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pBuyer" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pUserID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pGRBuyer" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="MakeColorCodeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="MakeColorCodeResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CheckColorCode">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pLogID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pBuyer" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pUserID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pGRBuyer" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CheckColorCodeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="CheckColorCodeResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CheckItemCode">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pLogID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pBuyer" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pUserID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pGRBuyer" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CheckItemCodeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="CheckItemCodeResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CheckDuplicateData">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pLogID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pBuyer" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pUserID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pGRBuyer" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CheckDuplicateDataResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="CheckDuplicateDataResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CheckNikeVDP">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pLogID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pBuyer" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pUserID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pGRBuyer" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CheckNikeVDPResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="CheckNikeVDPResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CheckPOStructure">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pLogID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pBuyer" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pUserID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pGRBuyer" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CheckPOStructureResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="CheckPOStructureResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="EDI2Waves">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pLogID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pBuyer" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pUserID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pGRBuyer" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="EDI2WavesResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="EDI2WavesResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="EDI2B2B">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pLogID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pBuyer" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pUserID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pGRBuyer" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="EDI2B2BResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="EDI2B2BResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="PriceList">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pLogID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pBuyer" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pUserID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pGRBuyer" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="PriceListResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="PriceListResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateOrderProgress">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pLogID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pBuyer" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pUserID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pPO" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateOrderProgressResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="UpdateOrderProgressResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdatePackingList">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pLogID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pBuyer" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pOrder" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pUserID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdatePackingListResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="UpdatePackingListResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateControlRecord">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pBuyer" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pUserID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pAction1" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="pStatus1" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="pAction2" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="pStatus2" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateControlRecordResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="UpdateControlRecordResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CheckControlRecord">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pBuyer" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pAction" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="pValue" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CheckControlRecordResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="CheckControlRecordResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DeleteHistory">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pBuyer" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DeleteHistoryResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="DeleteHistoryResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DeleteActionHistory">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pLogID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pBuyer" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pAction" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DeleteActionHistoryResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="DeleteActionHistoryResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DeleteS5K00Data">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pBuyer" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DeleteS5K00DataResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="DeleteS5K00DataResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DeleteS5L00Data">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pBuyer" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DeleteS5L00DataResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="DeleteS5L00DataResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DeleteSC760W1Data">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pBuyer" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DeleteSC760W1DataResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="DeleteSC760W1DataResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DeletePriceListData">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pBuyer" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DeletePriceListDataResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="DeletePriceListDataResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPOSeqNo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pBuyer" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pPONo" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPOSeqNoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetPOSeqNoResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateNextPONO">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pBuyer" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pPONo" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateNextPONOResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="UpdateNextPONOResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="MakePONOSoapIn">
+    <wsdl:part name="parameters" element="tns:MakePONO" />
+  </wsdl:message>
+  <wsdl:message name="MakePONOSoapOut">
+    <wsdl:part name="parameters" element="tns:MakePONOResponse" />
+  </wsdl:message>
+  <wsdl:message name="CheckPONOSoapIn">
+    <wsdl:part name="parameters" element="tns:CheckPONO" />
+  </wsdl:message>
+  <wsdl:message name="CheckPONOSoapOut">
+    <wsdl:part name="parameters" element="tns:CheckPONOResponse" />
+  </wsdl:message>
+  <wsdl:message name="MakeGRPCSoapIn">
+    <wsdl:part name="parameters" element="tns:MakeGRPC" />
+  </wsdl:message>
+  <wsdl:message name="MakeGRPCSoapOut">
+    <wsdl:part name="parameters" element="tns:MakeGRPCResponse" />
+  </wsdl:message>
+  <wsdl:message name="CheckGRPCSoapIn">
+    <wsdl:part name="parameters" element="tns:CheckGRPC" />
+  </wsdl:message>
+  <wsdl:message name="CheckGRPCSoapOut">
+    <wsdl:part name="parameters" element="tns:CheckGRPCResponse" />
+  </wsdl:message>
+  <wsdl:message name="CheckSampleQtySoapIn">
+    <wsdl:part name="parameters" element="tns:CheckSampleQty" />
+  </wsdl:message>
+  <wsdl:message name="CheckSampleQtySoapOut">
+    <wsdl:part name="parameters" element="tns:CheckSampleQtyResponse" />
+  </wsdl:message>
+  <wsdl:message name="CheckCompanyCodeSoapIn">
+    <wsdl:part name="parameters" element="tns:CheckCompanyCode" />
+  </wsdl:message>
+  <wsdl:message name="CheckCompanyCodeSoapOut">
+    <wsdl:part name="parameters" element="tns:CheckCompanyCodeResponse" />
+  </wsdl:message>
+  <wsdl:message name="CheckKeepCodeSoapIn">
+    <wsdl:part name="parameters" element="tns:CheckKeepCode" />
+  </wsdl:message>
+  <wsdl:message name="CheckKeepCodeSoapOut">
+    <wsdl:part name="parameters" element="tns:CheckKeepCodeResponse" />
+  </wsdl:message>
+  <wsdl:message name="MakeColorCodeSoapIn">
+    <wsdl:part name="parameters" element="tns:MakeColorCode" />
+  </wsdl:message>
+  <wsdl:message name="MakeColorCodeSoapOut">
+    <wsdl:part name="parameters" element="tns:MakeColorCodeResponse" />
+  </wsdl:message>
+  <wsdl:message name="CheckColorCodeSoapIn">
+    <wsdl:part name="parameters" element="tns:CheckColorCode" />
+  </wsdl:message>
+  <wsdl:message name="CheckColorCodeSoapOut">
+    <wsdl:part name="parameters" element="tns:CheckColorCodeResponse" />
+  </wsdl:message>
+  <wsdl:message name="CheckItemCodeSoapIn">
+    <wsdl:part name="parameters" element="tns:CheckItemCode" />
+  </wsdl:message>
+  <wsdl:message name="CheckItemCodeSoapOut">
+    <wsdl:part name="parameters" element="tns:CheckItemCodeResponse" />
+  </wsdl:message>
+  <wsdl:message name="CheckDuplicateDataSoapIn">
+    <wsdl:part name="parameters" element="tns:CheckDuplicateData" />
+  </wsdl:message>
+  <wsdl:message name="CheckDuplicateDataSoapOut">
+    <wsdl:part name="parameters" element="tns:CheckDuplicateDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="CheckNikeVDPSoapIn">
+    <wsdl:part name="parameters" element="tns:CheckNikeVDP" />
+  </wsdl:message>
+  <wsdl:message name="CheckNikeVDPSoapOut">
+    <wsdl:part name="parameters" element="tns:CheckNikeVDPResponse" />
+  </wsdl:message>
+  <wsdl:message name="CheckPOStructureSoapIn">
+    <wsdl:part name="parameters" element="tns:CheckPOStructure" />
+  </wsdl:message>
+  <wsdl:message name="CheckPOStructureSoapOut">
+    <wsdl:part name="parameters" element="tns:CheckPOStructureResponse" />
+  </wsdl:message>
+  <wsdl:message name="EDI2WavesSoapIn">
+    <wsdl:part name="parameters" element="tns:EDI2Waves" />
+  </wsdl:message>
+  <wsdl:message name="EDI2WavesSoapOut">
+    <wsdl:part name="parameters" element="tns:EDI2WavesResponse" />
+  </wsdl:message>
+  <wsdl:message name="EDI2B2BSoapIn">
+    <wsdl:part name="parameters" element="tns:EDI2B2B" />
+  </wsdl:message>
+  <wsdl:message name="EDI2B2BSoapOut">
+    <wsdl:part name="parameters" element="tns:EDI2B2BResponse" />
+  </wsdl:message>
+  <wsdl:message name="PriceListSoapIn">
+    <wsdl:part name="parameters" element="tns:PriceList" />
+  </wsdl:message>
+  <wsdl:message name="PriceListSoapOut">
+    <wsdl:part name="parameters" element="tns:PriceListResponse" />
+  </wsdl:message>
+  <wsdl:message name="UpdateOrderProgressSoapIn">
+    <wsdl:part name="parameters" element="tns:UpdateOrderProgress" />
+  </wsdl:message>
+  <wsdl:message name="UpdateOrderProgressSoapOut">
+    <wsdl:part name="parameters" element="tns:UpdateOrderProgressResponse" />
+  </wsdl:message>
+  <wsdl:message name="UpdatePackingListSoapIn">
+    <wsdl:part name="parameters" element="tns:UpdatePackingList" />
+  </wsdl:message>
+  <wsdl:message name="UpdatePackingListSoapOut">
+    <wsdl:part name="parameters" element="tns:UpdatePackingListResponse" />
+  </wsdl:message>
+  <wsdl:message name="UpdateControlRecordSoapIn">
+    <wsdl:part name="parameters" element="tns:UpdateControlRecord" />
+  </wsdl:message>
+  <wsdl:message name="UpdateControlRecordSoapOut">
+    <wsdl:part name="parameters" element="tns:UpdateControlRecordResponse" />
+  </wsdl:message>
+  <wsdl:message name="CheckControlRecordSoapIn">
+    <wsdl:part name="parameters" element="tns:CheckControlRecord" />
+  </wsdl:message>
+  <wsdl:message name="CheckControlRecordSoapOut">
+    <wsdl:part name="parameters" element="tns:CheckControlRecordResponse" />
+  </wsdl:message>
+  <wsdl:message name="DeleteHistorySoapIn">
+    <wsdl:part name="parameters" element="tns:DeleteHistory" />
+  </wsdl:message>
+  <wsdl:message name="DeleteHistorySoapOut">
+    <wsdl:part name="parameters" element="tns:DeleteHistoryResponse" />
+  </wsdl:message>
+  <wsdl:message name="DeleteActionHistorySoapIn">
+    <wsdl:part name="parameters" element="tns:DeleteActionHistory" />
+  </wsdl:message>
+  <wsdl:message name="DeleteActionHistorySoapOut">
+    <wsdl:part name="parameters" element="tns:DeleteActionHistoryResponse" />
+  </wsdl:message>
+  <wsdl:message name="DeleteS5K00DataSoapIn">
+    <wsdl:part name="parameters" element="tns:DeleteS5K00Data" />
+  </wsdl:message>
+  <wsdl:message name="DeleteS5K00DataSoapOut">
+    <wsdl:part name="parameters" element="tns:DeleteS5K00DataResponse" />
+  </wsdl:message>
+  <wsdl:message name="DeleteS5L00DataSoapIn">
+    <wsdl:part name="parameters" element="tns:DeleteS5L00Data" />
+  </wsdl:message>
+  <wsdl:message name="DeleteS5L00DataSoapOut">
+    <wsdl:part name="parameters" element="tns:DeleteS5L00DataResponse" />
+  </wsdl:message>
+  <wsdl:message name="DeleteSC760W1DataSoapIn">
+    <wsdl:part name="parameters" element="tns:DeleteSC760W1Data" />
+  </wsdl:message>
+  <wsdl:message name="DeleteSC760W1DataSoapOut">
+    <wsdl:part name="parameters" element="tns:DeleteSC760W1DataResponse" />
+  </wsdl:message>
+  <wsdl:message name="DeletePriceListDataSoapIn">
+    <wsdl:part name="parameters" element="tns:DeletePriceListData" />
+  </wsdl:message>
+  <wsdl:message name="DeletePriceListDataSoapOut">
+    <wsdl:part name="parameters" element="tns:DeletePriceListDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetPOSeqNoSoapIn">
+    <wsdl:part name="parameters" element="tns:GetPOSeqNo" />
+  </wsdl:message>
+  <wsdl:message name="GetPOSeqNoSoapOut">
+    <wsdl:part name="parameters" element="tns:GetPOSeqNoResponse" />
+  </wsdl:message>
+  <wsdl:message name="UpdateNextPONOSoapIn">
+    <wsdl:part name="parameters" element="tns:UpdateNextPONO" />
+  </wsdl:message>
+  <wsdl:message name="UpdateNextPONOSoapOut">
+    <wsdl:part name="parameters" element="tns:UpdateNextPONOResponse" />
+  </wsdl:message>
+  <wsdl:portType name="CommonServiceSoap">
+    <wsdl:operation name="MakePONO">
+      <wsdl:input message="tns:MakePONOSoapIn" />
+      <wsdl:output message="tns:MakePONOSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckPONO">
+      <wsdl:input message="tns:CheckPONOSoapIn" />
+      <wsdl:output message="tns:CheckPONOSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="MakeGRPC">
+      <wsdl:input message="tns:MakeGRPCSoapIn" />
+      <wsdl:output message="tns:MakeGRPCSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckGRPC">
+      <wsdl:input message="tns:CheckGRPCSoapIn" />
+      <wsdl:output message="tns:CheckGRPCSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckSampleQty">
+      <wsdl:input message="tns:CheckSampleQtySoapIn" />
+      <wsdl:output message="tns:CheckSampleQtySoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckCompanyCode">
+      <wsdl:input message="tns:CheckCompanyCodeSoapIn" />
+      <wsdl:output message="tns:CheckCompanyCodeSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckKeepCode">
+      <wsdl:input message="tns:CheckKeepCodeSoapIn" />
+      <wsdl:output message="tns:CheckKeepCodeSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="MakeColorCode">
+      <wsdl:input message="tns:MakeColorCodeSoapIn" />
+      <wsdl:output message="tns:MakeColorCodeSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckColorCode">
+      <wsdl:input message="tns:CheckColorCodeSoapIn" />
+      <wsdl:output message="tns:CheckColorCodeSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckItemCode">
+      <wsdl:input message="tns:CheckItemCodeSoapIn" />
+      <wsdl:output message="tns:CheckItemCodeSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckDuplicateData">
+      <wsdl:input message="tns:CheckDuplicateDataSoapIn" />
+      <wsdl:output message="tns:CheckDuplicateDataSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckNikeVDP">
+      <wsdl:input message="tns:CheckNikeVDPSoapIn" />
+      <wsdl:output message="tns:CheckNikeVDPSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckPOStructure">
+      <wsdl:input message="tns:CheckPOStructureSoapIn" />
+      <wsdl:output message="tns:CheckPOStructureSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="EDI2Waves">
+      <wsdl:input message="tns:EDI2WavesSoapIn" />
+      <wsdl:output message="tns:EDI2WavesSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="EDI2B2B">
+      <wsdl:input message="tns:EDI2B2BSoapIn" />
+      <wsdl:output message="tns:EDI2B2BSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="PriceList">
+      <wsdl:input message="tns:PriceListSoapIn" />
+      <wsdl:output message="tns:PriceListSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateOrderProgress">
+      <wsdl:input message="tns:UpdateOrderProgressSoapIn" />
+      <wsdl:output message="tns:UpdateOrderProgressSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdatePackingList">
+      <wsdl:input message="tns:UpdatePackingListSoapIn" />
+      <wsdl:output message="tns:UpdatePackingListSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateControlRecord">
+      <wsdl:input message="tns:UpdateControlRecordSoapIn" />
+      <wsdl:output message="tns:UpdateControlRecordSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckControlRecord">
+      <wsdl:input message="tns:CheckControlRecordSoapIn" />
+      <wsdl:output message="tns:CheckControlRecordSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteHistory">
+      <wsdl:input message="tns:DeleteHistorySoapIn" />
+      <wsdl:output message="tns:DeleteHistorySoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteActionHistory">
+      <wsdl:input message="tns:DeleteActionHistorySoapIn" />
+      <wsdl:output message="tns:DeleteActionHistorySoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteS5K00Data">
+      <wsdl:input message="tns:DeleteS5K00DataSoapIn" />
+      <wsdl:output message="tns:DeleteS5K00DataSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteS5L00Data">
+      <wsdl:input message="tns:DeleteS5L00DataSoapIn" />
+      <wsdl:output message="tns:DeleteS5L00DataSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteSC760W1Data">
+      <wsdl:input message="tns:DeleteSC760W1DataSoapIn" />
+      <wsdl:output message="tns:DeleteSC760W1DataSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DeletePriceListData">
+      <wsdl:input message="tns:DeletePriceListDataSoapIn" />
+      <wsdl:output message="tns:DeletePriceListDataSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPOSeqNo">
+      <wsdl:input message="tns:GetPOSeqNoSoapIn" />
+      <wsdl:output message="tns:GetPOSeqNoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateNextPONO">
+      <wsdl:input message="tns:UpdateNextPONOSoapIn" />
+      <wsdl:output message="tns:UpdateNextPONOSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="CommonServiceSoap" type="tns:CommonServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="MakePONO">
+      <soap:operation soapAction="http://tempuri.org/MakePONO" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckPONO">
+      <soap:operation soapAction="http://tempuri.org/CheckPONO" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MakeGRPC">
+      <soap:operation soapAction="http://tempuri.org/MakeGRPC" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckGRPC">
+      <soap:operation soapAction="http://tempuri.org/CheckGRPC" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckSampleQty">
+      <soap:operation soapAction="http://tempuri.org/CheckSampleQty" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckCompanyCode">
+      <soap:operation soapAction="http://tempuri.org/CheckCompanyCode" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckKeepCode">
+      <soap:operation soapAction="http://tempuri.org/CheckKeepCode" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MakeColorCode">
+      <soap:operation soapAction="http://tempuri.org/MakeColorCode" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckColorCode">
+      <soap:operation soapAction="http://tempuri.org/CheckColorCode" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckItemCode">
+      <soap:operation soapAction="http://tempuri.org/CheckItemCode" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckDuplicateData">
+      <soap:operation soapAction="http://tempuri.org/CheckDuplicateData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckNikeVDP">
+      <soap:operation soapAction="http://tempuri.org/CheckNikeVDP" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckPOStructure">
+      <soap:operation soapAction="http://tempuri.org/CheckPOStructure" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EDI2Waves">
+      <soap:operation soapAction="http://tempuri.org/EDI2Waves" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EDI2B2B">
+      <soap:operation soapAction="http://tempuri.org/EDI2B2B" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PriceList">
+      <soap:operation soapAction="http://tempuri.org/PriceList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateOrderProgress">
+      <soap:operation soapAction="http://tempuri.org/UpdateOrderProgress" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdatePackingList">
+      <soap:operation soapAction="http://tempuri.org/UpdatePackingList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateControlRecord">
+      <soap:operation soapAction="http://tempuri.org/UpdateControlRecord" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckControlRecord">
+      <soap:operation soapAction="http://tempuri.org/CheckControlRecord" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteHistory">
+      <soap:operation soapAction="http://tempuri.org/DeleteHistory" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteActionHistory">
+      <soap:operation soapAction="http://tempuri.org/DeleteActionHistory" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteS5K00Data">
+      <soap:operation soapAction="http://tempuri.org/DeleteS5K00Data" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteS5L00Data">
+      <soap:operation soapAction="http://tempuri.org/DeleteS5L00Data" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteSC760W1Data">
+      <soap:operation soapAction="http://tempuri.org/DeleteSC760W1Data" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeletePriceListData">
+      <soap:operation soapAction="http://tempuri.org/DeletePriceListData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPOSeqNo">
+      <soap:operation soapAction="http://tempuri.org/GetPOSeqNo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateNextPONO">
+      <soap:operation soapAction="http://tempuri.org/UpdateNextPONO" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="CommonServiceSoap12" type="tns:CommonServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="MakePONO">
+      <soap12:operation soapAction="http://tempuri.org/MakePONO" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckPONO">
+      <soap12:operation soapAction="http://tempuri.org/CheckPONO" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MakeGRPC">
+      <soap12:operation soapAction="http://tempuri.org/MakeGRPC" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckGRPC">
+      <soap12:operation soapAction="http://tempuri.org/CheckGRPC" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckSampleQty">
+      <soap12:operation soapAction="http://tempuri.org/CheckSampleQty" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckCompanyCode">
+      <soap12:operation soapAction="http://tempuri.org/CheckCompanyCode" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckKeepCode">
+      <soap12:operation soapAction="http://tempuri.org/CheckKeepCode" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MakeColorCode">
+      <soap12:operation soapAction="http://tempuri.org/MakeColorCode" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckColorCode">
+      <soap12:operation soapAction="http://tempuri.org/CheckColorCode" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckItemCode">
+      <soap12:operation soapAction="http://tempuri.org/CheckItemCode" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckDuplicateData">
+      <soap12:operation soapAction="http://tempuri.org/CheckDuplicateData" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckNikeVDP">
+      <soap12:operation soapAction="http://tempuri.org/CheckNikeVDP" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckPOStructure">
+      <soap12:operation soapAction="http://tempuri.org/CheckPOStructure" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EDI2Waves">
+      <soap12:operation soapAction="http://tempuri.org/EDI2Waves" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EDI2B2B">
+      <soap12:operation soapAction="http://tempuri.org/EDI2B2B" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PriceList">
+      <soap12:operation soapAction="http://tempuri.org/PriceList" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateOrderProgress">
+      <soap12:operation soapAction="http://tempuri.org/UpdateOrderProgress" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdatePackingList">
+      <soap12:operation soapAction="http://tempuri.org/UpdatePackingList" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateControlRecord">
+      <soap12:operation soapAction="http://tempuri.org/UpdateControlRecord" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckControlRecord">
+      <soap12:operation soapAction="http://tempuri.org/CheckControlRecord" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteHistory">
+      <soap12:operation soapAction="http://tempuri.org/DeleteHistory" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteActionHistory">
+      <soap12:operation soapAction="http://tempuri.org/DeleteActionHistory" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteS5K00Data">
+      <soap12:operation soapAction="http://tempuri.org/DeleteS5K00Data" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteS5L00Data">
+      <soap12:operation soapAction="http://tempuri.org/DeleteS5L00Data" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteSC760W1Data">
+      <soap12:operation soapAction="http://tempuri.org/DeleteSC760W1Data" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeletePriceListData">
+      <soap12:operation soapAction="http://tempuri.org/DeletePriceListData" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPOSeqNo">
+      <soap12:operation soapAction="http://tempuri.org/GetPOSeqNo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateNextPONO">
+      <soap12:operation soapAction="http://tempuri.org/UpdateNextPONO" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="CommonService">
+    <wsdl:port name="CommonServiceSoap" binding="tns:CommonServiceSoap">
+      <soap:address location="http://10.245.0.153/EDIService/CommonService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="CommonServiceSoap12" binding="tns:CommonServiceSoap12">
+      <soap12:address location="http://10.245.0.153/EDIService/CommonService.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

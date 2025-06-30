@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="MESSAGE_PORTAL_TERMS.Text">
+    <value>&lt;span class="SubHead"&gt;[Portal:PortalName]使用者協議&lt;/span&gt;&lt;br&gt;&lt;br&gt;
+&lt;p&gt;注意： 使用本網站前請您仔細閱讀以下條款。使用本網站則表明您已明知並接受這些條款。如果不接受這些條款請不要使用本網站。&lt;/p&gt;
+&lt;p&gt;1. 網站內容使用&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;span class="SubHead"&gt;[Portal:PortalName]&lt;/span&gt;網站保留本網站的內容的解釋權，並且僅將本網站內容提供給閣下個人使用。對於內容中所含的版權和其他所有權聲明，您應予以尊重並在其副本中予以保留。如果網站內容無權利聲明，並不代表網站對其不享有權利，也不意味著網站不主張權利，您應根據誠信原則尊重該等內容的合法權益並進行合法使用。您不得以任何方式修改、複製、公開展示、公佈或分發這些材料或者以其他方式把它們用於任何公開或商業目的。禁止以任何目的把這些材料用於其他任何網站或其他平面媒體或網絡計算機環境。本站上的內容及編輯等形式均受版權法等法律保護，任何未經授權的使用都可能構成對版權、商標和其他法律權利的侵犯。如果您不接受或違反上述約定，您使用本站的授權將自動終止，同時您應立即銷毀任何已下載或打印好的本站內容。&lt;/p&gt;
+&lt;p&gt;2. 網站信息發佈&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;span class="SubHead"&gt;[Portal:PortalName]&lt;/span&gt;公司對本站內容可用性不附加任何形式的保證。也不保證本站信息的絕對準確性和絕對完整性。本站中介紹的產品、技術、方案、價格和配置等會隨時變更，恕不另行通知。本站中的內容也可能已經過期，&lt;span class="SubHead"&gt;[Portal:PortalName]&lt;/span&gt;不承諾更新它們。本站發佈的信息可能是在您本地尚不能得到的產品、程序或服務，您可向當地的[Portal:PortalName]業務聯繫人和代理商咨詢。&lt;/p&gt;
+&lt;p&gt;3. 使用者提交信息&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;除了本站隱私條款規定的內容以外，其他任何您發送或郵寄給本站的材料、信息或聯繫方式(以下統稱信息)均將被視為非保密和非專有。您對本站的使用不得違背法律法規及公眾道德，不得向或從本站郵寄或發送任何非法、威脅、誹謗、中傷、淫穢、色情或其他可能違法的材料。若相關人對此信息的內容及影響提出確有證據的警告或異議，本站可隨時刪除該等信息或無限時中止該信息的網上瀏覽，而不必事先取得提交者的同意，亦無義務事後通知提交者，情況嚴重的，本站可採取註銷該使用者的措施。&lt;/p&gt;
+&lt;p&gt;4. 使用者交流內容&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;span class="SubHead"&gt;[Portal:PortalName]&lt;/span&gt;不負監控或審查使用者在本站上發送或郵寄的信息或相互之間單獨交流的任何欄位信息的責任，包括但不限於聊天室、&lt;span class="SubHead"&gt;[Portal:PortalName]&lt;/span&gt;論壇或其他使用者論壇以及任何交流內容。&lt;span class="SubHead"&gt;[Portal:PortalName]&lt;/span&gt;對有關任何這類交流的內容不承擔任何責任，無論它們是否會引起誹謗、隱私、淫穢或其它方面的問題。&lt;span class="SubHead"&gt;[Portal:PortalName]&lt;/span&gt;保留在發現時刪除包含被視為侮辱、誹謗、淫穢或其它不良內容的信息的權利。&lt;/p&gt;
+&lt;p&gt;5. 本站下載軟件的使用 &lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;如果您從本站下載軟件，在使用軟件時要遵守該軟件攜帶的軟件許可協議中所有的許可條款。在您閱讀並接受軟件許可協議的各項條款之前，不得下載或安裝這一軟件。&lt;/p&gt;
+&lt;p&gt;6. 鏈接第三方網站&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;本站到第三方網站的鏈接僅作為一種方便服務提供給您。如果使用這些鏈接，您將離開本站。&lt;span class="SubHead"&gt;[Portal:PortalName]&lt;/span&gt;沒有審查過任何第三方網站，對這些網站及其內容不進行控制，也不負任何責任。如果您決定訪問任何與本站鏈接的第三方網站，其可能帶來的結果和風險全部由您自己承擔。&lt;/p&gt;
+&lt;p&gt;7. 責任限度&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;span class="SubHead"&gt;[Portal:PortalName]&lt;/span&gt;及其供應商或本站中提到的第三方對任何損害概不負責（包括但不限於由損失的利潤、損失的數據或業務中斷而造成的損害），無論這些損害是否由於使用、或不能使用本站的結果、與本站鏈接的任何網站或者任何這類網站中包含的信息所引起，也不管它們是否有保證、合同、侵權行為或任何其它法律根據以及事前已得到這類損害可能發生的忠告。如果您由於使用本站的信息而導致需要對設備或數據進行維護、修理或糾正，您應意識到須自行承擔必須承擔由此而造成的所有費用。 
+&lt;span class="SubHead"&gt;[Portal:PortalName]&lt;/span&gt;在發生下列情況時不承擔責任：信息的傳輸是由網絡服務提供者（&lt;span class="SubHead"&gt;[Portal:PortalName]&lt;/span&gt;及其授權人）以外的人發起的；信息的傳輸、路由、提供連接及存儲是通過必要的自動的技術處理過程實現的，信息未經網絡服務提供者選擇；除了對他人要求作出自動反應之外，網絡服務提供者並沒選擇這些信息的提供者與接收者；網絡服務提供者的系統或網絡中介性或暫時性存儲信息所形成的複製件，在正常情況下，沒有被預定的接收者以外的人所獲得，保留的時間也沒有長於為預定的接收者獲得信息提供傳輸、路由或連接所必須的合理時間；通過系統或網絡傳輸的信息內容原封未動。&lt;/p&gt;
+&lt;p&gt;8. 一般原則&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;span class="SubHead"&gt;[Portal:PortalName]&lt;/span&gt;可能隨時修改這些條款。您應經常訪問本頁面以瞭解目前的條款，因為這些條款與您密切相關。這些條款的某些條文也可能被本站中某些頁面上明確指定的法律通告或條款所取代。&lt;/p&gt;</value>
+  </data>
+  <data name="ControlTitle_terms.Text">
+    <value>服務條款</value>
+  </data>
+</root>

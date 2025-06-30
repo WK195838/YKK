@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+            <xsd:complexType>
+                <xsd:choice maxOccurs="unbounded">
+                    <xsd:element name="data">
+                        <xsd:complexType>
+                            <xsd:sequence>
+                                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+                            </xsd:sequence>
+                            <xsd:attribute name="name" type="xsd:string" />
+                            <xsd:attribute name="type" type="xsd:string" />
+                            <xsd:attribute name="mimetype" type="xsd:string" />
+                        </xsd:complexType>
+                    </xsd:element>
+                    <xsd:element name="resheader">
+                        <xsd:complexType>
+                            <xsd:sequence>
+                                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                            </xsd:sequence>
+                            <xsd:attribute name="name" type="xsd:string" use="required" />
+                        </xsd:complexType>
+                    </xsd:element>
+                </xsd:choice>
+            </xsd:complexType>
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="ResMimeType">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="Version">
+        <value>1.0.0.0</value>
+    </resheader>
+    <resheader name="Reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="Writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <data name="plEmail.Text">
+        <value>電子メール</value>
+    </data>
+    <data name="plEmail.Help">
+        <value>電子メール アドレスを入力してください。</value>
+    </data>
+    <data name="plName.Text">
+        <value>氏名</value>
+    </data>
+    <data name="plName.Help">
+        <value>氏名を入力してください。</value>
+    </data>
+    <data name="plSubject.Text">
+        <value>表題</value>
+    </data>
+    <data name="plSubject.Help">
+        <value>メッセージの表題を入力してください。</value>
+    </data>
+    <data name="plBody.Text">
+        <value>メッセージ</value>
+    </data>
+    <data name="plBody.Help">
+        <value>メッセージを入力してください。</value>
+    </data>
+    <data name="plCopy.Text">
+        <value>コピーの送付</value>
+    </data>
+    <data name="plCopy.Help">
+        <value>自分自身にメッセージのコピーを送付する場合はチェックを付けてください。</value>
+    </data>
+    <data name="cmdSend.Text">
+        <value>送信</value>
+    </data>
+    <data name="MessageSent.Text">
+        <value>&lt;br&gt;メッセージは送信されました。</value>
+    </data>
+    <data name="EmailAddress.Text">
+        <value>&lt;br&gt;電子メール アドレスを入力してください。</value>
+    </data>
+    <data name="ModuleHelp.Text">
+        <value>&lt;h1&gt;フィードバック モジュールについて&lt;/h1&gt;
+
+&lt;p&gt;フィードバック モジュールは、利用者がポータル管理者に対してメッセージを送信する機能を提供します。&lt;/p&gt;
+
+&lt;h1&gt;フィードバックの送信&lt;/h1&gt;
+
+&lt;ol&gt;&lt;li&gt;&lt;b&gt;フィードバック&lt;/b&gt;モジュールを追加、または既存の&lt;b&gt;フィードバック&lt;/b&gt;モジュールを開いてください。&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;電子メール アドレス&lt;/b&gt;には、あなたの電子メール アドレスを入力してください。
+&lt;li&gt;&lt;b&gt;氏名&lt;/b&gt;には、あなたの氏名を入力してください。
+&lt;li&gt;&lt;b&gt;表題&lt;/b&gt;には、送信する電子メールの表題を入力してください。
+&lt;li&gt;&lt;b&gt;メッセージ&lt;/b&gt;には、送信するメッセージの内容を入力してください。
+&lt;li&gt;&lt;b&gt;送信&lt;/b&gt;をクリックしてください。&lt;/ol&gt;</value>
+    </data>
+</root>

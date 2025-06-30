@@ -1,0 +1,44 @@
+﻿/************************************************************/
+/*****              SqlDataProvider                     *****/
+/*****                                                  *****/
+/*****                                                  *****/
+/***** Note: To manually execute this script you must   *****/
+/*****       perform a search and replace operation     *****/
+/*****       for {databaseOwner} and {objectQualifier}  *****/
+/*****                                                  *****/
+/************************************************************/
+
+/** Drop FAQs Table **/
+
+ALTER TABLE {databaseOwner}[{objectQualifier}FAQs] DROP CONSTRAINT [FK_{objectQualifier}FAQs_{objectQualifier}Modules]
+GO
+
+ALTER TABLE {databaseOwner}[{objectQualifier}FAQs] DROP CONSTRAINT [PK_{objectQualifier}FAQs]
+GO
+
+DROP INDEX {databaseOwner}[{objectQualifier}FAQs].[IX_{objectQualifier}FAQs]
+GO
+
+DROP TABLE {databaseOwner}[{objectQualifier}FAQs]
+GO
+
+/** Drop Stored Procedures **/
+
+DROP PROCEDURE {databaseOwner}[{objectQualifier}GetFAQ]
+GO
+
+DROP PROCEDURE {databaseOwner}[{objectQualifier}AddFAQ]
+GO
+
+DROP PROCEDURE {databaseOwner}[{objectQualifier}UpdateFAQ]
+GO
+
+DROP PROCEDURE {databaseOwner}[{objectQualifier}GetFAQs]
+GO
+
+DROP PROCEDURE {databaseOwner}[{objectQualifier}DeleteFAQ]
+GO
+
+/************************************************************/
+/*****              SqlDataProvider                     *****/
+/************************************************************/

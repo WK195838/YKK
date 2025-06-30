@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="plControl.Text">
+    <value>コントロールのタイプ</value>
+  </data>
+  <data name="plControl.Help">
+    <value>リンクの表示にしようするコントロールのタイプを選択してください。</value>
+  </data>
+  <data name="List.Text">
+    <value>リスト</value>
+  </data>
+  <data name="Dropdown.Text">
+    <value>ドロップダウン</value>
+  </data>
+  <data name="ploptView.Text">
+    <value>リスト表示方向</value>
+  </data>
+  <data name="ploptView.Help">
+    <value>コントロールにリストを選択した場合、表示の方法を選択してください。</value>
+  </data>
+  <data name="Vertical.Text">
+    <value>縦 (垂直) </value>
+  </data>
+  <data name="Horizontal.Text">
+    <value>横 (水平) </value>
+  </data>
+  <data name="plInfo.Text">
+    <value>説明のリンク表示</value>
+  </data>
+  <data name="plInfo.Help">
+    <value>リンクについての説明を表示させるための [...] リンクボタンをオプションで表示するかを選択してください。</value>
+  </data>
+  <data name="ControlTitle_settings.Text">
+    <value>リンクの設定</value>
+  </data>
+  <data name="ModuleHelp.Text">
+    <value>
+		&lt;h1&gt;リンクの設定について&lt;/h1&gt;
+		&lt;p&gt;リンク モジュールは、ハイパー リンクを表示する機能を提供します。また、このモジュールの表示/動作の制御としては3種類の設定が可能になっています。&lt;/p&gt;
+		&lt;ul&gt;
+				&lt;li&gt;
+						&lt;div align="left"&gt;
+								&lt;b&gt;コントロールのタイプ&lt;/b&gt; - リンクの表示方法を、ハイパー リンクのリストの形式またはドロップダウン テキスト ボックスの形式から選択します。&lt;/div&gt;
+						&lt;ul&gt;
+								&lt;li&gt;
+										&lt;div align="left"&gt;
+												&lt;b&gt;
+														&lt;em&gt;リスト&lt;/em&gt;
+												&lt;/b&gt;– リンクをハイパーリンクの形式で表示します。この形式を選択した場合、登録されたリンクはモジュールが配置された場所にすべて表示されます。&lt;/div&gt;
+								&lt;/li&gt;
+								&lt;li&gt;
+										&lt;div align="left"&gt;
+												&lt;b&gt;
+														&lt;em&gt;ドロップダウン&lt;/em&gt;
+												&lt;/b&gt;– このオプションを選択するとモジュールの表示スペースを節約することができます。すべてのリンクは所定の順序でドロップダウン テキスト ボックスの中に配置されます。&lt;/div&gt;
+								&lt;/li&gt;
+						&lt;/ul&gt;
+				&lt;/li&gt;
+		&lt;/ul&gt;
+		&lt;ul&gt;
+				&lt;li&gt;
+						&lt;div align="left"&gt;
+								&lt;b&gt;リスト表示方向&lt;/b&gt; – &lt;b&gt;コントロールのタイプ&lt;/b&gt;で&lt;b&gt;&lt;em&gt;リスト&lt;/em&gt;&lt;/b&gt;が指定された場合、このオプションによってモジュール内でリンクをどの方向に表示するかを制御することができます。&lt;/div&gt;
+						&lt;ul&gt;
+								&lt;li&gt;
+										&lt;div align="left"&gt;
+												&lt;b&gt;
+														&lt;em&gt;縦(垂直)&lt;/em&gt;
+												&lt;/b&gt;– リンクはページの縦方向に表示されます。&lt;/div&gt;
+								&lt;/li&gt;
+								&lt;li&gt;
+										&lt;div align="left"&gt;
+												&lt;b&gt;
+														&lt;em&gt;横(水平)&lt;/em&gt;
+												&lt;/b&gt;– リンクはページの横方向に表示されます。&lt;/div&gt;
+								&lt;/li&gt;
+						&lt;/ul&gt;
+				&lt;/li&gt;
+		&lt;/ul&gt;
+		&lt;ul&gt;
+				&lt;li&gt;
+						&lt;div align="left"&gt;
+								&lt;b&gt;説明のリンク表示&lt;/b&gt; – &lt;em&gt;ドット&lt;/em&gt; […] をハイパーリンク表示します。そのリンクをクリックすることによりリンクの説明 (オプション) を表示させることができます。&lt;/div&gt;
+				&lt;/li&gt;
+		&lt;/ul&gt;
+</value>
+  </data>
+</root>

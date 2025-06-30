@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="plSource.Text">
+    <value>廣告來源</value>
+  </data>
+  <data name="plSource.Help">
+    <value>指定是否在網站中顯示廣告的詳細說明</value>
+  </data>
+  <data name="plType.Text">
+    <value>廣告類型</value>
+  </data>
+  <data name="plType.Help">
+    <value>指定廣告類型</value>
+  </data>
+  <data name="plGroup.Text">
+    <value>廣告組</value>
+  </data>
+  <data name="plGroup.Help">
+    <value>指定廣告組名稱</value>
+  </data>
+  <data name="plCount.Text">
+    <value>廣告顯示次數</value>
+  </data>
+  <data name="plCount.Help">
+    <value>指定廣告顯示次數的最大數值</value>
+  </data>
+  <data name="plOrientation.Text">
+    <value>方向</value>
+  </data>
+  <data name="plOrientation.Help">
+    <value>指定廣告垂直或水平顯示</value>
+  </data>
+  <data name="plBorder.Text">
+    <value>邊框寬度</value>
+  </data>
+  <data name="plBorder.Help">
+    <value>指定邊框寬度</value>
+  </data>
+  <data name="plRowHeight.Text">
+    <value>行高</value>
+  </data>
+  <data name="plRowHeight.Help">
+    <value>指定廣告每行的高度</value>
+  </data>
+  <data name="plColWidth.Text">
+    <value>欄寬</value>
+  </data>
+  <data name="plColWidth.Help">
+    <value>指定每個橫幅廣告欄位寬度</value>
+  </data>
+  <data name="cmdUpdate.Text">
+    <value>更新</value>
+  </data>
+  <data name="cmdCancel.Text">
+    <value>取消</value>
+  </data>
+  <data name="ControlTitle_edit.Text">
+    <value>編輯廣告</value>
+  </data>
+  <data name="plBorderColor.Text">
+    <value>邊框顏色</value>
+  </data>
+  <data name="plBorderColor.Help">
+    <value>指定邊框顏色</value>
+  </data>
+</root>

@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+            <xsd:complexType>
+                <xsd:choice maxOccurs="unbounded">
+                    <xsd:element name="data">
+                        <xsd:complexType>
+                            <xsd:sequence>
+                                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+                            </xsd:sequence>
+                            <xsd:attribute name="name" type="xsd:string" />
+                            <xsd:attribute name="type" type="xsd:string" />
+                            <xsd:attribute name="mimetype" type="xsd:string" />
+                        </xsd:complexType>
+                    </xsd:element>
+                    <xsd:element name="resheader">
+                        <xsd:complexType>
+                            <xsd:sequence>
+                                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                            </xsd:sequence>
+                            <xsd:attribute name="name" type="xsd:string" use="required" />
+                        </xsd:complexType>
+                    </xsd:element>
+                </xsd:choice>
+            </xsd:complexType>
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="ResMimeType">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="Version">
+        <value>1.0.0.0</value>
+    </resheader>
+    <resheader name="Reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="Writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <data name="plTitle.Text">
+        <value>タイトル</value>
+    </data>
+    <data name="plTitle.Help">
+        <value>アナウンスのタイトルを入力してください。利用するスキンによっては、タイトルは太字で表示されます。</value>
+    </data>
+    <data name="plDescription.Text">
+        <value>内容</value>
+    </data>
+    <data name="plDescription.Help">
+        <value>アナウンス内容を入力してください。</value>
+    </data>
+    <data name="plURL.Text">
+        <value>リンク</value>
+    </data>
+    <data name="plURL.Help">
+        <value>アナウンスを外部のURL、サイト内のページ、サイト内のファイルに対してアナウンスをリンクすることができます。</value>
+    </data>
+    <data name="plExpires.Text">
+        <value>掲載期限</value>
+    </data>
+    <data name="plExpires.Help">
+        <value>アナウンスの掲載期限を入力します。掲載期限日以降はこのアナウンスは表示されません。</value>
+    </data>
+    <data name="Title.ErrorMessage">
+        <value>アナウンスのタイトルが入力されていません。</value>
+    </data>
+    <data name="Description.ErrorMessage">
+        <value>アナウンスの内容が入力されていません。</value>
+    </data>
+    <data name="Expires.ErrorMessage">
+        <value>&lt;br&gt;入力した日付に誤りがあります。</value>
+    </data>
+    <data name="plViewOrder.Text">
+        <value>表示順序</value>
+    </data>
+    <data name="plViewOrder.Help">
+        <value>アナウンスの表示順序を入力してください。</value>
+    </data>
+    <data name="AddDate.Text">
+        <value>タイトル末尾に日付を追加</value>
+    </data>
+    <data name="ViewOrder.ErrorMessage">
+        <value>&lt;br&gt;表示順序は整数値で指定してください。</value>
+    </data>
+    <data name="ModuleHelp.Text">
+        <value>&lt;h1&gt;アナウンス モジュールについて&lt;/h1&gt;&lt;p&gt;アナウンスモジュールは、タイトルと概要を記載したテキスト ベースのシンプルなリストを提供します。オプションとして、ファイル/ページ/その他サイトに向けた [詳細] リンクや、発行日、掲載完了日を付加することができます。リンククリックのトラッキングおよびログ収集も可能です。アナウンスの表示順は、特に表示方法の指定を行なわない限りは新しい内容の順となります。&lt;/p&gt;&lt;h1&gt;新しいアナウンスの追加&lt;/h1&gt;&lt;ol&gt;&lt;li&gt;&lt;b&gt;アナウンス&lt;/b&gt; モジュールを追加し、または既存の&lt;b&gt;アナウンス&lt;/b&gt;モジュールを開きます。&lt;li&gt;&lt;b&gt;新しいアナウンスの追加&lt;/b&gt;をクリックします。
+&lt;li&gt;&lt;b&gt;タイトル&lt;/b&gt;の所には、アナウンスのタイトルを入力します。&lt;li&gt;&lt;b&gt;タイトル末尾に日付を追加&lt;/b&gt; (オプション) では、タイトル部に現在の日時を表示させたくない場合はチェックを外します。&lt;li&gt;&lt;b&gt;内容&lt;/b&gt;では、アナウンスの内容を入力します。&lt;li&gt;&lt;b&gt;リンクタイプ&lt;/b&gt; (オプション) では、&lt;b&gt;URL&lt;/b&gt;、&lt;b&gt;ページ&lt;/b&gt;、または&lt;b&gt;ファイル&lt;/b&gt;から選択した上でさらに&lt;b&gt;リンク&lt;/b&gt;で実際のリンク/ページ/ファイルを選択または入力します。
+&lt;li&gt;&lt;b&gt;このリンクのクリック回数を保存&lt;/b&gt; (オプション) は、必要に応じてチェックを付けます。&lt;li&gt;&lt;b&gt;リンクをクリックしたユーザー、日付および時間をログとして保存&lt;/b&gt; (オプション) についても、同様に必要に応じてチェックを付けます。&lt;li&gt;&lt;b&gt;掲載期限&lt;/b&gt; (オプション) は、カレンダーをクリックしてアナウンス内容の掲載期限を選択します。&lt;li&gt;&lt;b&gt;表示順序&lt;/b&gt; (オプション) は、アナウンスの表示順序を入力指定します。
+&lt;li&gt;&lt;b&gt;更新&lt;/b&gt;をクリックします。&lt;/ol&gt;</value>
+    </data>
+    <data name="ControlTitle_edit.Text">
+        <value>アナウンスの編集</value>
+    </data>
+</root>

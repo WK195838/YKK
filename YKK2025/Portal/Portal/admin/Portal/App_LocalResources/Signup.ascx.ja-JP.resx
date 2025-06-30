@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" />
+							<xsd:attribute name="type" type="xsd:string" />
+							<xsd:attribute name="mimetype" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="ResMimeType">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="Version">
+		<value>1.0.0.0</value>
+	</resheader>
+	<resheader name="Reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="Writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="ModuleHelp.Text">
+		<value>このアプリケーションでは2種類のタイプのポータルを作成することができます:&lt;br&gt;&lt;br&gt;&lt;li&gt;&lt;b&gt;上位ポータル&lt;/b&gt;は、ポータルそのものに対して固有のURL (例: www.domain.com ) が設定されているものです。通常はインターネット レジストラからドメイン名を購入し、ホスティング プロバイダのDNS サーバーに向けてプライマリ/セカンダリ DNSのエントリを設定し、そしてホスティング プロバイダ側でアカウントに対するIP アドレスをドメイン名とマッピングする、という流れの作業を含みます。有効な上位ポータルの名前は、例えば&lt;b&gt;www.mydomain.com&lt;/b&gt;となります。または、ドメイン名を使わずにサイトのIP アドレスを使用することもできます (例: &lt;b&gt;65.174.86.217&lt;/b&gt; ) 。もし複数のドメイン名を同一のポータルとして設定したい場合は、カンマ区切りで入力してください (例: &lt;b&gt;www.domain1.com,www.domain2.com&lt;/b&gt; ) 。DNS マッピングが完了する前にポータルを作成してしまうとポータルへのアクセスができなくなりますので、マッピングが完了するまでは上位ポータルは作成しないでください。&lt;br&gt;&lt;br&gt;&lt;li&gt;&lt;b&gt;下位ポータル&lt;/b&gt;は、ホスティング プロバイダ アカウントのサブホストです。これは本質的には、親となるドメイン名に続けてディレクトリ名を記述したURL アドレス (例: www.domain.com/directory ) を通じてアクセスできるよう、Web サーバー上に作成されたディレクトリのことを意味します。下位ポータルは、ポータル エイリアスの設定を行うことによりいつでも上位ポータルへと変換することができます。&lt;br&gt;&lt;br&gt;*注意: ポータルは、ホスト設定モジュールで定義された初期値プロパティ (ホスト料金、ホストデスク容量、評価期間) 、または選択されたテンプレート ファイルの内容に従って作成されます。ポータルが作成された後は、これらのプロパティは管理者タブの"サイトの設定"モジュールから変更することができます。&lt;br&gt;&lt;br&gt;</value>
+	</data>
+	<data name="plType.Text">
+		<value>ポータルのタイプ:</value>
+	</data>
+	<data name="plType.Help">
+		<value>このアプリケーションでは2種類のタイプのポータルを作成することができます (詳細はアクション メニューの中のモジュール ヘルプを参照してください) 。</value>
+	</data>
+	<data name="DemoMessage.Text">
+		<value>評価用のポータル サインアップでは、自分自身の専用ポータル Web サイトが作成され、高度な特徴をすべて体験することができます {0}。評価期間中または評価期間後においては、評価用ポータルを登録済みポータルへと変換することができます。この変換作業は、管理者でログインし、管理者タブの [ポータル登録のリニューアル/延長] を選択することによって可能となります。登録済みポータルに変換することで、独自のドメイン名 (例: www.yourdomain.com ) をWeb アドレスとしてポータルにアクセスできるようになります。&lt;br&gt;&lt;br&gt;&lt;b&gt;*注:&lt;/b&gt; ポータル名には簡潔な名前を付けてください。また、名前にはスペースや特殊文字は利用できません。ポータルのURLは&lt;b&gt; {1}/ポータル名&lt;/b&gt;の形式となります。&lt;br&gt;&lt;br&gt;</value>
+	</data>
+	<data name="AdminMissing.Text">
+		<value>admin.templateファイルが見つかりません。サイト上にアップロードされている必要があります。&lt;br&gt;</value>
+	</data>
+	<data name="PortalMissing.Text">
+		<value>portal.templateファイルが見つかりません。サイト上にアップロードされている必要があります。&lt;br&gt;</value>
+	</data>
+	<data name="plPortalName.Text">
+		<value>ポータル名:</value>
+	</data>
+	<data name="plPortalName.Help">
+		<value>ポータル/サイトの名前を入力してください。</value>
+	</data>
+	<data name="valPortalName.ErrorMessage">
+		<value>&lt;br&gt;ポータル名が入力されていません。</value>
+	</data>
+	<data name="plTitle.Text">
+		<value>タイトル:</value>
+	</data>
+	<data name="plTitle.Help">
+		<value>サイトのタイトルが入力されていません。</value>
+	</data>
+	<data name="plDescription.Text">
+		<value>説明:</value>
+	</data>
+	<data name="plDescription.Help">
+		<value>サイトの説明を入力してください。</value>
+	</data>
+	<data name="plKeyWords.Text">
+		<value>キーワード:</value>
+	</data>
+	<data name="plKeyWords.Help">
+		<value>サイトに関するキーワードを入力してください。複数のキーワードを記入する場合はカンマ区切りで入力してください。ここで入力したキーワードはメタ データとしてHTML ページに追加され、検索エンジンがサイトをインデックス化する際に参照されます。</value>
+	</data>
+	<data name="plTemplate.Text">
+		<value>テンプレート:</value>
+	</data>
+	<data name="plTemplate.Help">
+		<value>新しいポータルに適用するテンプレートを選択してください。</value>
+	</data>
+	<data name="plFirstName.Text">
+		<value>名:</value>
+	</data>
+	<data name="plFirstName.Help">
+		<value>下の名前を入力してください。</value>
+	</data>
+	<data name="plLastName.Text">
+		<value>姓:</value>
+	</data>
+	<data name="plLastName.Help">
+		<value>上の名前を入力してください。</value>
+	</data>
+	<data name="valFirstName.ErrorMessage">
+		<value>&lt;br&gt;名を入力してください。</value>
+	</data>
+	<data name="valLastName.ErrorMessage">
+		<value>&lt;br&gt;姓を入力してください。</value>
+	</data>
+	<data name="plUsername.Text">
+		<value>ユーザー名:</value>
+	</data>
+	<data name="plUsername.Help">
+		<value>このサイトの管理者権限アカウント用ユーザー名を入力してください。</value>
+	</data>
+	<data name="plPassword.Text">
+		<value>パスワード:</value>
+	</data>
+	<data name="plPassword.Help">
+		<value>このサイトの管理者権限アカウント用パスワードを入力してください。</value>
+	</data>
+	<data name="plConfirm.Text">
+		<value>パスワードの確認:</value>
+	</data>
+	<data name="plConfirm.Help">
+		<value>確認のためパスワードを再入力してください。</value>
+	</data>
+	<data name="valUsername.ErrorMessage">
+		<value>&lt;br&gt;ユーザー名が入力されていません。</value>
+	</data>
+	<data name="valPassword.ErrorMessage">
+		<value>&lt;br&gt;パスワードが入力されていません。</value>
+	</data>
+	<data name="valConfirm.ErrorMessage">
+		<value>&lt;br&gt;"パスワードの確認"が入力されていません。</value>
+	</data>
+	<data name="plEmail.Text">
+		<value>電子メール アドレス:</value>
+	</data>
+	<data name="plEmail.Help">
+		<value>サイトの管理者アカウントに対する電子メール アドレスを入力してください。</value>
+	</data>
+	<data name="valEmail.ErrorMessage">
+		<value>&lt;br&gt;電子メール アドレスが入力されていません。</value>
+	</data>
+	<data name="cmdUpdate.Text">
+		<value>ポータルの作成</value>
+	</data>
+	<data name="Note.Text">
+		<value>&lt;b&gt;*注:&lt;/b&gt;作成されたポータルには、上記の管理者情報を使用してログインする必要があります。</value>
+	</data>
+	<data name="InvalidTemplate.Text">
+		<value>{0}は正しいポータル テンプレート ファイルではありません。</value>
+	</data>
+	<data name="InvalidName.Text">
+		<value>ポータル名を正しく入力してください。スペースや特殊文字は含めることはできません。</value>
+	</data>
+	<data name="InvalidPassword.Text">
+		<value>入力されたパスワードが一致しません。</value>
+	</data>
+	<data name="ChildExists.Text">
+		<value>入力した下位のポータル名は既に存在します。違うポータル名を選択してください。</value>
+	</data>
+	<data name="CreateError.Text">
+		<value>ポータルの作成中にエラーが発生しました。既存のアカウントに対するパスワードが正しくなかった原因の可能性があります。再度ポータル作成を実行する前に詳細を確認してください。</value>
+	</data>
+	<data name="PortalSetup.Text">
+		<value>ポータルのセットアップ</value>
+	</data>
+	<data name="SecuritySettings.Text">
+		<value>セキュリティのセットアップ</value>
+	</data>
+	<data name="plPortalAlias.Text">
+		<value>ポータル エイリアス:</value>
+	</data>
+	<data name="plPortalAlias.Help">
+		<value>ポータルのエイリアスを入力してください。</value>
+	</data>
+	<data name="plHomeDirectory.Text">
+		<value>ホーム ディレクトリ:</value>
+	</data>
+	<data name="plHomeDirectory.Help">
+		<value>このポータルのホーム ディレクトリを入力してください。</value>
+	</data>
+	<data name="Customize.Text">
+		<value>カスタマイズ</value>
+	</data>
+	<data name="valTemplate.ErrorMessage">
+		<value>&lt;br&gt;テンプレート ファイルを選択してください。</value>
+	</data>
+	<data name="Parent.Text">
+		<value>上位</value>
+	</data>
+	<data name="Child.Text">
+		<value>下位</value>
+	</data>
+	<data name="AutoGenerate.Text">
+		<value>自動作成</value>
+	</data>
+	<data name="ControlTitle_signup.Text">
+		<value>サインアップ</value>
+	</data>
+</root>

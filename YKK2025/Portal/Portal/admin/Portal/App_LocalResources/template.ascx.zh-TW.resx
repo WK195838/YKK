@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="cmdExport.Text">
+    <value>導出模板</value>
+  </data>
+  <data name="valFileName.ErrorMessage">
+    <value>必須輸入模板文件名！</value>
+  </data>
+  <data name="plTemplateName.Text">
+    <value>模板文件名:</value>
+  </data>
+  <data name="plPortals.Text">
+    <value>網站:</value>
+  </data>
+  <data name="ExportedMessage.Text">
+    <value>網站模板已經被創建到 &lt;b&gt;{0}&lt;/b&gt;</value>
+  </data>
+  <data name="plPortals.Help">
+    <value>選擇要導出的網站</value>
+  </data>
+  <data name="plTemplateName.Help">
+    <value>給出模板文件名</value>
+  </data>
+  <data name="plContent.Text">
+    <value>包括內容:</value>
+  </data>
+  <data name="plContent.Help">
+    <value>如果選擇，內容也將被導出到模板文件。</value>
+  </data>
+  <data name="plDescription.Text">
+    <value>模板介紹:</value>
+  </data>
+  <data name="plDescription.Help">
+    <value>輸入模板文件名</value>
+  </data>
+  <data name="valDescription.ErrorMessage">
+    <value>必須輸入模板介紹</value>
+  </data>
+  <data name="ControlTitle_.Text">
+    <value>導出模板</value>
+  </data>
+</root>

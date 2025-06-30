@@ -1,0 +1,87 @@
+﻿Imports System.Data
+Imports System.Data.OleDb
+Partial Class DTMW_CombiSheetCopy
+    Inherits System.Web.UI.Page
+    Dim InputData As String
+    Dim First As String
+
+
+
+    Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
+        If Not Me.IsPostBack Then   '不是PostBack
+            First = " Top 20 "
+            GetData()
+        End If
+    End Sub
+
+    Sub GetData()
+        Dim SQL As String
+        'Dim UserID As String = Request.QueryString("userid")
+
+
+        Dim DBDataSet1 As New DataSet
+        Dim OleDbConnection1 As New OleDbConnection
+        OleDbConnection1.ConnectionString = System.Configuration.ConfigurationManager.AppSettings("SqlConn")  'SQL連結設定
+
+        SQL = " select  " + First + " case when sts =0 then '開發中'  "
+        SQL = SQL + " when sts = 1 then '完成(OK)'    "
+        SQL = SQL + " when sts = 2 then  '取消/中止'    "
+        SQL = SQL + " else '抽單' end as sts ,no,name,combiitem,FORMNO,FORMSNO"
+        ' SQL = SQL + " 'http://10.245.1.10/DTMW/DTMW_COMBISheet02.aspx?pFormNo='+formno+'&pFormSno='+convert(char,formsno) as ViewURL"
+        SQL = SQL + " from F_Combisheet"
+
+        If InputData <> "" Then
+            SQL = SQL + " where 1=1 and ( no like '%" + InputData + "%'"
+            SQL = SQL + " or  combiitem like '%" + InputData + "%'"
+            SQL = SQL + " or  name like '%" + InputData + "%'"
+            SQL = SQL + " )"
+        End If
+        SQL = SQL + " order by no desc"
+
+        OleDbConnection1.Open()
+        Dim DBAdapter1 As New OleDbDataAdapter(SQL, OleDbConnection1)
+        DBAdapter1.Fill(DBDataSet1, "Getata")
+        GridView1.DataSource = DBDataSet1
+        GridView1.DataBind()
+
+        OleDbConnection1.Close()
+    End Sub
+
+
+    Protected Sub Button1_Click(ByVal sender As Object, ByVal e As System.EventArgs) Handles Button1.Click, DData.TextChanged
+        First = ""
+        InputData = DData.Text
+        GetData()
+    End Sub
+
+    Protected Sub GridView1_PageIndexChanging(ByVal sender As Object, ByVal e As System.Web.UI.WebControls.GridViewPageEventArgs) Handles GridView1.PageIndexChanging
+        GridView1.PageIndex = e.NewPageIndex
+    End Sub
+
+    Protected Sub GridView1_SelectedIndexChanged(ByVal sender As Object, ByVal e As System.EventArgs) Handles GridView1.SelectedIndexChanged
+
+        Dim fpObj As New ForProject
+        Dim uDataBase As Utility.DataBase = fpObj.GetDataBaseObj()
+
+        Dim No As String = GridView1.SelectedRow.Cells(2).Text
+
+
+        Dim js As String = ""
+   
+        js &= "var obj = window.opener.document.all.DNO1;"
+        js &= "obj.value = '" & No & "';"
+       
+
+        js &= "window.opener.document.forms[0].submit();"
+        js &= "window.close();"
+
+
+        Me.ClientScript.RegisterClientScriptBlock(GetType(String), "back", js, True)
+
+    End Sub
+
+
+    Protected Sub GridView1_PageIndexChanged(ByVal sender As Object, ByVal e As System.EventArgs) Handles GridView1.PageIndexChanged
+        GetData()
+    End Sub
+End Class

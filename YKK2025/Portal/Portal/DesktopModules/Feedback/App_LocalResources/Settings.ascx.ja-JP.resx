@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" />
+							<xsd:attribute name="type" type="xsd:string" />
+							<xsd:attribute name="mimetype" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="ResMimeType">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="Version">
+		<value>1.0.0.0</value>
+	</resheader>
+	<resheader name="Reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="Writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="plSendTo.Text">
+		<value>送信あて先</value>
+	</data>
+	<data name="plSendTo.Help">
+		<value>フィードバックメッセージの送信あて先電子メール アドレスを入力してください。</value>
+	</data>
+	<data name="plWidth.Text">
+		<value>幅</value>
+	</data>
+	<data name="plWidth.Help">
+		<value>入力欄 (テキストボックス) の幅を入力してください (単位:ピクセル) 。</value>
+	</data>
+	<data name="plRows.Text">
+		<value>行数</value>
+	</data>
+	<data name="plRows.Help">
+		<value>メッセージ入力欄のテキストボックス表示行数を入力してください。</value>
+	</data>
+	<data name="valWidth.ErrorMessage">
+		<value>&lt;br&gt;幅には整数を入力してください。</value>
+	</data>
+	<data name="valRows.ErrorMessage">
+		<value>&lt;br&gt;行数には整数を入力してください。</value>
+	</data>
+	<data name="ControlTitle_settings.Text">
+		<value>フィードバックの設定</value>
+	</data>
+	<data name="ModuleHelp.Text">
+		<value>
+		&lt;h1&gt;フィードバックの設定について&lt;/h1&gt;
+		&lt;p&gt;フィードバック モジュールは、認証済みのサイト ユーザーが予め設定された所定の電子メール アドレスに対してメッセージを送信する機能を提供します。また、このモジュールの表示/動作の制御としては3種類の設定が可能になっています。&lt;/p&gt;
+		&lt;ul&gt;
+				&lt;li&gt;
+						&lt;div align="left"&gt;
+								&lt;b&gt;送信あて先&lt;/b&gt;– 送信あて先とする電子メール アドレスです。正しい電子メール アドレスの体系で入力する必要があります。&lt;/div&gt;
+				&lt;/li&gt;
+		&lt;/ul&gt;
+		&lt;ul&gt;
+				&lt;li&gt;
+						&lt;div align="left"&gt;
+								&lt;b&gt;幅&lt;/b&gt;– メッセージ入力欄の横幅をピクセルの単位で入力します。注: この値は、モジュールが置かれているパネルの横幅以内の数値としてください。パネルの横幅を超えた数値を設定した場合は、期待した通りの表示が得られない場合があります。&lt;/div&gt;
+				&lt;/li&gt;
+		&lt;/ul&gt;
+		&lt;ul&gt;
+				&lt;li&gt;
+						&lt;div align="left"&gt;
+								&lt;b&gt;行数&lt;/b&gt;– メッセージ入力欄の行数を入力します。注: 幅の設定と同様にこの値も、モジュールが置かれているパネルの高さ以内に収めるようにしてください。パネルの高さを超えた数値を設定した場合は、期待した通りの表示が得られない場合があります。&lt;/div&gt;
+				&lt;/li&gt;
+		&lt;/ul&gt;
+</value>
+	</data>
+	<data name="valSendTo.Text">
+		<value>&lt;br&gt;電子メール アドレスの体系が正しくありません。</value>
+	</data>
+</root>

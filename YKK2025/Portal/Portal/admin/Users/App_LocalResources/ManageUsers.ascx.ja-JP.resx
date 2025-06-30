@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" />
+							<xsd:attribute name="type" type="xsd:string" />
+							<xsd:attribute name="mimetype" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="ResMimeType">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="Version">
+		<value>1.0.0.0</value>
+	</resheader>
+	<resheader name="Reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="Writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="plAuthorized.Text">
+		<value>承認:</value>
+	</data>
+	<data name="plAuthorized.Help">
+		<value>ユーザーが承認されているかどうか。</value>
+	</data>
+	<data name="cmdManage.Text">
+		<value>このユーザのロールを管理</value>
+	</data>
+	<data name="cmdUnlock.Text">
+		<value>アカウントのロック解除</value>
+	</data>
+	<data name="plCreatedDate.Text">
+		<value>作成日:</value>
+	</data>
+	<data name="plLastLoginDate.Text">
+		<value>最終ログイン日:</value>
+	</data>
+	<data name="UsernameExists.Text">
+		<value>登録に失敗しました。 ユーザー名&lt;u&gt;{0}&lt;/u&gt;は既に登録されています。&lt;br&gt;別のユーザー名を指定してください。</value>
+	</data>
+	<data name="plLocale.Text">
+		<value>優先する言語:</value>
+	</data>
+	<data name="plLocale.Help">
+		<value>優先したい言語を入力してください。</value>
+	</data>
+	<data name="plTimeZone.Text">
+		<value>タイム ゾーン:</value>
+	</data>
+	<data name="plTimeZone.Help">
+		<value>ユーザーのタイム ゾーンを入力してください。</value>
+	</data>
+	<data name="plCreatedDate.Help">
+		<value>ユーザーの登録日を記録する。</value>
+	</data>
+	<data name="plLastLoginDate.Help">
+		<value>ユーザーの最終ログイン日を記録する。</value>
+	</data>
+	<data name="Preferences.Text">
+		<value>優先設定</value>
+	</data>
+	<data name="ControlTitle_edit.Text">
+		<value>ユーザーアカウントの編集</value>
+	</data>
+	<data name="ModuleHelp.Text">
+		<value>&lt;h1&gt;ユーザー管理モジュールについて&lt;/h1&gt;&lt;p&gt;管理者は登録されたユーザーを管理することができます。このモジュールでは新しいユーザーの追加、既存ユーザーの編集、ユーザーの削除、そしてユーザーのセキュリティ ロールを管理することができます。&lt;/p&gt;
+</value>
+	</data>
+	<data name="UserLockedOut.Text">
+		<value>このアカウントはログイン失敗が続いたためロックされています。</value>
+	</data>
+	<data name="InvalidUser.Text">
+		<value>このアカウントは現在のポータルで利用可能なアカウントではありません。</value>
+	</data>
+	<data name="SuperUser.Text">
+		<value>このアカウントはスーパー ユーザー権限が付いているため、このアカウントの更新権限はありません。</value>
+	</data>
+	<data name="NoUser.Text">
+		<value>このアカウントは存在しません。</value>
+	</data>
+	<data name="plNewPassword.Text">
+		<value>新しいパスワード:</value>
+	</data>
+	<data name="plNewPassword.Help">
+		<value>新しいパスワードを入力してください。</value>
+	</data>
+	<data name="plNewConfirm.Text">
+		<value>新しいパスワード（再度）:</value>
+	</data>
+	<data name="plNewConfirm.Help">
+		<value>タイプ ミス防止のため、新しいパスワードを再度入力してください。</value>
+	</data>
+	<data name="ResetPassword.Text">
+		<value>パスワードのリセット</value>
+	</data>
+	<data name="cmdUpdatePassword.Text">
+		<value>パスワードの変更</value>
+	</data>
+	<data name="PasswordMatchFailure.Text">
+		<value>新しいパスワードとして入力された内容が一致しません。</value>
+	</data>
+	<data name="NewPassword.Text">
+		<value>新しいパスワードを入力してください。</value>
+	</data>
+	<data name="PasswordChanged.Text">
+		<value>パスワードはリセットされました。</value>
+	</data>
+	<data name="PasswordResetFailed.Text">
+		<value>パスワードの設定でエラーが発生しました。パスワードは変更されません。</value>
+	</data>
+</root>

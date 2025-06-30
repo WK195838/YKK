@@ -1,0 +1,2 @@
+<%@ Control Language="vb" AutoEventWireup="false" Codebehind="Title.ascx.vb" Inherits="DotNetNuke.UI.Containers.Title" %>
+<asp:label id="lblTitle" runat="server" cssclass="Head" enableviewstate="False" Font-Size="10pt" Font-Bold="True"></asp:label>

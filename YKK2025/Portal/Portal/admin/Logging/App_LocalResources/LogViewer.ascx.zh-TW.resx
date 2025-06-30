@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="plPortalID.Text">
+    <value>網站</value>
+  </data>
+  <data name="plPortalID.Help">
+    <value>選擇你想查看的網站</value>
+  </data>
+  <data name="plLogType.Text">
+    <value>類型</value>
+  </data>
+  <data name="plLogType.Help">
+    <value>你可以選擇限定的包含特定類型的事件記錄。</value>
+  </data>
+  <data name="plShowRecords.Text">
+    <value>顯示記錄</value>
+  </data>
+  <data name="plShowRecords.Help">
+    <value>選擇你想查看的記錄</value>
+  </data>
+  <data name="ColorCoding.Text">
+    <value>顏色增強顯示 開啟</value>
+  </data>
+  <data name="Settings.Text">
+    <value>瀏覽設置</value>
+  </data>
+  <data name="Legend.Text">
+    <value>顏色增強關聯</value>
+  </data>
+  <data name="Date.Text">
+    <value>日期</value>
+  </data>
+  <data name="Type.Text">
+    <value>記錄類型</value>
+  </data>
+  <data name="Username.Text">
+    <value>使用者名</value>
+  </data>
+  <data name="Portal.Text">
+    <value>網站</value>
+  </data>
+  <data name="Summary.Text">
+    <value>摘要</value>
+  </data>
+  <data name="btnDelete.Text">
+    <value>刪除選定的異常</value>
+  </data>
+  <data name="btnClear.Text">
+    <value>清除記錄</value>
+  </data>
+  <data name="SendExceptions.Text">
+    <value>發送異常</value>
+  </data>
+  <data name="ExceptionsWarning.Text">
+    <value>&lt;b&gt;請注意&lt;/b&gt;: 通過應用這個功能      ，你 &lt;i&gt;能&lt;/i&gt;公開發送數據       (&lt;i&gt;不能&lt;/i&gt; 被加密).  
+      清仔細檢查異常內容.
+    </value>
+  </data>
+  <data name="SendExceptionsEmail.Text">
+    <value>發送異常 via Email</value>
+  </data>
+  <data name="plEmailAddress.Text">
+    <value>Email地址</value>
+  </data>
+  <data name="plEmailAddress.Help">
+    <value>          如果你用設定的 Email地址選項, 請輸入聯繫人Email地址。          如果你用發送到河心團隊選項,請輸入你的 Email地址。  </value>
+  </data>
+  <data name="SendMessage.Text">
+    <value>信息 (可選）</value>
+  </data>
+  <data name="SendMessage.Help">
+    <value>包括可選的異常信息</value>
+  </data>
+  <data name="btnEmail.Text">
+    <value>發送選定的異常</value>
+  </data>
+  <data name="AddContent.Action">
+    <value>編輯記錄配置</value>
+  </data>
+  <data name="NoEntries.Text">
+    <value>這裡沒有記錄項目。</value>
+  </data>
+  <data name="Showing.Text">
+    <value>顯示 {0} 到 {1} 。總數 {2}。</value>
+  </data>
+  <data name="DeleteSuccess.Text">
+    <value>選中的異常被成功刪除。</value>
+  </data>
+  <data name="EmailSuccess.Text">
+    <value>你的Email  被發送..</value>
+  </data>
+  <data name="EmailFailure.Text">
+    <value>你的Email  &lt;b&gt;沒有&lt;/b&gt; 被發送.</value>
+  </data>
+  <data name="ServiceUnavailable.Text">
+    <value>WEB 服務目前無效。</value>
+  </data>
+  <data name="ServerName.Text">
+    <value>&lt;b&gt;服務器名&lt;/b&gt;: </value>
+  </data>
+  <data name="LogCleared.Text">
+    <value>記錄已經被清空。</value>
+  </data>
+  <data name="ClickRow.Text">
+    <value>點擊行查看詳情。</value>
+  </data>
+  <data name="ExceptionCode.Text">
+    <value>異常</value>
+  </data>
+  <data name="ItemCreatedCode.Text">
+    <value>項目被創建</value>
+  </data>
+  <data name="ItemUpdatedCode.Text">
+    <value>項目被更新</value>
+  </data>
+  <data name="ItemDeletedCode.Text">
+    <value>項目被刪除</value>
+  </data>
+  <data name="SuccessCode.Text">
+    <value>Operation Success</value>
+  </data>
+  <data name="FailureCode.Text">
+    <value>操作失敗</value>
+  </data>
+  <data name="AdminOpCode.Text">
+    <value>常規的管理操作</value>
+  </data>
+  <data name="AdminAlertCode.Text">
+    <value>管理員提醒</value>
+  </data>
+  <data name="HostAlertCode.Text">
+    <value>主機提醒</value>
+  </data>
+  <data name="ToEmail.Text">
+    <value>設定Email地址</value>
+  </data>
+  <data name="ControlTitle_.Text">
+    <value>記錄查看</value>
+  </data>
+</root>

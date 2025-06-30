@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="GetLastTime">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pUser" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pFormNo" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="pStep" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="pFlowType" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="pNowDateTime" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="pLastTime" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="pCount1" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetLastTimeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetLastTimeResult" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="pLastTime" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="pCount1" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetDevelopTime">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pStartTime" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pEndTime" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="pDevelopTime" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="pDepo" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetDevelopTimeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetDevelopTimeResult" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="pDevelopTime" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AdjustSchedule">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pUser" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pFormNo" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="pFormSno" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="pStep" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="pSeqNo" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="pLastTime" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pLevel" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pDepo" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AdjustScheduleResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="AdjustScheduleResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetStartTime">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pNowDateTime" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pDepo" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetStartTimeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetStartTimeResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetLeadTime">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pFormNo" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="pStep" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="pLevel" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="pQCLT" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="pNowDateTime" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="pStartTime" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="pEndTime" type="s:dateTime" />
+            <s:element minOccurs="0" maxOccurs="1" name="pDepo" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetLeadTimeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetLeadTimeResult" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="pStartTime" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="pEndTime" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetReadTimeLimit">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pNowDateTime" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pDepo" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetReadTimeLimitResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetReadTimeLimitResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetReadLeadTime">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pNowDateTime" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pStartTime" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pEndTime" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pDepo" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetReadLeadTimeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetReadLeadTimeResult" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="pStartTime" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pEndTime" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetLastTimeCustom">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pUser" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pFormNo" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="pFormSno" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="pNextStep" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="pFlowType" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="pNowDateTime" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="pSimulation" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="pLastTime" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="pCount1" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetLastTimeCustomResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetLastTimeCustomResult" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="pLastTime" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="pCount1" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetActualStartTime">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pFormNo" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="pFormSno" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="pLoading" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="pWorkID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pDepo" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pAStartTime" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetActualStartTimeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetActualStartTimeResult" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="pAStartTime" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AdjustLeadTime">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pFormNo" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="pFormSno" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="pNextStep" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="pSeqNo" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="pDepo" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="pNowDateTime" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="pStartTime" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="pEndTime" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AdjustLeadTimeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="AdjustLeadTimeResult" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="pStartTime" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="pEndTime" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="GetLastTimeSoapIn">
+    <wsdl:part name="parameters" element="tns:GetLastTime" />
+  </wsdl:message>
+  <wsdl:message name="GetLastTimeSoapOut">
+    <wsdl:part name="parameters" element="tns:GetLastTimeResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetDevelopTimeSoapIn">
+    <wsdl:part name="parameters" element="tns:GetDevelopTime" />
+  </wsdl:message>
+  <wsdl:message name="GetDevelopTimeSoapOut">
+    <wsdl:part name="parameters" element="tns:GetDevelopTimeResponse" />
+  </wsdl:message>
+  <wsdl:message name="AdjustScheduleSoapIn">
+    <wsdl:part name="parameters" element="tns:AdjustSchedule" />
+  </wsdl:message>
+  <wsdl:message name="AdjustScheduleSoapOut">
+    <wsdl:part name="parameters" element="tns:AdjustScheduleResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetStartTimeSoapIn">
+    <wsdl:part name="parameters" element="tns:GetStartTime" />
+  </wsdl:message>
+  <wsdl:message name="GetStartTimeSoapOut">
+    <wsdl:part name="parameters" element="tns:GetStartTimeResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetLeadTimeSoapIn">
+    <wsdl:part name="parameters" element="tns:GetLeadTime" />
+  </wsdl:message>
+  <wsdl:message name="GetLeadTimeSoapOut">
+    <wsdl:part name="parameters" element="tns:GetLeadTimeResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetReadTimeLimitSoapIn">
+    <wsdl:part name="parameters" element="tns:GetReadTimeLimit" />
+  </wsdl:message>
+  <wsdl:message name="GetReadTimeLimitSoapOut">
+    <wsdl:part name="parameters" element="tns:GetReadTimeLimitResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetReadLeadTimeSoapIn">
+    <wsdl:part name="parameters" element="tns:GetReadLeadTime" />
+  </wsdl:message>
+  <wsdl:message name="GetReadLeadTimeSoapOut">
+    <wsdl:part name="parameters" element="tns:GetReadLeadTimeResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetLastTimeCustomSoapIn">
+    <wsdl:part name="parameters" element="tns:GetLastTimeCustom" />
+  </wsdl:message>
+  <wsdl:message name="GetLastTimeCustomSoapOut">
+    <wsdl:part name="parameters" element="tns:GetLastTimeCustomResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetActualStartTimeSoapIn">
+    <wsdl:part name="parameters" element="tns:GetActualStartTime" />
+  </wsdl:message>
+  <wsdl:message name="GetActualStartTimeSoapOut">
+    <wsdl:part name="parameters" element="tns:GetActualStartTimeResponse" />
+  </wsdl:message>
+  <wsdl:message name="AdjustLeadTimeSoapIn">
+    <wsdl:part name="parameters" element="tns:AdjustLeadTime" />
+  </wsdl:message>
+  <wsdl:message name="AdjustLeadTimeSoapOut">
+    <wsdl:part name="parameters" element="tns:AdjustLeadTimeResponse" />
+  </wsdl:message>
+  <wsdl:portType name="ScheduleServiceSoap">
+    <wsdl:operation name="GetLastTime">
+      <wsdl:input message="tns:GetLastTimeSoapIn" />
+      <wsdl:output message="tns:GetLastTimeSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDevelopTime">
+      <wsdl:input message="tns:GetDevelopTimeSoapIn" />
+      <wsdl:output message="tns:GetDevelopTimeSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AdjustSchedule">
+      <wsdl:input message="tns:AdjustScheduleSoapIn" />
+      <wsdl:output message="tns:AdjustScheduleSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetStartTime">
+      <wsdl:input message="tns:GetStartTimeSoapIn" />
+      <wsdl:output message="tns:GetStartTimeSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetLeadTime">
+      <wsdl:input message="tns:GetLeadTimeSoapIn" />
+      <wsdl:output message="tns:GetLeadTimeSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetReadTimeLimit">
+      <wsdl:input message="tns:GetReadTimeLimitSoapIn" />
+      <wsdl:output message="tns:GetReadTimeLimitSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetReadLeadTime">
+      <wsdl:input message="tns:GetReadLeadTimeSoapIn" />
+      <wsdl:output message="tns:GetReadLeadTimeSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetLastTimeCustom">
+      <wsdl:input message="tns:GetLastTimeCustomSoapIn" />
+      <wsdl:output message="tns:GetLastTimeCustomSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetActualStartTime">
+      <wsdl:input message="tns:GetActualStartTimeSoapIn" />
+      <wsdl:output message="tns:GetActualStartTimeSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AdjustLeadTime">
+      <wsdl:input message="tns:AdjustLeadTimeSoapIn" />
+      <wsdl:output message="tns:AdjustLeadTimeSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="ScheduleServiceSoap" type="tns:ScheduleServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetLastTime">
+      <soap:operation soapAction="http://tempuri.org/GetLastTime" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDevelopTime">
+      <soap:operation soapAction="http://tempuri.org/GetDevelopTime" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AdjustSchedule">
+      <soap:operation soapAction="http://tempuri.org/AdjustSchedule" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetStartTime">
+      <soap:operation soapAction="http://tempuri.org/GetStartTime" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLeadTime">
+      <soap:operation soapAction="http://tempuri.org/GetLeadTime" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetReadTimeLimit">
+      <soap:operation soapAction="http://tempuri.org/GetReadTimeLimit" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetReadLeadTime">
+      <soap:operation soapAction="http://tempuri.org/GetReadLeadTime" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLastTimeCustom">
+      <soap:operation soapAction="http://tempuri.org/GetLastTimeCustom" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetActualStartTime">
+      <soap:operation soapAction="http://tempuri.org/GetActualStartTime" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AdjustLeadTime">
+      <soap:operation soapAction="http://tempuri.org/AdjustLeadTime" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="ScheduleServiceSoap12" type="tns:ScheduleServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetLastTime">
+      <soap12:operation soapAction="http://tempuri.org/GetLastTime" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDevelopTime">
+      <soap12:operation soapAction="http://tempuri.org/GetDevelopTime" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AdjustSchedule">
+      <soap12:operation soapAction="http://tempuri.org/AdjustSchedule" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetStartTime">
+      <soap12:operation soapAction="http://tempuri.org/GetStartTime" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLeadTime">
+      <soap12:operation soapAction="http://tempuri.org/GetLeadTime" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetReadTimeLimit">
+      <soap12:operation soapAction="http://tempuri.org/GetReadTimeLimit" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetReadLeadTime">
+      <soap12:operation soapAction="http://tempuri.org/GetReadLeadTime" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLastTimeCustom">
+      <soap12:operation soapAction="http://tempuri.org/GetLastTimeCustom" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetActualStartTime">
+      <soap12:operation soapAction="http://tempuri.org/GetActualStartTime" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AdjustLeadTime">
+      <soap12:operation soapAction="http://tempuri.org/AdjustLeadTime" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ScheduleService">
+    <wsdl:port name="ScheduleServiceSoap" binding="tns:ScheduleServiceSoap">
+      <soap:address location="http://localhost/WFS/ScheduleService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="ScheduleServiceSoap12" binding="tns:ScheduleServiceSoap12">
+      <soap12:address location="http://localhost/WFS/ScheduleService.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

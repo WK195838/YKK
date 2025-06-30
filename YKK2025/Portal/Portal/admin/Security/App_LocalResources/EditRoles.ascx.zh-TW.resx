@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BasicSettings.Text">
+    <value>基本設置</value>
+  </data>
+  <data name="BasicSettingsDescription.Text">
+    <value>在這個節點，你可以建立角色的基本設置。</value>
+  </data>
+  <data name="RoleName.Text">
+    <value>角色名稱</value>
+  </data>
+  <data name="RoleName.Help">
+    <value>鍵入角色的名稱</value>
+  </data>
+  <data name="Description.Text">
+    <value>簡介</value>
+  </data>
+  <data name="Description.Help">
+    <value>鍵入角色的簡介。</value>
+  </data>
+  <data name="PublicRole.Text">
+    <value>公開的角色？</value>
+  </data>
+  <data name="PublicRole.Help">
+    <value>是否公開角色？</value>
+  </data>
+  <data name="AutoAssignment.Text">
+    <value>是否自動分配？</value>
+  </data>
+  <data name="AutoAssignment.Help">
+    <value>這個角色是否自動指派給使用者？</value>
+  </data>
+  <data name="AdvancedSettings.Text">
+    <value>高級設置</value>
+  </data>
+  <data name="AdvancedSettingsHelp.Text">
+    <value>在這個節點，你可以建立更多角色的高級設置。</value>
+  </data>
+  <data name="ServiceFee.Text">
+    <value>服務費</value>
+  </data>
+  <data name="ServiceFee.Help">
+    <value>鍵入該角色的使用者所需的費用。</value>
+  </data>
+  <data name="BillingPeriod.Text">
+    <value>會員期 (每個)</value>
+  </data>
+  <data name="BillingPeriod.Help">
+    <value>連接這兩個區域鍵入會員期，例如2星期或者1個月</value>
+  </data>
+  <data name="TrialFee.Text">
+    <value>試用費</value>
+  </data>
+  <data name="TrialFee.Help">
+    <value>鍵入該角色的使用者試用費。</value>
+  </data>
+  <data name="TrialPeriod.Text">
+    <value>試用期 (每個)</value>
+  </data>
+  <data name="TrialPeriod.Help">
+    <value>連接這兩個區域鍵入試用期，例如2星期或者1個月</value>
+  </data>
+  <data name="cmdManage.Text">
+    <value>使用者管理</value>
+  </data>
+  <data name="valRoleName.Text">
+    <value>&lt;br&gt;您必須鍵入有效的名稱</value>
+  </data>
+  <data name="valServiceFee1.Text">
+    <value>&lt;br&gt;鍵入的服務費無效</value>
+  </data>
+  <data name="valServiceFee2.Text">
+    <value>&lt;br&gt;服務費必須大於0</value>
+  </data>
+  <data name="valBillingPeriod1.Text">
+    <value>&lt;br&gt;鍵入的會員期無效</value>
+  </data>
+  <data name="valBillingPeriod2.Text">
+    <value>&lt;br&gt;會員期必須大於0</value>
+  </data>
+  <data name="valTrialFee1.Text">
+    <value>&lt;br&gt;鍵入的試用費無效</value>
+  </data>
+  <data name="valTrialFee2.Text">
+    <value>&lt;br&gt;試用費必須大於0</value>
+  </data>
+  <data name="valTrialPeriod1.Text">
+    <value>&lt;br&gt;鍵入的試用期無效</value>
+  </data>
+  <data name="valTrialPeriod2.Text">
+    <value>&lt;br&gt;試用期必須大於0</value>
+  </data>
+  <data name="ControlTitle_edit.Text">
+    <value>修改安全角色</value>
+  </data>
+</root>

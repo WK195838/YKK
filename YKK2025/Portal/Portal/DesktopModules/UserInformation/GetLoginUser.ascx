@@ -1,0 +1,2 @@
+<%@ Control Inherits="LoginUserInf.PutCookies" Src="LoginUserInf.vb" Language="vb" autoeventwireup="false" Explicit="True" %>
+<asp:Label id="Label1" runat="server" ForeColor="DarkBlue" Font-Size="9pt"></asp:Label>

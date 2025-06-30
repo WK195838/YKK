@@ -1,0 +1,232 @@
+/* all
+----------------------------------------------- */
+.body{
+	background-color: #ccc;
+	background-image: url(images/bg.gif);
+	background-repeat: repeat-x;
+	background-position: top;
+	font-family: "Verdana", Arial, Osaka;
+	margin: 0;
+	padding: 0;
+}
+
+p { margin: 5px 0; padding: 0;}
+
+img{border: none;}
+
+a:link { color: #666; text-decoration: none;}
+a:visited { color: #666; text-decoration: none;}
+a:hover, a:active { color: #999; text-decoration: underline;}
+
+td {font-size:11px;}
+
+/* head
+=============================================== */
+.SkinObject {
+	color: #666;
+	font-weight: normal; 
+}
+
+
+#dnn_dnnCOPYRIGHT_lblCopyright	{font-size: 11px;}
+#dnn_dnnUSER_hypRegister	{font-size: 11px;}
+#dnn_dnnLOGIN_hypLogin		{font-size: 11px;}
+#dnn_dnnSEARCH_cmdSearch	{font-size: 11px;}
+
+
+/* head
+=============================================== */
+#pagehead{ background-image: url(images/head_bg.gif);}
+#logo{ height: 50px;}
+
+
+/* navi
+=============================================== */
+#navi{
+	height: 35px;
+	padding-top: 5px;
+}
+
+.navibox{
+	color: #666;
+	font: bold 70% "Verdana", Arial, Osaka;
+	border-left: 1px solid #999;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+.navibox a:link    { color: #666; text-decoration: none;}
+.navibox a:visited { color: #666; text-decoration: none;}
+.navibox a:hover, a:active { color: #369; text-decoration: underline;}
+
+/* foot
+=============================================== */
+#foot { background-color: #fff; border-top: 5px solid #666; height: 100px;}
+.copyr{ color: #999; font: xx-small "Verdana", Arial, Osaka; text-align: center; margin-top: 20px;}
+
+#nav {
+	text-align: right;
+	height: 21px;
+	margin-bottom: 15px;
+}
+.navbox{ color: #666; font: 60% "Verdana", Arial, Osaka; background: url(images/tab_nav02.gif) no-repeat right; padding-right: 30px;}
+
+#search {margin-bottom: 10px;}
+.searchbox{  color: #666; font: 11px; "Verdana", Arial, Osaka;}
+.searchbox input{ color: #ccc; font: 100%; background:#666; border: 1px solid #999;}
+
+.icon-deco{ vertical-align: middle; margin: 0 3px;}
+
+
+/* page
+=============================================== */
+#pagebody{ background:#ccc url(images/page_bg.gif) repeat-x top;}
+
+#left { padding-bottom: 10px;}
+#right{ padding-bottom: 10px;}
+
+
+#top{
+	background: #fff;
+	border-top: 1px solid #999;
+	border-right: 1px solid #999;
+	border-left: 1px solid #999;
+}
+
+#contents{ border-top: 1px solid #999;}
+.ContentPane { padding: 10px;}
+
+
+
+/* MENU
+=============================================== */
+/* Menu CSS */
+MenuItem {
+	border-left: #FFF 0px solid; 
+	border-bottom: #FFF 1px solid; 
+	border-top: #FFF 1px solid; 
+	border-right: #FFF 0px solid;
+	cursor: pointer; 
+	cursor: hand; 
+	color: #666; 
+	font-family: Tahoma, Arial, Helvetica; 
+	font-size: 9pt; 
+	font-weight: bold; 
+	font-style: normal; 
+	background-color: Transparent;
+}
+
+.MainMenu_MenuContainer {
+	background-color: transparent; 
+	height: 30px;
+}
+.MenuBar {
+	padding-left: 6px;
+}
+.MainMenu_MenuBar {
+	cursor: pointer; 
+	cursor: hand;
+	height: 30px;
+	background-color: Transparent;
+}
+.MainMenu_MenuItem {
+	border-left: #FFF 0px solid; 
+	border-bottom: #FFF 1px solid; 
+	border-top: #FFF 1px solid; 
+	border-right: #FFF 0px solid;
+	cursor: pointer; 
+	cursor: hand; 
+	color: #666; 
+	font-family: Tahoma, Arial, Helvetica; 
+	font-size: 9pt; 
+	font-weight: bold; 
+	font-style: normal; 
+	background-color: Transparent;
+}
+.MainMenu_MenuIcon {
+	background-color: #FFF; 
+	border-left: #FFF 1px solid; 
+	border-bottom: #FFF 1px solid; 
+	border-top: #FFF 1px solid; 
+	cursor: pointer; 
+	cursor: hand; 
+	text-align: center; 
+	width: 15px; 
+	height: 21px;
+}
+.MainMenu_SubMenu {
+	background-color: #FFF; 
+	z-index: 1000; 
+	cursor: pointer; 
+	cursor: hand; 
+	border: 1px solid #666;
+	filter: none;
+}
+
+.MainMenu_MenuBreak {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; WIDTH: 0px; BORDER-BOTTOM: 0px
+}
+.MainMenu_MenuItemSel {
+	background-color: #CCC;
+	cursor: pointer; 
+	cursor: hand;
+	color: #369;
+	font-family: Tahoma, Arial, Helvetica; 
+	font-size: 9pt;
+	font-weight: bold;
+	font-style: normal;
+}
+.MainMenu_MenuArrow {
+	border-right: #FFF 1px solid; 
+	border-bottom: #FFF 1px solid; 
+	border-top: #FFF 0px solid;
+	font-family: webdings; 
+	font-size: 10pt; 
+	cursor: pointer; 
+	cursor: hand; 
+}
+.MainMenu_RootMenuArrow {
+	font-family: webdings; 
+	font-size: 10pt; 
+	cursor: pointer; 
+	cursor: hand;
+}
+.MainMenu_Left {
+	background: url(images/menu_left.gif) no-repeat left bottom;
+	padding-left: 0px;
+	height: 30px
+}
+.MainMenu_LeftOn {
+	background: url(images/menu_left.gif) no-repeat left bottom;
+	padding-left: 0px;
+	top: 0px;
+	margin-top: 0px;
+	height: 30px
+}
+.MainMenu_Right {
+	background: url(images/menu_right.gif) no-repeat right bottom;
+	padding-left: 0px;
+	height: 30px
+}
+.MainMenu_RightOn {
+	background: url(images/menu_right.gif) no-repeat right bottom;
+	padding-left: 0px;
+	height: 30px
+}
+.MainMenu_Selected {
+	background: transparent scroll repeat 0% 0%;
+	height: 30px
+}
+.MainMenu_BreadcrumbActive {
+	top: 0px;
+	margin-top: 0px;
+	height: 30px
+}
+.MainMenu_Active {
+	height: 30px
+}
+.MainMenu_BreadcrumbActive2 {
+	background-color: transparent; 
+}
+

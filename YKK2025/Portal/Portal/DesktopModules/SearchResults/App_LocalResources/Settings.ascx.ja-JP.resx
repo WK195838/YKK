@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="plResults.Text">
+    <value>最大表示件数:</value>
+  </data>
+  <data name="plResults.Help">
+    <value>検索結果を最大何件表示するかを入力してください。</value>
+  </data>
+  <data name="plTitle.Help">
+    <value>タイトルを表示する際の最大文字数を入力してください。制限を設けない場合はブランクのままとしてください。</value>
+  </data>
+  <data name="plDescription.Text">
+    <value>内容の最大文字数:</value>
+  </data>
+  <data name="plDescription.Help">
+    <value>内容を表示する際の最大文字数を入力してください。制限を設けない場合はブランクのままとしてください。</value>
+  </data>
+  <data name="plShowDescription.Text">
+    <value>内容の表示</value>
+  </data>
+  <data name="plShowDescription.Help">
+    <value>検索結果として内容を表示する場合はチェックを付けてください。</value>
+  </data>
+  <data name="plPage.Text">
+    <value>ページあたりの表示件数:</value>
+  </data>
+  <data name="plPage.Help">
+    <value>ページあたりに表示する検索結果の件数を入力してください。</value>
+  </data>
+  <data name="ControlTitle_settings.Text">
+    <value>検索結果の設定</value>
+  </data>
+  <data name="ModuleHelp.Text">
+    <value>		&lt;h1&gt;検索結果の設定について&lt;/h1&gt;
+		&lt;p&gt;検索結果モジュールは、ユーザーが検索した結果を表示する機能を提供します。また、このモジュールの表示/動作の制御としては5種類の設定が可能になっています。&lt;/p&gt;
+		&lt;ul&gt;
+				&lt;li&gt;
+						&lt;div align="left"&gt;
+								&lt;b&gt;最大表示件数&lt;/b&gt; – 検索結果の最大件数を入力します。&lt;b&gt;&lt;/b&gt;&lt;/div&gt;
+				&lt;/li&gt;
+				&lt;li&gt;
+						&lt;div align="left"&gt;
+								&lt;b&gt;ページあたりの表示件数&lt;/b&gt; - 1ページあたりに表示する最大の件数を入力します。&lt;b&gt;&lt;/b&gt;&lt;/div&gt;
+				&lt;/li&gt;
+				&lt;li&gt;
+						&lt;div align="left"&gt;
+								&lt;b&gt;タイトルの最大文字数&lt;/b&gt; - 検索文字列がマッチした箇所のタイトルを何文字分表示するかを入力します。初期値のままとする場合はブランクにしてください。&lt;b&gt;&lt;/b&gt;&lt;/div&gt;
+				&lt;/li&gt;
+				&lt;li&gt;
+						&lt;div align="left"&gt;
+								&lt;b&gt;内容の最大文字数&lt;/b&gt; - 検索文字列がマッチした箇所のテキストを何文字分表示するかを入力します。初期値のままとする場合はブランクにしてください。表示される検索結果文字列は検索内容として入力した文字列そのものではなく検索文字列が見つかった箇所の冒頭部分となります。&lt;b&gt;&lt;/b&gt;&lt;/div&gt;
+				&lt;/li&gt;
+				&lt;li&gt;
+						&lt;div align="left"&gt;
+								&lt;b&gt;内容の表示&lt;/b&gt; - 入力した検索文字列を表示する場合はチェックを付けてください。表示する文字数は上の"内容の最大文字数"の通りとなります。&lt;/div&gt;
+				&lt;/li&gt;
+		&lt;/ul&gt;
+</value>
+  </data>
+  <data name="plTitle.Text">
+    <value>タイトルの最大文字数:
+</value>
+  </data>
+</root>

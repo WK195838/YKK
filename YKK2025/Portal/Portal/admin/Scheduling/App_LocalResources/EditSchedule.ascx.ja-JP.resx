@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" />
+							<xsd:attribute name="type" type="xsd:string" />
+							<xsd:attribute name="mimetype" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="ResMimeType">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="Version">
+		<value>1.0.0.0</value>
+	</resheader>
+	<resheader name="Reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="Writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="ContentOptions.Action">
+		<value>スケジュール状態の表示</value>
+	</data>
+	<data name="ScheduleHistory.Action">
+		<value>スケジュール履歴の表示</value>
+	</data>
+	<data name="plType.Text">
+		<value>フル クラス名、アセンブリ名</value>
+	</data>
+	<data name="plEnabled.Text">
+		<value>スケジュールの有効化</value>
+	</data>
+	<data name="plTimeLapse.Text">
+		<value>処理間隔:</value>
+	</data>
+	<data name="plTimeLapse.Help">
+		<value>例: "5"と"分"の選択によって5分間隔でのタスク実行が可能になります。このタスクの実行を無効にしたい場合はブランクのままにしてください。</value>
+	</data>
+	<data name="Minutes.Text">
+		<value>分</value>
+	</data>
+	<data name="Days.Text">
+		<value>日</value>
+	</data>
+	<data name="Hours.Text">
+		<value>時間</value>
+	</data>
+	<data name="plRetryTimeLapse.Text">
+		<value>リトライ間隔</value>
+	</data>
+	<data name="plRetryTimeLapse.Help">
+		<value>例: [5] と [分] の選択によって、処理の失敗の後5分間隔でリトライが実行されます。このタスクのリトライを無効にしたい場合はブランクのままにしてください。</value>
+	</data>
+	<data name="plRetainHistoryNum.Text">
+		<value>スケジュール履歴の保存数:</value>
+	</data>
+	<data name="plRetainHistoryNum.Help">
+		<value>例: 最新の10件の履歴を保存したい場合は、 [10] を選択してください。</value>
+	</data>
+	<data name="plAttachToEvent.Text">
+		<value>イベント実行:</value>
+	</data>
+	<data name="plAttachToEvent.Help">
+		<value>例: Web アプリケーション実行と共にスケジュールを実行したい場合は、 [アプリケーション開始時] を選択してください。なお、アプリケーション終了のイベントはホストによっては正しくイベント発生しない場合があることをご注意ください。</value>
+	</data>
+	<data name="None.Text">
+		<value>なし</value>
+	</data>
+	<data name="APPLICATION_START.Text">
+		<value>アプリケーション開始時</value>
+	</data>
+	<data name="plCatchUpEnabled.Text">
+		<value>キャッチアップの有効化:</value>
+	</data>
+	<data name="plCatchUpEnabled.Help">
+		<value>チェックを付けると、Webサーバーが一時停止などにともなってサービスが一時中断した際、中断中に本来予定されていたスケジュールがキャッチアップ実行されます。</value>
+	</data>
+	<data name="plObjectDependencies.Text">
+		<value>依存オブジェクト:</value>
+	</data>
+	<data name="plObjectDependencies.Help">
+		<value>このスケジュール イベントに依存したテーブルまたはその他のオブジェクトを入力します。例: "SiteLog,Users,UsersOnline"</value>
+	</data>
+	<data name="UpdateSuccess.Text">
+		<value>保存されました。</value>
+	</data>
+	<data name="DeleteSuccess.Text">
+		<value>スケジュール アイテムが削除されました。</value>
+	</data>
+	<data name="ControlTitle_edit.Text">
+		<value>スケジュールの編集</value>
+	</data>
+	<data name="ModuleHelp.Text">
+		<value>&lt;h1&gt;スケジュールについて&lt;/h1&gt;&lt;p&gt;特定の間隔で実行したいタスク スケジュールを設定することができます。&lt;/p&gt;</value>
+	</data>
+	<data name="plType.Help">
+		<value>完全なクラス名と、それに続けてアセンブリ名を入力します。例: "DotNetNuke.Entities.Users.PurgeUsersOnline, DOTNETNUKE"</value>
+	</data>
+	<data name="plServers.Text">
+		<value>実行サーバー:</value>
+	</data>
+	<data name="plServers.Help">
+		<value>このタスクを実行するサーバーのリストを、カンマ区切りで入力してください。</value>
+	</data>
+	<data name="Seconds.Text">
+		<value>秒</value>
+	</data>
+</root>

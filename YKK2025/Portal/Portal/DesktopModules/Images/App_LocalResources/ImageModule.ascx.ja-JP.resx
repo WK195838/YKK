@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+            <xsd:complexType>
+                <xsd:choice maxOccurs="unbounded">
+                    <xsd:element name="data">
+                        <xsd:complexType>
+                            <xsd:sequence>
+                                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+                            </xsd:sequence>
+                            <xsd:attribute name="name" type="xsd:string" />
+                            <xsd:attribute name="type" type="xsd:string" />
+                            <xsd:attribute name="mimetype" type="xsd:string" />
+                        </xsd:complexType>
+                    </xsd:element>
+                    <xsd:element name="resheader">
+                        <xsd:complexType>
+                            <xsd:sequence>
+                                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                            </xsd:sequence>
+                            <xsd:attribute name="name" type="xsd:string" use="required" />
+                        </xsd:complexType>
+                    </xsd:element>
+                </xsd:choice>
+            </xsd:complexType>
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="ResMimeType">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="Version">
+        <value>1.0.0.0</value>
+    </resheader>
+    <resheader name="Reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="Writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <data name="AddContent.Action">
+        <value>イメージ オプションの編集</value>
+    </data>
+    <data name="ModuleHelp.Text">
+        <value>&lt;h1&gt;イメージ モジュールについて&lt;/h1&gt;
+
+&lt;p&gt;イメージ モジュールは、相対パスのURLまたは絶対パスのURLを元にイメージを表示する機能を提供します。イメージ ファイルは必ずしもホスト システムの中に格納されている必要はありません。また、高さと幅を設定することでイメージの表示領域の大きさを調節することができます。代替テキストは必ず入力する必要があります。&lt;/p&gt;
+
+&lt;h1&gt;イメージ オプションの編集&lt;/h1&gt;
+
+&lt;ol&gt;&lt;li&gt;&lt;b&gt;イメージ&lt;/b&gt;モジュールを追加、または既存の&lt;b&gt;イメージ&lt;/b&gt;モジュールを開きます。&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;イメージ オプションの編集&lt;/b&gt;をクリックします。
+&lt;li&gt;&lt;b&gt;イメージ&lt;/b&gt;では、表示する&lt;b&gt;イメージ&lt;/b&gt;を選択するかまたは&lt;b&gt;新たなファイルのアップロード&lt;/b&gt;をクリックします。
+&lt;li&gt;&lt;b&gt;代替テキスト&lt;/b&gt;には、イメージの上にマウスが乗った時に表示するテキストを入力します。
+&lt;li&gt;&lt;b&gt;更新&lt;/b&gt;をクリックします。&lt;/ol&gt;</value>
+    </data>
+</root>

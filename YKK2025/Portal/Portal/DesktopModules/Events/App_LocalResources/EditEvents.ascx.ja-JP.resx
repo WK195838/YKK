@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="plTitle.Text">
+    <value>タイトル</value>
+  </data>
+  <data name="plTitle.Help">
+    <value>イベントのタイトルを入力してください。</value>
+  </data>
+  <data name="valTitle.ErrorMessage">
+    <value>&lt;br&gt;タイトルが入力されていません。</value>
+  </data>
+  <data name="plDescription.Text">
+    <value>内容</value>
+  </data>
+  <data name="plDescription.Help">
+    <value>イベントの内容を入力してください。</value>
+  </data>
+  <data name="plImage.Text">
+    <value>イメージ</value>
+  </data>
+  <data name="plImage.Help">
+    <value>イベントのイメージを選択してください。</value>
+  </data>
+  <data name="valDescription.ErrorMessage">
+    <value>内容が入力されていません。</value>
+  </data>
+  <data name="plAlt.Text">
+    <value>代替テキスト</value>
+  </data>
+  <data name="plAlt.Help">
+    <value>ユーザーのブラウザでイメージ表示が無効になっている場合に表示する代替テキストを入力してください。</value>
+  </data>
+  <data name="valAltText.ErrorMessage">
+    <value>&lt;br&gt;代替テキストが入力されていません。</value>
+  </data>
+  <data name="plEvery.Text">
+    <value>繰り返し</value>
+  </data>
+  <data name="plEvery.Help">
+    <value>このイベントの繰り返し頻度を入力してください。繰り返さない場合はブランクのままとしてください。</value>
+  </data>
+  <data name="plStartDate.Text">
+    <value>開始日</value>
+  </data>
+  <data name="plStartDate.Help">
+    <value>イベントの開始日を入力してください。</value>
+  </data>
+  <data name="valStartDate.ErrorMessage">
+    <value>&lt;br&gt;開始日が入力されていません。</value>
+  </data>
+  <data name="valStartDate2.ErrorMessage">
+    <value>&lt;br&gt;開始日の値が正しくありません。</value>
+  </data>
+  <data name="plTime.Text">
+    <value>時間</value>
+  </data>
+  <data name="plTime.Help">
+    <value>イベントの時間を入力してください。</value>
+  </data>
+  <data name="plExpiryDate.Text">
+    <value>終了日</value>
+  </data>
+  <data name="plExpiryDate.Help">
+    <value>繰り返しイベントの終了日を入力してください。</value>
+  </data>
+  <data name="valExpiryDate.ErrorMessage">
+    <value>&lt;br&gt;有効期限日が正しくありません。</value>
+  </data>
+  <data name="ModuleHelp.Text">
+    <value>&lt;h1&gt;イベント モジュールについて&lt;/h1&gt;
+
+&lt;p&gt;イベント モジュールは、登録されているイベントの情報を時系列でリスト表示またはカレンダー形式する機能を提供します。個々のイベントにはタイトル、内容、イメージ (オプション) 、日時 (時間はオプション) の情報が含まれます。また個々のイベントには特定の日に自動的に期限を迎えるように設定できる他、指定の日数/週数/月数/年数ごとに繰り返し登録することができます。カレンダー セルは高さと幅を指定することができます。&lt;/p&gt;
+
+&lt;h1&gt;新しいイベントの追加&lt;/h1&gt;
+
+&lt;ol&gt;&lt;li&gt;&lt;b&gt;新しいイベントの追加&lt;/b&gt;をクリックします。
+&lt;li&gt;&lt;b&gt;タイトル&lt;/b&gt;には、イベントのタイトルを入力します。
+&lt;li&gt;&lt;b&gt;内容&lt;/b&gt;には、イベントの内容を入力します。
+&lt;li&gt;&lt;b&gt;イメージ&lt;/b&gt; (オプション) では、イメージを選択または新たなファイルをアップロードします。
+&lt;li&gt;&lt;b&gt;代替テキスト&lt;/b&gt; (イメージを使用する場合は必須) には、イメージにマウスを乗せた際に表示するテキストを入力します。
+&lt;li&gt;&lt;b&gt;繰り返し&lt;/b&gt; (オプション) では、イベントの繰り返し頻度を選択します。
+&lt;li&gt;&lt;b&gt;開始日&lt;/b&gt;では、&lt;b&gt;カレンダー&lt;/b&gt;をクリックしてイベントの開始日を選択します。
+&lt;li&gt;At &lt;b&gt;時間&lt;/b&gt; (オプション) には、"09:00 AM"の形式で時間を入力します。
+&lt;li&gt;At &lt;b&gt;終了日&lt;/b&gt; (オプション) では、&lt;b&gt;カレンダー&lt;/b&gt;をクリックして繰り返しイベントの終了日を選択します。
+&lt;li&gt;&lt;b&gt;更新&lt;/b&gt;をクリックします。
+&lt;/ol&gt;</value>
+  </data>
+  <data name="ControlTitle_edit.Text">
+    <value>イベントの編集</value>
+  </data>
+  <data name="valEvery.Text">
+    <value>&lt;br&gt;繰り返し頻度は正の整数を入力してください。</value>
+  </data>
+  <data name="valTime.ErrorMessage">
+    <value>&lt;br&gt;時間を正しく入力してください。</value>
+  </data>
+</root>

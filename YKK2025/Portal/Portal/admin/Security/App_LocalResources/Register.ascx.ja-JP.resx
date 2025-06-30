@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Name.Header">
+    <value>名前</value>
+  </data>
+  <data name="Description.Header">
+    <value>説明</value>
+  </data>
+  <data name="Fee.Header">
+    <value>サービス利用料</value>
+  </data>
+  <data name="Every.Header">
+    <value>毎</value>
+  </data>
+  <data name="Period.Header">
+    <value>期間</value>
+  </data>
+  <data name="Trial.Header">
+    <value>トライアル</value>
+  </data>
+  <data name="ExpiryDate.Header">
+    <value>終了日</value>
+  </data>
+  <data name="PleaseRegister.Text">
+    <value>&lt;br&gt;このメンバシップ サービスを利用するためにはまずこのサイトのメンバとして登録する必要があります。既にユーザー登録を行っている場合は、&lt;a class=""CommandButton"" href=""{0}?tabid={1}&amp;showlogin=1""&gt;ログイン&lt;/a&gt;してください。まだユーザー登録していない場合は、この機会に&lt;a class=""CommandButton"" href=""{0}?tabid={1}&amp;def=Register""&gt;登録&lt;/a&gt;を行ってください。</value>
+  </data>
+  <data name="MembershipNotOffered.Text">
+    <value>メンバシップ サービスは現在提供されていません。</value>
+  </data>
+  <data name="RegisterNote.Text">
+    <value>&lt;b&gt;*注:&lt;/b&gt; アスタリスク (*) の付いた項目は必ず入力する必要があります。</value>
+  </data>
+  <data name="PrivateMembership.Text">
+    <value>&lt;b&gt;*注:&lt;/b&gt; このポータル サイトのメンバシップは [プライベート] 設定になっています。ユーザー アカウントの情報が登録されるとポータル管理者に通知されます。ポータル管理者によって承認されるとユーザーには通知が電子メール送信され、ポータル環境へのアクセスが可能になります。</value>
+  </data>
+  <data name="PublicMembership.Text">
+    <value>&lt;b&gt;*注:&lt;/b&gt; このポータルサイトのメンバシップは [パブリック] 設定になっています。ユーザー アカウントの情報が登録されると、その時点ですぐにポータル環境へのアクセスが可能になります。</value>
+  </data>
+  <data name="VerifiedMembership.Text">
+    <value>&lt;b&gt;*注:&lt;/b&gt; このポータルサイトのメンバシップは [ベリファイ] 設定になっています。ユーザー アカウントの情報が登録されると、確認用コードが書かれた電子メールがユーザーに送信されます。ポータル環境に初めてログインする際に限り、電子メールに書かれた確認用コードを入力する必要があります。</value>
+  </data>
+  <data name="Required.Text">
+    <value> アスタリスク (*) の付いた項目は必ず入力する必要があります。</value>
+  </data>
+  <data name="cmdRegister.Text">
+    <value>登録</value>
+  </data>
+  <data name="Subscribe.Text">
+    <value>実行</value>
+  </data>
+  <data name="CancelConfirm.Text">
+    <value>javascript:return confirm('ユーザー アカウントの登録を削除してよろしいですか？');</value>
+  </data>
+  <data name="PasswordMatchFailure.Text">
+    <value>新しいパスワードとして入力された内容が一致しません。</value>
+  </data>
+  <data name="RegistrationFailure.Text">
+    <value>ユーザー名 &lt;u&gt;{0}&lt;/u&gt; は既に使われていますので登録できません。&lt;br&gt;別のユーザー名を指定してください。</value>
+  </data>
+  <data name="OldPassword.Text">
+    <value>現在のパスワードを入力してください。</value>
+  </data>
+  <data name="NewPassword.Text">
+    <value>新しいパスワードを入力してください。</value>
+  </data>
+  <data name="PasswordChanged.Text">
+    <value>パスワードが変更されました。</value>
+  </data>
+  <data name="plLocale.Text">
+    <value>言語:</value>
+  </data>
+  <data name="plLocale.Help">
+    <value>利用したい言語を選択してください。</value>
+  </data>
+  <data name="plTimeZone.Text">
+    <value>タイム ゾーン:</value>
+  </data>
+  <data name="plTimeZone.Help">
+    <value>タイム ゾーンを選択してください。</value>
+  </data>
+  <data name="plDateFormat.Text">
+    <value>日付表示方法:</value>
+  </data>
+  <data name="plDateFormat.Help">
+    <value>優先する日付表示方法を選択してください。</value>
+  </data>
+  <data name="cmdUnregister.Text">
+    <value>登録削除</value>
+  </data>
+  <data name="plOldPassword.Text">
+    <value>現在のパスワード:</value>
+  </data>
+  <data name="plOldPassword.Help">
+    <value>現在のパスワードを入力してください。</value>
+  </data>
+  <data name="plNewPassword.Text">
+    <value>新しいパスワード:</value>
+  </data>
+  <data name="plNewPassword.Help">
+    <value>新しいパスワードを入力してください。</value>
+  </data>
+  <data name="plNewConfirm.Text">
+    <value>新しいパスワード（再度）:</value>
+  </data>
+  <data name="plNewConfirm.Help">
+    <value>タイプ ミス防止のため、新しいパスワードを再度入力してください。</value>
+  </data>
+  <data name="ChangePassword.Text">
+    <value>パスワードの変更</value>
+  </data>
+  <data name="Services.Text">
+    <value>メンバーシップ サービス
+</value>
+  </data>
+  <data name="cmdUpdatePassword.Text">
+    <value>パスワード更新</value>
+  </data>
+  <data name="Preferences.Text">
+    <value>優先設定</value>
+  </data>
+  <data name="ControlTitle_register.Text">
+    <value>ユーザー登録</value>
+  </data>
+  <data name="ControlTitle_.Text">
+    <value>ユーザー アカウント</value>
+  </data>
+  <data name="PasswordUpdateFailed.Text">
+    <value>パスワードの更新に失敗しました。現在のパスワードが正しく入力されているか確認してください。</value>
+  </data>
+  <data name="VerifiedConfirmationMessage.Text">
+    <value>&lt;b&gt;ベリフィケーション コードを記載した電子メールが{0}宛に送信されました。&lt;br&gt;ベリフィケーション コードは初回ログイン時に必要になりますので、電子メールを受信してベリフィケーション コードを確認してください。&lt;/b&gt;</value>
+  </data>
+  <data name="PrivateConfirmationMessage.Text">
+    <value>&lt;b&gt;登録情報がポータル管理者に電子メール送信されました。ポータル管理者が登録を承認した時点で、電子メール アドレス{0}宛に電子メール通知が発信されます。&lt;/b&gt;</value>
+  </data>
+  <data name="Unsubscribe.Text">
+    <value>登録解除
+</value>
+  </data>
+</root>

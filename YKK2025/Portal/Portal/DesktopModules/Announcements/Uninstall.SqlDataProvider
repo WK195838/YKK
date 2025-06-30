@@ -1,0 +1,45 @@
+﻿/************************************************************/
+/*****              SqlDataProvider                     *****/
+/*****                                                  *****/
+/*****                                                  *****/
+/***** Note: To manually execute this script you must   *****/
+/*****       perform a search and replace operation     *****/
+/*****       for {databaseOwner} and {objectQualifier}  *****/
+/*****                                                  *****/
+/************************************************************/
+
+/** Drop Announcements Table **/
+
+ALTER TABLE {databaseOwner}[{objectQualifier}Announcements] DROPCONSTRAINT [FK_{objectQualifier}Announcements_{objectQualifier}Modules]
+GO
+
+ALTER TABLE {databaseOwner}[{objectQualifier}Announcements] DROP CONSTRAINT [PK_{objectQualifier}Announcements]
+GO
+
+DROP INDEX {databaseOwner}[{objectQualifier}Announcements].[IX_{objectQualifier}Announcements]
+GO
+
+DROP TABLE {databaseOwner}[{objectQualifier}Announcements]
+GO
+
+
+/** Drop Stored Procedures **/
+
+DROP PROCEDURE {databaseOwner}[{objectQualifier}GetAnnouncement]
+GO
+
+DROP PROCEDURE {databaseOwner}[{objectQualifier}GetAnnouncements]
+GO
+
+DROP PROCEDURE {databaseOwner}[{objectQualifier}UpdateAnnouncement]
+GO
+
+DROP PROCEDURE {databaseOwner}[{objectQualifier}DeleteAnnouncement]
+GO
+
+DROP PROCEDURE {databaseOwner}[{objectQualifier}AddAnnouncement]
+GO
+
+/************************************************************/
+/*****              SqlDataProvider                     *****/
+/************************************************************/

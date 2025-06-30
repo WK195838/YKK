@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" />
+							<xsd:attribute name="type" type="xsd:string" />
+							<xsd:attribute name="mimetype" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="ResMimeType">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="Version">
+		<value>1.0.0.0</value>
+	</resheader>
+	<resheader name="Reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="Writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="plXSL.Text">
+		<value>XSL Transformation File</value>
+	</data>
+	<data name="plXML.Text">
+		<value>XML Data File</value>
+	</data>
+	<data name="ModuleHelp.Text">
+		<value>&lt;h1&gt;About the XML/XSL Module&lt;/h1&gt;&lt;p&gt;The XML/XSL Module renders the result of an XML/XSL transform. The XML and XSL files are identified by their UNC paths in the xmlsrc and xslsrc properties of the module. The XML/XSL module includes an edit page, which persists these settings to the SQL database.&lt;/p&gt;&lt;h1&gt;Edit XML/XSL &lt;/h1&gt;&lt;ol&gt;&lt;li&gt;Add a &lt;b&gt;XML/XSL&lt;/b&gt; module, or go to an existing &lt;b&gt;XML/XSL&lt;/b&gt; module.&lt;/li&gt;&lt;li&gt;Click &lt;b&gt;Edit XML/XSL&lt;/b&gt;.&lt;li&gt;At &lt;b&gt;XML Data File&lt;/b&gt;, select &lt;b&gt;Internal&lt;/b&gt; and select a file or &lt;b&gt;Upload New File&lt;/b&gt;; or select &lt;b&gt;External&lt;/b&gt; and enter the Url.&lt;li&gt;At &lt;b&gt;XSL Transformation File&lt;/b&gt; (optional), select &lt;b&gt;Internal&lt;/b&gt; and select a style sheet or &lt;b&gt;Upload New File&lt;/b&gt;; or select &lt;b&gt;External&lt;/b&gt; and enter the Url.&lt;li&gt;Click &lt;b&gt;Update&lt;/b&gt;.&lt;/ol&gt;</value>
+	</data>
+	<data name="plXSL.Help">
+		<value>Select the XSL file used to XML transformation</value>
+	</data>
+	<data name="plXML.Help">
+		<value>Select the XML file to display</value>
+	</data>
+</root>

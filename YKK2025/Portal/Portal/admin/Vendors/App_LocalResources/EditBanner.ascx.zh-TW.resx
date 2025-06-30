@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="plBannerName.Text">
+    <value>廣告名稱</value>
+  </data>
+  <data name="plBannerName.Help">
+    <value>輸入廣告名稱。名稱將會顯示在圖片的替換文字中。</value>
+  </data>
+  <data name="BannerName.ErrorMessage">
+    <value>你必須輸入一個廣告名稱</value>
+  </data>
+  <data name="plBannerType.Text">
+    <value>廣告類型</value>
+  </data>
+  <data name="plBannerType.Help">
+    <value>選擇一個廣告顯示類型</value>
+  </data>
+  <data name="plBannerGroup.Text">
+    <value>廣告群組</value>
+  </data>
+  <data name="plBannerGroup.Help">
+    <value>如果您希望使一套廣告聯繫起來，請輸入一個廣告組</value>
+  </data>
+  <data name="plImage.Text">
+    <value>圖片</value>
+  </data>
+  <data name="plImage.Help">
+    <value>選擇廣告圖片。你也可以上傳一個新圖片。</value>
+  </data>
+  <data name="plDescription.Text">
+    <value>廣告文字</value>
+  </data>
+  <data name="plDescription.Help">
+    <value>輸入一個廣告描述。這將會顯示在廣告圖片的替換文字或者文字廣告中。</value>
+  </data>
+  <data name="plURL.Text">
+    <value>URL</value>
+  </data>
+  <data name="plURL.Help">
+    <value>輸入URL，當使用者點選時會連接至此URL。如果你不輸入URL，將會連接到廣告商的網站。</value>
+  </data>
+  <data name="plImpressions.Text">
+    <value>廣告曝光</value>
+  </data>
+  <data name="plImpressions.Help">
+    <value>廣告曝光是指網友看到廣告,伺服器則紀錄一次廣告曝光進入，輸入廣告曝光的顯示數量.不作限制請輸入(0)。</value>
+  </data>
+  <data name="Impressions.ErrorMessage">
+    <value>&lt;br&gt;您必須為廣告曝光輸入一個有效的數值</value>
+  </data>
+  <data name="plCPM.Text">
+    <value>CPM及費用</value>
+  </data>
+  <data name="plCPM.Help">
+    <value>CPM是每1000次廣告曝光的費用。費用是固定收多少費用。</value>
+  </data>
+  <data name="CPM.ErrorMessage">
+    <value>你必須輸入一個有效的CPM或費用</value>
+  </data>
+  <data name="plStartDate.Text">
+    <value>開始日期</value>
+  </data>
+  <data name="plStartDate.Help">
+    <value>使用開始日期控制，當廣告開始的時候。</value>
+  </data>
+  <data name="plEndDate.Text">
+    <value>結束日期</value>
+  </data>
+  <data name="plEndDate.Help">
+    <value>使用結束日期來控制廣告的結束時間。</value>
+  </data>
+  <data name="plCriteria.Text">
+    <value>判斷的標準</value>
+  </data>
+  <data name="plCriteria.Help">
+    <value>當判斷的標準生效 且/或 過了廣告終止日期的時候，此廣告活動是否應該結束。</value>
+  </data>
+  <data name="cmdEmail.Text">
+    <value>發送郵件</value>
+  </data>
+  <data name="ControlTitle_banner.Text">
+    <value>廣告</value>
+  </data>
+  <data name="ModuleHelp.Text">
+    <value>&lt;h1&gt;關於廣告模組&lt;/h1&gt;
+
+&lt;p&gt;廣告模組提供網站或主機廣告輪撥的功能.  &lt;/p&gt;
+
+&lt;h1&gt;設定廣告選項&lt;/h1&gt;
+
+&lt;ol&gt;&lt;li&gt;新增一個 &lt;b&gt;廣告&lt;/b&gt; 模組, 或者編輯現有 &lt;b&gt;廣告&lt;/b&gt; 模組.&lt;/li&gt;
+&lt;li&gt;按下 &lt;b&gt;設定廣告選項&lt;/b&gt;. 
+&lt;li&gt;在廣告來源&lt;/b&gt;, 選擇 &lt;b&gt;網站&lt;/b&gt; 或 &lt;b&gt;主機&lt;/b&gt;. 
+&lt;li&gt;在廣告型態&lt;/b&gt;, 選擇廣告類別.
+&lt;li&gt;在廣告數&lt;/b&gt;, 選擇顯示數目. 
+&lt;li&gt;按下 &lt;b&gt;更新&lt;/b&gt;.&lt;/ol&gt;</value>
+  </data>
+  <data name="lblBannerGroup.Text">
+    <value>為全域的橫幅廣告指定 '網站廣告' </value>
+  </data>
+</root>

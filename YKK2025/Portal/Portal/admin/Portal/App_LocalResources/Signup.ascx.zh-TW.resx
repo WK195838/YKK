@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ModuleHelp.Text">
+    <value>本系統可以創建兩種類型的網站:&lt;br&gt;&lt;br&gt;&lt;li&gt;&lt;b&gt;父網站&lt;/b&gt;擁有唯一的 URL ( ie. www.domain.com ) 。 這通常需要購買網域名稱,並且作相應的網域名稱解析例如：父網站名字可以是 &lt;b&gt;www.mydomain.com&lt;/b&gt;. 你也可以使用IP( ie. &lt;b&gt;65.174.86.217&lt;/b&gt; )作為父網站名稱. 如果你需要多網域名稱訪問那麼請把多個網域名稱用逗號隔開(例如： &lt;b&gt;www.domain1.com,www.domain2.com&lt;/b&gt; ). 在網域名稱解析生效前建議不要建立父網站。&lt;br&gt;&lt;br&gt;&lt;li&gt;&lt;b&gt;子網站&lt;/b&gt;是你的主機網站的虛擬目錄 ( 例如： www.domain.com/directory ). br&gt;&lt;br&gt;</value>
+  </data>
+  <data name="plType.Text">
+    <value>網站類型:</value>
+  </data>
+  <data name="plType.Help">
+    <value>這個系統可以創建兩種類型的網站。詳情請看幫助。</value>
+  </data>
+  <data name="DemoMessage.Text">
+    <value>演示網站註冊允許你創建屬於你個人的網站。</value>
+  </data>
+  <data name="AdminMissing.Text">
+    <value>Your admin.template File Is Missing And Must be Uploaded To The Site.&lt;br&gt;</value>
+  </data>
+  <data name="PortalMissing.Text">
+    <value>你的portal.template不存在。必須上傳到網站&lt;br&gt;</value>
+  </data>
+  <data name="plPortalName.Text">
+    <value>網站名稱:</value>
+  </data>
+  <data name="plPortalName.Help">
+    <value>為網站輸入名稱</value>
+  </data>
+  <data name="valPortalName.ErrorMessage">
+    <value>&lt;br&gt;網站名稱必須填寫。</value>
+  </data>
+  <data name="plTitle.Text">
+    <value>標題:</value>
+  </data>
+  <data name="plTitle.Help">
+    <value>給出你的網站標題.</value>
+  </data>
+  <data name="plDescription.Text">
+    <value>簡要描述:</value>
+  </data>
+  <data name="plDescription.Help">
+    <value>對你的網站進行簡要描述.</value>
+  </data>
+  <data name="plKeyWords.Text">
+    <value>關鍵字:</value>
+  </data>
+  <data name="plKeyWords.Help">
+    <value>輸入網站的關鍵字.</value>
+  </data>
+  <data name="plTemplate.Text">
+    <value>模板:</value>
+  </data>
+  <data name="plTemplate.Help">
+    <value>選擇一個新網站的模板</value>
+  </data>
+  <data name="plFirstName.Text">
+    <value>姓:</value>
+  </data>
+  <data name="plFirstName.Help">
+    <value>輸入你的姓氏.</value>
+  </data>
+  <data name="plLastName.Text">
+    <value>名:</value>
+  </data>
+  <data name="plLastName.Help">
+    <value>輸入你的名字.</value>
+  </data>
+  <data name="valFirstName.ErrorMessage">
+    <value>&lt;br&gt;姓必須填寫。</value>
+  </data>
+  <data name="valLastName.ErrorMessage">
+    <value>&lt;br&gt;名必須填寫。</value>
+  </data>
+  <data name="plUsername.Text">
+    <value>使用者名:</value>
+  </data>
+  <data name="plUsername.Help">
+    <value>輸入這個新建的網站的管理員的使用者名</value>
+  </data>
+  <data name="plPassword.Text">
+    <value>密碼:</value>
+  </data>
+  <data name="plPassword.Help">
+    <value>輸入密碼</value>
+  </data>
+  <data name="plConfirm.Text">
+    <value>密碼確認:</value>
+  </data>
+  <data name="plConfirm.Help">
+    <value>重複你的密碼</value>
+  </data>
+  <data name="valUsername.ErrorMessage">
+    <value>&lt;br&gt;使用者名必須填寫。</value>
+  </data>
+  <data name="valPassword.ErrorMessage">
+    <value>&lt;br&gt;密碼必須填寫。</value>
+  </data>
+  <data name="valConfirm.ErrorMessage">
+    <value>&lt;br&gt;密碼確認必須填寫。</value>
+  </data>
+  <data name="plEmail.Text">
+    <value>Email:</value>
+  </data>
+  <data name="plEmail.Help">
+    <value>輸入這個網站管理員的Email 方便這個網站的使用者聯繫。</value>
+  </data>
+  <data name="valEmail.ErrorMessage">
+    <value>&lt;br&gt;Email必須填寫.</value>
+  </data>
+  <data name="cmdUpdate.Text">
+    <value>創建網站</value>
+  </data>
+  <data name="Note.Text">
+    <value>&lt;b&gt;*注意:&lt;/b&gt; 網站建立之後，你需要用創建網站的使用者名登陸你的網站進行網站管理。</value>
+  </data>
+  <data name="InvalidTemplate.Text">
+    <value>{0} 不是有效的網站模板文件！</value>
+  </data>
+  <data name="InvalidName.Text">
+    <value>網站名稱不能包含空格和標點符號。</value>
+  </data>
+  <data name="InvalidPassword.Text">
+    <value>密碼不一致</value>
+  </data>
+  <data name="ChildExists.Text">
+    <value>你輸入的子網站名已經存在，請選擇另外的子網站名</value>
+  </data>
+  <data name="CreateError.Text">
+    <value>發生錯誤。請檢查您輸入的信息是否有誤。</value>
+  </data>
+  <data name="EMAIL_PORTAL_SIGNUP_SUBJECT.Text">
+    <value>[Host:HostTitle] 演示網站註冊</value>
+  </data>
+  <data name="EMAIL_PORTAL_SIGNUP_BODY.Text">
+    <value>親愛的 [User:FullName],
+
+您的網站已經創建。請妥善保存下面的信息。
+網址: [Portal:URL]
+使用者名: [User:UserName]
+密碼: [User:Password]
+校驗碼: [User:VerificationCode]
+
+
+衷心感謝您的大力支持...
+
+[Host:HostTitle]
+
+</value>
+  </data>
+  <data name="PortalSetup.Text">
+    <value>網站創建.</value>
+  </data>
+  <data name="SecuritySettings.Text">
+    <value>安全設置.</value>
+  </data>
+  <data name="plPortalAlias.Text">
+    <value>網站別名:</value>
+  </data>
+  <data name="plPortalAlias.Help">
+    <value>輸入網站別名</value>
+  </data>
+  <data name="plHomeDirectory.Text">
+    <value>首頁目錄:</value>
+  </data>
+  <data name="plHomeDirectory.Help">
+    <value>輸入這個網站的首頁目錄</value>
+  </data>
+  <data name="Customize.Text">
+    <value>個性化</value>
+  </data>
+  <data name="valTemplate.ErrorMessage">
+    <value>&lt;br&gt;請選擇一個模板文件。</value>
+  </data>
+  <data name="Parent.Text">
+    <value>父網站</value>
+  </data>
+  <data name="Child.Text">
+    <value>子網站</value>
+  </data>
+  <data name="AutoGenerate.Text">
+    <value>自動生成</value>
+  </data>
+  <data name="ControlTitle_signup.Text">
+    <value>創建註冊網站</value>
+  </data>
+	<data name="InvalidHomeDirectory.Text">
+		<value>首頁目錄不可以包含任何路徑指定</value>
+	</data>
+</root>

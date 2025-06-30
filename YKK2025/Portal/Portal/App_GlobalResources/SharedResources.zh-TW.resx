@@ -1,0 +1,696 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DeleteItem.Text">
+    <value>確定刪除？</value>
+  </data>
+  <data name="Calendar.Text">
+    <value>日曆</value>
+  </data>
+  <data name="Yes.Text">
+    <value>是</value>
+  </data>
+  <data name="No.Text">
+    <value>否</value>
+  </data>
+  <data name="Not_Specified.Text">
+    <value>沒有設定</value>
+  </data>
+  <data name="None_Specified.Text">
+    <value>沒有設定</value>
+  </data>
+  <data name="cmdCancel.Text">
+    <value>取消</value>
+  </data>
+  <data name="cmdDelete.Text">
+    <value>刪除</value>
+  </data>
+  <data name="cmdDisplay.Text">
+    <value>顯示</value>
+  </data>
+  <data name="cmdGo.Text">
+    <value>Go</value>
+  </data>
+  <data name="cmdUpdate.Text">
+    <value>更新</value>
+  </data>
+  <data name="cmdUpload.Text">
+    <value>上傳文件</value>
+  </data>
+  <data name="Select.Text">
+    <value>選擇</value>
+  </data>
+  <data name="Upload.Text">
+    <value>上傳</value>
+  </data>
+  <data name="Add.Text">
+    <value>增加</value>
+  </data>
+  <data name="All.Text">
+    <value>全部</value>
+  </data>
+  <data name="Unauthorized.Text">
+    <value>未授權的</value>
+  </data>
+  <data name="Today.Text">
+    <value>今天</value>
+  </data>
+  <data name="Close.Text">
+    <value>關閉</value>
+  </data>
+  <data name="cmdReturn.Text">
+    <value>返回</value>
+  </data>
+  <data name="cmdDownLoad.Text">
+    <value>下載</value>
+  </data>
+  <data name="Seconds.Text">
+    <value>秒</value>
+  </data>
+  <data name="Second.Text">
+    <value>秒</value>
+  </data>
+  <data name="Minutes.Text">
+    <value>分</value>
+  </data>
+  <data name="Minute.Text">
+    <value>分</value>
+  </data>
+  <data name="Hours.Text">
+    <value>小時</value>
+  </data>
+  <data name="Hour.Text">
+    <value>小時</value>
+  </data>
+  <data name="Days.Text">
+    <value>天</value>
+  </data>
+  <data name="Day.Text">
+    <value>天</value>
+  </data>
+  <data name="DeleteItems.Text">
+    <value>你要刪除這些項目？</value>
+  </data>
+  <data name="cmdEdit.Text">
+    <value>編輯</value>
+  </data>
+  <data name="Edit.Text">
+    <value>編輯</value>
+  </data>
+  <data name="Unknown.Text">
+    <value>未知</value>
+  </data>
+  <data name="Weeks.Text">
+    <value>週</value>
+  </data>
+  <data name="Week.Text">
+    <value>週</value>
+  </data>
+  <data name="Months.Text">
+    <value>月</value>
+  </data>
+  <data name="Month.Text">
+    <value>月</value>
+  </data>
+  <data name="Years.Text">
+    <value>年</value>
+  </data>
+  <data name="Year.Text">
+    <value>年</value>
+  </data>
+  <data name="New.Text">
+    <value>新</value>
+  </data>
+  <data name="EMAIL_USER_UNREGISTER_SUBJECT.Text">
+    <value>[Portal:PortalName] 未註冊使用者
+</value>
+  </data>
+  <data name="EMAIL_USER_UNREGISTER_BODY.Text">
+    <value>日期: [Date:Current]
+姓: [User:FirstName]
+名: [User:LastName]
+單位: [User:Unit]
+街道: [User:Street]
+程式: [User:City]
+區: [User:Region]
+國家: [User:Country]
+郵遞區號: [User:PostalCode]
+電話: [User:Telephone]
+Email: [User:Email]
+</value>
+  </data>
+  <data name="EMAIL_USER_REGISTRATION_PUBLIC_SUBJECT.Text">
+    <value>[Portal:PortalName] 新使用者註冊
+</value>
+  </data>
+  <data name="EMAIL_USER_REGISTRATION_PUBLIC_BODY.Text">
+    <value>親愛的 [User:FullName],
+
+我們歡迎您註冊成為 [Portal:PortalName] 網站的會員 . 請閱讀下面的訊息並且妥善保管內容，以供以後使用.
+
+網站: [Portal:URL]
+帳號: [User:UserName]
+密碼: [User:Password]
+驗證碼: [User:VerificationCode]
+
+請您有空的時候可以光臨網站瀏覽網站內容享受網站提供的功能特色
+
+謝謝您，我們感謝您的支持...
+
+[Portal:PortalName]
+
+</value>
+  </data>
+  <data name="DeleteModule.Confirm">
+    <value>confirm('確實要刪除這個模組 ?')</value>
+  </data>
+  <data name="EXCEPTION.Log">
+    <value>例外: {0}</value>
+  </data>
+  <data name="PURGE.Log">
+    <value>成功清空網站訪問記錄。</value>
+  </data>
+  <data name="SkinObjects.Text">
+    <value>[Skin Objects]</value>
+  </data>
+  <data name="SkinObjectsDescription.Text">
+    <value>外觀物件是用來給使用者提供自由定義的控件</value>
+  </data>
+  <data name="ReadError.Text">
+    <value>不能讀取所有的資料: {0}/{1}</value>
+  </data>
+  <data name="Help.Text">
+    <value>幫助</value>
+  </data>
+  <data name="PURGEUSERS.Log">
+    <value>成功清除在線使用者數據。</value>
+  </data>
+  <data name="ErrorOccurred.Text">
+    <value>有錯誤發生.</value>
+  </data>
+  <data name="ModuleUnavailable.Text">
+    <value>錯誤: {0} 目前無效.</value>
+  </data>
+  <data name="PURGEDSCHEDULE.Log">
+    <value>清除排程歷史紀錄</value>
+  </data>
+  <data name="TESTCOMPLETE.Log">
+    <value>測試完畢. 用了 {0} milliseconds.</value>
+  </data>
+  <data name="UserEmailExists.Text">
+    <value>已經存在一個使用者用了這個Email地址。請用使用者名登陸。</value>
+  </data>
+  <data name="InvalidAnswer.Text">
+    <value>答案無效。請輸入問題的有效答案。</value>
+  </data>
+  <data name="InvalidEmail.Text">
+    <value>Email地址無效。請輸入有效Email地址。</value>
+  </data>
+  <data name="InvalidPassword.Text">
+    <value>密碼無效。請輸入有效密碼。</value>
+  </data>
+  <data name="InvalidQuestion.Text">
+    <value>設定的問題無效。請輸入有效問題。</value>
+  </data>
+  <data name="InvalidUserName.Text">
+    <value>使用者名無效。請輸入有效使用者名稱。</value>
+  </data>
+  <data name="UserRejected.Text">
+    <value>這個使用者已經被拒絕，請聯繫管理員。</value>
+  </data>
+  <data name="UserNameExists.Text">
+    <value>這個使用者名已經存在。請用另外的使用者名稱註冊。</value>
+  </data>
+  <data name="RegError.Text">
+    <value>註冊中發生錯誤。請聯繫網站管理員。</value>
+  </data>
+  <data name="PaneNotFound.Error">
+    <value>外觀檔中最少要有ContentPane。</value>
+  </data>
+  <data name="ContractExpired.Error">
+    <value>主機租用協議 {0} 過期日期 {1}. 請聯繫 &lt;a href=""mailto:{2}""&gt;{2}&lt;/a&gt; 獲取詳細信息。</value>
+  </data>
+  <data name="TabAccess.Error">
+    <value>您沒有訪問這個欄目的權限。</value>
+  </data>
+  <data name="ModuleAccess.Error">
+    <value>您沒有訪問這個模組的權限。</value>
+  </data>
+  <data name="CriticalError.Error">
+    <value>發生重要錯誤。</value>
+  </data>
+  <data name="ModuleLoad.Error">
+    <value>載入模組過程中發生錯誤。</value>
+  </data>
+  <data name="ModuleAdd.Error">
+    <value>增加模組到 {0} 時 發生錯誤 </value>
+  </data>
+  <data name="ContainerLoad.Error">
+    <value>找不到載入容器: {0}</value>
+  </data>
+  <data name="BeginZip.Text">
+    <value>開始處理zip文件</value>
+  </data>
+  <data name="CreateDir.Text">
+    <value>建立目錄</value>
+  </data>
+  <data name="WriteFile.Text">
+    <value>正在寫文件</value>
+  </data>
+  <data name="FileError.Text">
+    <value>錯誤 處理文件</value>
+  </data>
+  <data name="EndZip.Text">
+    <value>結束處理 zip 文件</value>
+  </data>
+  <data name="FileRestricted.Text">
+    <value>{0} 是一個註冊受限制的文件類型。有效的文件類型包括 ( *.{1}). 請聯繫您的空間商，提供支持該類型的支持。</value>
+  </data>
+  <data name="Skins.Text">
+    <value>外觀</value>
+  </data>
+  <data name="Containers.Text">
+    <value>容器</value>
+  </data>
+  <data name="StartProcessor.Text">
+    <value>無效的處理 外觀/容器 文件</value>
+  </data>
+  <data name="PackageLoad.Text">
+    <value>載入壓縮檔 級別 屬性文件</value>
+  </data>
+  <data name="PackageLoad.Error">
+    <value>錯誤 壓縮檔 級別屬性文件: ({0})</value>
+  </data>
+  <data name="DuplicateSkinObject.Error">
+    <value>正在為標誌 {0} 聲明 複製皮膚對像</value>
+  </data>
+  <data name="DuplicateSkinObject.Detail">
+    <value>任何引用這個標誌的這個外觀將利用外觀控制註冊第一個 {0}而不是對複製的 ({1}).  否則將會顯示不正常！</value>
+  </data>
+  <data name="LoadingSkinToken.Text">
+    <value>正在為{0}標誌載入外觀物件 </value>
+  </data>
+  <data name="BeginSkinFile.Text">
+    <value>開始處理文件</value>
+  </data>
+  <data name="EndSkinFile.Text">
+    <value>結束處理文件</value>
+  </data>
+  <data name="EndSkinFiles.Text">
+    <value>結束處理 外觀/容器 文件</value>
+  </data>
+  <data name="FileFormat.Error">
+    <value>文件格式錯誤</value>
+  </data>
+  <data name="FileFormat.Detail">
+    <value>{0} 沒有包含內容窗格</value>
+  </data>
+  <data name="SkinFileLoad.Text">
+    <value>正在載入屬性文件</value>
+  </data>
+  <data name="SkinFileLoad.Error">
+    <value>錯誤  載入屬性文件</value>
+  </data>
+  <data name="FileWrite.Text">
+    <value>正在寫文件</value>
+  </data>
+  <data name="ControlDirective.Text">
+    <value>正在格式化 控制指令</value>
+  </data>
+  <data name="ControlRegister.Text">
+    <value>正在格式化註冊指令</value>
+  </data>
+  <data name="Substituting.Text">
+    <value>取代</value>
+  </data>
+  <data name="Substituting.Detail">
+    <value>{0}&lt;br&gt;用: {1}</value>
+  </data>
+  <data name="ProcessToken.Text">
+    <value>處理標誌</value>
+  </data>
+  <data name="SkinToken.Text">
+    <value>標誌是外觀物件</value>
+  </data>
+  <data name="PaneToken.Text">
+    <value>標誌是內容窗格</value>
+  </data>
+  <data name="TokenFound.Text">
+    <value>在屬性文件發現標誌</value>
+  </data>
+  <data name="TokenFormat.Text">
+    <value>格式化標誌屬性</value>
+  </data>
+  <data name="TokenNotFoundInFile.Text">
+    <value>標誌沒有在定義文件發現</value>
+  </data>
+  <data name="ControlFormat.Text">
+    <value>格式化 控制 敘述</value>
+  </data>
+  <data name="TokenNotFound.Text">
+    <value>標誌沒有發現</value>
+  </data>
+  <data name="cmdNext.Text">
+    <value>下一個</value>
+  </data>
+  <data name="cmdBack.Text">
+    <value>返回</value>
+  </data>
+  <data name="cmdFinish.Text">
+    <value>完成</value>
+  </data>
+  <data name="cmdBack.Help">
+    <value>點擊回到前面的頁面。</value>
+  </data>
+  <data name="cmdNext.Help">
+    <value>點擊到下一個頁面。</value>
+  </data>
+  <data name="Left.Text">
+    <value>左</value>
+  </data>
+  <data name="Right.Text">
+    <value>右</value>
+  </data>
+  <data name="Center.Text">
+    <value>居中</value>
+  </data>
+  <data name="Maximized.Text">
+    <value>最大化</value>
+  </data>
+  <data name="Minimized.Text">
+    <value>最小化</value>
+  </data>
+  <data name="None.Text">
+    <value>沒有</value>
+  </data>
+  <data name="Pages.Text">
+    <value>第{0}頁 總共 {1}頁</value>
+  </data>
+  <data name="cmdHelp.Text">
+    <value>幫助</value>
+  </data>
+  <data name="cmdHelp.Help">
+    <value>點擊顯示幫助。</value>
+  </data>
+  <data name="DNN_Reading.Text">
+    <value>正在讀 DNN 文件</value>
+  </data>
+  <data name="DNN_Success.Text">
+    <value>Dnn成功載入</value>
+  </data>
+  <data name="DNN_Valid.Text">
+    <value>DNN 文件是有效的 {0} 格式。</value>
+  </data>
+  <data name="DNN_ValidSkinObject.Text">
+    <value>DNN 文件是 2.0 外觀對相格式。</value>
+  </data>
+  <data name="EXCEPTION.Text">
+    <value>異常</value>
+  </data>
+  <data name="EXCEPTION_DesktopSrc.Text">
+    <value>模組控制項必須有Desktopsrc 值, 取消</value>
+  </data>
+  <data name="EXCEPTION_FileLoad.Text">
+    <value>文件載入失敗，放棄</value>
+  </data>
+  <data name="EXCEPTION_FileName.Text">
+    <value>文件必須有名稱，放棄</value>
+  </data>
+  <data name="EXCEPTION_FileRead.Text">
+    <value>不能讀所有資料： </value>
+  </data>
+  <data name="EXCEPTION_FolderDesc.Text">
+    <value>資料夾必須有描述，放棄</value>
+  </data>
+  <data name="EXCEPTION_FolderName.Text">
+    <value>資料夾必須有名稱，放棄</value>
+  </data>
+  <data name="EXCEPTION_FolderProvider.Text">
+    <value>資料夾必須有提供類型，放棄</value>
+  </data>
+  <data name="EXCEPTION_FolderVersion.Text">
+    <value>資料夾必須有版本值，放棄</value>
+  </data>
+  <data name="EXCEPTION_Format.Text">
+    <value>無效的Dnn 格式，放棄</value>
+  </data>
+  <data name="EXCEPTION_LoadFailed.Text">
+    <value>Dnn載入失敗，放棄</value>
+  </data>
+  <data name="EXCEPTION_MissingDnn.Text">
+    <value>沒有發現任何 .dnn 文件 ???</value>
+  </data>
+  <data name="EXCEPTION_MissingResource.Text">
+    <value>設定的資源文件沒有在zip文件中找到: </value>
+  </data>
+  <data name="EXCEPTION_MultipleDnn.Text">
+    <value>在zip文件中發現多個 dnn 文件 : </value>
+  </data>
+  <data name="EXCEPTION_Src.Text">
+    <value>模組控制項必須有 src 值, 放棄</value>
+  </data>
+  <data name="EXCEPTION_Type.Text">
+    <value>模組控制必須有一個類型值，放棄</value>
+  </data>
+  <data name="FILE_Created.Text">
+    <value>建立</value>
+  </data>
+  <data name="FILE_Found.Text">
+    <value>發現有效路經 ({0}) 為 {1}.</value>
+  </data>
+  <data name="FILE_Loading.Text">
+    <value>載入</value>
+  </data>
+  <data name="FILE_NotFound.Text">
+    <value>Dnn中設定的文件在zip文件中沒有發現: </value>
+  </data>
+  <data name="FILE_ReadSuccess.Text">
+    <value>文件 {0}成功讀取</value>
+  </data>
+  <data name="FILES_Created.Text">
+    <value>文件已經建立</value>
+  </data>
+  <data name="FILES_CreatedResources.Text">
+    <value>資源文件已經建立</value>
+  </data>
+  <data name="FILES_Creating.Text">
+    <value>正在建立文件</value>
+  </data>
+  <data name="FILES_Expanding.Text">
+    <value>展開資源文件</value>
+  </data>
+  <data name="FILES_Loading.Text">
+    <value>載入文件信息</value>
+  </data>
+  <data name="FILES_Reading.Text">
+    <value>正在讀取文件</value>
+  </data>
+  <data name="FILES_ReadingEnd.Text">
+    <value>讀取文件完成</value>
+  </data>
+  <data name="INSTALL_Start.Text">
+    <value>開始安裝</value>
+  </data>
+  <data name="INSTALL_Success.Text">
+    <value>成功安裝.</value>
+  </data>
+  <data name="MODULES_ControlInfo.Text">
+    <value>為 '{0}' 模組載入控制信息</value>
+  </data>
+  <data name="MODULES_Loading.Text">
+    <value>正在載入模組信息</value>
+  </data>
+  <data name="REGISTER_Controls.Text">
+    <value>正在註冊 模組控制</value>
+  </data>
+  <data name="REGISTER_Definition.Text">
+    <value>正在註冊 模組定義</value>
+  </data>
+  <data name="REGISTER_End.Text">
+    <value>註冊完成</value>
+  </data>
+  <data name="REGISTER_Module.Text">
+    <value>正在註冊 模組</value>
+  </data>
+  <data name="SQL_Begin.Text">
+    <value>開始 Sql 操作</value>
+  </data>
+  <data name="SQL_BeginFile.Text">
+    <value>開始 Sql 操作 {0} 文件</value>
+  </data>
+  <data name="SQL_End.Text">
+    <value>結束 Sql 操作</value>
+  </data>
+  <data name="SQL_EndFile.Text">
+    <value>結束 Sql 操作: {0} 文件</value>
+  </data>
+  <data name="SQL_Exceptions.Text">
+    <value>SQL 操作 異常: {0}{1}</value>
+  </data>
+  <data name="SQL_Executing.Text">
+    <value>執行</value>
+  </data>
+  <data name="SQL_UnknownFile.Text">
+    <value>未知的文件編碼 {0}, 放棄</value>
+  </data>
+  <data name="XML_Loaded">
+    <value>xml 載入.</value>
+  </data>
+  <data name="Folders.Text">
+    <value>目錄:</value>
+  </data>
+  <data name="Files.Text">
+    <value>文件:</value>
+  </data>
+  <data name="Page.Text">
+    <value>頁面:</value>
+  </data>
+  <data name="URL.Text">
+    <value>URL:</value>
+  </data>
+  <data name="Home.Text">
+    <value>首頁</value>
+  </data>
+  <data name="Maximize.Text">
+    <value>最大化</value>
+  </data>
+  <data name="Minimize.Text">
+    <value>最小化</value>
+  </data>
+  <data name="EXCEPTION_DirectoryExists.Text">
+    <value>目錄已經存在</value>
+  </data>
+  <data name="EXCEPTION.DuplicateLocale.Text">
+    <value>這個語言已經定義了</value>
+  </data>
+  <data name="EXCEPTION.SaveLocale.Text">
+    <value>檔案操作發生錯誤. 請檢查資源檔案，確定檔案允許編輯.</value>
+  </data>
+  <data name="LOG.LangPack.LoadFiles">
+    <value>載入 {0} 資源檔.</value>
+  </data>
+  <data name="LOG.LangPack.Global">
+    <value>全域</value>
+  </data>
+  <data name="LOG.LangPack.Control">
+    <value>控制</value>
+  </data>
+  <data name="LOG.LangPack.Module">
+    <value>模組</value>
+  </data>
+  <data name="LOG.LangPack.Admin">
+    <value>系統管理</value>
+  </data>
+  <data name="LOG.LangPack.ArchiveFiles">
+    <value>建立資源壓縮檔.</value>
+  </data>
+  <data name="LOG.LangPack.LoadFromFolder">
+    <value>從資料夾: {0}載入資源檔</value>
+  </data>
+  <data name="LOG.LangPack.LoadFileName">
+    <value>載入資源檔: {0}</value>
+  </data>
+  <data name="LOG.LangPack.SerializeManifest">
+    <value>成功建立清單檔案</value>
+  </data>
+  <data name="LOG.LangPack.SavedFile">
+    <value>資源檔 {0} 儲存為資源包.</value>
+  </data>
+  <data name="LOG.LangPack.CreateArchive">
+    <value>新增檔案到資源包中: {0}</value>
+  </data>
+  <data name="LOG.LangPack.ERROR.SavingFile">
+    <value>儲存檔案到資源檔時發生錯誤: {0}</value>
+  </data>
+  <data name="LOG.LangPack.ERROR.CreatingFile">
+    <value>在建立資源包時發生錯誤: {0}</value>
+  </data>
+  <data name="LOG.LangPack.ERROR.ManifestFile">
+    <value>在建立清單檔案時發生錯誤: {0}</value>
+  </data>
+  <data name="EXCEPTION.LangPack.ManifestZip">
+    <value>從Zip檔載入語言包清單發生錯誤. 錯誤: {0}</value>
+  </data>
+  <data name="EXCEPTION.LangPack.ManifestLoad">
+    <value>載入語言包清單發生錯誤. 錯誤: {0}</value>
+  </data>
+  <data name="EXCEPTION.LangPack.FileMissing">
+    <value>檔案 {0} 在語言檔案清單中找不到.</value>
+  </data>
+  <data name="EXCEPTION.LangPack.Install">
+    <value>載入語言包資源檔案發生錯誤. 錯誤: {0}</value>
+  </data>
+  <data name="LOG.LangPack.Job.LoadManifest">
+    <value>載入清單檔案.</value>
+  </data>
+  <data name="LOG.LangPack.Job.DeserializeManifest">
+    <value>反序列清單檔案.</value>
+  </data>
+  <data name="LOG.LangPack.Job.LoadFiles">
+    <value>解壓縮語言檔</value>
+  </data>
+  <data name="LOG.LangPack.Job.SaveFiles">
+    <value>匯入語言檔案</value>
+  </data>
+  <data name="LOG.LangPack.Job.CreateLocale">
+    <value>建立/更新 語言</value>
+  </data>
+  <data name="LOG.LangPack.UnzipFiles">
+    <value>匯入檔案: {0}</value>
+  </data>
+  <data name="LOG.LangPack.CreateLocale">
+    <value>建立語言: {0}</value>
+  </data>
+  <data name="Wizard.Success.SuccessTitle">
+    <value>恭喜:</value>
+  </data>
+  <data name="Wizard.Success.SuccessDetail">
+    <value>&lt;p&gt;恭喜，精靈成功執行&lt;/p&gt;</value>
+  </data>
+  <data name="Wizard.Success.FailureTitle">
+    <value>精靈功能失敗:</value>
+  </data>
+  <data name="Wizard.Success.FailureDetail">
+    <value>&lt;p&gt;對不起，精靈的執行過程發生錯誤，請察看下面的訊息&lt;/p&gt;
+</value>
+  </data>
+</root>
+<!--漢化 師域 http://www.t910.net       http://www.dnnchina.net-->

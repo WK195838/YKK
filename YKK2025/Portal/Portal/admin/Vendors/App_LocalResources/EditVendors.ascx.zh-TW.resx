@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="plVendorName.Text">
+    <value>公司</value>
+  </data>
+  <data name="plVendorName.Help">
+    <value>輸入廣告商的公司名稱</value>
+  </data>
+  <data name="plFirstName.Text">
+    <value>姓氏</value>
+  </data>
+  <data name="plFirstName.Help">
+    <value>輸入廣告商的姓</value>
+  </data>
+  <data name="plLastName.Text">
+    <value>名字</value>
+  </data>
+  <data name="plLastName.Help">
+    <value>輸入廣告商的名字</value>
+  </data>
+  <data name="plEmail.Text">
+    <value>郵件地址</value>
+  </data>
+  <data name="plEmail.Help">
+    <value>輸入廣告商的郵件地址</value>
+  </data>
+  <data name="plFax.Text">
+    <value>傳真</value>
+  </data>
+  <data name="plFax.Help">
+    <value>輸入廣告商的傳真號碼</value>
+  </data>
+  <data name="plWebsite.Text">
+    <value>網站</value>
+  </data>
+  <data name="plWebsite.Help">
+    <value>輸入廣告商的網站(如:www.vendor.com)</value>
+  </data>
+  <data name="plLogo.Text">
+    <value>Logo</value>
+  </data>
+  <data name="plLogo.Help">
+    <value>選擇廣告商的Logo</value>
+  </data>
+  <data name="plAuthorized.Text">
+    <value>已審核</value>
+  </data>
+  <data name="plAuthorized.Help">
+    <value>是經過審核的廣告商？</value>
+  </data>
+  <data name="plClassifications.Text">
+    <value>分類</value>
+  </data>
+  <data name="plClassifications.Help">
+    <value>輸入廣告商分類</value>
+  </data>
+  <data name="plKeyWords.Text">
+    <value>關鍵字</value>
+  </data>
+  <data name="plKeyWords.Help">
+    <value>輸入廣告商的關鍵字</value>
+  </data>
+  <data name="Settings.Text">
+    <value>廣告商詳細資料</value>
+  </data>
+  <data name="Address.Text">
+    <value>住址詳細資料</value>
+  </data>
+  <data name="Other.Text">
+    <value>其他資料</value>
+  </data>
+  <data name="VendorClassification.Text">
+    <value>廣告商分類</value>
+  </data>
+  <data name="Views.Text">
+    <value>瀏覽</value>
+  </data>
+  <data name="Clicks.Text">
+    <value>Click Throughs</value>
+  </data>
+  <data name="BannerAdvertising.Text">
+    <value>網頁橫幅廣告</value>
+  </data>
+  <data name="AffiliateReferrals.Text">
+    <value>推薦</value>
+  </data>
+  <data name="ControlTitle_edit.Text">
+    <value>編輯廣告商</value>
+  </data>
+  <data name="ControlTitle_view vendor.Text">
+    <value>察看廣告商</value>
+  </data>
+</root>

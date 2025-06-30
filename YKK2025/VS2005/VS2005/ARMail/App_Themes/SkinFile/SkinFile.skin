@@ -1,0 +1,42 @@
+﻿<%--
+預設面板範本。下列面板僅提供做為範例的用途。
+
+1. 具名控制面板。SkinId 應為唯一定義，因為在相同主題中，一個控制項型別不能具有重複的 SkinId。
+
+<asp:GridView runat="server" SkinId="gridviewSkin" BackColor="White" >
+   <AlternatingRowStyle BackColor="Blue" />
+</asp:GridView>
+
+2. 預設面板。SkinId 未定義。在相同主題中，每個控制項型別只能有一個預設控制面板。
+
+<asp:Image runat="server" ImageUrl="~/images/image1.jpg" />
+--%>
+
+<%--GO的按鈕--%>
+<asp:button  SkinId="Btn_Go" runat="server"	Height="24px" Width="40px" ForeColor="Red" BackColor="White" Text="Go" />
+
+<%--黃色方塊--%>
+<asp:textbox SkinId="Txt_Yellow" runat="server"	 BorderStyle="Groove" ForeColor="Red" BackColor="Yellow"/>
+
+<%--灰色方塊--%>
+<asp:textbox SkinId="Txt_Lightgray" runat="server"	 BorderStyle="Groove" ForeColor="Red" BackColor="Lightgray"/>
+	
+<%--綠色方塊--%>
+<asp:textbox SkinId="Txt_Green" runat="server"	 BorderStyle="Groove" ForeColor="Red" BackColor="GreenYellow"/>
+
+				
+<%--黃色下拉--%>
+<asp:dropdownlist SkinId="Ddl_Yellow" runat="server" ForeColor="Red" BackColor="Yellow" />
+
+<%--綠色下拉--%>
+<asp:dropdownlist SkinId="Ddl_Green" runat="server" ForeColor="Red" BackColor="GreenYellow" />
+
+<%--表格--%>
+<asp:Gridview SkinId="GV"  runat="server" BackColor="White" BorderStyle="None" CellPadding="4" BorderWidth="1px" BorderColor="#CC9966" Font-Size="9pt">
+	<FooterStyle ForeColor="#330099" BackColor="#FFFFCC"></FooterStyle>
+	<SelectedRowStyle Font-Bold="True" ForeColor="#663399" BackColor="#FFCC66"/>
+	<RowStyle ForeColor="#330099" BackColor="White"/>
+	<HeaderStyle HorizontalAlign="Center" ForeColor="#FFFFCC" VerticalAlign="Middle" BackColor="#CC6600"></HeaderStyle>
+	<PagerStyle   HorizontalAlign="Center" ForeColor="#993300" BackColor="#FFFFCC" ></PagerStyle>
+    <PagerSettings NextPageText="下一頁" PreviousPageText="上一頁" Mode="Numeric" />
+</asp:Gridview>

@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BasicSettings.Text">
+    <value>基本設置</value>
+  </data>
+  <data name="BasicSettingsDescription.Text">
+    <value>在這部分，您能夠為您的信件設置基本選項。</value>
+  </data>
+  <data name="plRoles.Text">
+    <value>使用者角色</value>
+  </data>
+  <data name="plRoles.Help">
+    <value>您可以選擇收到這封信的使用者角色。例如：所有的管理員，或者所有的註冊使用者。</value>
+  </data>
+  <data name="plEmail.Text">
+    <value>郵件列表</value>
+  </data>
+  <data name="plEmail.Help">
+    <value>您可以加入多個郵件地址,請使用";"隔開。</value>
+  </data>
+  <data name="plSubject.Text">
+    <value>標題</value>
+  </data>
+  <data name="plSubject.Help">
+    <value>輸入信件的標題。</value>
+  </data>
+  <data name="Message.Text">
+    <value>信件內容</value>
+  </data>
+  <data name="MessageDescription.Text">
+    <value>您可以使用下面的編輯器寫信。</value>
+  </data>
+  <data name="AdvancedSettings.Text">
+    <value>進階設置</value>
+  </data>
+  <data name="AdvancedSettingsHelp.Text">
+    <value>在這部分，您能夠為您的信件設置進階選項。</value>
+  </data>
+  <data name="plAttachment.Text">
+    <value>附件</value>
+  </data>
+  <data name="plAttachment.Help">
+    <value>選擇附件</value>
+  </data>
+  <data name="plPriority.Text">
+    <value>優先權</value>
+  </data>
+  <data name="plPriority.Help">
+    <value>選擇信件的優先權</value>
+  </data>
+  <data name="plSendMethod.Text">
+    <value>發送方式</value>
+  </data>
+  <data name="plSendMethod.Help">
+    <value>選擇信件的發送方式。</value>
+  </data>
+  <data name="plSendAction.Text">
+    <value>發送動作</value>
+  </data>
+  <data name="plSendAction.Help">
+    <value>選擇何時發送這封信件。</value>
+  </data>
+  <data name="ControlTitle_.Text">
+    <value>郵件群組</value>
+  </data>
+  <data name="Normal.Text">
+    <value>正常</value>
+  </data>
+  <data name="High.Text">
+    <value>高</value>
+  </data>
+  <data name="Low.Text">
+    <value>低</value>
+  </data>
+  <data name="SendTo.Text">
+    <value>收件者: 每個Email位置一個訊息( 個人化 )</value>
+  </data>
+  <data name="SendBCC.Text">
+    <value>密件副本: 隱藏收件者( 非個人化)</value>
+  </data>
+  <data name="Synchronous.Text">
+    <value>同步寄送</value>
+  </data>
+  <data name="Asynchronous.Text">
+    <value>非同步寄送</value>
+  </data>
+  <data name="cmdSend.Text">
+    <value>寄送郵件</value>
+  </data>
+</root>

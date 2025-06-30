@@ -1,0 +1,190 @@
+/* ================================
+    CSS STYLES FOR Mountain Skin
+   ================================
+*/   
+
+
+.Head
+{
+	font-family: Tahoma, Arial, Helvetica;
+    font-size:  20px;
+    font-weight:    normal;
+    color: #10429c;
+}
+.RightPane  
+{
+	 padding-left:10;
+	 padding-top:10; 
+	 padding-right:10; 
+	 background-color:White;
+
+}
+.LeftPane  
+{
+	 padding-left:10;
+	 padding-top:10; 
+	 padding-right:10; 
+	 background-color:White;
+
+}
+.Breadcrumb
+{
+	font-weight: bold;
+    font-size:10;
+    font-family: Tahoma, Arial, Helvetica;
+    text-decoration: none;
+	background-color:transparent;
+	color: #10429c;
+	padding-right:10;
+}
+.ContentPane  
+{ 
+	 padding-left:10;
+	 padding-top:10;
+}
+.LogoPane  
+{
+	 padding-left:30;
+	 padding-right:30;
+}
+
+
+/* Main Menu */
+
+.MainMenu_MenuContainer {
+	width:100%;
+	border-bottom: #dae3f3 0px solid; 
+	border-left: #dae3f3 0px solid; 
+	border-top: #dae3f3 0px solid; 
+	border-right: #dae3f3 0px solid;  
+	background-color: Transparent; 
+	height: 25px;
+}
+
+.MainMenu_MenuBar {
+	cursor: pointer; 
+	cursor: hand; 
+}
+
+.MainMenu_MenuItem {
+	cursor: pointer; 
+	cursor: hand; 
+	color: WHITE; 
+	font-family: Verdana,Tahoma, Arial, Helvetica; 
+	font-size: 8pt; 
+	font-style: normal; 
+	border-left: #dae3f3 0px solid; 
+	border-bottom: #dae3f3 0px solid; 
+	border-top: #dae3f3 0px solid; 
+	border-right: #dae3f3 0px solid;
+	background-color:Transparent;
+	height:25px;
+}
+
+.MainMenu_MenuIcon {
+	cursor: pointer; 
+	cursor: hand; 
+	background-color: #dae3f3; 
+	border-left: #dae3f3 0px solid; 
+	border-bottom: #dae3f3 0px solid; 
+	border-top: #dae3f3 0px solid; 
+        padding-left: 0px;
+        padding-right: 0px;
+	text-align: center; 
+	width: 0; 
+}
+
+.MainMenu_SubMenu {
+	z-index: 1000; 
+	cursor: pointer; 
+	cursor: hand; 
+	background-color: #3164D7; 
+	border-bottom: WHITE 0px solid; 
+	border-left: WHITE 0px solid; 
+	border-top: WHITE 0px solid; 
+	border-right: WHITE 0px solid;
+	font-family: Verdana,Tahoma, Arial, Helvetica; 
+	font-size: 8pt; 
+	font-style: normal; 
+	color: #10429c;
+}
+
+.MainMenu_MenuBreak {
+	border-bottom: #dae3f3 1px solid; 
+	border-left: #dae3f3 1px solid; 
+	border-top: #dae3f3 1px solid;  
+	border-right: dae3f3 1px solid; 
+	background-color: White; 
+}
+
+.MainMenu_MenuItemSel {
+	border-bottom: #dae3f3 0px solid; 
+	border-left: #dae3f3 0px solid; 
+	border-top: #dae3f3 0px solid;  
+	border-right: dae3f3 0px solid; 
+	background-color: #63759C; 
+	cursor: pointer; 
+	cursor: hand; 
+	color: #10429c; 
+	font-family: Verdana,Tahoma, Arial, Helvetica; 
+	font-size: 8pt; 
+	font-style: normal; 
+	height:25px;
+}
+
+.MainMenu_MenuArrow {
+	font-family: webdings; 
+	font-size: 8pt; 
+	cursor: pointer; 
+	cursor: hand; 
+	border-bottom: #404040 0px solid; 
+	border-left: #FF8080 0px solid; 
+	border-top: #FF8080 0px solid;  
+	border-right: black 0px solid; 
+}
+
+.MainMenu_RootMenuArrow {
+	font-family: webdings; 
+	font-size: 8pt; 
+	cursor: pointer; 
+	cursor: hand;
+	border-bottom: #404040 0px solid; 
+	border-left: #FF8080 0px solid; 
+	border-top: #FF8080 0px solid;  
+	border-right: black 0px solid; 
+}
+
+.MenuPane
+{
+	background-image:url(MountainSide.jpg);
+	background-repeat: no-repeat;
+    background-position:left bottom;
+	background-color: #3164D7;
+}
+
+.Logo
+{
+	padding-left:30;
+	padding-top:5;
+	padding-bottom:5;
+}
+
+.HorizLogo
+{
+	background-image:url(MountainTop.jpg);
+	padding-left:30;
+	padding-top:5;
+	padding-bottom:5;
+	background-repeat:repeat-x;    
+	background-position:bottom;
+	background-color:#4474E3;
+	vertical-align:middle;
+}
+
+.Title
+{
+	font-family: Tahoma, Arial, Helvetica;
+    font-size:  20px;
+    font-weight:    normal;
+    color: WHITE;
+}

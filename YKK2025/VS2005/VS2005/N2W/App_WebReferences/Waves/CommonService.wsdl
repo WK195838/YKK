@@ -1,0 +1,3226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="StockOutNew2Wings">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pNo" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="StockOutNew2WingsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="StockOutNew2WingsResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="StockInNew2Wings">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pStockNo" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="StockInNew2WingsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="StockInNew2WingsResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="NewColor2Wings">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pNo" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="NewColor2WingsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="NewColor2WingsResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="OldColor2Wings">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pNo" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="OldColor2WingsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="OldColor2WingsResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="NewColorType2Wings">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pNo" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="NewColorType2WingsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="NewColorType2WingsResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPartType">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pCode" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPartTypeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetPartTypeResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetSpecialChain">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pCode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pChain" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetSpecialChainResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetSpecialChainResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CheckKeepCode">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pCode" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CheckKeepCodeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="CheckKeepCodeResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CheckColorCode">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pCode" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CheckColorCodeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="CheckColorCodeResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CheckItemCode">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pCode" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CheckItemCodeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="CheckItemCodeResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CheckDuplicateData">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pType" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pCode" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CheckDuplicateDataResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="CheckDuplicateDataResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="EDI2Waves">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pBuyer" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pGRBuyer" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="EDI2WavesResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="EDI2WavesResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetCustomerList">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pCode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pDS">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetCustomerListResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetCustomerListResult" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="pDS">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetStandardPrice">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pType" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pVersion" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pCurrency" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pCode" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="pPriceA" type="s:float" />
+            <s:element minOccurs="1" maxOccurs="1" name="pPriceB" type="s:float" />
+            <s:element minOccurs="1" maxOccurs="1" name="pPriceC" type="s:float" />
+            <s:element minOccurs="1" maxOccurs="1" name="pPriceD" type="s:float" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetStandardPriceResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetStandardPriceResult" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="pPriceA" type="s:float" />
+            <s:element minOccurs="1" maxOccurs="1" name="pPriceB" type="s:float" />
+            <s:element minOccurs="1" maxOccurs="1" name="pPriceC" type="s:float" />
+            <s:element minOccurs="1" maxOccurs="1" name="pPriceD" type="s:float" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetStandardPrice1">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pType" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pVersion" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pCurrency" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pCode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pLastTime" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetStandardPrice1Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetStandardPrice1Result" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="pLastTime" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetItemName">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pItemCode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pItemName" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetItemNameResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetItemNameResult" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="pItemName" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetItemName001">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pItemCode" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="pIndex" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="pItemName" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetItemName001Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetItemName001Result" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="pItemName" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetItemName001a">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pItemCode" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="pIndex" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="pItemName" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetItemName001aResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetItemName001aResult" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="pItemName" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetItemStatistics">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pItemCode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pItemStatistics" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetItemStatisticsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetItemStatisticsResult" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="pItemStatistics" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetItemSize">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pItemCode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pItemSize" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetItemSizeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetItemSizeResult" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="pItemSize" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetItemChain">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pItemCode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pItemChain" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetItemChainResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetItemChainResult" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="pItemChain" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetItemClass">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pItemCode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pItemClass" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetItemClassResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetItemClassResult" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="pItemClass" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetItemClassa">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pItemCode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pItemClass" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetItemClassaResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetItemClassaResult" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="pItemClass" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetItemTape">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pItemCode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pItemTape" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetItemTapeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetItemTapeResult" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="pItemTape" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetItemSpecialFeature">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pItemCode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pItemSpecialFeature" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetItemSpecialFeatureResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetItemSpecialFeatureResult" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="pItemSpecialFeature" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetItemProdType">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pItemCode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pSales" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pPurchase" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pProduction" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetItemProdTypeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetItemProdTypeResult" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="pSales" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pPurchase" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pProduction" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetItemSliderFinish">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pItemCode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pFinish" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetItemSliderFinishResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetItemSliderFinishResult" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="pFinish" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPriceDiscount">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pVersion" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pCustomer" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pItemStat" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pItemSize" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pItemChain" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="pDiscount" type="s:float" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPriceDiscountResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetPriceDiscountResult" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="pDiscount" type="s:float" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPriceDiscount1">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pVersion" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pCustomer" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pItemStat" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pItemSize" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pItemChain" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pLastTime" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPriceDiscount1Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetPriceDiscount1Result" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="pLastTime" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetItemQtyUnit">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pItemCode" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetItemQtyUnitResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetItemQtyUnitResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetCustomerBuyerPrice">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pCustomer" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pBuyer" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pVersion" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pCurrency" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pTradeTerms" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pCode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pColor" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pLastTime" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetCustomerBuyerPriceResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetCustomerBuyerPriceResult" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="pLastTime" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetCustomerPrice">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pCustomer" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pVersion" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pCurrency" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pTradeTerms" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pCode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pColor" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pLastTime" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetCustomerPriceResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetCustomerPriceResult" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="pLastTime" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetBuyerPrice">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pBuyer" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pVersion" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pCurrency" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pTradeTerms" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pCode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pColor" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pLastTime" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetBuyerPriceResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetBuyerPriceResult" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="pLastTime" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetOrderPrice">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pCustomer" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pBuyer" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pPO" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="pSeqno" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="pOrderNo" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pItem" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pColor" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pSalesPrice" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetOrderPriceResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetOrderPriceResult" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="pOrderNo" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pItem" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pColor" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pSalesPrice" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetOrderPriceDetail">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pOrderNo" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="pSubNo" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="pPriceVersion" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pOrderQty" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pListPrice" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pSalesPrice" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pSalesAmount" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetOrderPriceDetailResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetOrderPriceDetailResult" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="pPriceVersion" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pOrderQty" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pListPrice" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pSalesPrice" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pSalesAmount" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetOrderProgress">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pOrderNo" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="pSubNo" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="pStatus" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pPackQty" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pDeliveryQty" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pPlanDate" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pInvoiceQty" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pCompeltedDate" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetOrderProgressResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetOrderProgressResult" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="pStatus" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pPackQty" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pDeliveryQty" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pPlanDate" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pInvoiceQty" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pCompeltedDate" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetDescriptionMaster">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pKey" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pCode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pData" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetDescriptionMasterResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetDescriptionMasterResult" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="pData" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPackingListInf">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pLogID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pBuyer" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pOrder" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pUserID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPackingListInfResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetPackingListInfResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetItemStructure">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pDepo" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pPItem" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pClass" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pItem" type="tns:ArrayOfString" />
+            <s:element minOccurs="0" maxOccurs="1" name="pItemName" type="tns:ArrayOfString" />
+            <s:element minOccurs="0" maxOccurs="1" name="pQty" type="tns:ArrayOfString" />
+            <s:element minOccurs="1" maxOccurs="1" name="pCount" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfString">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="string" nillable="true" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetItemStructureResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetItemStructureResult" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="pItem" type="tns:ArrayOfString" />
+            <s:element minOccurs="0" maxOccurs="1" name="pItemName" type="tns:ArrayOfString" />
+            <s:element minOccurs="0" maxOccurs="1" name="pQty" type="tns:ArrayOfString" />
+            <s:element minOccurs="1" maxOccurs="1" name="pCount" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetChildItemStructure">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pDepo" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pObjectProduct" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pPItem" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pItem" type="tns:ArrayOfString" />
+            <s:element minOccurs="0" maxOccurs="1" name="pItemName" type="tns:ArrayOfString" />
+            <s:element minOccurs="0" maxOccurs="1" name="pQty" type="tns:ArrayOfString" />
+            <s:element minOccurs="1" maxOccurs="1" name="pCount" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetChildItemStructureResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetChildItemStructureResult" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="pItem" type="tns:ArrayOfString" />
+            <s:element minOccurs="0" maxOccurs="1" name="pItemName" type="tns:ArrayOfString" />
+            <s:element minOccurs="0" maxOccurs="1" name="pQty" type="tns:ArrayOfString" />
+            <s:element minOccurs="1" maxOccurs="1" name="pCount" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetChildItemStructurea">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pDepo" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pObjectProduct" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pPItem" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pItem" type="tns:ArrayOfString" />
+            <s:element minOccurs="0" maxOccurs="1" name="pItemName" type="tns:ArrayOfString" />
+            <s:element minOccurs="0" maxOccurs="1" name="pQty" type="tns:ArrayOfString" />
+            <s:element minOccurs="1" maxOccurs="1" name="pCount" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetChildItemStructureaResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetChildItemStructureaResult" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="pItem" type="tns:ArrayOfString" />
+            <s:element minOccurs="0" maxOccurs="1" name="pItemName" type="tns:ArrayOfString" />
+            <s:element minOccurs="0" maxOccurs="1" name="pQty" type="tns:ArrayOfString" />
+            <s:element minOccurs="1" maxOccurs="1" name="pCount" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetKeepCodeInventory">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pDepo" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pItem" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pColor" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pKeepCode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pQty" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetKeepCodeInventoryResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetKeepCodeInventoryResult" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="pQty" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetKeepCodeInventoryZIP">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pDepo" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pItem" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pColor" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pLength" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pLengthUnit" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pKeepCode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pQty" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetKeepCodeInventoryZIPResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetKeepCodeInventoryZIPResult" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="pQty" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetFreeInventory">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pDepo" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pItem" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pColor" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pQty" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetFreeInventoryResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetFreeInventoryResult" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="pQty" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetFreeInventoryZIP">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pDepo" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pItem" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pColor" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pLength" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pLengthUnit" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pQty" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetFreeInventoryZIPResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetFreeInventoryZIPResult" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="pQty" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetFreeByLocation">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pDepo" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pItem" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pColor" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pDescr" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetFreeByLocationResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetFreeByLocationResult" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="pDescr" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetMininumStock">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pDepo" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pItem" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pColor" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pQty" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetMininumStockResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetMininumStockResult" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="pQty" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetMininumStockZIP">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pDepo" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pItem" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pColor" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pLength" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pLengthUnit" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pQty" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetMininumStockZIPResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetMininumStockZIPResult" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="pQty" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetProductionQty">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pDepo" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pItem" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pColor" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pKeepCode" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="pOnProd" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="pQty" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pProdQty" type="tns:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetProductionQtyResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetProductionQtyResult" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="pQty" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pProdQty" type="tns:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetProductionQtyZIP">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pDepo" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pItem" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pColor" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pLength" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pLengthUnit" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pKeepCode" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="pOnProd" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="pQty" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pProdQty" type="tns:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetProductionQtyZIPResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetProductionQtyZIPResult" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="pQty" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pProdQty" type="tns:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetFreeProductionQty">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pDepo" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pItem" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pColor" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pQty" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetFreeProductionQtyResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetFreeProductionQtyResult" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="pQty" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPurchaseQty">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pDepo" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pItem" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pColor" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pKeepCode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pQty" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pProdQty" type="tns:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPurchaseQtyResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetPurchaseQtyResult" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="pQty" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pProdQty" type="tns:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPurchaseQtyZIP">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pDepo" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pItem" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pColor" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pLength" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pLengthUnit" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pKeepCode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pQty" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pProdQty" type="tns:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPurchaseQtyZIPResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetPurchaseQtyZIPResult" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="pQty" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pProdQty" type="tns:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetProductionInf">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pDepo" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pItem" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pColor" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pKeepCode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pProdInf" type="tns:ArrayOfString" />
+            <s:element minOccurs="1" maxOccurs="1" name="pCount" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetProductionInfResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetProductionInfResult" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="pProdInf" type="tns:ArrayOfString" />
+            <s:element minOccurs="1" maxOccurs="1" name="pCount" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPurchaseInf">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pDepo" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pItem" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pColor" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pKeepCode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pProdInf" type="tns:ArrayOfString" />
+            <s:element minOccurs="1" maxOccurs="1" name="pCount" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPurchaseInfResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetPurchaseInfResult" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="pProdInf" type="tns:ArrayOfString" />
+            <s:element minOccurs="1" maxOccurs="1" name="pCount" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetChangeColor">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pDepo" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pFatherItem" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pItem" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pOriColor" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pColor" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetChangeColorResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetChangeColorResult" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="pColor" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetChangeColora">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pDepo" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pFatherItem" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pItem" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pOriColor" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pColor" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetChangeColoraResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetChangeColoraResult" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="pColor" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetOutsideProduction">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pDepo" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pItem" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetOutsideProductionResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetOutsideProductionResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPlatingRubberSlider">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pItem" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPlatingRubberSliderResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetPlatingRubberSliderResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPlatingSlider">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pItem" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPlatingSliderResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetPlatingSliderResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetItemLineLine">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pDepo" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pFatherItem" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pItem" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetItemLineLineResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetItemLineLineResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPurchaseItem">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pItem" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPurchaseItemResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetPurchaseItemResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetItemSlider">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pItem" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pItemSlider" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetItemSliderResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetItemSliderResult" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="pItemSlider" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetItemProduct">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pItem" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pItemProduct" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetItemProductResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetItemProductResult" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="pItemProduct" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetItemProducta">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pItem" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pItemProduct" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetItemProductaResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetItemProductaResult" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="pItemProduct" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetSearchItem">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pPartType" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pItem" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pColor" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pSearchItem" type="tns:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetSearchItemResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetSearchItemResult" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="pSearchItem" type="tns:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetSalesManCode">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pCode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pSalesManCode" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetSalesManCodeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetSalesManCodeResult" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="pSalesManCode" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetCostPrice">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pCode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pPriceA" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pPriceB" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetCostPriceResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetCostPriceResult" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="pPriceA" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pPriceB" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateFCData">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pKey1" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pKey2" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pKey3" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pKey4" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pKey5" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pKey6" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pKey7" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pValue1" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pValue2" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pValue3" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pValue4" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pValue5" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pValue6" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pValue7" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateFCDataResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="UpdateFCDataResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="StockOutNew2WingsSoapIn">
+    <wsdl:part name="parameters" element="tns:StockOutNew2Wings" />
+  </wsdl:message>
+  <wsdl:message name="StockOutNew2WingsSoapOut">
+    <wsdl:part name="parameters" element="tns:StockOutNew2WingsResponse" />
+  </wsdl:message>
+  <wsdl:message name="StockInNew2WingsSoapIn">
+    <wsdl:part name="parameters" element="tns:StockInNew2Wings" />
+  </wsdl:message>
+  <wsdl:message name="StockInNew2WingsSoapOut">
+    <wsdl:part name="parameters" element="tns:StockInNew2WingsResponse" />
+  </wsdl:message>
+  <wsdl:message name="NewColor2WingsSoapIn">
+    <wsdl:part name="parameters" element="tns:NewColor2Wings" />
+  </wsdl:message>
+  <wsdl:message name="NewColor2WingsSoapOut">
+    <wsdl:part name="parameters" element="tns:NewColor2WingsResponse" />
+  </wsdl:message>
+  <wsdl:message name="OldColor2WingsSoapIn">
+    <wsdl:part name="parameters" element="tns:OldColor2Wings" />
+  </wsdl:message>
+  <wsdl:message name="OldColor2WingsSoapOut">
+    <wsdl:part name="parameters" element="tns:OldColor2WingsResponse" />
+  </wsdl:message>
+  <wsdl:message name="NewColorType2WingsSoapIn">
+    <wsdl:part name="parameters" element="tns:NewColorType2Wings" />
+  </wsdl:message>
+  <wsdl:message name="NewColorType2WingsSoapOut">
+    <wsdl:part name="parameters" element="tns:NewColorType2WingsResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetPartTypeSoapIn">
+    <wsdl:part name="parameters" element="tns:GetPartType" />
+  </wsdl:message>
+  <wsdl:message name="GetPartTypeSoapOut">
+    <wsdl:part name="parameters" element="tns:GetPartTypeResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetSpecialChainSoapIn">
+    <wsdl:part name="parameters" element="tns:GetSpecialChain" />
+  </wsdl:message>
+  <wsdl:message name="GetSpecialChainSoapOut">
+    <wsdl:part name="parameters" element="tns:GetSpecialChainResponse" />
+  </wsdl:message>
+  <wsdl:message name="CheckKeepCodeSoapIn">
+    <wsdl:part name="parameters" element="tns:CheckKeepCode" />
+  </wsdl:message>
+  <wsdl:message name="CheckKeepCodeSoapOut">
+    <wsdl:part name="parameters" element="tns:CheckKeepCodeResponse" />
+  </wsdl:message>
+  <wsdl:message name="CheckColorCodeSoapIn">
+    <wsdl:part name="parameters" element="tns:CheckColorCode" />
+  </wsdl:message>
+  <wsdl:message name="CheckColorCodeSoapOut">
+    <wsdl:part name="parameters" element="tns:CheckColorCodeResponse" />
+  </wsdl:message>
+  <wsdl:message name="CheckItemCodeSoapIn">
+    <wsdl:part name="parameters" element="tns:CheckItemCode" />
+  </wsdl:message>
+  <wsdl:message name="CheckItemCodeSoapOut">
+    <wsdl:part name="parameters" element="tns:CheckItemCodeResponse" />
+  </wsdl:message>
+  <wsdl:message name="CheckDuplicateDataSoapIn">
+    <wsdl:part name="parameters" element="tns:CheckDuplicateData" />
+  </wsdl:message>
+  <wsdl:message name="CheckDuplicateDataSoapOut">
+    <wsdl:part name="parameters" element="tns:CheckDuplicateDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="EDI2WavesSoapIn">
+    <wsdl:part name="parameters" element="tns:EDI2Waves" />
+  </wsdl:message>
+  <wsdl:message name="EDI2WavesSoapOut">
+    <wsdl:part name="parameters" element="tns:EDI2WavesResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetCustomerListSoapIn">
+    <wsdl:part name="parameters" element="tns:GetCustomerList" />
+  </wsdl:message>
+  <wsdl:message name="GetCustomerListSoapOut">
+    <wsdl:part name="parameters" element="tns:GetCustomerListResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetStandardPriceSoapIn">
+    <wsdl:part name="parameters" element="tns:GetStandardPrice" />
+  </wsdl:message>
+  <wsdl:message name="GetStandardPriceSoapOut">
+    <wsdl:part name="parameters" element="tns:GetStandardPriceResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetStandardPrice1SoapIn">
+    <wsdl:part name="parameters" element="tns:GetStandardPrice1" />
+  </wsdl:message>
+  <wsdl:message name="GetStandardPrice1SoapOut">
+    <wsdl:part name="parameters" element="tns:GetStandardPrice1Response" />
+  </wsdl:message>
+  <wsdl:message name="GetItemNameSoapIn">
+    <wsdl:part name="parameters" element="tns:GetItemName" />
+  </wsdl:message>
+  <wsdl:message name="GetItemNameSoapOut">
+    <wsdl:part name="parameters" element="tns:GetItemNameResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetItemName001SoapIn">
+    <wsdl:part name="parameters" element="tns:GetItemName001" />
+  </wsdl:message>
+  <wsdl:message name="GetItemName001SoapOut">
+    <wsdl:part name="parameters" element="tns:GetItemName001Response" />
+  </wsdl:message>
+  <wsdl:message name="GetItemName001aSoapIn">
+    <wsdl:part name="parameters" element="tns:GetItemName001a" />
+  </wsdl:message>
+  <wsdl:message name="GetItemName001aSoapOut">
+    <wsdl:part name="parameters" element="tns:GetItemName001aResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetItemStatisticsSoapIn">
+    <wsdl:part name="parameters" element="tns:GetItemStatistics" />
+  </wsdl:message>
+  <wsdl:message name="GetItemStatisticsSoapOut">
+    <wsdl:part name="parameters" element="tns:GetItemStatisticsResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetItemSizeSoapIn">
+    <wsdl:part name="parameters" element="tns:GetItemSize" />
+  </wsdl:message>
+  <wsdl:message name="GetItemSizeSoapOut">
+    <wsdl:part name="parameters" element="tns:GetItemSizeResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetItemChainSoapIn">
+    <wsdl:part name="parameters" element="tns:GetItemChain" />
+  </wsdl:message>
+  <wsdl:message name="GetItemChainSoapOut">
+    <wsdl:part name="parameters" element="tns:GetItemChainResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetItemClassSoapIn">
+    <wsdl:part name="parameters" element="tns:GetItemClass" />
+  </wsdl:message>
+  <wsdl:message name="GetItemClassSoapOut">
+    <wsdl:part name="parameters" element="tns:GetItemClassResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetItemClassaSoapIn">
+    <wsdl:part name="parameters" element="tns:GetItemClassa" />
+  </wsdl:message>
+  <wsdl:message name="GetItemClassaSoapOut">
+    <wsdl:part name="parameters" element="tns:GetItemClassaResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetItemTapeSoapIn">
+    <wsdl:part name="parameters" element="tns:GetItemTape" />
+  </wsdl:message>
+  <wsdl:message name="GetItemTapeSoapOut">
+    <wsdl:part name="parameters" element="tns:GetItemTapeResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetItemSpecialFeatureSoapIn">
+    <wsdl:part name="parameters" element="tns:GetItemSpecialFeature" />
+  </wsdl:message>
+  <wsdl:message name="GetItemSpecialFeatureSoapOut">
+    <wsdl:part name="parameters" element="tns:GetItemSpecialFeatureResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetItemProdTypeSoapIn">
+    <wsdl:part name="parameters" element="tns:GetItemProdType" />
+  </wsdl:message>
+  <wsdl:message name="GetItemProdTypeSoapOut">
+    <wsdl:part name="parameters" element="tns:GetItemProdTypeResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetItemSliderFinishSoapIn">
+    <wsdl:part name="parameters" element="tns:GetItemSliderFinish" />
+  </wsdl:message>
+  <wsdl:message name="GetItemSliderFinishSoapOut">
+    <wsdl:part name="parameters" element="tns:GetItemSliderFinishResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetPriceDiscountSoapIn">
+    <wsdl:part name="parameters" element="tns:GetPriceDiscount" />
+  </wsdl:message>
+  <wsdl:message name="GetPriceDiscountSoapOut">
+    <wsdl:part name="parameters" element="tns:GetPriceDiscountResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetPriceDiscount1SoapIn">
+    <wsdl:part name="parameters" element="tns:GetPriceDiscount1" />
+  </wsdl:message>
+  <wsdl:message name="GetPriceDiscount1SoapOut">
+    <wsdl:part name="parameters" element="tns:GetPriceDiscount1Response" />
+  </wsdl:message>
+  <wsdl:message name="GetItemQtyUnitSoapIn">
+    <wsdl:part name="parameters" element="tns:GetItemQtyUnit" />
+  </wsdl:message>
+  <wsdl:message name="GetItemQtyUnitSoapOut">
+    <wsdl:part name="parameters" element="tns:GetItemQtyUnitResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetCustomerBuyerPriceSoapIn">
+    <wsdl:part name="parameters" element="tns:GetCustomerBuyerPrice" />
+  </wsdl:message>
+  <wsdl:message name="GetCustomerBuyerPriceSoapOut">
+    <wsdl:part name="parameters" element="tns:GetCustomerBuyerPriceResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetCustomerPriceSoapIn">
+    <wsdl:part name="parameters" element="tns:GetCustomerPrice" />
+  </wsdl:message>
+  <wsdl:message name="GetCustomerPriceSoapOut">
+    <wsdl:part name="parameters" element="tns:GetCustomerPriceResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetBuyerPriceSoapIn">
+    <wsdl:part name="parameters" element="tns:GetBuyerPrice" />
+  </wsdl:message>
+  <wsdl:message name="GetBuyerPriceSoapOut">
+    <wsdl:part name="parameters" element="tns:GetBuyerPriceResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetOrderPriceSoapIn">
+    <wsdl:part name="parameters" element="tns:GetOrderPrice" />
+  </wsdl:message>
+  <wsdl:message name="GetOrderPriceSoapOut">
+    <wsdl:part name="parameters" element="tns:GetOrderPriceResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetOrderPriceDetailSoapIn">
+    <wsdl:part name="parameters" element="tns:GetOrderPriceDetail" />
+  </wsdl:message>
+  <wsdl:message name="GetOrderPriceDetailSoapOut">
+    <wsdl:part name="parameters" element="tns:GetOrderPriceDetailResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetOrderProgressSoapIn">
+    <wsdl:part name="parameters" element="tns:GetOrderProgress" />
+  </wsdl:message>
+  <wsdl:message name="GetOrderProgressSoapOut">
+    <wsdl:part name="parameters" element="tns:GetOrderProgressResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetDescriptionMasterSoapIn">
+    <wsdl:part name="parameters" element="tns:GetDescriptionMaster" />
+  </wsdl:message>
+  <wsdl:message name="GetDescriptionMasterSoapOut">
+    <wsdl:part name="parameters" element="tns:GetDescriptionMasterResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetPackingListInfSoapIn">
+    <wsdl:part name="parameters" element="tns:GetPackingListInf" />
+  </wsdl:message>
+  <wsdl:message name="GetPackingListInfSoapOut">
+    <wsdl:part name="parameters" element="tns:GetPackingListInfResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetItemStructureSoapIn">
+    <wsdl:part name="parameters" element="tns:GetItemStructure" />
+  </wsdl:message>
+  <wsdl:message name="GetItemStructureSoapOut">
+    <wsdl:part name="parameters" element="tns:GetItemStructureResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetChildItemStructureSoapIn">
+    <wsdl:part name="parameters" element="tns:GetChildItemStructure" />
+  </wsdl:message>
+  <wsdl:message name="GetChildItemStructureSoapOut">
+    <wsdl:part name="parameters" element="tns:GetChildItemStructureResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetChildItemStructureaSoapIn">
+    <wsdl:part name="parameters" element="tns:GetChildItemStructurea" />
+  </wsdl:message>
+  <wsdl:message name="GetChildItemStructureaSoapOut">
+    <wsdl:part name="parameters" element="tns:GetChildItemStructureaResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetKeepCodeInventorySoapIn">
+    <wsdl:part name="parameters" element="tns:GetKeepCodeInventory" />
+  </wsdl:message>
+  <wsdl:message name="GetKeepCodeInventorySoapOut">
+    <wsdl:part name="parameters" element="tns:GetKeepCodeInventoryResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetKeepCodeInventoryZIPSoapIn">
+    <wsdl:part name="parameters" element="tns:GetKeepCodeInventoryZIP" />
+  </wsdl:message>
+  <wsdl:message name="GetKeepCodeInventoryZIPSoapOut">
+    <wsdl:part name="parameters" element="tns:GetKeepCodeInventoryZIPResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetFreeInventorySoapIn">
+    <wsdl:part name="parameters" element="tns:GetFreeInventory" />
+  </wsdl:message>
+  <wsdl:message name="GetFreeInventorySoapOut">
+    <wsdl:part name="parameters" element="tns:GetFreeInventoryResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetFreeInventoryZIPSoapIn">
+    <wsdl:part name="parameters" element="tns:GetFreeInventoryZIP" />
+  </wsdl:message>
+  <wsdl:message name="GetFreeInventoryZIPSoapOut">
+    <wsdl:part name="parameters" element="tns:GetFreeInventoryZIPResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetFreeByLocationSoapIn">
+    <wsdl:part name="parameters" element="tns:GetFreeByLocation" />
+  </wsdl:message>
+  <wsdl:message name="GetFreeByLocationSoapOut">
+    <wsdl:part name="parameters" element="tns:GetFreeByLocationResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetMininumStockSoapIn">
+    <wsdl:part name="parameters" element="tns:GetMininumStock" />
+  </wsdl:message>
+  <wsdl:message name="GetMininumStockSoapOut">
+    <wsdl:part name="parameters" element="tns:GetMininumStockResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetMininumStockZIPSoapIn">
+    <wsdl:part name="parameters" element="tns:GetMininumStockZIP" />
+  </wsdl:message>
+  <wsdl:message name="GetMininumStockZIPSoapOut">
+    <wsdl:part name="parameters" element="tns:GetMininumStockZIPResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetProductionQtySoapIn">
+    <wsdl:part name="parameters" element="tns:GetProductionQty" />
+  </wsdl:message>
+  <wsdl:message name="GetProductionQtySoapOut">
+    <wsdl:part name="parameters" element="tns:GetProductionQtyResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetProductionQtyZIPSoapIn">
+    <wsdl:part name="parameters" element="tns:GetProductionQtyZIP" />
+  </wsdl:message>
+  <wsdl:message name="GetProductionQtyZIPSoapOut">
+    <wsdl:part name="parameters" element="tns:GetProductionQtyZIPResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetFreeProductionQtySoapIn">
+    <wsdl:part name="parameters" element="tns:GetFreeProductionQty" />
+  </wsdl:message>
+  <wsdl:message name="GetFreeProductionQtySoapOut">
+    <wsdl:part name="parameters" element="tns:GetFreeProductionQtyResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetPurchaseQtySoapIn">
+    <wsdl:part name="parameters" element="tns:GetPurchaseQty" />
+  </wsdl:message>
+  <wsdl:message name="GetPurchaseQtySoapOut">
+    <wsdl:part name="parameters" element="tns:GetPurchaseQtyResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetPurchaseQtyZIPSoapIn">
+    <wsdl:part name="parameters" element="tns:GetPurchaseQtyZIP" />
+  </wsdl:message>
+  <wsdl:message name="GetPurchaseQtyZIPSoapOut">
+    <wsdl:part name="parameters" element="tns:GetPurchaseQtyZIPResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetProductionInfSoapIn">
+    <wsdl:part name="parameters" element="tns:GetProductionInf" />
+  </wsdl:message>
+  <wsdl:message name="GetProductionInfSoapOut">
+    <wsdl:part name="parameters" element="tns:GetProductionInfResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetPurchaseInfSoapIn">
+    <wsdl:part name="parameters" element="tns:GetPurchaseInf" />
+  </wsdl:message>
+  <wsdl:message name="GetPurchaseInfSoapOut">
+    <wsdl:part name="parameters" element="tns:GetPurchaseInfResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetChangeColorSoapIn">
+    <wsdl:part name="parameters" element="tns:GetChangeColor" />
+  </wsdl:message>
+  <wsdl:message name="GetChangeColorSoapOut">
+    <wsdl:part name="parameters" element="tns:GetChangeColorResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetChangeColoraSoapIn">
+    <wsdl:part name="parameters" element="tns:GetChangeColora" />
+  </wsdl:message>
+  <wsdl:message name="GetChangeColoraSoapOut">
+    <wsdl:part name="parameters" element="tns:GetChangeColoraResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetOutsideProductionSoapIn">
+    <wsdl:part name="parameters" element="tns:GetOutsideProduction" />
+  </wsdl:message>
+  <wsdl:message name="GetOutsideProductionSoapOut">
+    <wsdl:part name="parameters" element="tns:GetOutsideProductionResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetPlatingRubberSliderSoapIn">
+    <wsdl:part name="parameters" element="tns:GetPlatingRubberSlider" />
+  </wsdl:message>
+  <wsdl:message name="GetPlatingRubberSliderSoapOut">
+    <wsdl:part name="parameters" element="tns:GetPlatingRubberSliderResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetPlatingSliderSoapIn">
+    <wsdl:part name="parameters" element="tns:GetPlatingSlider" />
+  </wsdl:message>
+  <wsdl:message name="GetPlatingSliderSoapOut">
+    <wsdl:part name="parameters" element="tns:GetPlatingSliderResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetItemLineLineSoapIn">
+    <wsdl:part name="parameters" element="tns:GetItemLineLine" />
+  </wsdl:message>
+  <wsdl:message name="GetItemLineLineSoapOut">
+    <wsdl:part name="parameters" element="tns:GetItemLineLineResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetPurchaseItemSoapIn">
+    <wsdl:part name="parameters" element="tns:GetPurchaseItem" />
+  </wsdl:message>
+  <wsdl:message name="GetPurchaseItemSoapOut">
+    <wsdl:part name="parameters" element="tns:GetPurchaseItemResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetItemSliderSoapIn">
+    <wsdl:part name="parameters" element="tns:GetItemSlider" />
+  </wsdl:message>
+  <wsdl:message name="GetItemSliderSoapOut">
+    <wsdl:part name="parameters" element="tns:GetItemSliderResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetItemProductSoapIn">
+    <wsdl:part name="parameters" element="tns:GetItemProduct" />
+  </wsdl:message>
+  <wsdl:message name="GetItemProductSoapOut">
+    <wsdl:part name="parameters" element="tns:GetItemProductResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetItemProductaSoapIn">
+    <wsdl:part name="parameters" element="tns:GetItemProducta" />
+  </wsdl:message>
+  <wsdl:message name="GetItemProductaSoapOut">
+    <wsdl:part name="parameters" element="tns:GetItemProductaResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetSearchItemSoapIn">
+    <wsdl:part name="parameters" element="tns:GetSearchItem" />
+  </wsdl:message>
+  <wsdl:message name="GetSearchItemSoapOut">
+    <wsdl:part name="parameters" element="tns:GetSearchItemResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetSalesManCodeSoapIn">
+    <wsdl:part name="parameters" element="tns:GetSalesManCode" />
+  </wsdl:message>
+  <wsdl:message name="GetSalesManCodeSoapOut">
+    <wsdl:part name="parameters" element="tns:GetSalesManCodeResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetCostPriceSoapIn">
+    <wsdl:part name="parameters" element="tns:GetCostPrice" />
+  </wsdl:message>
+  <wsdl:message name="GetCostPriceSoapOut">
+    <wsdl:part name="parameters" element="tns:GetCostPriceResponse" />
+  </wsdl:message>
+  <wsdl:message name="UpdateFCDataSoapIn">
+    <wsdl:part name="parameters" element="tns:UpdateFCData" />
+  </wsdl:message>
+  <wsdl:message name="UpdateFCDataSoapOut">
+    <wsdl:part name="parameters" element="tns:UpdateFCDataResponse" />
+  </wsdl:message>
+  <wsdl:portType name="CommonServiceSoap">
+    <wsdl:operation name="StockOutNew2Wings">
+      <wsdl:input message="tns:StockOutNew2WingsSoapIn" />
+      <wsdl:output message="tns:StockOutNew2WingsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="StockInNew2Wings">
+      <wsdl:input message="tns:StockInNew2WingsSoapIn" />
+      <wsdl:output message="tns:StockInNew2WingsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="NewColor2Wings">
+      <wsdl:input message="tns:NewColor2WingsSoapIn" />
+      <wsdl:output message="tns:NewColor2WingsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="OldColor2Wings">
+      <wsdl:input message="tns:OldColor2WingsSoapIn" />
+      <wsdl:output message="tns:OldColor2WingsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="NewColorType2Wings">
+      <wsdl:input message="tns:NewColorType2WingsSoapIn" />
+      <wsdl:output message="tns:NewColorType2WingsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPartType">
+      <wsdl:input message="tns:GetPartTypeSoapIn" />
+      <wsdl:output message="tns:GetPartTypeSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSpecialChain">
+      <wsdl:input message="tns:GetSpecialChainSoapIn" />
+      <wsdl:output message="tns:GetSpecialChainSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckKeepCode">
+      <wsdl:input message="tns:CheckKeepCodeSoapIn" />
+      <wsdl:output message="tns:CheckKeepCodeSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckColorCode">
+      <wsdl:input message="tns:CheckColorCodeSoapIn" />
+      <wsdl:output message="tns:CheckColorCodeSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckItemCode">
+      <wsdl:input message="tns:CheckItemCodeSoapIn" />
+      <wsdl:output message="tns:CheckItemCodeSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckDuplicateData">
+      <wsdl:input message="tns:CheckDuplicateDataSoapIn" />
+      <wsdl:output message="tns:CheckDuplicateDataSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="EDI2Waves">
+      <wsdl:input message="tns:EDI2WavesSoapIn" />
+      <wsdl:output message="tns:EDI2WavesSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCustomerList">
+      <wsdl:input message="tns:GetCustomerListSoapIn" />
+      <wsdl:output message="tns:GetCustomerListSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetStandardPrice">
+      <wsdl:input message="tns:GetStandardPriceSoapIn" />
+      <wsdl:output message="tns:GetStandardPriceSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetStandardPrice1">
+      <wsdl:input message="tns:GetStandardPrice1SoapIn" />
+      <wsdl:output message="tns:GetStandardPrice1SoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetItemName">
+      <wsdl:input message="tns:GetItemNameSoapIn" />
+      <wsdl:output message="tns:GetItemNameSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetItemName001">
+      <wsdl:input message="tns:GetItemName001SoapIn" />
+      <wsdl:output message="tns:GetItemName001SoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetItemName001a">
+      <wsdl:input message="tns:GetItemName001aSoapIn" />
+      <wsdl:output message="tns:GetItemName001aSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetItemStatistics">
+      <wsdl:input message="tns:GetItemStatisticsSoapIn" />
+      <wsdl:output message="tns:GetItemStatisticsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetItemSize">
+      <wsdl:input message="tns:GetItemSizeSoapIn" />
+      <wsdl:output message="tns:GetItemSizeSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetItemChain">
+      <wsdl:input message="tns:GetItemChainSoapIn" />
+      <wsdl:output message="tns:GetItemChainSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetItemClass">
+      <wsdl:input message="tns:GetItemClassSoapIn" />
+      <wsdl:output message="tns:GetItemClassSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetItemClassa">
+      <wsdl:input message="tns:GetItemClassaSoapIn" />
+      <wsdl:output message="tns:GetItemClassaSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetItemTape">
+      <wsdl:input message="tns:GetItemTapeSoapIn" />
+      <wsdl:output message="tns:GetItemTapeSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetItemSpecialFeature">
+      <wsdl:input message="tns:GetItemSpecialFeatureSoapIn" />
+      <wsdl:output message="tns:GetItemSpecialFeatureSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetItemProdType">
+      <wsdl:input message="tns:GetItemProdTypeSoapIn" />
+      <wsdl:output message="tns:GetItemProdTypeSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetItemSliderFinish">
+      <wsdl:input message="tns:GetItemSliderFinishSoapIn" />
+      <wsdl:output message="tns:GetItemSliderFinishSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPriceDiscount">
+      <wsdl:input message="tns:GetPriceDiscountSoapIn" />
+      <wsdl:output message="tns:GetPriceDiscountSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPriceDiscount1">
+      <wsdl:input message="tns:GetPriceDiscount1SoapIn" />
+      <wsdl:output message="tns:GetPriceDiscount1SoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetItemQtyUnit">
+      <wsdl:input message="tns:GetItemQtyUnitSoapIn" />
+      <wsdl:output message="tns:GetItemQtyUnitSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCustomerBuyerPrice">
+      <wsdl:input message="tns:GetCustomerBuyerPriceSoapIn" />
+      <wsdl:output message="tns:GetCustomerBuyerPriceSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCustomerPrice">
+      <wsdl:input message="tns:GetCustomerPriceSoapIn" />
+      <wsdl:output message="tns:GetCustomerPriceSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBuyerPrice">
+      <wsdl:input message="tns:GetBuyerPriceSoapIn" />
+      <wsdl:output message="tns:GetBuyerPriceSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetOrderPrice">
+      <wsdl:input message="tns:GetOrderPriceSoapIn" />
+      <wsdl:output message="tns:GetOrderPriceSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetOrderPriceDetail">
+      <wsdl:input message="tns:GetOrderPriceDetailSoapIn" />
+      <wsdl:output message="tns:GetOrderPriceDetailSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetOrderProgress">
+      <wsdl:input message="tns:GetOrderProgressSoapIn" />
+      <wsdl:output message="tns:GetOrderProgressSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDescriptionMaster">
+      <wsdl:input message="tns:GetDescriptionMasterSoapIn" />
+      <wsdl:output message="tns:GetDescriptionMasterSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPackingListInf">
+      <wsdl:input message="tns:GetPackingListInfSoapIn" />
+      <wsdl:output message="tns:GetPackingListInfSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetItemStructure">
+      <wsdl:input message="tns:GetItemStructureSoapIn" />
+      <wsdl:output message="tns:GetItemStructureSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetChildItemStructure">
+      <wsdl:input message="tns:GetChildItemStructureSoapIn" />
+      <wsdl:output message="tns:GetChildItemStructureSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetChildItemStructurea">
+      <wsdl:input message="tns:GetChildItemStructureaSoapIn" />
+      <wsdl:output message="tns:GetChildItemStructureaSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetKeepCodeInventory">
+      <wsdl:input message="tns:GetKeepCodeInventorySoapIn" />
+      <wsdl:output message="tns:GetKeepCodeInventorySoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetKeepCodeInventoryZIP">
+      <wsdl:input message="tns:GetKeepCodeInventoryZIPSoapIn" />
+      <wsdl:output message="tns:GetKeepCodeInventoryZIPSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetFreeInventory">
+      <wsdl:input message="tns:GetFreeInventorySoapIn" />
+      <wsdl:output message="tns:GetFreeInventorySoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetFreeInventoryZIP">
+      <wsdl:input message="tns:GetFreeInventoryZIPSoapIn" />
+      <wsdl:output message="tns:GetFreeInventoryZIPSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetFreeByLocation">
+      <wsdl:input message="tns:GetFreeByLocationSoapIn" />
+      <wsdl:output message="tns:GetFreeByLocationSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMininumStock">
+      <wsdl:input message="tns:GetMininumStockSoapIn" />
+      <wsdl:output message="tns:GetMininumStockSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMininumStockZIP">
+      <wsdl:input message="tns:GetMininumStockZIPSoapIn" />
+      <wsdl:output message="tns:GetMininumStockZIPSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetProductionQty">
+      <wsdl:input message="tns:GetProductionQtySoapIn" />
+      <wsdl:output message="tns:GetProductionQtySoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetProductionQtyZIP">
+      <wsdl:input message="tns:GetProductionQtyZIPSoapIn" />
+      <wsdl:output message="tns:GetProductionQtyZIPSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetFreeProductionQty">
+      <wsdl:input message="tns:GetFreeProductionQtySoapIn" />
+      <wsdl:output message="tns:GetFreeProductionQtySoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPurchaseQty">
+      <wsdl:input message="tns:GetPurchaseQtySoapIn" />
+      <wsdl:output message="tns:GetPurchaseQtySoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPurchaseQtyZIP">
+      <wsdl:input message="tns:GetPurchaseQtyZIPSoapIn" />
+      <wsdl:output message="tns:GetPurchaseQtyZIPSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetProductionInf">
+      <wsdl:input message="tns:GetProductionInfSoapIn" />
+      <wsdl:output message="tns:GetProductionInfSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPurchaseInf">
+      <wsdl:input message="tns:GetPurchaseInfSoapIn" />
+      <wsdl:output message="tns:GetPurchaseInfSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetChangeColor">
+      <wsdl:input message="tns:GetChangeColorSoapIn" />
+      <wsdl:output message="tns:GetChangeColorSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetChangeColora">
+      <wsdl:input message="tns:GetChangeColoraSoapIn" />
+      <wsdl:output message="tns:GetChangeColoraSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetOutsideProduction">
+      <wsdl:input message="tns:GetOutsideProductionSoapIn" />
+      <wsdl:output message="tns:GetOutsideProductionSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPlatingRubberSlider">
+      <wsdl:input message="tns:GetPlatingRubberSliderSoapIn" />
+      <wsdl:output message="tns:GetPlatingRubberSliderSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPlatingSlider">
+      <wsdl:input message="tns:GetPlatingSliderSoapIn" />
+      <wsdl:output message="tns:GetPlatingSliderSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetItemLineLine">
+      <wsdl:input message="tns:GetItemLineLineSoapIn" />
+      <wsdl:output message="tns:GetItemLineLineSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPurchaseItem">
+      <wsdl:input message="tns:GetPurchaseItemSoapIn" />
+      <wsdl:output message="tns:GetPurchaseItemSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetItemSlider">
+      <wsdl:input message="tns:GetItemSliderSoapIn" />
+      <wsdl:output message="tns:GetItemSliderSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetItemProduct">
+      <wsdl:input message="tns:GetItemProductSoapIn" />
+      <wsdl:output message="tns:GetItemProductSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetItemProducta">
+      <wsdl:input message="tns:GetItemProductaSoapIn" />
+      <wsdl:output message="tns:GetItemProductaSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSearchItem">
+      <wsdl:input message="tns:GetSearchItemSoapIn" />
+      <wsdl:output message="tns:GetSearchItemSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSalesManCode">
+      <wsdl:input message="tns:GetSalesManCodeSoapIn" />
+      <wsdl:output message="tns:GetSalesManCodeSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCostPrice">
+      <wsdl:input message="tns:GetCostPriceSoapIn" />
+      <wsdl:output message="tns:GetCostPriceSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateFCData">
+      <wsdl:input message="tns:UpdateFCDataSoapIn" />
+      <wsdl:output message="tns:UpdateFCDataSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="CommonServiceSoap" type="tns:CommonServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="StockOutNew2Wings">
+      <soap:operation soapAction="http://tempuri.org/StockOutNew2Wings" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="StockInNew2Wings">
+      <soap:operation soapAction="http://tempuri.org/StockInNew2Wings" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="NewColor2Wings">
+      <soap:operation soapAction="http://tempuri.org/NewColor2Wings" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="OldColor2Wings">
+      <soap:operation soapAction="http://tempuri.org/OldColor2Wings" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="NewColorType2Wings">
+      <soap:operation soapAction="http://tempuri.org/NewColorType2Wings" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPartType">
+      <soap:operation soapAction="http://tempuri.org/GetPartType" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSpecialChain">
+      <soap:operation soapAction="http://tempuri.org/GetSpecialChain" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckKeepCode">
+      <soap:operation soapAction="http://tempuri.org/CheckKeepCode" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckColorCode">
+      <soap:operation soapAction="http://tempuri.org/CheckColorCode" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckItemCode">
+      <soap:operation soapAction="http://tempuri.org/CheckItemCode" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckDuplicateData">
+      <soap:operation soapAction="http://tempuri.org/CheckDuplicateData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EDI2Waves">
+      <soap:operation soapAction="http://tempuri.org/EDI2Waves" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCustomerList">
+      <soap:operation soapAction="http://tempuri.org/GetCustomerList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetStandardPrice">
+      <soap:operation soapAction="http://tempuri.org/GetStandardPrice" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetStandardPrice1">
+      <soap:operation soapAction="http://tempuri.org/GetStandardPrice1" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetItemName">
+      <soap:operation soapAction="http://tempuri.org/GetItemName" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetItemName001">
+      <soap:operation soapAction="http://tempuri.org/GetItemName001" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetItemName001a">
+      <soap:operation soapAction="http://tempuri.org/GetItemName001a" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetItemStatistics">
+      <soap:operation soapAction="http://tempuri.org/GetItemStatistics" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetItemSize">
+      <soap:operation soapAction="http://tempuri.org/GetItemSize" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetItemChain">
+      <soap:operation soapAction="http://tempuri.org/GetItemChain" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetItemClass">
+      <soap:operation soapAction="http://tempuri.org/GetItemClass" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetItemClassa">
+      <soap:operation soapAction="http://tempuri.org/GetItemClassa" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetItemTape">
+      <soap:operation soapAction="http://tempuri.org/GetItemTape" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetItemSpecialFeature">
+      <soap:operation soapAction="http://tempuri.org/GetItemSpecialFeature" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetItemProdType">
+      <soap:operation soapAction="http://tempuri.org/GetItemProdType" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetItemSliderFinish">
+      <soap:operation soapAction="http://tempuri.org/GetItemSliderFinish" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPriceDiscount">
+      <soap:operation soapAction="http://tempuri.org/GetPriceDiscount" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPriceDiscount1">
+      <soap:operation soapAction="http://tempuri.org/GetPriceDiscount1" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetItemQtyUnit">
+      <soap:operation soapAction="http://tempuri.org/GetItemQtyUnit" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCustomerBuyerPrice">
+      <soap:operation soapAction="http://tempuri.org/GetCustomerBuyerPrice" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCustomerPrice">
+      <soap:operation soapAction="http://tempuri.org/GetCustomerPrice" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBuyerPrice">
+      <soap:operation soapAction="http://tempuri.org/GetBuyerPrice" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOrderPrice">
+      <soap:operation soapAction="http://tempuri.org/GetOrderPrice" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOrderPriceDetail">
+      <soap:operation soapAction="http://tempuri.org/GetOrderPriceDetail" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOrderProgress">
+      <soap:operation soapAction="http://tempuri.org/GetOrderProgress" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDescriptionMaster">
+      <soap:operation soapAction="http://tempuri.org/GetDescriptionMaster" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPackingListInf">
+      <soap:operation soapAction="http://tempuri.org/GetPackingListInf" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetItemStructure">
+      <soap:operation soapAction="http://tempuri.org/GetItemStructure" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetChildItemStructure">
+      <soap:operation soapAction="http://tempuri.org/GetChildItemStructure" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetChildItemStructurea">
+      <soap:operation soapAction="http://tempuri.org/GetChildItemStructurea" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetKeepCodeInventory">
+      <soap:operation soapAction="http://tempuri.org/GetKeepCodeInventory" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetKeepCodeInventoryZIP">
+      <soap:operation soapAction="http://tempuri.org/GetKeepCodeInventoryZIP" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFreeInventory">
+      <soap:operation soapAction="http://tempuri.org/GetFreeInventory" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFreeInventoryZIP">
+      <soap:operation soapAction="http://tempuri.org/GetFreeInventoryZIP" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFreeByLocation">
+      <soap:operation soapAction="http://tempuri.org/GetFreeByLocation" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMininumStock">
+      <soap:operation soapAction="http://tempuri.org/GetMininumStock" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMininumStockZIP">
+      <soap:operation soapAction="http://tempuri.org/GetMininumStockZIP" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetProductionQty">
+      <soap:operation soapAction="http://tempuri.org/GetProductionQty" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetProductionQtyZIP">
+      <soap:operation soapAction="http://tempuri.org/GetProductionQtyZIP" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFreeProductionQty">
+      <soap:operation soapAction="http://tempuri.org/GetFreeProductionQty" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPurchaseQty">
+      <soap:operation soapAction="http://tempuri.org/GetPurchaseQty" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPurchaseQtyZIP">
+      <soap:operation soapAction="http://tempuri.org/GetPurchaseQtyZIP" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetProductionInf">
+      <soap:operation soapAction="http://tempuri.org/GetProductionInf" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPurchaseInf">
+      <soap:operation soapAction="http://tempuri.org/GetPurchaseInf" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetChangeColor">
+      <soap:operation soapAction="http://tempuri.org/GetChangeColor" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetChangeColora">
+      <soap:operation soapAction="http://tempuri.org/GetChangeColora" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOutsideProduction">
+      <soap:operation soapAction="http://tempuri.org/GetOutsideProduction" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPlatingRubberSlider">
+      <soap:operation soapAction="http://tempuri.org/GetPlatingRubberSlider" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPlatingSlider">
+      <soap:operation soapAction="http://tempuri.org/GetPlatingSlider" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetItemLineLine">
+      <soap:operation soapAction="http://tempuri.org/GetItemLineLine" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPurchaseItem">
+      <soap:operation soapAction="http://tempuri.org/GetPurchaseItem" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetItemSlider">
+      <soap:operation soapAction="http://tempuri.org/GetItemSlider" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetItemProduct">
+      <soap:operation soapAction="http://tempuri.org/GetItemProduct" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetItemProducta">
+      <soap:operation soapAction="http://tempuri.org/GetItemProducta" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSearchItem">
+      <soap:operation soapAction="http://tempuri.org/GetSearchItem" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSalesManCode">
+      <soap:operation soapAction="http://tempuri.org/GetSalesManCode" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCostPrice">
+      <soap:operation soapAction="http://tempuri.org/GetCostPrice" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateFCData">
+      <soap:operation soapAction="http://tempuri.org/UpdateFCData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="CommonServiceSoap12" type="tns:CommonServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="StockOutNew2Wings">
+      <soap12:operation soapAction="http://tempuri.org/StockOutNew2Wings" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="StockInNew2Wings">
+      <soap12:operation soapAction="http://tempuri.org/StockInNew2Wings" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="NewColor2Wings">
+      <soap12:operation soapAction="http://tempuri.org/NewColor2Wings" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="OldColor2Wings">
+      <soap12:operation soapAction="http://tempuri.org/OldColor2Wings" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="NewColorType2Wings">
+      <soap12:operation soapAction="http://tempuri.org/NewColorType2Wings" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPartType">
+      <soap12:operation soapAction="http://tempuri.org/GetPartType" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSpecialChain">
+      <soap12:operation soapAction="http://tempuri.org/GetSpecialChain" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckKeepCode">
+      <soap12:operation soapAction="http://tempuri.org/CheckKeepCode" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckColorCode">
+      <soap12:operation soapAction="http://tempuri.org/CheckColorCode" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckItemCode">
+      <soap12:operation soapAction="http://tempuri.org/CheckItemCode" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckDuplicateData">
+      <soap12:operation soapAction="http://tempuri.org/CheckDuplicateData" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EDI2Waves">
+      <soap12:operation soapAction="http://tempuri.org/EDI2Waves" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCustomerList">
+      <soap12:operation soapAction="http://tempuri.org/GetCustomerList" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetStandardPrice">
+      <soap12:operation soapAction="http://tempuri.org/GetStandardPrice" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetStandardPrice1">
+      <soap12:operation soapAction="http://tempuri.org/GetStandardPrice1" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetItemName">
+      <soap12:operation soapAction="http://tempuri.org/GetItemName" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetItemName001">
+      <soap12:operation soapAction="http://tempuri.org/GetItemName001" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetItemName001a">
+      <soap12:operation soapAction="http://tempuri.org/GetItemName001a" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetItemStatistics">
+      <soap12:operation soapAction="http://tempuri.org/GetItemStatistics" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetItemSize">
+      <soap12:operation soapAction="http://tempuri.org/GetItemSize" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetItemChain">
+      <soap12:operation soapAction="http://tempuri.org/GetItemChain" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetItemClass">
+      <soap12:operation soapAction="http://tempuri.org/GetItemClass" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetItemClassa">
+      <soap12:operation soapAction="http://tempuri.org/GetItemClassa" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetItemTape">
+      <soap12:operation soapAction="http://tempuri.org/GetItemTape" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetItemSpecialFeature">
+      <soap12:operation soapAction="http://tempuri.org/GetItemSpecialFeature" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetItemProdType">
+      <soap12:operation soapAction="http://tempuri.org/GetItemProdType" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetItemSliderFinish">
+      <soap12:operation soapAction="http://tempuri.org/GetItemSliderFinish" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPriceDiscount">
+      <soap12:operation soapAction="http://tempuri.org/GetPriceDiscount" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPriceDiscount1">
+      <soap12:operation soapAction="http://tempuri.org/GetPriceDiscount1" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetItemQtyUnit">
+      <soap12:operation soapAction="http://tempuri.org/GetItemQtyUnit" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCustomerBuyerPrice">
+      <soap12:operation soapAction="http://tempuri.org/GetCustomerBuyerPrice" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCustomerPrice">
+      <soap12:operation soapAction="http://tempuri.org/GetCustomerPrice" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBuyerPrice">
+      <soap12:operation soapAction="http://tempuri.org/GetBuyerPrice" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOrderPrice">
+      <soap12:operation soapAction="http://tempuri.org/GetOrderPrice" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOrderPriceDetail">
+      <soap12:operation soapAction="http://tempuri.org/GetOrderPriceDetail" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOrderProgress">
+      <soap12:operation soapAction="http://tempuri.org/GetOrderProgress" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDescriptionMaster">
+      <soap12:operation soapAction="http://tempuri.org/GetDescriptionMaster" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPackingListInf">
+      <soap12:operation soapAction="http://tempuri.org/GetPackingListInf" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetItemStructure">
+      <soap12:operation soapAction="http://tempuri.org/GetItemStructure" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetChildItemStructure">
+      <soap12:operation soapAction="http://tempuri.org/GetChildItemStructure" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetChildItemStructurea">
+      <soap12:operation soapAction="http://tempuri.org/GetChildItemStructurea" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetKeepCodeInventory">
+      <soap12:operation soapAction="http://tempuri.org/GetKeepCodeInventory" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetKeepCodeInventoryZIP">
+      <soap12:operation soapAction="http://tempuri.org/GetKeepCodeInventoryZIP" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFreeInventory">
+      <soap12:operation soapAction="http://tempuri.org/GetFreeInventory" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFreeInventoryZIP">
+      <soap12:operation soapAction="http://tempuri.org/GetFreeInventoryZIP" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFreeByLocation">
+      <soap12:operation soapAction="http://tempuri.org/GetFreeByLocation" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMininumStock">
+      <soap12:operation soapAction="http://tempuri.org/GetMininumStock" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMininumStockZIP">
+      <soap12:operation soapAction="http://tempuri.org/GetMininumStockZIP" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetProductionQty">
+      <soap12:operation soapAction="http://tempuri.org/GetProductionQty" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetProductionQtyZIP">
+      <soap12:operation soapAction="http://tempuri.org/GetProductionQtyZIP" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFreeProductionQty">
+      <soap12:operation soapAction="http://tempuri.org/GetFreeProductionQty" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPurchaseQty">
+      <soap12:operation soapAction="http://tempuri.org/GetPurchaseQty" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPurchaseQtyZIP">
+      <soap12:operation soapAction="http://tempuri.org/GetPurchaseQtyZIP" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetProductionInf">
+      <soap12:operation soapAction="http://tempuri.org/GetProductionInf" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPurchaseInf">
+      <soap12:operation soapAction="http://tempuri.org/GetPurchaseInf" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetChangeColor">
+      <soap12:operation soapAction="http://tempuri.org/GetChangeColor" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetChangeColora">
+      <soap12:operation soapAction="http://tempuri.org/GetChangeColora" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOutsideProduction">
+      <soap12:operation soapAction="http://tempuri.org/GetOutsideProduction" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPlatingRubberSlider">
+      <soap12:operation soapAction="http://tempuri.org/GetPlatingRubberSlider" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPlatingSlider">
+      <soap12:operation soapAction="http://tempuri.org/GetPlatingSlider" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetItemLineLine">
+      <soap12:operation soapAction="http://tempuri.org/GetItemLineLine" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPurchaseItem">
+      <soap12:operation soapAction="http://tempuri.org/GetPurchaseItem" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetItemSlider">
+      <soap12:operation soapAction="http://tempuri.org/GetItemSlider" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetItemProduct">
+      <soap12:operation soapAction="http://tempuri.org/GetItemProduct" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetItemProducta">
+      <soap12:operation soapAction="http://tempuri.org/GetItemProducta" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSearchItem">
+      <soap12:operation soapAction="http://tempuri.org/GetSearchItem" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSalesManCode">
+      <soap12:operation soapAction="http://tempuri.org/GetSalesManCode" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCostPrice">
+      <soap12:operation soapAction="http://tempuri.org/GetCostPrice" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateFCData">
+      <soap12:operation soapAction="http://tempuri.org/UpdateFCData" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="CommonService">
+    <wsdl:port name="CommonServiceSoap" binding="tns:CommonServiceSoap">
+      <soap:address location="http://10.245.1.50/WavesService/CommonService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="CommonServiceSoap12" binding="tns:CommonServiceSoap12">
+      <soap12:address location="http://10.245.1.50/WavesService/CommonService.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

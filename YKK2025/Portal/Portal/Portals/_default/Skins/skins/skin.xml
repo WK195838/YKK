@@ -1,0 +1,49 @@
+<Objects>
+	<Object>
+		<Token>[MENU]</Token>
+		<Settings>
+			<Setting>
+				<Name>UseRootBreadcrumbArrow</Name>
+				<Value>false</Value>
+			</Setting>
+			<Setting>
+				<Name>LeftSeparator</Name>
+				<Value><![CDATA[&nbsp;]]></Value>
+			</Setting>
+			<Setting>
+				<Name>RightSeparator</Name>
+				<Value><![CDATA[&nbsp;]]></Value>
+			</Setting>
+			<Setting>
+				<Name>LeftSeparatorBreadcrumbCssClass</Name>
+				<Value>MainMenu_LeftOn</Value>
+			</Setting>
+			<Setting>
+				<Name>RightSeparatorBreadcrumbCssClass</Name>
+				<Value>MainMenu_RightOn</Value>
+			</Setting>
+			
+			<Setting>
+				<Name>LeftSeparatorCssClass</Name>
+				<Value>MainMenu_Left</Value>	
+			</Setting>
+			<Setting>
+				<Name>RightSeparatorCssClass</Name>
+				<Value>MainMenu_Right</Value>
+			</Setting>
+			
+			<Setting>
+				<Name>RootMenuItemBreadcrumbCssClass</Name>
+				<Value>MainMenu_Active</Value>
+			</Setting>
+		 <Setting>
+				<Name>RootMenuItemSelectedCssClass</Name>
+				<Value>MainMenu_BreadcrumbActive2</Value>
+			</Setting>
+			<!-- <Setting>
+				<Name>RootMenuItemActiveCssClass</Name>
+				<Value>MainMenu_BreadcrumbActive</Value>
+			</Setting> -->
+		</Settings>
+	</Object>
+</Objects>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" />
+							<xsd:attribute name="type" type="xsd:string" />
+							<xsd:attribute name="mimetype" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="ResMimeType">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="Version">
+		<value>1.0.0.0</value>
+	</resheader>
+	<resheader name="Reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="Writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="plBannerName.Text">
+		<value>バナー名</value>
+	</data>
+	<data name="plBannerName.Help">
+		<value>バナーの名称を入力してください。ここで指定した名前はイメージ画像の代替テキストとして表示されます。</value>
+	</data>
+	<data name="BannerName.ErrorMessage">
+		<value>バナー名が入力されていません。</value>
+	</data>
+	<data name="plBannerType.Text">
+		<value>バナー タイプ</value>
+	</data>
+	<data name="plBannerType.Help">
+		<value>バナーの表示タイプを選択してください。</value>
+	</data>
+	<data name="plBannerGroup.Text">
+		<value>バナー グループ</value>
+	</data>
+	<data name="plBannerGroup.Help">
+		<value>複数のバナーを関連付けて管理したい場合はバナー グループの名前を入力してください。</value>
+	</data>
+	<data name="plImage.Text">
+		<value>イメージ</value>
+	</data>
+	<data name="plImage.Help">
+		<value>バナーのイメージを選択してください。新しいイメージ ファイルをアップロードすることもできます。</value>
+	</data>
+	<data name="plWidth.Text">
+		<value>幅</value>
+	</data>
+	<data name="plWidth.Help">
+		<value>バナー イメージの幅を指定してください。フラッシュ形式のバナーの場合は必ず幅の指定は入力してください。</value>
+	</data>
+	<data name="plHeight.Text">
+		<value>高さ</value>
+	</data>
+	<data name="plHeight.Help">
+		<value>バナー イメージの高さを指定してください。フラッシュ形式のバナーの場合は必ず高さの指定は入力してください。</value>
+	</data>
+	<data name="plDescription.Text">
+		<value>テキスト/スクリプト</value>
+	</data>
+	<data name="plDescription.Help">
+		<value>バナーの説明を入力してください。ここで指定した内容はイメージ バナーの代替テキストとして表示として、またはテキストバナーのテキストそのものとして表示されます。</value>
+	</data>
+	<data name="plURL.Text">
+		<value>URL</value>
+	</data>
+	<data name="plURL.Help">
+		<value>ユーザーがバナーをクリックした際に表示するURLを入力してください。URLの入力を省略した場合は、ベンダーのURLが採用されます。</value>
+	</data>
+	<data name="plImpressions.Text">
+		<value>インプレッション</value>
+	</data>
+	<data name="plImpressions.Help">
+		<value>表示するインプレッション数を入力してください。無制限に設定する場合はゼロ(0)を入力してください。</value>
+	</data>
+	<data name="Impressions.ErrorMessage">
+		<value>&lt;br&gt;入力したインプレッション数が正しくありません。</value>
+	</data>
+	<data name="plCPM.Text">
+		<value>CPM/コスト</value>
+	</data>
+	<data name="plCPM.Help">
+		<value>CPMは1000インプレッションに対するコストのことです。またコストは固定で金額設定されている場合もあります。</value>
+	</data>
+	<data name="CPM.ErrorMessage">
+		<value>入力したCPM/コストが正しくありません。</value>
+	</data>
+	<data name="plStartDate.Text">
+		<value>開始日</value>
+	</data>
+	<data name="plStartDate.Help">
+		<value>広告の表示開始日を入力してください。</value>
+	</data>
+	<data name="plEndDate.Text">
+		<value>終了日</value>
+	</data>
+	<data name="plEndDate.Help">
+		<value>広告の表示終了日を入力してください。</value>
+	</data>
+	<data name="plCriteria.Text">
+		<value>終了判定基準</value>
+	</data>
+	<data name="plCriteria.Help">
+		<value>インプレッション数が規定数に達するか終了日に達するかのいずれかを満たした場合に表示を終了させる場合は"OR"、その両方の条件を満たした時点で表示を終了させる場合は"AND"を選択してください。</value>
+	</data>
+	<data name="cmdEmail.Text">
+		<value>ステイタスをベンダーに電子メール送信</value>
+	</data>
+	<data name="ControlTitle_banner.Text">
+		<value>バナーの編集</value>
+	</data>
+	<data name="ModuleHelp.Text">
+		<value>&lt;h1&gt;バナー モジュールについて&lt;/h1&gt;
+
+&lt;p&gt;バナー モジュールではサイト ベンダーやホストベンダーのバナー広告を交代表示する機能を提供します。&lt;/p&gt;
+
+&lt;h1&gt;バナー オプションの登録&lt;/h1&gt;
+
+&lt;ol&gt;&lt;li&gt;新しい&lt;b&gt;バナー&lt;/b&gt;モジュールの追加、または既存の&lt;b&gt;バナー&lt;/b&gt;モジュールに移動。&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;バナー オプション&lt;/b&gt;をクリック。
+&lt;li&gt;&lt;b&gt;バナー ソース&lt;/b&gt;で、&lt;b&gt;サイト&lt;/b&gt;または&lt;b&gt;ホスト&lt;/b&gt;を選択。
+&lt;li&gt;&lt;b&gt;バナー タイプ&lt;/b&gt;で、バナーのタイプを選択。
+&lt;li&gt;&lt;b&gt;バナー カウント&lt;/b&gt;で、表示するバナーの数を選択。
+&lt;li&gt;&lt;b&gt;更新&lt;/b&gt;をクリック。&lt;/ol&gt;</value>
+	</data>
+	<data name="EmailSuccess.Text">
+		<value>電子メールを送信しました。</value>
+	</data>
+	<data name="EmailFailure.Text">
+		<value>電子メールを送信しませんでした: {0}</value>
+	</data>
+</root>

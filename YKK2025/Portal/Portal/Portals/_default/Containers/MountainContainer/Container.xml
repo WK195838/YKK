@@ -1,0 +1,11 @@
+<Objects>
+	<Object>
+		<Token>[TITLE]</Token>
+		<Settings>
+			<Setting>
+				<Name>CSSClass</Name>
+				<Value>Title</Value>
+			</Setting>
+		</Settings>
+	</Object>
+</Objects>

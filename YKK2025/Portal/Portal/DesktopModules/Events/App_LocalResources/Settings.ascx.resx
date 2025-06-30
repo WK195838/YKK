@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+            <xsd:complexType>
+                <xsd:choice maxOccurs="unbounded">
+                    <xsd:element name="data">
+                        <xsd:complexType>
+                            <xsd:sequence>
+                                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+                            </xsd:sequence>
+                            <xsd:attribute name="name" type="xsd:string" />
+                            <xsd:attribute name="type" type="xsd:string" />
+                            <xsd:attribute name="mimetype" type="xsd:string" />
+                        </xsd:complexType>
+                    </xsd:element>
+                    <xsd:element name="resheader">
+                        <xsd:complexType>
+                            <xsd:sequence>
+                                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                            </xsd:sequence>
+                            <xsd:attribute name="name" type="xsd:string" use="required" />
+                        </xsd:complexType>
+                    </xsd:element>
+                </xsd:choice>
+            </xsd:complexType>
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="ResMimeType">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="Version">
+        <value>1.0.0.0</value>
+    </resheader>
+    <resheader name="Reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="Writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <data name="plView.Text">
+        <value>Display Format</value>
+    </data>
+    <data name="List.Text">
+        <value>List</value>
+    </data>
+        <data name="Calendar.Text">
+        <value>Calendar</value>
+    </data>
+	<data name="plWidth.Text">
+        <value>Calendar Cell Width</value>
+    </data>
+    <data name="plHeight.Text">
+        <value>Calendar Cell Height</value>
+    </data>
+    <data name="plView.Help">
+        <value>Select how the module should display</value>
+    </data>
+    <data name="plWidth.Help">
+        <value>Enter the width of a Calendar day cell in pixels</value>
+    </data>
+    <data name="plHeight.Help">
+        <value>Enter the height of a Calendar day cell in pixels</value>
+    </data>
+    <data name="ModuleHelp.Text">
+        <value>		&lt;h1&gt;About The Events Settings &lt;/h1&gt;
+		&lt;p&gt;The Events Module displays event information within a calendar display or as a list of events.  There are 3 Event Settings that control the display and action performed within the module.  &lt;/p&gt;
+		&lt;ul&gt;
+				&lt;li&gt;
+						&lt;div align="left"&gt;
+								&lt;b&gt;Display Format &lt;/b&gt;– controls whether events are displayed as a list or within a calendar display. &lt;/div&gt;
+				&lt;/li&gt;
+		&lt;/ul&gt;
+		&lt;ul&gt;
+				&lt;ul&gt;
+						&lt;li&gt;
+								&lt;div align="left"&gt;
+										&lt;b&gt;List – &lt;/b&gt;displays events in a list without a calendar.  Events are listed according to the start date for an individual event.  If an event spans a time period, the event continues to display until the event expiry date has passed. &lt;/div&gt;
+						&lt;/li&gt;
+						&lt;li&gt;
+								&lt;div align="left"&gt;
+										&lt;b&gt;Calendar &lt;/b&gt;  - displays an event in a calendar cell for that corresponds to the start date of the event.  If an event is defined to occur over a period of time, the event will only display in the calendar cell for that corresponds to the start date of the event. &lt;/div&gt;
+						&lt;/li&gt;
+				&lt;/ul&gt;
+		&lt;/ul&gt;
+		&lt;ul&gt;
+				&lt;li&gt;
+						&lt;div align="left"&gt;
+								&lt;b&gt;Calendar Cell Width &lt;/b&gt;– set the number of pixels across a calendar day cell to allot for an event display.  Actual calendar cell width rendered is dependent on number of items to display, and the module defined panel placement. &lt;/div&gt;
+				&lt;/li&gt;
+		&lt;/ul&gt;
+		&lt;ul&gt;
+				&lt;li&gt;
+						&lt;div align="left"&gt;
+								&lt;b&gt;Calendar Cell Height &lt;/b&gt;– set the number of pixels in height available for a calendar day cell. Actual calendar cell height rendered is dependent on number of items to display, and the module defined panel placement. &lt;/div&gt;
+				&lt;/li&gt;
+		&lt;/ul&gt;
+</value>
+    </data>
+    <data name="ControlTitle_settings.Text">
+        <value>Events Settings</value>
+    </data>
+    <data name="valWidth.Text">
+        <value>&lt;br&gt;Width must be a number greater than zero</value>
+    </data>
+    <data name="valHeight.Text">
+        <value>&lt;br&gt;Height must be a number greater than zero</value>
+    </data>
+</root>

@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ModuleHelp.Text">
+    <value>&lt;P&gt;使用此模組，您可以驗證所有的語言資源檔以及與預設語言的狀態比較. 驗證的過程會處理所有系統中的資源檔案與原始語言資源檔做比較.&lt;/P&gt;
+&lt;P&gt;在得到報告後,如果有任何發現, 您可以使用 &lt;STRONG&gt;語言本地編輯器&lt;/STRONG&gt; 來解決所有報告中的問題與衝突.&lt;/P&gt;
+&lt;P&gt;資源檔可能會發生三種狀況:&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;SPAN class=SubHead&gt;Missing File&lt;/SPAN&gt;: 本地的資源檔遺失. 修正此錯誤，您可以使用 &lt;STRONG&gt;語言本地編輯器&lt;/STRONG&gt; 選擇此資源檔，而系統就會自動建立此檔案. 
+&lt;LI&gt;&lt;SPAN class=SubHead&gt;Missing Entry:&lt;/SPAN&gt;: 本地的資源檔比系統預設的資源檔少了一些項目. 修正此錯誤，您可以使用 &lt;STRONG&gt;語言本地編輯器&lt;/STRONG&gt; 選擇此資源檔，而系統就會自動建立遺失的部分. 
+&lt;LI&gt;&lt;SPAN class=SubHead&gt;Obsolete Entry&lt;/SPAN&gt;: 本地的資源檔比系統預設的資源檔多了一些項目. 修正此錯誤，您可以使用 &lt;STRONG&gt;語言本地編輯器&lt;/STRONG&gt; 選擇此資源檔，而系統就會自動刪除多餘的部分. .&lt;/LI&gt;&lt;/UL&gt;</value>
+  </data>
+  <data name="cmdVerify.Text">
+    <value>驗證資源檔案</value>
+  </data>
+  <data name="Locale.Text">
+    <value>本地:&amp;nbsp; </value>
+  </data>
+  <data name="MissingFiles.Text">
+    <value>資源檔案遺失:&amp;nbsp;</value>
+  </data>
+  <data name="MissingEntries.Text">
+    <value>檔案有缺少項目:&amp;nbsp;</value>
+  </data>
+  <data name="ObsoleteEntries.Text">
+    <value>檔案有已被淘汰的項目:&amp;nbsp;</value>
+  </data>
+  <data name="ControlTitle_verify.Text">
+    <value>驗證資源文件</value>
+  </data>
+  <data name="OldFiles.Text">
+    <value>檔案比系統預設檔案舊:&amp;nbsp;</value>
+  </data>
+</root>

@@ -1,0 +1,44 @@
+﻿/************************************************************/
+/*****              SqlDataProvider                     *****/
+/*****                                                  *****/
+/*****                                                  *****/
+/***** Note: To manually execute this script you must   *****/
+/*****       perform a search and replace operation     *****/
+/*****       for {databaseOwner} and {objectQualifier}  *****/
+/*****                                                  *****/
+/************************************************************/
+
+/** Drop Contacts Table **/
+
+ALTER TABLE {databaseOwner}[{objectQualifier}Contacts] DROP CONSTRAINT [FK_{objectQualifier}Contacts_{objectQualifier}Modules]
+GO
+
+ALTER TABLE {databaseOwner}[{objectQualifier}Contacts] DROP CONSTRAINT [PK_{objectQualifier}Contacts]
+GO
+
+DROP INDEX {databaseOwner}[{objectQualifier}Contacts].[IX_{objectQualifier}Contacts]
+GO
+
+DROP TABLE {databaseOwner}[{objectQualifier}Contacts]
+GO
+
+/** Drop Stored Procedures **/
+
+DROP PROCEDURE {databaseOwner}[{objectQualifier}GetContact]
+GO
+
+DROP PROCEDURE {databaseOwner}[{objectQualifier}AddContact]
+GO
+
+DROP PROCEDURE {databaseOwner}[{objectQualifier}UpdateContact]
+GO
+
+DROP PROCEDURE {databaseOwner}[{objectQualifier}GetContacts]
+GO
+
+DROP PROCEDURE {databaseOwner}[{objectQualifier}DeleteContact]
+GO
+
+/************************************************************/
+/*****              SqlDataProvider                     *****/
+/************************************************************/

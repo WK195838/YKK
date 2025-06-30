@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" />
+							<xsd:attribute name="type" type="xsd:string" />
+							<xsd:attribute name="mimetype" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="ResMimeType">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="Version">
+		<value>1.0.0.0</value>
+	</resheader>
+	<resheader name="Reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="Writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="ModuleHelp.Text">
+		<value>&lt;P&gt;このモジュールでは、デフォルト システム言語とインストールされた言語パックとを照合し、インストールされた言語パックの状態を確認することができます。デフォルト システム言語のすべてのリソース ファイルについて、ローカライズ バージョンのリソース ファイルとの比較が行われます。&lt;/P&gt;
+&lt;P&gt;照合の結果何らかの報告があった場合は、&lt;STRONG&gt;言語ローカライズ エディタ&lt;/STRONG&gt;を使用して報告事項の解決を図ることができます。&lt;/P&gt;
+&lt;P&gt;リソース ファイル照合結果としては次の異なる3種類の報告が表示される可能性があります。&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;SPAN class=SubHead&gt;ファイルが見つかりません&lt;/SPAN&gt;: 該当するローカライズ バージョンのリソース ファイルがありません。この問題解決のためには、&lt;STRONG&gt;言語ローカライズ エディタ&lt;/STRONG&gt;で該当のリソース ファイルを選択し、エラーが発生した該当の言語を選択します。これによってローカライズ ファイルが自動的に作成されます。
+&lt;LI&gt;&lt;SPAN class=SubHead&gt;エントリが見つかりません:&lt;/SPAN&gt; 該当するローカライズ バージョンのリソース ファイルには、デフォルト システム リソース ファイルには含まれているいくつかのエントリ情報がありません。この問題解決のためには、&lt;STRONG&gt;言語ローカライズ エディタ&lt;/STRONG&gt;で該当のリソース ファイルを選択し、エラーが発生した該当の言語を選択します。すると、ローカライズ リソース ファイル上に見つからないキー情報をすべて追加するためのオプションを選択することができるようになります。
+&lt;LI&gt;&lt;SPAN class=SubHead&gt;不要なエントリを発見&lt;/SPAN&gt;: 該当するローカライズ バージョンのリソース ファイルには、デフォルト システム リソース ファイルには存在しないいくつかのエントリ情報が含まれています。この問題解決のためには、&lt;STRONG&gt;言語ローカライズ エディタ&lt;/STRONG&gt;で該当のリソース ファイルを選択し、エラーが発生した該当の言語を選択します。本来必要のないキー情報はすべて自動的に削除されます。&lt;/LI&gt;&lt;/UL&gt;</value>
+	</data>
+	<data name="cmdVerify.Text">
+		<value>リソース ファイルの照合</value>
+	</data>
+	<data name="Locale.Text">
+		<value>ロケール:&amp;nbsp; </value>
+	</data>
+	<data name="MissingFiles.Text">
+		<value>リソース ファイルが見つかりません:&amp;nbsp;</value>
+	</data>
+	<data name="MissingEntries.Text">
+		<value>ファイルの中にエントリの記述が見つかりません:&amp;nbsp;</value>
+	</data>
+	<data name="ObsoleteEntries.Text">
+		<value>ファイルの中に不要なエントリを発見:&amp;nbsp;</value>
+	</data>
+	<data name="ControlTitle_verify.Text">
+		<value>リソース ファイル 照合</value>
+	</data>
+	<data name="OldFiles.Text">
+		<value>システム デフォルトよりも古いファイル:&amp;nbsp;</value>
+	</data>
+	<data name="DuplicateEntries.Text">
+		<value>エントリが重複記述されているファイル:&amp;nbsp;</value>
+	</data>
+</root>

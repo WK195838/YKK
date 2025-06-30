@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+            <xsd:complexType>
+                <xsd:choice maxOccurs="unbounded">
+                    <xsd:element name="data">
+                        <xsd:complexType>
+                            <xsd:sequence>
+                                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+                            </xsd:sequence>
+                            <xsd:attribute name="name" type="xsd:string" />
+                            <xsd:attribute name="type" type="xsd:string" />
+                            <xsd:attribute name="mimetype" type="xsd:string" />
+                        </xsd:complexType>
+                    </xsd:element>
+                    <xsd:element name="resheader">
+                        <xsd:complexType>
+                            <xsd:sequence>
+                                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                            </xsd:sequence>
+                            <xsd:attribute name="name" type="xsd:string" use="required" />
+                        </xsd:complexType>
+                    </xsd:element>
+                </xsd:choice>
+            </xsd:complexType>
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="ResMimeType">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="Version">
+        <value>1.0.0.0</value>
+    </resheader>
+    <resheader name="Reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="Writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <data name="plState.Text">
+        <value>都道府県:</value>
+    </data>
+    <data name="plProvince.Text">
+        <value>都道府県:</value>
+    </data>
+    <data name="plStreet.Text">
+        <value>番地:</value>
+    </data>
+    <data name="plStreet.Help">
+        <value>住所の番地を入力してください。</value>
+    </data>
+    <data name="plUnit.Text">
+        <value>部屋番号:</value>
+    </data>
+    <data name="plUnit.Help">
+        <value>アパートなどの部屋番号を入力してください。</value>
+    </data>
+    <data name="plCity.Text">
+        <value>市町村:</value>
+    </data>
+    <data name="plCity.Help">
+        <value>住所の市町村を入力してください。</value>
+    </data>
+    <data name="plCountry.Text">
+        <value>国:</value>
+    </data>
+    <data name="plCountry.Help">
+        <value>国を選択してください。</value>
+    </data>
+    <data name="StreetRequired.Text">
+        <value>&lt;br&gt;番地が入力されていません。</value>
+    </data>
+    <data name="CityRequired.Text">
+        <value>&lt;br&gt;市町村が入力されていません。</value>
+    </data>
+    <data name="CountryRequired.Text">
+        <value>&lt;br&gt;国が選択されていません。</value>
+    </data>
+    <data name="plState.Help">
+        <value>州をリストから選択してください。</value>
+    </data>
+    <data name="plProvince.Help">
+        <value>都道府県をリストから選択してください。</value>
+    </data>
+    <data name="StateRequired.Text">
+        <value>&lt;br&gt;都道府県が入力されていません。</value>
+    </data>
+    <data name="ProvinceRequired.Text">
+        <value>&lt;br&gt;都道府県が入力されていません。</value>
+    </data>
+    <data name="RegionRequired.Text">
+        <value>&lt;br&gt;都道府県が入力されていません。</value>
+    </data>
+    <data name="plRegion.Text">
+	<value>都道府県:</value>
+    </data>
+    <data name="plRegion.Help">
+        <value>都道府県を入力してください。</value>
+    </data>
+    <data name="plPostal.Text">
+        <value>郵便番号:</value>
+    </data>
+    <data name="plPostal.Help">
+        <value>郵便番号を入力してください。</value>
+    </data>
+    <data name="plZip.Text">
+        <value>郵便番号:</value>
+    </data>
+    <data name="plZip.Help">
+        <value>郵便番号を入力してください。</value>
+    </data>
+    <data name="PostalRequired.Text">
+        <value>&lt;br&gt;郵便番号が入力されていません。</value>
+    </data>
+    <data name="plTelephone.Text">
+        <value>電話番号:</value>
+    </data>
+    <data name="plTelephone.Help">
+        <value>電話番号を入力してください。</value>
+    </data>
+    <data name="TelephoneRequired.Text">
+        <value>&lt;br&gt;電話番号が入力されていません。</value>
+    </data>
+    <data name="plCell.Text">
+        <value>携帯電話:</value>
+    </data>
+    <data name="plCell.Help">
+        <value>携帯電話番号を入力してください。</value>
+    </data>
+    <data name="CellRequired.Text">
+        <value>&lt;br&gt;携帯電話番号が入力されていません。</value>
+    </data>
+    <data name="plFax.Text">
+        <value>FAX番号:</value>
+    </data>
+    <data name="plFax.Help">
+        <value>FAX番号を入力してください。</value>
+    </data>
+    <data name="FaxRequired.Text">
+        <value>&lt;br&gt;FAX番号が入力されていません。</value>
+    </data>
+</root>

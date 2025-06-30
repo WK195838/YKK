@@ -1,0 +1,51 @@
+﻿/************************************************************/
+/*****              SqlDataProvider                     *****/
+/*****                                                  *****/
+/*****                                                  *****/
+/***** Note: To manually execute this script you must   *****/
+/*****       perform a search and replace operation     *****/
+/*****       for {databaseOwner} and {objectQualifier}  *****/
+/*****                                                  *****/
+/************************************************************/
+
+/** Drop Documents Table **/
+
+ALTER TABLE {databaseOwner}[{objectQualifier}Discussion] DROP CONSTRAINT [FK_{objectQualifier}Discussion_{objectQualifier}Modules]
+GO
+
+ALTER TABLE {databaseOwner}[{objectQualifier}Discussion] DROP CONSTRAINT [PK_{objectQualifier}Discussion]
+GO
+
+DROP INDEX {databaseOwner}[{objectQualifier}Discussion].[IX_{objectQualifier}Discussion]
+GO
+
+DROP TABLE {databaseOwner}[{objectQualifier}Discussion]
+GO
+
+
+/** Drop Stored Procedures **/
+
+DROP PROCEDURE {databaseOwner}[{objectQualifier}GetThreadMessages]
+GO
+
+DROP PROCEDURE {databaseOwner}[{objectQualifier}GetTopLevelMessages]
+GO
+
+DROP PROCEDURE {databaseOwner}[{objectQualifier}GetMessage]
+GO
+
+DROP PROCEDURE {databaseOwner}[{objectQualifier}UpdateMessage]
+GO
+
+DROP PROCEDURE {databaseOwner}[{objectQualifier}GetMessageByParentId]
+GO
+
+DROP PROCEDURE {databaseOwner}[{objectQualifier}DeleteMessage]
+GO
+
+DROP PROCEDURE {databaseOwner}[{objectQualifier}AddMessage]
+GO
+
+/************************************************************/
+/*****              SqlDataProvider                     *****/
+/************************************************************/

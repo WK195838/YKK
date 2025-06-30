@@ -1,0 +1,137 @@
+/* ================================
+    CSS STYLES FOR DotNetNuke
+   ================================
+*/   
+
+/* GENERAL */
+/* style for module titles */
+/* text style for the unselected tabs */
+.SelectedTab {
+    font-weight: bold;
+    font-size: 8.5pt;
+    color:black;
+    font-family: Arial, Helvetica;
+    text-decoration: none;
+}
+.OtherTabs {
+    font-weight: bold;
+    font-size: 8.5pt;
+    color:black;
+    font-family: Arial, Helvetica;
+    text-decoration: none;
+}
+    
+/* hyperlink style for the unselected tabs */
+A.OtherTabs:link {
+    text-decoration:    none;
+    color:black;
+}
+
+A.OtherTabs:visited  {
+    text-decoration:    none;
+    color:black;
+}
+
+A.OtherTabs:active   {
+    text-decoration:    none;
+    color:black;
+}
+
+A.OtherTabs:hover    {
+    text-decoration:    underline;
+    color:black;
+}
+
+/* Main Menu */
+
+.MainMenu_MenuContainer {
+	border-bottom: #1328B8 1px solid; 
+	border-left: #FF8080 0px solid; 
+	border-top: #FF8080 0px solid; 
+	border-right: #404040 0px solid;  
+	background-color: Transparent;
+
+}
+
+.MainMenu_MenuBar {
+	cursor: pointer; 
+	cursor: hand; 
+	height:16;
+}
+
+.MainMenu_MenuItem {
+	cursor: pointer; 
+	cursor: hand; 
+	color: #6699CC; 
+	font-family: Arial, Helvetica; 
+	font-size: 9pt; 
+	font-weight: bold; 
+	font-style: normal; 
+	border-left: #000000 0px solid; 
+	border-bottom: #000000 0px solid; 
+	border-top: #000000 0px solid; 
+	border-right: #000000 0px solid;
+}
+
+.MainMenu_MenuIcon {
+	cursor: pointer; 
+	cursor: hand; 
+	background-color: #FFFFFF; 
+	border-left: #000000 0px solid; 
+	border-right: #000000 0px solid; 
+	border-bottom: #000000 0px solid; 
+	border-top: #000000 0px solid; 
+	text-align: center; 
+	width: 21; 
+	height: 21;
+}
+
+.MainMenu_SubMenu {
+	z-index: 1000; 
+	cursor: pointer; 
+	cursor: hand; 
+	background-color: #1328B8; 
+	filter:progid:DXImageTransform.Microsoft.Shadow(color='#6699CC', Direction=135, Strength=3) ; 
+	border-bottom: #404040 0px solid; 
+	border-left: #1328B8 1px solid; 
+	border-top: #FF8080 0px solid; 
+	border-right: #404040 0px solid;
+}
+
+.MainMenu_MenuBreak {
+	border-bottom: #404040 0px solid; 
+	border-left: #FF8080 0px solid; 
+	border-top: #FF8080 0px solid;  
+	border-right: #404040 0px solid; 
+	background-color: #000000; 
+	height: 0px;
+}
+
+.MainMenu_MenuItemSel {
+	background-color: #CCCCCC; 
+	cursor: pointer; 
+	cursor: hand; 
+	color: White; 
+	font-family: Arial, Helvetica; 
+	font-size: 9pt; 
+	font-weight: bold; 
+	font-style: normal;
+}
+
+.MainMenu_MenuArrow {
+	font-family: webdings; 
+	font-size: 10pt; 
+	color: Black; 
+	cursor: pointer; 
+	cursor: hand; 
+	border-right: #000000 0px solid; 
+	border-bottom: #000000 0px solid; 
+	border-top: #000000 0px solid;
+}
+
+.MainMenu_RootMenuArrow {
+	font-family: webdings; 
+	font-size: 10pt; 
+	cursor: pointer; 
+	cursor: hand;
+}

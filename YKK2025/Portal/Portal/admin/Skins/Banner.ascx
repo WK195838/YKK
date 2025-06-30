@@ -1,0 +1,2 @@
+<%@ Control language="vb" CodeBehind="Banner.ascx.vb" AutoEventWireup="false" Explicit="True" Inherits="DotNetNuke.UI.Skins.Controls.Banner" %>
+<asp:Literal ID="lblBanner" Runat="server" enableviewstate="False"></asp:Literal>

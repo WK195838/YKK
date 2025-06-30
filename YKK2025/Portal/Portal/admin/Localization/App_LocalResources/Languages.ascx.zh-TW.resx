@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Duplicate.ErrorMessage">
+    <value>此本地化已經被定義</value>
+  </data>
+  <data name="Delete.ErrorMessage">
+    <value>系統本地化設定(en-US) 不能被刪除</value>
+  </data>
+  <data name="AddNewLocale.Text">
+    <value>增加新的本地化</value>
+  </data>
+  <data name="SupportedLocales.Text">
+    <value>支援的本地化</value>
+  </data>
+  <data name="KeyFormat.ErrorMessage">
+    <value>&lt;br&gt;注意格式為: xx-YY  ( xx是語言代碼，YY 是國家/地區代碼)</value>
+  </data>
+  <data name="Name.Header">
+    <value>名稱</value>
+  </data>
+  <data name="Key.Header">
+    <value>關鍵詞</value>
+  </data>
+  <data name="DeleteFiles.Text">
+    <value>當刪除一個本地化時刪除同時所有的資源檔案？</value>
+  </data>
+  <data name="lbName.Text">
+    <value>名稱</value>
+  </data>
+  <data name="lbKey.Text">
+    <value>關鍵詞</value>
+  </data>
+  <data name="lbName.Help">
+    <value>為新的本地化輸入說明</value>
+  </data>
+  <data name="lbKey.Help">
+    <value>輸入本地化關鍵詞</value>
+  </data>
+  <data name="TimeZones.Action">
+    <value>時區編輯器</value>
+  </data>
+  <data name="Languages.Action">
+    <value>語言本地化編輯器</value>
+  </data>
+  <data name="Save.ErrorMessage">
+    <value>檔案操作失敗，請檢查資源檔案授權，檔案必須要是可編輯的狀態。</value>
+  </data>
+  <data name="NewLocale.ErrorMessage">
+    <value>預設對應此新本地化的時區檔案已經被建立過了.您必須將原來的時區檔案反對應到此本地化</value>
+  </data>
+  <data name="Verify.Action">
+    <value>資源檔案驗證</value>
+  </data>
+  <data name="ControlTitle_.Text">
+    <value>語言</value>
+  </data>
+  <data name="PackageGenerate.Action">
+    <value>產生語言包</value>
+  </data>
+  <data name="PackageImport.Action">
+    <value>匯入語言包</value>
+  </data>
+</root>

@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="plTitle.Text">
+    <value>行事曆標題</value>
+  </data>
+  <data name="plTitle.Help">
+    <value>輸入行事曆標題</value>
+  </data>
+  <data name="valTitle.ErrorMessage">
+    <value>必須輸入行事曆標題</value>
+  </data>
+  <data name="plDescription.Text">
+    <value>簡要說明</value>
+  </data>
+  <data name="plDescription.Help">
+    <value>輸入簡要說明</value>
+  </data>
+  <data name="plImage.Text">
+    <value>圖片</value>
+  </data>
+  <data name="plImage.Help">
+    <value>選擇一個圖片</value>
+  </data>
+  <data name="valDescription.ErrorMessage">
+    <value>簡要說明必須輸入</value>
+  </data>
+  <data name="plAlt.Text">
+    <value>提示內容</value>
+  </data>
+  <data name="plAlt.Help">
+    <value>輸入替換文本</value>
+  </data>
+  <data name="valAltText.ErrorMessage">
+    <value>&lt;br&gt;提示文字必須輸入</value>
+  </data>
+  <data name="plEvery.Text">
+    <value>發生頻率</value>
+  </data>
+  <data name="plEvery.Help">
+    <value>輸入發生頻率</value>
+  </data>
+  <data name="plStartDate.Text">
+    <value>開始日期</value>
+  </data>
+  <data name="plStartDate.Help">
+    <value>輸入開始日期</value>
+  </data>
+  <data name="valStartDate.ErrorMessage">
+    <value>&lt;br&gt;必須輸入開始日期</value>
+  </data>
+  <data name="valStartDate2.ErrorMessage">
+    <value>&lt;br&gt;無效開始日期！</value>
+  </data>
+  <data name="plTime.Text">
+    <value>時間</value>
+  </data>
+  <data name="plTime.Help">
+    <value>輸入時間</value>
+  </data>
+  <data name="plExpiryDate.Text">
+    <value>過期日期</value>
+  </data>
+  <data name="plExpiryDate.Help">
+    <value>輸入過期日期.</value>
+  </data>
+  <data name="valExpiryDate.ErrorMessage">
+    <value>&lt;br&gt;無效的過期日期</value>
+  </data>
+  <data name="ModuleHelp.Text">
+    <value>行事曆模組</value>
+  </data>
+  <data name="ControlTitle_edit.Text">
+    <value>編輯行事曆</value>
+  </data>
+</root>

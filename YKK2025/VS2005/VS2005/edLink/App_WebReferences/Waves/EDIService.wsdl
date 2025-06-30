@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="EDICheckKeepCode">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pLogID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pBuyer" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pUserID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pGRBuyer" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="EDICheckKeepCodeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="EDICheckKeepCodeResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="EDICheckColorCode">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pLogID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pBuyer" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pUserID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pGRBuyer" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="EDICheckColorCodeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="EDICheckColorCodeResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="EDICheckItemCode">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pLogID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pBuyer" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pUserID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pGRBuyer" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="EDICheckItemCodeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="EDICheckItemCodeResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="EDICheckDuplicateData">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pLogID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pBuyer" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pUserID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pGRBuyer" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="EDICheckDuplicateDataResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="EDICheckDuplicateDataResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="EDIEDI2Waves">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pLogID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pBuyer" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pUserID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pGRBuyer" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="EDIEDI2WavesResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="EDIEDI2WavesResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="EDICheckKeepCodeSoapIn">
+    <wsdl:part name="parameters" element="tns:EDICheckKeepCode" />
+  </wsdl:message>
+  <wsdl:message name="EDICheckKeepCodeSoapOut">
+    <wsdl:part name="parameters" element="tns:EDICheckKeepCodeResponse" />
+  </wsdl:message>
+  <wsdl:message name="EDICheckColorCodeSoapIn">
+    <wsdl:part name="parameters" element="tns:EDICheckColorCode" />
+  </wsdl:message>
+  <wsdl:message name="EDICheckColorCodeSoapOut">
+    <wsdl:part name="parameters" element="tns:EDICheckColorCodeResponse" />
+  </wsdl:message>
+  <wsdl:message name="EDICheckItemCodeSoapIn">
+    <wsdl:part name="parameters" element="tns:EDICheckItemCode" />
+  </wsdl:message>
+  <wsdl:message name="EDICheckItemCodeSoapOut">
+    <wsdl:part name="parameters" element="tns:EDICheckItemCodeResponse" />
+  </wsdl:message>
+  <wsdl:message name="EDICheckDuplicateDataSoapIn">
+    <wsdl:part name="parameters" element="tns:EDICheckDuplicateData" />
+  </wsdl:message>
+  <wsdl:message name="EDICheckDuplicateDataSoapOut">
+    <wsdl:part name="parameters" element="tns:EDICheckDuplicateDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="EDIEDI2WavesSoapIn">
+    <wsdl:part name="parameters" element="tns:EDIEDI2Waves" />
+  </wsdl:message>
+  <wsdl:message name="EDIEDI2WavesSoapOut">
+    <wsdl:part name="parameters" element="tns:EDIEDI2WavesResponse" />
+  </wsdl:message>
+  <wsdl:portType name="EDIServiceSoap">
+    <wsdl:operation name="EDICheckKeepCode">
+      <wsdl:input message="tns:EDICheckKeepCodeSoapIn" />
+      <wsdl:output message="tns:EDICheckKeepCodeSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="EDICheckColorCode">
+      <wsdl:input message="tns:EDICheckColorCodeSoapIn" />
+      <wsdl:output message="tns:EDICheckColorCodeSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="EDICheckItemCode">
+      <wsdl:input message="tns:EDICheckItemCodeSoapIn" />
+      <wsdl:output message="tns:EDICheckItemCodeSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="EDICheckDuplicateData">
+      <wsdl:input message="tns:EDICheckDuplicateDataSoapIn" />
+      <wsdl:output message="tns:EDICheckDuplicateDataSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="EDIEDI2Waves">
+      <wsdl:input message="tns:EDIEDI2WavesSoapIn" />
+      <wsdl:output message="tns:EDIEDI2WavesSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="EDIServiceSoap" type="tns:EDIServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="EDICheckKeepCode">
+      <soap:operation soapAction="http://tempuri.org/EDICheckKeepCode" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EDICheckColorCode">
+      <soap:operation soapAction="http://tempuri.org/EDICheckColorCode" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EDICheckItemCode">
+      <soap:operation soapAction="http://tempuri.org/EDICheckItemCode" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EDICheckDuplicateData">
+      <soap:operation soapAction="http://tempuri.org/EDICheckDuplicateData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EDIEDI2Waves">
+      <soap:operation soapAction="http://tempuri.org/EDIEDI2Waves" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="EDIServiceSoap12" type="tns:EDIServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="EDICheckKeepCode">
+      <soap12:operation soapAction="http://tempuri.org/EDICheckKeepCode" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EDICheckColorCode">
+      <soap12:operation soapAction="http://tempuri.org/EDICheckColorCode" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EDICheckItemCode">
+      <soap12:operation soapAction="http://tempuri.org/EDICheckItemCode" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EDICheckDuplicateData">
+      <soap12:operation soapAction="http://tempuri.org/EDICheckDuplicateData" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EDIEDI2Waves">
+      <soap12:operation soapAction="http://tempuri.org/EDIEDI2Waves" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="EDIService">
+    <wsdl:port name="EDIServiceSoap" binding="tns:EDIServiceSoap">
+      <soap:address location="http://localhost/WavesService/EDIService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="EDIServiceSoap12" binding="tns:EDIServiceSoap12">
+      <soap12:address location="http://localhost/WavesService/EDIService.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

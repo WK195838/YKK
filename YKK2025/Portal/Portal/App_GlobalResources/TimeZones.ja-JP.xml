@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <!-- 
+Specify timezones here 
+-->
+  <timezone name="(GMT) グリニッジ標準時 : ダブリン、エジンバラ、リスボン、ロンドン" key="0" />
+  <timezone name="(GMT -12:00) 国際日付変更線 西側" key="-720" />
+  <timezone name="(GMT -11:00) ミッドウェー島、サモア" key="-660" />
+  <timezone name="(GMT -10:00) ハワイ" key="-600" />
+  <timezone name="(GMT -09:00) アラスカ" key="-540" />
+  <timezone name="(GMT -08:00) 太平洋標準時（米国およびカナダ）、ティファナ" key="-480" />
+  <timezone name="(GMT -07:00) 山地標準時（米国およびカナダ）" key="-420" />
+  <timezone name="(GMT -06:00) 中部標準時（米国およびカナダ）" key="-360" />
+  <timezone name="(GMT -05:00) 東部標準時（米国およびカナダ）" key="-300" />
+  <timezone name="(GMT -04:00) 大西洋標準時（カナダ）" key="-240" />
+  <timezone name="(GMT -03:30) ニューファウンドランド (カナダ)" key="-210" />
+  <timezone name="(GMT -03:00) ブエノスアイレス、ジョージタウン" key="-180" />
+  <timezone name="(GMT -02:00) 中央大西洋" key="-120" />
+  <timezone name="(GMT -01:00) カーボベルデ諸島" key="-60" />
+  <timezone name="(GMT +01:00) アムステルダム、ベルリン、ベルン、ローマ、ストックホルム、ウィーン" key="60" />
+  <timezone name="(GMT +02:00) アテネ、ベイルート、イスタンブール、ミンスク" key="120" />
+  <timezone name="(GMT +03:00) モスクワ、サンクト ペテルスブルグ、ボルゴグラード" key="180" />
+  <timezone name="(GMT +03:30) テヘラン" key="210" />
+  <timezone name="(GMT +04:00) アブダビ、マスカット" key="240" />
+  <timezone name="(GMT +04:30) カブール" key="270" />
+  <timezone name="(GMT +05:00) イスラマバード、カラチ、タシケント" key="300" />
+  <timezone name="(GMT +05:30) カルカッタ、チェンナイ、ムンバイ、ニューデリー" key="330" />
+  <timezone name="(GMT +05:45) カトマンドゥ" key="345" />
+  <timezone name="(GMT +06:00) アルマティ、ノボシビルスク" key="360" />
+  <timezone name="(GMT +06:30) ラングーン(ヤンゴン、ビルマ)" key="390" />
+  <timezone name="(GMT +07:00) バンコク、ハノイ、ジャカルタ" key="420" />
+  <timezone name="(GMT +08:00) 北京、重慶、香港、ウルムチ" key="480" />
+  <timezone name="(GMT +09:00) 大阪、札幌、東京" key="540" />
+  <timezone name="(GMT +09:30) アデレード、ダーウィン" key="570" />
+  <timezone name="(GMT +10:00) キャンベラ、メルボルン、シドニー" key="600" />
+  <timezone name="(GMT +11:00) マガダン、ソロモン諸島、ニューカレドニア" key="660" />
+  <timezone name="(GMT +12:00) オークランド、フィジー、カムチャッカ、マーシャル諸島" key="720" />
+  <timezone name="(GMT +13:00) ヌクアロファ" key="780" />
+</root>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" />
+							<xsd:attribute name="type" type="xsd:string" />
+							<xsd:attribute name="mimetype" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="ResMimeType">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="Version">
+		<value>1.0.0.0</value>
+	</resheader>
+	<resheader name="Reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="Writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="cmdExport.Text">
+		<value>テンプレートのエクスポート</value>
+	</data>
+	<data name="valFileName.ErrorMessage">
+		<value>テンプレート ファイル名が入力されていません</value>
+	</data>
+	<data name="plTemplateName.Text">
+		<value>テンプレート ファイル名:</value>
+	</data>
+	<data name="plPortals.Text">
+		<value>ポータル:</value>
+	</data>
+	<data name="ExportedMessage.Text">
+		<value>ポータル テンプレートが&lt;b&gt;{0}&lt;/b&gt;に作成されました。</value>
+	</data>
+	<data name="plPortals.Help">
+		<value>エクスポートするポータルを選択してください。</value>
+	</data>
+	<data name="plTemplateName.Help">
+		<value>作成するテンプレート ファイルの名称を指定してください。</value>
+	</data>
+	<data name="plContent.Text">
+		<value>エクスポートにコンテンツを含める:</value>
+	</data>
+	<data name="plContent.Help">
+		<value>選択したコンテンツは、テンプレート ファイルに対して一緒にエクスポートされます。</value>
+	</data>
+	<data name="plDescription.Text">
+		<value>テンプレートの説明:</value>
+	</data>
+	<data name="plDescription.Help">
+		<value>テンプレート ファイルに対する説明を入力してください。</value>
+	</data>
+	<data name="valDescription.ErrorMessage">
+		<value>テンプレートの説明が入力されていません</value>
+	</data>
+	<data name="ControlTitle_.Text">
+		<value>テンプレートのエクスポート</value>
+	</data>
+	<data name="ModuleHelp.Text">
+		<value>&lt;h1&gt;テンプレートについて&lt;/h1&gt;&lt;p&gt;ポータル テンプレートのエクスポートを行うことができます。エクスポートしたポータル テンプレートは新たなポータルを作成する際に利用することができます。&lt;/p&gt;</value>
+	</data>
+</root>

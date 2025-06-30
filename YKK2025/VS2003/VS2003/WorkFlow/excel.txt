@@ -1,0 +1,18 @@
+1public void OutputExcel()  //利用Excel也接受Html的方式來匯出Excel
+ 2...{
+ 3  Response.Clear();
+ 4  Response.Buffer=true;
+ 5  Response.Charset ="BIG5"; //設定字集
+ 6  Response.AppendHeader("Content-Disposition" 
+ 7    ,"attachment;filename=YourExcelFileName.xls"); //filename 可自定
+ 8  Response.ContentEncoding=System.Text.Encoding.GetEncoding("BIG5");
+ 9  Response.ContentType = "application/ms-excel "; //內容型態設為Excel
+10  this.EnableViewState = false; //把ViewState給關了
+11  System.IO.StringWriter objStringWriter = new  System.IO.StringWriter();
+12  System.Web.UI.HtmlTextWriter objHtmlTextWriter = 
+13    new System.Web.UI.HtmlTextWriter(objStringWriter);
+14  this.RenderControl(objHtmlTextWriter); 
+15  //只想匯DataGrid也行, 把This改 你的DataGrid ID
+16  Response.Write(objStringWriter.ToString());
+17  Response.End();
+18}

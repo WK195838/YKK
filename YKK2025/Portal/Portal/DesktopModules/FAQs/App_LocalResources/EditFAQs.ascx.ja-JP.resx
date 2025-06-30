@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+            <xsd:complexType>
+                <xsd:choice maxOccurs="unbounded">
+                    <xsd:element name="data">
+                        <xsd:complexType>
+                            <xsd:sequence>
+                                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+                            </xsd:sequence>
+                            <xsd:attribute name="name" type="xsd:string" />
+                            <xsd:attribute name="type" type="xsd:string" />
+                            <xsd:attribute name="mimetype" type="xsd:string" />
+                        </xsd:complexType>
+                    </xsd:element>
+                    <xsd:element name="resheader">
+                        <xsd:complexType>
+                            <xsd:sequence>
+                                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                            </xsd:sequence>
+                            <xsd:attribute name="name" type="xsd:string" use="required" />
+                        </xsd:complexType>
+                    </xsd:element>
+                </xsd:choice>
+            </xsd:complexType>
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="ResMimeType">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="Version">
+        <value>1.0.0.0</value>
+    </resheader>
+    <resheader name="Reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="Writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <data name="plQuestionField.Text">
+        <value>質問</value>
+    </data>
+    <data name="plQuestionField.Help">
+        <value>質問を入力してください。</value>
+    </data>
+    <data name="plAnswerField.Text">
+        <value>回答</value>
+    </data>
+    <data name="plAnswerField.Help">
+        <value>回答を入力してください。</value>
+    </data>
+    <data name="valQuestionField.ErrorMessage">
+        <value>&lt;br&gt;質問は必ず入力してください。</value>
+    </data>
+    <data name="valAnswerField.ErrorMessage">
+        <value>&lt;br&gt;回答は必ず入力してください。</value>
+    </data>
+    <data name="ModuleHelp.Text">
+        <value>&lt;h1&gt;FAQモジュールについて&lt;/h1&gt;
+
+&lt;p&gt;FAQ モジュールは、ログイン済みユーザーがFAQ (Frequently Asked Question:良くある質問) およびその質問に対応した回答のリストを管理できる機能を提供します。質問はリンクとして表示され、そのリンクをクリックをすることにより対応する回答が表示されます。&lt;/p&gt;
+
+&lt;h1&gt;新しいFAQの追加&lt;/h1&gt;
+&lt;ol&gt;&lt;li&gt;&lt;b&gt;FAQ&lt;/b&gt;のモジュールを追加、または既存の&lt;b&gt;FAQ&lt;/b&gt;モジュールを開きます。&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;新しいFAQの追加&lt;/b&gt;をクリックします。&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;質問&lt;/b&gt;には、質問の内容を入力します。&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;回答&lt;/b&gt;には、質問に対応する回答の内容を入力します。&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;更新&lt;/b&gt;をクリックします。&lt;/li&gt;&lt;/ol&gt;</value>
+    </data>
+    <data name="ControlTitle_edit.Text">
+        <value>FAQの編集</value>
+    </data>
+</root>

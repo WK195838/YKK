@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" />
+							<xsd:attribute name="type" type="xsd:string" />
+							<xsd:attribute name="mimetype" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="ResMimeType">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="Version">
+		<value>1.0.0.0</value>
+	</resheader>
+	<resheader name="Reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="Writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="ChooseTemplate.Title">
+		<value>このサイト向けのテンプレートの選択</value>
+	</data>
+	<data name="Template.Help">
+		<value>								
+			&lt;p&gt;
+				管理者は、このサイト構成ウィザードを利用する事によって、とても簡単に目的や用途に合わせたポータル設定を行うことができます。
+			&lt;/p&gt;
+			&lt;p&gt;
+				このウィザードはステップに分かれていて、ウィザード画面の下にある [戻る/進む] のボタンを選択することでステップを進めたり戻したりすることができます。
+			&lt;/p&gt;
+			&lt;p&gt;
+				[完了] ボタンは、ウィザードの画面上で必要な情報がすべて入力された段階でクリックできるようになります。
+			&lt;/p&gt;
+			&lt;p&gt;
+				オプションとして、あらかじめ用意されているテンプレートを選択してサイトを構築することも可能です。テンプレートを選択するためにはチェック ボックスをクリックしてください。チェック ボックスをクリックするとテンプレート リストが有効になり、リストからテンプレートを選択できるようになります。
+			&lt;/p&gt;
+			&lt;p&gt;
+				テンプレートを選択してサイトを構築することを選択した場合は、テンプレートに含まれるモジュールと既にサイトに含まれているモジュールとが重複した場合の競合解決の方法を選択する必要があります。
+			&lt;/p&gt;
+		</value>
+	</data>
+	<data name="lblTemplateTitle.Text">
+		<value>このサイト向けのテンプレートの選択:</value>
+	</data>
+	<data name="lblTemplateTitle.Help">
+		<value>あらかじめ用意されているテンプレートを選択してサイトを構築することも可能です。テンプレートを選択するためにはチェック ボックスをクリックしてください。チェック ボックスをクリックするとテンプレート リストが有効になり、リストからテンプレートを選択できるようになります。</value>
+	</data>
+	<data name="TemplateDetail.Text">
+		<value>テンプレート (以下) を選択してサイトを構築する</value>
+	</data>
+	<data name="MergeDetail.Text">
+		<value>モジュール競合時の解決 (テンプレートに含まれるモジュールと、既にサイトに含まれているモジュールが重複した場合の解決)</value>
+	</data>
+	<data name="Ignore.Text">
+		<value>無視</value>
+	</data>
+	<data name="Replace.Text">
+		<value>上書き</value>
+	</data>
+	<data name="Merge.Text">
+		<value>マージ</value>
+	</data>
+	<data name="MergeWarning.Text">
+		<value>								
+			&lt;p class="NormalRed"&gt;
+				注: [上書き] を選択した場合、テンプレート内の全てのコンテンツは削除されます。
+			&lt;/p&gt;
+		</value>
+	</data>
+	<data name="TemplateRequired.Text">
+		<value>テンプレートを選択してください</value>
+	</data>
+	<data name="InvalidTemplate.Text">
+		<value>{0} は妥当なテンプレートファイルではありません</value>
+	</data>
+	<data name="ChooseSkin.Title">
+		<value>このサイト向けのスキンの選択</value>
+	</data>
+	<data name="lblSkinTitle.Text">
+		<value>このサイト向けのスキンの選択:</value>
+	</data>
+	<data name="lblSkinTitle.Help">
+		<value>スキン ビューアからスキンを選択してください。選択したスキンはサイトのすべてのページに適用されます。</value>
+	</data>
+	<data name="SkinDetail.Text">
+		<value>スキン ビューア (以下) からスキンを選択してください</value>
+	</data>
+	<data name="Skin.Help">
+		<value>
+			&lt;p&gt;
+			スキンはスキン ビューアから選択することができます。選択したスキンはサイトのすべてのページに適用されます。
+			なお、ページのプロパティを編集する事によって、個々のページのスキンをデフォルトのスキンとは異なるものに変更可能です。
+			&lt;/p&gt;
+		</value>
+	</data>
+	<data name="ChooseContainer.Title">
+		<value>このサイト向けのデフォルト コンテナの選択</value>
+	</data>
+	<data name="lblContainerTitle.Text">
+		<value>コンテナの選択:</value>
+	</data>
+	<data name="lblContainerTitle.Help">
+		<value>コンテナ ビューアからコンテナを選択してください。選択したコンテナはサイトのすべてのページのすべてのモジュールに適用されます。</value>
+	</data>
+	<data name="ContainerDetail.Text">
+		<value>ビューワからコンテナを選択してください:</value>
+	</data>
+	<data name="Container.Help">
+		<value>
+			&lt;p&gt;
+			コンテナはコンテナ ビューアから選択することができます。選択したコンテナはサイトのすべてのページのすべてのモジュールに適用されます。なお、モジュールのプロパティを編集することによって、個々のページのモジュールをデフォルトのコンテナとは異なるものに変更可能です。
+			&lt;/p&gt;
+		</value>
+	</data>
+	<data name="Details.Title">
+		<value>サイト詳細の設定</value>
+	</data>
+	<data name="lblDetailsTitle.Text">
+		<value>サイト詳細:</value>
+	</data>
+	<data name="lblDetailsTitle.Help">
+		<value>この画面では、サイトについての基本情報を設定入力してください。</value>
+	</data>
+	<data name="DetailsDetail.Text">
+		<value>サイトの基本情報を入力してください</value>
+	</data>
+	<data name="lblPortalName.Text">
+		<value>名前/タイトル:</value>
+	</data>
+	<data name="lblPortalName.Help">
+		<value>サイト名はブラウザのタイトル バーに表示されます。</value>
+	</data>
+	<data name="lblDescription.Text">
+		<value>説明:</value>
+	</data>
+	<data name="lblDescription.Help">
+		<value>サイトの説明を入力します。</value>
+	</data>
+	<data name="lblKeyWords.Text">
+		<value>キーワード:</value>
+	</data>
+	<data name="lblKeyWords.Help">
+		<value>サイトを表すキーワードを入力します。キーワード間はカンマで区切ります。</value>
+	</data>
+	<data name="Details.Help">
+		<value>
+			&lt;p&gt;
+				この画面では、サイトについての基本情報を設定入力することができます。
+			&lt;/p&gt;
+			&lt;p&gt;
+				必要に応じてサイトを表す説明やキーワードを入力することができます。
+				入力された説明やキーワードは、サイト名と共に検索エンジンから参照され、インデックス化されます。
+			&lt;/p&gt;
+			&lt;p&gt;
+				複数のキーワードを入力する場合は、カンマで区切る必要があります。
+			&lt;/p&gt;
+		</value>
+	</data>
+	<data name="Logo.Title">
+		<value>ロゴの選択</value>
+	</data>
+	<data name="lblLogoTitle.Text">
+		<value>ロゴの選択:</value>
+	</data>
+	<data name="lblLogoTitle.Help">
+		<value>サイトのロゴを選択してください。</value>
+	</data>
+	<data name="lblLogo.Text">
+		<value>ロゴ:</value>
+	</data>
+	<data name="lblLogo.Help">
+		<value>ロゴを選択します。</value>
+	</data>
+	<data name="Logo.Help">
+		<value>								
+			&lt;p&gt;
+				スキンによってはロゴがサポートされており、通常は画面の左上に配置されます。
+				ロゴがサポートされているスキンを利用する場合は、このページでロゴを選択します。
+			&lt;/p&gt;
+			&lt;p&gt;
+				利用したいロゴ ファイルがサイト上にない場合は、ローカル コンピュータからアップロードすることができます。
+			&lt;/p&gt;
+		</value>
+	</data>
+	<data name="SuccessMessage.Text">
+		<value>
+			&lt;p&gt;
+				サイトの構成ウィザードは成功しました。
+			&lt;/p&gt;
+			&lt;p&gt;
+				サイトのスキンを変更した場合は、 [ホーム] を選択して [ウィザード] 画面を閉じた時点で新しいスキンが適用されます。
+			&lt;/p&gt;
+        </value>
+	</data>
+	<data name="ControlTitle_.Text">
+		<value>サイト ウィザード</value>
+	</data>
+	<data name="ModuleHelp.Text">
+		<value>&lt;h1&gt;サイト ウィザードについて&lt;/h1&gt;&lt;p&gt;管理者は、このサイト構成ウィザードを利用する事によって、とても簡単に目的や用途に合わせたポータル設定を行うことができます。&lt;/p&gt;</value>
+	</data>
+	<data name="IncludeAll.Text">
+		<value>すべてのコンテナを表示:</value>
+	</data>
+</root>

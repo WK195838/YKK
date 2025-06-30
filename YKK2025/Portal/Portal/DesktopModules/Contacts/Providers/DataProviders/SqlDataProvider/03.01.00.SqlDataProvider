@@ -1,0 +1,182 @@
+﻿/************************************************************/
+/*****              SqlDataProvider                     *****/
+/*****                                                  *****/
+/*****                                                  *****/
+/***** Note: To manually execute this script you must   *****/
+/*****       perform a search and replace operation     *****/
+/*****       for {databaseOwner} and {objectQualifier}  *****/
+/*****                                                  *****/
+/************************************************************/
+
+/** Create Contacts Table **/
+
+if not exists (select * from dbo.sysobjects where id = object_id(N'{databaseOwner}[{objectQualifier}Contacts]') and OBJECTPROPERTY(id, N'IsTable') = 1)
+	BEGIN
+		CREATE TABLE {databaseOwner}[{objectQualifier}Contacts]
+		(
+			[ItemID] [int] NOT NULL IDENTITY(0, 1),
+			[ModuleID] [int] NOT NULL,
+			[CreatedByUser] [nvarchar] (100) NULL,
+			[CreatedDate] [datetime] NULL,
+			[Name] [nvarchar] (50) NULL,
+			[Role] [nvarchar] (100) NULL,
+			[Email] [nvarchar] (100) NULL,
+			[Contact1] [nvarchar] (250) NULL,
+			[Contact2] [nvarchar] (250) NULL
+		)
+
+		ALTER TABLE {databaseOwner}[{objectQualifier}Contacts] ADD CONSTRAINT [PK_{objectQualifier}Contacts] PRIMARY KEY NONCLUSTERED  ([ItemID])
+		CREATE NONCLUSTERED INDEX [IX_{objectQualifier}Contacts] ON {databaseOwner}[{objectQualifier}Contacts] ([ModuleID])
+
+		ALTER TABLE {databaseOwner}[{objectQualifier}Contacts] WITH NOCHECK ADD
+		CONSTRAINT [FK_{objectQualifier}Contacts_{objectQualifier}Modules] FOREIGN KEY ([ModuleID]) REFERENCES {databaseOwner}[{objectQualifier}Modules] ([ModuleID]) ON DELETE CASCADE NOT FOR REPLICATION
+	END
+GO
+
+
+/** Drop Existing Stored Procedures **/
+
+if exists (select * from dbo.sysobjects where id = object_id(N'{databaseOwner}[{objectQualifier}AddContact]') and OBJECTPROPERTY(id, N'IsProcedure') = 1)
+	drop procedure {databaseOwner}{objectQualifier}AddContact
+GO
+
+if exists (select * from dbo.sysobjects where id = object_id(N'{databaseOwner}[{objectQualifier}DeleteContact]') and OBJECTPROPERTY(id, N'IsProcedure') = 1)
+	drop procedure {databaseOwner}{objectQualifier}DeleteContact
+GO
+
+if exists (select * from dbo.sysobjects where id = object_id(N'{databaseOwner}[{objectQualifier}GetContact]') and OBJECTPROPERTY(id, N'IsProcedure') = 1)
+	drop procedure {databaseOwner}{objectQualifier}GetContact
+GO
+
+if exists (select * from dbo.sysobjects where id = object_id(N'{databaseOwner}[{objectQualifier}GetContacts]') and OBJECTPROPERTY(id, N'IsProcedure') = 1)
+	drop procedure {databaseOwner}{objectQualifier}GetContacts
+GO
+
+if exists (select * from dbo.sysobjects where id = object_id(N'{databaseOwner}[{objectQualifier}UpdateContact]') and OBJECTPROPERTY(id, N'IsProcedure') = 1)
+	drop procedure {databaseOwner}{objectQualifier}UpdateContact
+GO
+
+
+/** Create Stored Procedures **/
+
+create procedure {databaseOwner}{objectQualifier}AddContact
+
+	@ModuleId int,
+	@UserName nvarchar(100),
+	@Name     nvarchar(50),
+	@Role     nvarchar(100),
+	@Email    nvarchar(100),
+	@Contact1 nvarchar(250),
+	@Contact2 nvarchar(250)
+
+as
+
+insert into {objectQualifier}Contacts (
+  CreatedByUser,
+  CreatedDate,
+  ModuleId,
+  Name,
+  Role,
+  Email,
+  Contact1,
+  Contact2
+)
+values (
+  @UserName,
+  getdate(),
+  @ModuleId,
+  @Name,
+  @Role,
+  @Email,
+  @Contact1,
+  @Contact2
+)
+
+select SCOPE_IDENTITY()
+
+GO
+
+create procedure {databaseOwner}{objectQualifier}DeleteContact
+
+	@ItemId int
+
+as
+
+delete
+from {objectQualifier}Contacts
+where  ItemId = @ItemId
+
+GO
+
+create procedure {databaseOwner}{objectQualifier}GetContact
+
+@ItemId   int,
+@ModuleId int
+
+as
+
+select Itemid,
+	   ModuleId,
+	   Name,
+       Role,
+       {objectQualifier}Contacts.Email,
+       Contact1,
+       Contact2,
+       'CreatedByUser' = {objectQualifier}Users.FirstName + ' ' + {objectQualifier}Users.LastName,
+       {objectQualifier}Contacts.CreatedDate
+from {objectQualifier}Contacts
+left outer join {objectQualifier}Users on {objectQualifier}Contacts.CreatedByUser = {objectQualifier}Users.UserId
+where  ItemId = @ItemId
+and    ModuleId = @ModuleId
+
+GO
+
+
+create procedure {databaseOwner}{objectQualifier}GetContacts
+
+	@ModuleId int
+
+as
+
+select ItemId,
+		ModuleId,
+       CreatedDate,
+       CreatedByUser,
+       Name,
+       Role,
+       Email,
+       Contact1,
+       Contact2
+from {objectQualifier}Contacts
+where  ModuleId = @ModuleId
+order by Name
+
+GO
+
+create procedure {databaseOwner}{objectQualifier}UpdateContact
+
+	@ItemId   int,
+	@UserName nvarchar(100),
+	@Name     nvarchar(50),
+	@Role     nvarchar(100),
+	@Email    nvarchar(100),
+	@Contact1 nvarchar(250),
+	@Contact2 nvarchar(250)
+
+as
+
+update {objectQualifier}Contacts
+set    CreatedByUser = @UserName,
+       CreatedDate   = GetDate(),
+       Name          = @Name,
+       Role          = @Role,
+       Email         = @Email,
+       Contact1      = @Contact1,
+       Contact2      = @Contact2
+where  ItemId = @ItemId
+
+GO
+
+/************************************************************/
+/*****              SqlDataProvider                     *****/
+/************************************************************/

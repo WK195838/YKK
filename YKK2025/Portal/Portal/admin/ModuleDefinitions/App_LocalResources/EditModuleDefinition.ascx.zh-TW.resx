@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="plFriendlyName.Text">
+    <value>模組名稱:</value>
+  </data>
+  <data name="valFriendlyName.ErrorMessage">
+    <value>&lt;br&gt;輸入模組定義名稱。</value>
+  </data>
+  <data name="plDescription.Text">
+    <value>介紹:</value>
+  </data>
+  <data name="plDescription.Help">
+    <value>提供模組介紹</value>
+  </data>
+  <data name="plPremium.Text">
+    <value>額外收費?</value>
+  </data>
+  <data name="plPremium.Help">
+    <value>額外交費模組僅對特定的網站有效。</value>
+  </data>
+  <data name="plVersion.Text">
+    <value>版本:</value>
+  </data>
+  <data name="plVersion.Help">
+    <value>輸入如版本號</value>
+  </data>
+  <data name="plDefinitions.Text">
+    <value>定義:</value>
+  </data>
+  <data name="plDefinitions.Help">
+    <value>你能選擇一個模組定義，可以通過"Delete Definition"鏈接刪除這個模組。</value>
+  </data>
+  <data name="cmdDeleteDefinition.Text">
+    <value>刪除定義</value>
+  </data>
+  <data name="plDefinition.Text">
+    <value>新定義:</value>
+  </data>
+  <data name="plDefinition.Help">
+    <value>你能通過輸入一個新的名稱創建一個新的定義（ 點擊"Add Definition" 鏈接）</value>
+  </data>
+  <data name="cmdAddDefinition.Text">
+    <value>增加定義</value>
+  </data>
+  <data name="Control.Header">
+    <value>控制</value>
+  </data>
+  <data name="Title.Header">
+    <value>標題</value>
+  </data>
+  <data name="Source.Header">
+    <value>源文件</value>
+  </data>
+  <data name="cmdAddControl.Text">
+    <value>增加控制</value>
+  </data>
+  <data name="plFriendlyName.Help">
+    <value>這是友好名稱</value>
+  </data>
+  <data name="ControlTitle_edit.Text">
+    <value>編輯模組定義</value>
+  </data>
+  <data name="ControlTitle_module definition.Text">
+    <value>模組定義</value>
+  </data>
+</root>

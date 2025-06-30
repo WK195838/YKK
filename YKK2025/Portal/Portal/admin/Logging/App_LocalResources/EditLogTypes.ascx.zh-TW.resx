@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="LogType.Header">
+    <value> 記錄類型</value>
+  </data>
+  <data name="Portal.Header">
+    <value>網站</value>
+  </data>
+  <data name="Active.Header">
+    <value>活動的</value>
+  </data>
+  <data name="FileName.Header">
+    <value>文件名</value>
+  </data>
+  <data name="Edit.EditText">
+    <value>編輯</value>
+  </data>
+  <data name="Settings.Text">
+    <value>記錄設置</value>
+  </data>
+  <data name="plIsActive.Text">
+    <value>記錄生效</value>
+  </data>
+  <data name="plIsActive.Help">
+    <value>讓記錄生效</value>
+  </data>
+  <data name="plLogTypeKey.Text">
+    <value>記錄類型</value>
+  </data>
+  <data name="plLogTypeKey.Help">
+    <value>這個紀錄類型是什麼事件</value>
+  </data>
+  <data name="plLogTypePortalID.Text">
+    <value>網站</value>
+  </data>
+  <data name="plLogTypePortalID.Help">
+    <value>這個記錄和哪個網站關聯</value>
+  </data>
+  <data name="plKeepMostRecent.Text">
+    <value>保留最近的</value>
+  </data>
+  <data name="plFileName.Text">
+    <value>文件名</value>
+  </data>
+  <data name="plFileName.Help">
+    <value>輸入記錄文件 文件名</value>
+  </data>
+  <data name="plEmailNotificationStatus.Text">
+    <value>Email通知生效</value>
+  </data>
+  <data name="plEmailNotificationStatus.Help">
+    <value>當這個事件發生你希望發送一條信息?</value>
+  </data>
+  <data name="plThreshold.Text">
+    <value>發生極限</value>
+  </data>
+  <data name="plMailFromAddress.Text">
+    <value>發送通知的Email 地址</value>
+  </data>
+  <data name="plMailFromAddress.Help">
+    <value>發送通知的Email 地址</value>
+  </data>
+  <data name="plMailToAddress.Text">
+    <value>被通知的Email 地址</value>
+  </data>
+  <data name="plMailToAddress.Help">
+    <value>被通知的Email 地址</value>
+  </data>
+  <data name="EmailSettings.Text">
+    <value>Email通知設置</value>
+  </data>
+  <data name="AddContent.Action">
+    <value>增加記錄配置</value>
+  </data>
+  <data name="ConfigDeleted.Text">
+    <value>選擇的記錄配置已經被刪除。</value>
+  </data>
+  <data name="ConfigUpdated.Text">
+    <value>記錄配置已經被更新。</value>
+  </data>
+  <data name="ConfigAdded.Text">
+    <value>記錄配置已經被增加。</value>
+  </data>
+  <data name="LogEntry.Text">
+    <value> 記錄項目</value>
+  </data>
+  <data name="LogEntries.Text">
+    <value> 記錄項目</value>
+  </data>
+  <data name="Occurance.Text">
+    <value>發生</value>
+  </data>
+  <data name="Occurances.Text">
+    <value>發生</value>
+  </data>
+  <data name="In.Text">
+    <value>在</value>
+  </data>
+  <data name="ControlTitle_edit.Text">
+    <value>編輯記錄設置</value>
+  </data>
+</root>

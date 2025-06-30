@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+            <xsd:complexType>
+                <xsd:choice maxOccurs="unbounded">
+                    <xsd:element name="data">
+                        <xsd:complexType>
+                            <xsd:sequence>
+                                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+                            </xsd:sequence>
+                            <xsd:attribute name="name" type="xsd:string" />
+                            <xsd:attribute name="type" type="xsd:string" />
+                            <xsd:attribute name="mimetype" type="xsd:string" />
+                        </xsd:complexType>
+                    </xsd:element>
+                    <xsd:element name="resheader">
+                        <xsd:complexType>
+                            <xsd:sequence>
+                                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                            </xsd:sequence>
+                            <xsd:attribute name="name" type="xsd:string" use="required" />
+                        </xsd:complexType>
+                    </xsd:element>
+                </xsd:choice>
+            </xsd:complexType>
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="ResMimeType">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="Version">
+        <value>1.0.0.0</value>
+    </resheader>
+    <resheader name="Reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="Writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <data name="imgMembership.Text">
+        <value>登録ユーザー</value>
+    </data>
+    <data name="imgLatest.Text">
+        <value>最近登録されたユーザー</value>
+    </data>
+    <data name="imgNewToday.Text">
+        <value>本日の登録</value>
+    </data>
+    <data name="imgNewYesterday.Text">
+        <value>昨日の登録</value>
+    </data>
+    <data name="imgUserCount.Text">
+        <value>ユーザー数</value>
+    </data>
+    <data name="imgPeopleOnline.Text">
+        <value>オンライン状況</value>
+    </data>
+    <data name="imgVisitors.Text">
+        <value>未登録ユーザー</value>
+    </data>
+    <data name="imgMemberCount.Text">
+        <value>登録ユーザー</value>
+    </data>
+    <data name="imgTotalCount.Text">
+        <value>計</value>
+    </data>
+    <data name="imgOnlineNow.Text">
+        <value>オンライン中のユーザー</value>
+    </data>
+    <data name="MembershipLabel.Text">
+        <value>&lt;u&gt;ユーザー登録状況:&lt;/u&gt;</value>
+    </data>
+    <data name="LatestUserLabel.Text">
+        <value>&lt;u&gt;最近の登録:&lt;/u&gt;</value>
+    </data>
+    <data name="NewTodayLabel.Text">
+        <value>本日の登録:</value>
+    </data>
+    <data name="NewYesterdayLabel.Text">
+        <value>昨日の登録:</value>
+    </data>
+
+    <data name="OverallLabel.Text">
+        <value>全ユーザー数:</value>
+    </data>
+    <data name="PeopleOnlineLabel.Text">
+        <value>&lt;u&gt;オンライン状態:&lt;/u&gt;</value>
+    </data>
+    <data name="VisitorsLabel.Text">
+        <value>未登録ユーザー:</value>
+    </data>
+    <data name="MembersLabel.Text">
+        <value>登録ユーザー:</value>
+    </data>
+    <data name="TotalLabel.Text">
+        <value>計:</value>
+    </data>
+    <data name="ModuleHelp.Text">
+        <value>&lt;h1&gt;ユーザー オンライ ンモジュールについて&lt;/h1&gt;&lt;p&gt;ユーザー オンライン モジュールは、以下のいずれかまたはすべてのユーザー情報を表示する機能を提供します：ユーザの登録状況、オンライン中の未登録者の情報、オンライン中の登録者の情報。&lt;/p&gt;</value>
+    </data>
+    <data name="OnlineNowLabel.Text">
+     	<value><u>オンライン中のユーザー:</u></value>
+    </data>
+</root>

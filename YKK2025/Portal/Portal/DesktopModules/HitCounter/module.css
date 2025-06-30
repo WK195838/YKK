@@ -1,0 +1,28 @@
+/* ================================
+    CSS STYLES FOR Module HitCounter
+   ================================
+*/
+.optionHeaderCell
+{
+	background-color:Silver;
+	color:Navy;
+}
+.optionSideCell
+{
+	color:White;
+	background-color:#0C3B8C;
+}
+.optionOptionCell
+{
+	color:White;
+	background-color:Teal;
+}
+.optionEditorCell
+{
+	background-color:white;
+}
+.optionBottomCell
+{
+	color:black;
+	background-color:#9EBEF5;
+}

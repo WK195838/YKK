@@ -1,0 +1,103 @@
+﻿/************************************************************/
+/*****              SqlDataProvider                     *****/
+/*****                                                  *****/
+/*****                                                  *****/
+/***** Note: To manually execute this script you must   *****/
+/*****       perform a search and replace operation     *****/
+/*****       for {databaseOwner} and {objectQualifier}  *****/
+/*****                                                  *****/
+/************************************************************/
+
+/** Drop Tables **/
+
+ALTER TABLE {databaseOwner}[{objectQualifier}UserDefinedData] DROP
+	CONSTRAINT [FK_{objectQualifier}UserDefinedData_{objectQualifier}UserDefinedFields],
+	CONSTRAINT [FK_{objectQualifier}UserDefinedData_{objectQualifier}UserDefinedRows]
+GO
+
+ALTER TABLE {databaseOwner}[{objectQualifier}UserDefinedFields] DROP CONSTRAINT [FK_{objectQualifier}UserDefinedFields_{objectQualifier}Modules]
+GO
+
+ALTER TABLE {databaseOwner}[{objectQualifier}UserDefinedRows] DROP CONSTRAINT [FK_{objectQualifier}UserDefinedRows_{objectQualifier}Modules]
+GO
+
+ALTER TABLE {databaseOwner}[{objectQualifier}UserDefinedData] DROP CONSTRAINT [PK_{objectQualifier}UserDefinedData]
+GO
+
+ALTER TABLE {databaseOwner}[{objectQualifier}UserDefinedFields] DROP CONSTRAINT [PK_{objectQualifier}UserDefinedTable]
+GO
+
+ALTER TABLE {databaseOwner}[{objectQualifier}UserDefinedFields] DROP CONSTRAINT [DF_{objectQualifier}UserDefinedFields_FieldOrder]
+GO
+
+ALTER TABLE {databaseOwner}[{objectQualifier}UserDefinedRows] DROP CONSTRAINT [PK_{objectQualifier}UserDefinedRows]
+GO
+
+DROP INDEX {databaseOwner}[{objectQualifier}UserDefinedData].[IX_{objectQualifier}UserDefinedData]
+GO
+
+DROP INDEX {databaseOwner}[{objectQualifier}UserDefinedData].[IX_{objectQualifier}UserDefinedData_1]
+GO
+
+DROP INDEX {databaseOwner}[{objectQualifier}UserDefinedFields].[IX_{objectQualifier}UserDefinedFields]
+GO
+
+DROP INDEX {databaseOwner}[{objectQualifier}UserDefinedRows].[IX_{objectQualifier}UserDefinedRows]
+GO
+
+DROP TABLE {databaseOwner}[{objectQualifier}UserDefinedFields]
+GO
+
+DROP TABLE {databaseOwner}[{objectQualifier}UserDefinedRows]
+GO
+
+DROP TABLE {databaseOwner}[{objectQualifier}UserDefinedData]
+GO
+
+/** Drop Stored Procedures **/
+
+DROP PROCEDURE {databaseOwner}[{objectQualifier}GetUserDefinedRows]
+GO
+
+DROP PROCEDURE {databaseOwner}[{objectQualifier}GetUserDefinedFields]
+GO
+
+DROP PROCEDURE {databaseOwner}[{objectQualifier}UpdateUserDefinedFieldOrder]
+GO
+
+DROP PROCEDURE {databaseOwner}[{objectQualifier}DeleteUserDefinedField]
+GO
+
+DROP PROCEDURE {databaseOwner}[{objectQualifier}UpdateUserDefinedField]
+GO
+
+DROP PROCEDURE {databaseOwner}[{objectQualifier}GetUserDefinedField]
+GO
+
+DROP PROCEDURE {databaseOwner}[{objectQualifier}AddUserDefinedField]
+GO
+
+DROP PROCEDURE {databaseOwner}[{objectQualifier}GetUserDefinedRow]
+GO
+
+DROP PROCEDURE {databaseOwner}[{objectQualifier}GetUserDefinedData]
+GO
+
+DROP PROCEDURE {databaseOwner}[{objectQualifier}DeleteUserDefinedRow]
+GO
+
+DROP PROCEDURE {databaseOwner}[{objectQualifier}UpdateUserDefinedData]
+GO
+
+DROP PROCEDURE {databaseOwner}[{objectQualifier}AddUserDefinedData]
+GO
+
+DROP PROCEDURE {databaseOwner}[{objectQualifier}AddUserDefinedRow]
+GO
+
+DROP PROCEDURE {databaseOwner}[{objectQualifier}DeleteUserDefinedData]
+GO
+
+/************************************************************/
+/*****              SqlDataProvider                     *****/
+/************************************************************/

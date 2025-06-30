@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="plFriendlyName.Text">
+    <value>モジュール名:</value>
+  </data>
+  <data name="valModuleName.ErrorMessage">
+    <value>&lt;br&gt;モジュールの名前を入力してください。</value>
+  </data>
+  <data name="plDescription.Text">
+    <value>説明:</value>
+  </data>
+  <data name="plDescription.Help">
+    <value>モジュールに関する説明を記述してください。</value>
+  </data>
+  <data name="plPremium.Text">
+    <value>プレミアム対象</value>
+  </data>
+  <data name="plPremium.Help">
+    <value>プレミアム モジュールは一部の限定されたポータルに対してのみ提供されます。</value>
+  </data>
+  <data name="plVersion.Text">
+    <value>バージョン:</value>
+  </data>
+  <data name="plVersion.Help">
+    <value>このモジュールのバージョン番号を入力してください。</value>
+  </data>
+  <data name="plDefinitions.Text">
+    <value>定義:</value>
+  </data>
+  <data name="plDefinitions.Help">
+    <value>モジュール定義を選択することができます。また必要な場合は"定義の削除"リンクをクリックすることによって定義を削除することができます。</value>
+  </data>
+  <data name="cmdDeleteDefinition.Text">
+    <value>定義の削除</value>
+  </data>
+  <data name="plDefinition.Text">
+    <value>新しい定義:</value>
+  </data>
+  <data name="plDefinition.Help">
+    <value>ここに名前を入力した上で、"定義の追加"リンクをクリックすることによって新しい定義を登録することができます。</value>
+  </data>
+  <data name="cmdAddDefinition.Text">
+    <value>定義の追加</value>
+  </data>
+  <data name="Control.Header">
+    <value>コントロール</value>
+  </data>
+  <data name="Title.Header">
+    <value>タイトル</value>
+  </data>
+  <data name="Source.Header">
+    <value>ソース</value>
+  </data>
+  <data name="cmdAddControl.Text">
+    <value>コントロールの追加</value>
+  </data>
+  <data name="plFriendlyName.Help">
+    <value>モジュールの簡易名。</value>
+  </data>
+  <data name="ControlTitle_edit.Text">
+    <value>モジュール定義の編集</value>
+  </data>
+  <data name="ControlTitle_module definition.Text">
+    <value>モジュールの定義</value>
+  </data>
+  <data name="PrivateAssemblyCreate.Action">
+    <value>プライベート アセンブリの作成</value>
+  </data>
+  <data name="ModuleHelp.Text">
+    <value>&lt;h1&gt;モジュール定義について&lt;/h1&gt;&lt;p&gt;スーパー ユーザーはシステムにインストールされたデスクトップ モジュールを管理することができます。&lt;/p&gt;</value>
+  </data>
+  <data name="plFolderName.Text">
+    <value>フォルダ名:</value>
+  </data>
+  <data name="plFolderName.Help">
+    <value>モジュールのファイルが含まれているフォルダ名を入力してください。</value>
+  </data>
+  <data name="valFolderName.ErrorMessage">
+    <value>&lt;br&gt;モジュールのファイルが含まれているフォルダー名を入力してください。</value>
+  </data>
+  <data name="plBusinessClass.Text">
+    <value>コントローラ クラス:</value>
+  </data>
+  <data name="plBusinessClass.Help">
+    <value>モジュールのコントローラ クラスです。モジュールがISearchableやIPortableといったオプション インターフェースをサポートする場合は、このクラスにそのインターフェースを実装します。</value>
+  </data>
+  <data name="plModuleName.Text">
+    <value>モジュール名:</value>
+  </data>
+  <data name="plModuleName.Help">
+    <value>モジュールの名称。システム内でモジュールをユニークに識別するためのキーとして使用されます。</value>
+  </data>
+  <data name="plCacheTime.Text">
+    <value>デフォルトキャッシュ時間:</value>
+  </data>
+  <data name="plCacheTime.Help">
+    <value>モジュール定義に使用されるデフォルトのキャッシュ時間。</value>
+  </data>
+  <data name="cmdUpdateCacheTime.Text">
+    <value>キャッシュ プロパティの更新</value>
+  </data>
+  <data name="AddModule.ErrorMessage">
+    <value>同じ名前のモジュールが既に登録されています。同じ名前で新しいモジュールを作成することはできません。</value>
+  </data>
+  <data name="AddDefinition.ErrorMessage">
+    <value>同じ名前のモジュール定義が既に登録されています。同じ名前で新しいモジュール定義を作成することはできません。</value>
+  </data>
+  <data name="MissingDefinition.ErrorMessage">
+    <value>新しい定義の名前が入力されていません。</value>
+  </data>
+  <data name="UpdateCache.ErrorMessage">
+    <value>キャッシュ時間には整数値を入力してください。</value>
+  </data>
+  <data name="Folder.ErrorMessage">
+    <value>モジュールのフォルダ名が正しくありません。モジュールは削除できません。</value>
+  </data>
+</root>

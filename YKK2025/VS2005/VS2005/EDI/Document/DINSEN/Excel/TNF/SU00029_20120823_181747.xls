@@ -1,0 +1,11 @@
+<div>
+	<table cellspacing="0" cellpadding="4" rules="all" border="1" id="TNFGridView" style="border-color:Black;border-width:1px;border-style:None;font-size:9pt;border-collapse:collapse;z-index: 114; left: 8px; position: absolute; top: 72px">
+		<tr align="center" valign="middle" style="color:Black;background-color:Silver;">
+			<th class="text" scope="col">彙總單號</th><th class="text" scope="col">NO</th><th class="text" scope="col">版次</th><th class="text" scope="col">REF_NO</th><th class="text" scope="col">材料描述</th><th class="text" scope="col">規格</th><th class="text" scope="col">顏色描述</th><th class="text" scope="col">訂購數量</th><th class="text" scope="col">幣別</th><th class="text" scope="col">款式代號_季</th><th class="text" scope="col">款式代號_Style</th><th class="text" scope="col">款式代號_StyleRange</th><th class="text" scope="col">訂單種類</th><th class="text" scope="col">Buy_Month</th><th class="text" scope="col">廠區</th>
+		</tr><tr>
+			<td class="text">DKFZ2627037S</td><td class="text">001</td><td class="text">2</td><td class="text">H2AK</td><td class="text">ZIPPER ; COIL 5; LEFT INSERT CNFOL-56 DA8 H6 P16 KENSIN N-ANTI P-TOP #5</td><td class="text">5&quot;</td><td class="text">TNF黑(580 TNF BLACK) </td><td class="text">39.0</td><td class="text">NTD</td><td class="text">FW13</td><td class="text">A0P3</td><td class="text">Action Sports</td><td class="text">2</td><td class="text">201208</td><td class="text">B0HI</td>
+		</tr><tr>
+			<td class="text">DKFZ2627039S</td><td class="text">001</td><td class="text">2</td><td class="text">H2AK</td><td class="text">ZIPPER ; COIL 5; LEFT INSERT CNFOL-56 DA8 H6 P16 KENSIN N-ANTI P-TOP #5</td><td class="text">5&quot;</td><td class="text">TNF黑(580 TNF BLACK) </td><td class="text">64.0</td><td class="text">NTD</td><td class="text">FW13</td><td class="text">A9ZU</td><td class="text">Action Sports</td><td class="text">2</td><td class="text">201208</td><td class="text">B0HI</td>
+		</tr>
+	</table>
+</div>

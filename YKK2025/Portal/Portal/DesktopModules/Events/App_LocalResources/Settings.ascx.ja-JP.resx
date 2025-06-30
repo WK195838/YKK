@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+            <xsd:complexType>
+                <xsd:choice maxOccurs="unbounded">
+                    <xsd:element name="data">
+                        <xsd:complexType>
+                            <xsd:sequence>
+                                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+                            </xsd:sequence>
+                            <xsd:attribute name="name" type="xsd:string" />
+                            <xsd:attribute name="type" type="xsd:string" />
+                            <xsd:attribute name="mimetype" type="xsd:string" />
+                        </xsd:complexType>
+                    </xsd:element>
+                    <xsd:element name="resheader">
+                        <xsd:complexType>
+                            <xsd:sequence>
+                                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                            </xsd:sequence>
+                            <xsd:attribute name="name" type="xsd:string" use="required" />
+                        </xsd:complexType>
+                    </xsd:element>
+                </xsd:choice>
+            </xsd:complexType>
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="ResMimeType">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="Version">
+        <value>1.0.0.0</value>
+    </resheader>
+    <resheader name="Reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="Writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <data name="plView.Text">
+        <value>表示方法</value>
+    </data>
+    <data name="List.Text">
+        <value>リスト</value>
+    </data>
+        <data name="Calendar.Text">
+        <value>カレンダー</value>
+    </data>
+	<data name="plWidth.Text">
+        <value>カレンダー セルの幅</value>
+    </data>
+    <data name="plHeight.Text">
+        <value>カレンダー セルの高さ</value>
+    </data>
+    <data name="plView.Help">
+        <value>モジュールの表示方法を選択してください。</value>
+    </data>
+    <data name="plWidth.Help">
+        <value>カレンダーの日付セルの幅を入力してください (単位:ピクセル) 。</value>
+    </data>
+    <data name="plHeight.Help">
+        <value>カレンダーの日付セルの高さを入力してください (単位:ピクセル) 。</value>
+    </data>
+    <data name="ModuleHelp.Text">
+        <value>		&lt;h1&gt;About The Events Settings &lt;/h1&gt;
+		&lt;p&gt;イベント モジュールはカレンダー形式またはリスト形式でイベント情報を表示する機能を提供します。また、このモジュールの表示/動作の制御としては3種類の設定が可能になっています。&lt;/p&gt;
+		&lt;ul&gt;
+				&lt;li&gt;
+						&lt;div align="left"&gt;
+								&lt;b&gt;表示方法&lt;/b&gt;– イベントをリスト表示するかカレンダー表示するかをコントロールします。&lt;/div&gt;
+				&lt;/li&gt;
+		&lt;/ul&gt;
+		&lt;ul&gt;
+				&lt;ul&gt;
+						&lt;li&gt;
+								&lt;div align="left"&gt;
+										&lt;b&gt;リスト – &lt;/b&gt;イベントをリスト形式で表示します。リスト上の個々のイベントの日付には開始日が表示されます。イベントが繰り返し設定されている場合は、終了日を経過するまでの間はリスト上に表示され続けます。&lt;/div&gt;
+						&lt;/li&gt;
+						&lt;li&gt;
+								&lt;div align="left"&gt;
+										&lt;b&gt;カレンダー&lt;/b&gt;  - カレンダーセル上、個々のイベント開始日の箇所にイベントを表示します。複数の日をまたがったイベントの場合、イベントの開始日についてのみカレンダー上に表示されます。&lt;/div&gt;
+						&lt;/li&gt;
+				&lt;/ul&gt;
+		&lt;/ul&gt;
+		&lt;ul&gt;
+				&lt;li&gt;
+						&lt;div align="left"&gt;
+								&lt;b&gt;カレンダー セルの幅&lt;/b&gt;– イベントを表示するカレンダーセルの幅をピクセル単位で指定します。ただし実際のカレンダーセルの幅は、表示するアイテム数やモジュールそのものが定義されているパネルの設定に依存します。&lt;/div&gt;
+				&lt;/li&gt;
+		&lt;/ul&gt;
+		&lt;ul&gt;
+				&lt;li&gt;
+						&lt;div align="left"&gt;
+								&lt;b&gt;カレンダー セルの高さ&lt;/b&gt;– イベントを表示するカレンダー セルの高さをピクセル単位で指定します。ただし実際のカレンダー セルの高さは、表示するアイテム数やモジュールそのものが定義されているパネルの設定に依存します。&lt;/div&gt;
+				&lt;/li&gt;
+		&lt;/ul&gt;
+</value>
+    </data>
+    <data name="ControlTitle_settings.Text">
+        <value>イベントの設定</value>
+    </data>
+    <data name="valWidth.Text">
+        <value>&lt;br&gt;幅は正の整数を入力してください。</value>
+    </data>
+    <data name="valHeight.Text">
+        <value>&lt;br&gt;高さは正の整数を入力してください。</value>
+    </data>
+</root>

@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" />
+							<xsd:attribute name="type" type="xsd:string" />
+							<xsd:attribute name="mimetype" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="ResMimeType">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="Version">
+		<value>1.0.0.0</value>
+	</resheader>
+	<resheader name="Reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="Writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="cmdCreate.Text">
+		<value>作成</value>
+	</data>
+	<data name="LogTitle.Text">
+		<value>プライベート アセンブリ ログ</value>
+	</data>
+	<data name="LOG.MESSAGE.Success">
+		<value>&lt;p&gt;プライベート アセンブリの作成に成功:  {0}&lt;/p&gt;</value>
+	</data>
+	<data name="LOG.MESSAGE.Error">
+		<value>&lt;p&gt;プライベー トアセンブリの作成でエラーが発生しました。詳細は以下のログを参照してください。&lt;/p&gt;</value>
+	</data>
+	<data name="ControlTitle_package.Text">
+		<value>プライベート アセンブリの作成</value>
+	</data>
+	<data name="lblLink.Text">
+		<value>プライベート アセンブリは&lt;a href="{0}"&gt;ファイル マネージャ&lt;/a&gt;の&lt;i&gt;"Host Root"&lt;/i&gt;ディレクトリからダウンロードすることができます。</value>
+	</data>
+    <data name="plFileName.Text">
+        <value>ファイル名:</value>
+    </data>
+    <data name="plFileName.Help">
+        <value>オプションで、結果のZIPファイルに名前を指定することができます。デフォルトでは、'モジュール名.zip'となります。</value>
+    </data>
+    <data name="plSource.Text">
+        <value>ソースを含める</value>
+    </data>
+    <data name="plSource.Help">
+        <value>オプションで、パッケージの中にソースファイルを含めることができます。</value>
+    </data>
+</root>

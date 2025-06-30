@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" />
+							<xsd:attribute name="type" type="xsd:string" />
+							<xsd:attribute name="mimetype" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="ResMimeType">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="Version">
+		<value>1.0.0.0</value>
+	</resheader>
+	<resheader name="Reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="Writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="BasicSettings.Text">
+		<value>基本的な設定</value>
+	</data>
+	<data name="BasicSettingsHelp.Text">
+		<value>このセクションでは、ページについての基本的な設定を行うことができます。</value>
+	</data>
+	<data name="TabName.Text">
+		<value>ページ名</value>
+	</data>
+	<data name="TabNameHelp.Text">
+		<value>ページの名前を入力します。入力した文字はメニュー上に表示されます。</value>
+	</data>
+	<data name="Title.Text">
+		<value>ページタイトル</value>
+	</data>
+	<data name="TitleHelp.Text">
+		<value>このページのタイトルを入力します。入力した文字はブラウザのウィンドウ タイトル部に表示されます。</value>
+	</data>
+	<data name="Description.Text">
+		<value>説明</value>
+	</data>
+	<data name="DescriptionHelp.Text">
+		<value>このページに関する説明を入力してください。</value>
+	</data>
+	<data name="ParentTab.Text">
+		<value>上位のページ</value>
+	</data>
+	<data name="ParentTabHelp.Text">
+		<value>どのページを上位ページに位置づけるかを選択してください。</value>
+	</data>
+	<data name="Url.Text">
+		<value>リンクURL</value>
+	</data>
+	<data name="UrlHelp.Text">
+		<value>このページを他のリソースに対するナビゲーション リンクとして処理したい場合は、そのリンクURLを入力してください。この項目は任意指定の項目です。</value>
+	</data>
+	<data name="Copy.Text">
+		<value>ページのコピー</value>
+	</data>
+	<data name="CopyModules.Text">
+		<value>コピー元のモジュール</value>
+	</data>
+	<data name="CopyModulesHelp.Text">
+		<value>コピーしたいモジュールがある場合は、そのモジュールのページを選択してください。</value>
+	</data>
+	<data name="CopyContent.Text">
+		<value>コンテンツのコピー</value>
+	</data>
+	<data name="CopyContentHelp.Text">
+		<value>モジュールのコンテンツも併せてコピーする場合はこのオプションを選択してください。</value>
+	</data>
+	<data name="AdvancedSettings.Text">
+		<value>高度な設定</value>
+	</data>
+	<data name="AdvancedSettingsHelp.Text">
+		<value>このセクションでは、ページに関するより高度な設定を行うことができます。</value>
+	</data>
+	<data name="Appearance.Text">
+		<value>概観</value>
+	</data>
+	<data name="Icon.Text">
+		<value>アイコン</value>
+	</data>
+	<data name="IconHelp.Text">
+		<value>メニュー上で表示されるアイコンを選択することができます。</value>
+	</data>
+	<data name="TabSkin.Text">
+		<value>ページのスキン</value>
+	</data>
+	<data name="TabSkinHelp.Text">
+		<value>選択したスキンがこのページに適用されます。</value>
+	</data>
+	<data name="TabContainer.Text">
+		<value>ページのコンテナ</value>
+	</data>
+	<data name="TabContainerHelp.Text">
+		<value>選択したコンテナがこのページのすべてのモジュールに適用されます。</value>
+	</data>
+	<data name="Hidden.Text">
+		<value>非表示</value>
+	</data>
+	<data name="HiddenHelp.Text">
+		<value>"非表示"に設定した場合はメニューには表示されません。それでも、そのページURLに対して他からリンクを張ることは可能です。</value>
+	</data>
+	<data name="Disabled.Text">
+		<value>無効</value>
+	</data>
+	<data name="DisabledHelp.Text">
+		<value>"無効"に設定した場合はサイトのユーザーからはアクセスはできなくなります。このオプションを使用することによって、後に公開するページをユーザーから隠して準備することができます。</value>
+	</data>
+	<data name="SecuritySettings.Text">
+		<value>セキュリティの設定</value>
+	</data>
+	<data name="Permissions.Text">
+		<value>権限</value>
+	</data>
+	<data name="PermissionsHelp.Text">
+		<value>どのグループのユーザがこのページを管理し、また参照できるのかを選択してください。</value>
+	</data>
+	<data name="OtherSettings.Text">
+		<value>その他の設定</value>
+	</data>
+	<data name="KeyWords.Text">
+		<value>キーワード</value>
+	</data>
+	<data name="KeyWordsHelp.Text">
+		<value>このページに対するキーワードを、カンマ区切りで入力してください。入力されたこれらのキーワードは検索エンジンによって収集され、このサイトのページをインデックス化するのに利用されます。</value>
+	</data>
+	<data name="plStartDate.Text">
+		<value>開始日:</value>
+	</data>
+	<data name="plStartDate.Help">
+		<value>このページの表示を開始する日を入力してください。カレンダーを利用して選択することもできます。</value>
+	</data>
+	<data name="plEndDate.Text">
+		<value>終了日:</value>
+	</data>
+	<data name="plEndDate.Help">
+		<value>このページの表示を終了する日を入力してください。カレンダーを利用して選択することもできます。</value>
+	</data>
+	<data name="SubmitToGoogle.Text">
+		<value>このページをGoogleに登録</value>
+	</data>
+	<data name="ControlTitle_tab.Text">
+		<value>ページの管理</value>
+	</data>
+	<data name="ControlTitle_edit.Text">
+		<value>ページの編集</value>
+	</data>
+	<data name="valTabName.ErrorMessage">
+		<value>&lt;br&gt;ページ名は必ず入力してください</value>
+	</data>
+	<data name="DeleteSpecialPage.Text">
+		<value> [ホーム] のページ、スプラッシュ ページ、ポータルのログインやユーザー ページ、ポータルの最後に残った可視ページなどは削除することができません。</value>
+	</data>
+	<data name="valStartDate.ErrorMessage">
+		<value>&lt;br&gt;開始日が正しくありません</value>
+	</data>
+	<data name="valEndDate.ErrorMessage">
+		<value>&lt;br&gt;終了日が正しくありません</value>
+	</data>
+	<data name="ModuleHelp.Text">
+		<value>&lt;h1&gt;ページの管理&lt;/h1&gt;&lt;p&gt;管理者はポータルに含まれるページを管理することができます。このモジュールでは新しいページの作成、既存のページの編集、ページの削除、ページの並び順の変更、そしてページの階層の変更を行うことができます。&lt;/p&gt;</value>
+	</data>
+	<data name="PageDetails.Text">
+		<value>ページの詳細</value>
+	</data>
+	<data name="RefreshInterval.Text">
+		<value>更新間隔 (秒)</value>
+	</data>
+	<data name="RefreshInterval.Help">
+		<value>自動的にページを更新する間隔を入力してください。 (例: 1分に設定する場合は "60"、自動更新を無効にする場合はブランクのまま。) </value>
+	</data>
+	<data name="PageHeadText.Text">
+		<value>ページ ヘッダー タグ</value>
+	</data>
+	<data name="PageHeadText.Help">
+		<value>このページのHTMLの [HEAD] タグ要素内に配置する任意のタグ (例:META タグ) を入力してください。 </value>
+	</data>	
+</root>

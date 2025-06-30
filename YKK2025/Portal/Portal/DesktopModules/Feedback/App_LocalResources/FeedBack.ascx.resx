@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+            <xsd:complexType>
+                <xsd:choice maxOccurs="unbounded">
+                    <xsd:element name="data">
+                        <xsd:complexType>
+                            <xsd:sequence>
+                                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+                            </xsd:sequence>
+                            <xsd:attribute name="name" type="xsd:string" />
+                            <xsd:attribute name="type" type="xsd:string" />
+                            <xsd:attribute name="mimetype" type="xsd:string" />
+                        </xsd:complexType>
+                    </xsd:element>
+                    <xsd:element name="resheader">
+                        <xsd:complexType>
+                            <xsd:sequence>
+                                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                            </xsd:sequence>
+                            <xsd:attribute name="name" type="xsd:string" use="required" />
+                        </xsd:complexType>
+                    </xsd:element>
+                </xsd:choice>
+            </xsd:complexType>
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="ResMimeType">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="Version">
+        <value>1.0.0.0</value>
+    </resheader>
+    <resheader name="Reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="Writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <data name="plEmail.Text">
+        <value>Email</value>
+    </data>
+    <data name="plEmail.Help">
+        <value>Enter your Email address</value>
+    </data>
+    <data name="plName.Text">
+        <value>Name</value>
+    </data>
+    <data name="plName.Help">
+        <value>Enter your Name</value>
+    </data>
+    <data name="plSubject.Text">
+        <value>Subject</value>
+    </data>
+    <data name="plSubject.Help">
+        <value>Enter the subject of your message</value>
+    </data>
+    <data name="plBody.Text">
+        <value>Message</value>
+    </data>
+    <data name="plBody.Help">
+        <value>Enter your message</value>
+    </data>
+    <data name="plCopy.Text">
+        <value>Send Copy</value>
+    </data>
+    <data name="plCopy.Help">
+        <value>Send a copy of the message to yourself?</value>
+    </data>
+    <data name="cmdSend.Text">
+        <value>Send</value>
+    </data>
+    <data name="MessageSent.Text">
+        <value>&lt;br&gt;Your Message Has Been Sent</value>
+    </data>
+    <data name="EmailAddress.Text">
+        <value>&lt;br&gt;Please Enter your Email Address</value>
+    </data>
+    <data name="ModuleHelp.Text">
+        <value>&lt;h1&gt;About The Feedback Module&lt;/h1&gt;
+
+&lt;p&gt;The Feedback Module allows visitors to send messages to the portal Administrator.&lt;/p&gt;
+
+&lt;h1&gt;Send Feedback&lt;/h1&gt;
+
+&lt;ol&gt;&lt;li&gt;Add a &lt;b&gt;Feedback&lt;/b&gt; module, or go to an existing &lt;b&gt;Feedback&lt;/b&gt; module. &lt;/li&gt;
+&lt;li&gt;At &lt;b&gt;Email&lt;/b&gt;, enter your email address. 
+&lt;li&gt;At &lt;b&gt;Name&lt;/b&gt;, enter your name. 
+&lt;li&gt;At &lt;b&gt;Subject&lt;/b&gt;, enter the subject of the email. 
+&lt;li&gt;At &lt;b&gt;Body&lt;/b&gt;, enter your message. 
+&lt;li&gt;Click &lt;b&gt;Send&lt;/b&gt;.&lt;/ol&gt;</value>
+    </data>
+</root>

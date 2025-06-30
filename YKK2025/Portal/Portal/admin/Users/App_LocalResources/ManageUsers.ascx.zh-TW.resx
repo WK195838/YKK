@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="plFirstName.Text">
+    <value>姓氏：</value>
+  </data>
+  <data name="plLastName.Text">
+    <value>名字：</value>
+  </data>
+  <data name="plUserName.Text">
+    <value>使用者名：</value>
+  </data>
+  <data name="plUserName.Help">
+    <value>選擇一個使用者名。如果使用者名已經被註冊您可以選擇另外的名字。</value>
+  </data>
+  <data name="plPassword.Text">
+    <value>密碼：</value>
+  </data>
+  <data name="plPassword.Help">
+    <value>輸入密碼</value>
+  </data>
+  <data name="plConfirm.Text">
+    <value>確認密碼:</value>
+  </data>
+  <data name="plConfirm.Help">
+    <value>重複您的確認密碼</value>
+  </data>
+  <data name="plEmail.Text">
+    <value>郵件地址：</value>
+  </data>
+  <data name="valFirstName.Text">
+    <value>&lt;br&gt;姓氏必須填寫。</value>
+  </data>
+  <data name="valLastName.Text">
+    <value>&lt;br&gt;名字必須填寫。</value>
+  </data>
+  <data name="valUsername.Text">
+    <value>&lt;br&gt;使用者名必須填寫。</value>
+  </data>
+  <data name="valPassword.Text">
+    <value>&lt;br&gt;密碼必須填寫。</value>
+  </data>
+  <data name="valConfirm1.Text">
+    <value>&lt;br&gt;確認密碼錯誤。</value>
+  </data>
+  <data name="valConfirm2.Text">
+    <value>&lt;br&gt;兩次密碼輸入不一致。</value>
+  </data>
+  <data name="valEmail1.Text">
+    <value>&lt;br&gt;Email錯誤。</value>
+  </data>
+  <data name="valEmail2.Text">
+    <value>&lt;br&gt;Email必須是有效的。</value>
+  </data>
+  <data name="plAuthorized.Text">
+    <value>已審核:</value>
+  </data>
+  <data name="plAuthorized.Help">
+    <value>網站經過審核的使用者。</value>
+  </data>
+  <data name="cmdManage.Text">
+    <value>管理安全角色</value>
+  </data>
+  <data name="plCreatedDate.Text">
+    <value>註冊日期：</value>
+  </data>
+  <data name="plLastLoginDate.Text">
+    <value>最後登入日期</value>
+  </data>
+  <data name="UsernameExists.Text">
+    <value>註冊失敗！使用者名 &lt;u&gt;{0}&lt;/u&gt;已經被註冊。&lt;br&gt;請選擇另外的名字。</value>
+  </data>
+  <data name="plFirstName.Help">
+    <value>輸入您的姓氏</value>
+  </data>
+  <data name="plLastName.Help">
+    <value>輸入您的名字</value>
+  </data>
+  <data name="plEmail.Help">
+    <value>輸入您的郵件地址</value>
+  </data>
+  <data name="plWebsite.Text">
+    <value>網站:</value>
+  </data>
+  <data name="plWebsite.Help">
+    <value>輸入您的網站地址</value>
+  </data>
+  <data name="plIM.Text">
+    <value>即時通訊ID</value>
+  </data>
+  <data name="plIM.Help">
+    <value>輸入您的即時通訊ID</value>
+  </data>
+  <data name="plLocale.Text">
+    <value>預設語言：</value>
+  </data>
+  <data name="plLocale.Help">
+    <value>輸入您的預設語言</value>
+  </data>
+  <data name="plTimeZone.Text">
+    <value>時區：</value>
+  </data>
+  <data name="plTimeZone.Help">
+    <value>輸入您的時區</value>
+  </data>
+  <data name="plCreatedDate.Help">
+    <value>使用者註冊日期</value>
+  </data>
+  <data name="plLastLoginDate.Help">
+    <value>使用者最後一次登入的日期</value>
+  </data>
+  <data name="Preferences.Text">
+    <value>參數選擇</value>
+  </data>
+  <data name="ControlTitle_edit.Text">
+    <value>編輯使用者帳號</value>
+  </data>
+  <data name="ModuleHelp.Text">
+    <value>&lt;h1&gt;關於使用者帳號模組&lt;/h1&gt;&lt;p&gt;使用者帳號模組用於將使用者加入成為註冊使用者, 更新資料, 取消註冊, 與管理他們會員服務的功能.&lt;/p&gt;
+   </value>
+  </data>
+  <data name="cmdUnlock.Text">
+    <value>鎖定帳號</value>
+  </data>
+  <data name="UserLockedOut.Text">
+    <value>這個帳號因為錯誤的登入次數太多所已被鎖定</value>
+  </data>
+</root>

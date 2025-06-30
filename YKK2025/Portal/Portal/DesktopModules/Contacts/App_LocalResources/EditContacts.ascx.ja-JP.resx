@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" />
+							<xsd:attribute name="type" type="xsd:string" />
+							<xsd:attribute name="mimetype" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="ResMimeType">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="Version">
+		<value>1.0.0.0</value>
+	</resheader>
+	<resheader name="Reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="Writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="plNameField.Text">
+		<value>氏名</value>
+	</data>
+	<data name="plNameField.Help">
+		<value>登録する人の氏名を入力してください。</value>
+	</data>
+	<data name="valName.ErrorMessage">
+		<value>氏名の入力が正しくありません。</value>
+	</data>
+	<data name="plRoleField.Text">
+		<value>役割</value>
+	</data>
+	<data name="plRoleField.Help">
+		<value>登録する人の役割を入力してください。</value>
+	</data>
+	<data name="plEmailField.Text">
+		<value>電子メール アドレス</value>
+	</data>
+	<data name="plEmailField.Help">
+		<value>登録する人の電子メール アドレスを入力してください。</value>
+	</data>
+	<data name="plContact1Field.Text">
+		<value>電話番号1</value>
+	</data>
+	<data name="plContact1Field.Help">
+		<value>登録する人の電話番号を入力してください。</value>
+	</data>
+	<data name="plContact2Field.Text">
+		<value>電話番号2</value>
+	</data>
+	<data name="plContact2Field.Help">
+		<value>登録する人の代わりの電話番号を入力してください。</value>
+	</data>
+	<data name="ModuleHelp.Text">
+		<value>&lt;h1&gt;連絡先モジュールについて&lt;/h1&gt;&lt;p&gt;連絡先モジュールは、例えばプロジェクト チームのようなグループ メンバの連絡先情報を管理する機能を提供します。連絡先の情報としては、氏名、役割、電子メール アドレス、2種類の電話番号が含まれます。また連絡先の電子メールアドレス部分には自動的に'mailto'ハイパー リンクとなります (このリンクはSpambotによる収集防止の処理がなされています) 。&lt;/p&gt;&lt;h1&gt;新しい連絡先の追加&lt;/h1&gt;&lt;ol&gt;&lt;li&gt;&lt;b&gt;連絡先&lt;/b&gt;モジュールを追加するか、または既存の&lt;b&gt;連絡先&lt;/b&gt;モジュールを開きます。&lt;li&gt;&lt;b&gt;新しい連絡先の追加&lt;/b&gt;をクリックし、&lt;li&gt;&lt;b&gt;氏名&lt;/b&gt;では連絡先の氏名を入力します(例: Ms Lorraine Young)。&lt;li&gt;&lt;b&gt;役割&lt;/b&gt; (オプション) では、登録する人のグループ内での役割を入力します (例: プロジェクト マネージャ) 。&lt;li&gt;&lt;b&gt;電子メール アドレス&lt;/b&gt; (オプション) では、登録する人の電子メール アドレスを入力します (例: lorraine.young@mydomain.com) 。&lt;li&gt;&lt;b&gt;電話番号1&lt;/b&gt; (オプション) では、登録する人の1件目の電話番号を入力します。&lt;li&gt;&lt;b&gt;電話番号2&lt;/b&gt; (オプション) では、2件目の電話番号または携帯電話番号を入力します。&lt;li&gt;&lt;b&gt;更新&lt;/b&gt;をクリックします。
+
+</value>
+	</data>
+	<data name="ControlTitle_edit.Text">
+		<value>連絡先の編集</value>
+	</data>
+	<data name="valEmail.ErrorMessage">
+		<value>&lt;br&gt;入力した電子メール アドレスが正しくありません。</value>
+	</data>
+</root>

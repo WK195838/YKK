@@ -1,0 +1,315 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BasicSettings.Text">
+    <value>基本設置</value>
+  </data>
+  <data name="BasicSettingsHelp.Text">
+    <value>對網站進行最基本的設置</value>
+  </data>
+  <data name="SiteDetails.Text">
+    <value>網站信息</value>
+  </data>
+  <data name="plPortalName.Text">
+    <value>標題:</value>
+  </data>
+  <data name="plPortalName.Help">
+    <value>設置網站的標題.</value>
+  </data>
+  <data name="plDescription.Text">
+    <value>簡要描述:</value>
+  </data>
+  <data name="plDescription.Help">
+    <value>進行網站簡要描述</value>
+  </data>
+  <data name="plKeyWords.Text">
+    <value>關鍵字:</value>
+  </data>
+  <data name="plKeyWords.Help">
+    <value>輸入關鍵字方便搜索引擎檢索。</value>
+  </data>
+  <data name="Appearance.Text">
+    <value>外觀</value>
+  </data>
+  <data name="plLogo.Text">
+    <value>Logo:</value>
+  </data>
+  <data name="plLogo.Help">
+    <value>依賴於皮膚選擇顯示Logo</value>
+  </data>
+  <data name="plPortalSkin.Text">
+    <value>網站皮膚:</value>
+  </data>
+  <data name="plPortalSkin.Help">
+    <value>設置網站皮膚</value>
+  </data>
+  <data name="plPortalContainer.Text">
+    <value>網站容器:</value>
+  </data>
+  <data name="plPortalContainer.Help">
+    <value>設置網站的容器，相當於這個網站的所有模組的預設皮膚。</value>
+  </data>
+  <data name="plAdminSkin.Text">
+    <value>管理員皮膚:</value>
+  </data>
+  <data name="plAdminSkin.Help">
+    <value>管理員皮膚設定</value>
+  </data>
+  <data name="plAdminContainer.Text">
+    <value>管理員容器:</value>
+  </data>
+  <data name="plAdminContainer.Help">
+    <value>管理員容器設定</value>
+  </data>
+  <data name="plBackground.Text">
+    <value>背景:</value>
+  </data>
+  <data name="plBackground.Help">
+    <value>進行背景設置，影響這個網站的所有頁面。</value>
+  </data>
+  <data name="AdvancedSettings.Text">
+    <value>高級設置</value>
+  </data>
+  <data name="AdvancedSettingsHelp.Text">
+    <value>對你的網站進行高級設置</value>
+  </data>
+  <data name="SecuritySettings.Text">
+    <value>安全設置</value>
+  </data>
+  <data name="plUserRegistration.Text">
+    <value>使用者註冊:</value>
+  </data>
+  <data name="plUserRegistration.Help">
+    <value>設置使用者註冊類型</value>
+  </data>
+  <data name="None.Text">
+    <value>沒有</value>
+  </data>
+  <data name="Private.Text">
+    <value>個人</value>
+  </data>
+  <data name="Public.Text">
+    <value>公共</value>
+  </data>
+  <data name="Verified.Text">
+    <value>校驗</value>
+  </data>
+  <data name="Pages.Text">
+    <value>頁面管理</value>
+  </data>
+  <data name="plSplashTabId.Text">
+    <value>閃光頁面:</value>
+  </data>
+  <data name="plSplashTabId.Help">
+    <value>你的網站的閃光頁面</value>
+  </data>
+  <data name="plHomeTabId.Text">
+    <value>首頁:</value>
+  </data>
+  <data name="plHomeTabId.Help">
+    <value>你的首頁</value>
+  </data>
+  <data name="plLoginTabId.Text">
+    <value>登錄頁面:</value>
+  </data>
+  <data name="plLoginTabId.Help">
+    <value>登錄頁面設定。</value>
+  </data>
+  <data name="plUserTabId.Text">
+    <value>使用者頁面:</value>
+  </data>
+  <data name="plUserTabId.Help">
+    <value>使用者信息頁面</value>
+  </data>
+  <data name="Payment.Text">
+    <value>支付設置</value>
+  </data>
+  <data name="plCurrency.Text">
+    <value>貨幣單位:</value>
+  </data>
+  <data name="plCurrency.Help">
+    <value>支付貨幣單位</value>
+  </data>
+  <data name="plProcessor.Text">
+    <value>支付處理器:</value>
+  </data>
+  <data name="plProcessor.Help">
+    <value>設置支付處理器</value>
+  </data>
+  <data name="ProcessorWebSite.Text">
+    <value>到支付處理器網站</value>
+  </data>
+  <data name="plUserId.Text">
+    <value>支付處理器使用者ID:</value>
+  </data>
+  <data name="plUserId.Help">
+    <value>輸入支付處理器 使用者ID</value>
+  </data>
+  <data name="plPassword.Text">
+    <value>支付處理器密碼:</value>
+  </data>
+  <data name="plPassword.Help">
+    <value>輸入支付處理器密碼</value>
+  </data>
+  <data name="Other.Text">
+    <value>其他設置</value>
+  </data>
+  <data name="plFooterText.Text">
+    <value>版權聲明:</value>
+  </data>
+  <data name="plFooterText.Help">
+    <value>輸入版權聲明</value>
+  </data>
+  <data name="plBannerAdvertising.Text">
+    <value>BANNER廣告:</value>
+  </data>
+  <data name="plBannerAdvertising.Help">
+    <value>你想要何種類型的BANNER廣告.</value>
+  </data>
+  <data name="Site.Text">
+    <value>網站</value>
+  </data>
+  <data name="Host.Text">
+    <value>主機</value>
+  </data>
+  <data name="plAdministrator.Text">
+    <value>網站管理員:</value>
+  </data>
+  <data name="plAdministrator.Help">
+    <value>本站的網站管理員</value>
+  </data>
+  <data name="plDefaultLanguage.Text">
+    <value>預設語言:</value>
+  </data>
+  <data name="plDefaultLanguage.Help">
+    <value>預設語言設置</value>
+  </data>
+  <data name="plTimeZone.Text">
+    <value>網站時區:</value>
+  </data>
+  <data name="plTimeZone.Help">
+    <value>時區設置</value>
+  </data>
+  <data name="HostSettings.Text">
+    <value>主機設置</value>
+  </data>
+  <data name="plPortalAlias.Text">
+    <value>網站別名:</value>
+  </data>
+  <data name="plPortalAlias.Help">
+    <value>輸入網站別名，用來引導到 你的網站</value>
+  </data>
+  <data name="plExpiryDate.Text">
+    <value>過期日期:</value>
+  </data>
+  <data name="plExpiryDate.Help">
+    <value>輸入網站過期日期</value>
+  </data>
+  <data name="plHostFee.Text">
+    <value>空間租用費:</value>
+  </data>
+  <data name="plHostFee.Help">
+    <value>空間費按月交納</value>
+  </data>
+  <data name="plHostSpace.Text">
+    <value>磁盤空間:</value>
+  </data>
+  <data name="plHostSpace.Help">
+    <value>磁盤空間大小</value>
+  </data>
+  <data name="plSiteLogHistory.Text">
+    <value>網站訪問記錄:</value>
+  </data>
+  <data name="plSiteLogHistory.Help">
+    <value>網站訪問記錄保存天數</value>
+  </data>
+  <data name="plDesktopModules.Text">
+    <value>收費模組</value>
+  </data>
+  <data name="plDesktopModules.Help">
+    <value>收費模組對特定網站有效</value>
+  </data>
+  <data name="StylesheetEditor.Text">
+    <value>樣式表編輯器</value>
+  </data>
+  <data name="SaveStyleSheet.Text">
+    <value>保存樣式表</value>
+  </data>
+  <data name="RestoreDefaultStyleSheet.Text">
+    <value>重新存儲預設樣式表</value>
+  </data>
+  <data name="LoginInstructions.Text">
+    <value>登錄引導</value>
+  </data>
+  <data name="RegistrationInstructions.Text">
+    <value>註冊引導</value>
+  </data>
+  <data name="NewUserSignupMessage.Text">
+    <value>新使用者註冊信息</value>
+  </data>
+  <data name="DeleteMessage.Text">
+    <value>你確實要刪除這個網站?</value>
+  </data>
+  <data name="SubmitGoogle.Text">
+    <value>提交網站到GOOGLE</value>
+  </data>
+  <data name="LastPortal.Text">
+    <value>你不能刪除你的數據庫中的最後一個網站</value>
+  </data>
+  <data name="plHomeDirectory.Text">
+    <value>首頁目錄:</value>
+  </data>
+  <data name="plHomeDirectory.Help">
+    <value>輸入首頁目錄</value>
+  </data>
+  <data name="ControlTitle_.Text">
+    <value>網站設置</value>
+  </data>
+  <data name="ControlTitle_edit.Text">
+    <value>編輯網站</value>
+  </data>
+	<data name="SkinUpload.Text">
+		<value>上傳外觀檔</value>
+	</data>
+	<data name="ContainerUpload.Text">
+		<value>上傳容器檔</value>
+	</data>
+</root>

@@ -1,0 +1,7 @@
+Help support the site in any of the following ways:-
+
+* Paypal (Direct Donation) - if you have used my modules on a commercial application, you could leave a tip, simply click the paypal icon located on the left. 
+* Signup at our host - if you need a host? why not use the same host as us? For 9.95, you get ASP.NET/Sql Server/Unlimited Traffic (awesome deal!). Check out our host page for more information. 
+* Contribute back to our modules - make a nice enhancement to one of our modules? Send it back in to scott@smcculloch.net and I'll include it in future releases.
+
+Thanks for your support :)

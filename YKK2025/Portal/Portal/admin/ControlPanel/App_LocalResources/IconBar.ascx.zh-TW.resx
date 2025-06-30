@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AddTab.Text">
+    <value>增加</value>
+  </data>
+  <data name="AddTab.AlternateText">
+    <value>增加新頁面</value>
+  </data>
+  <data name="EditTab.Text">
+    <value>編輯</value>
+  </data>
+  <data name="EditTab.AlternateText">
+    <value>編輯目前頁面</value>
+  </data>
+  <data name="DeleteTab.Text">
+    <value>刪除</value>
+  </data>
+  <data name="DeleteTab.AlternateText">
+    <value>刪除目前頁面</value>
+  </data>
+  <data name="DeleteTabConfirm.Text">
+    <value>確定要刪除目前頁面?</value>
+  </data>
+  <data name="CopyTab.Text">
+    <value>複製</value>
+  </data>
+  <data name="CopyTab.AlternateText">
+    <value>複製目前頁面</value>
+  </data>
+  <data name="PreviewTab.Text">
+    <value>預覽</value>
+  </data>
+  <data name="PreviewTab.AlternateText">
+    <value>預覽目前頁面</value>
+  </data>
+  <data name="Tab.Text">
+    <value>頁面:</value>
+  </data>
+  <data name="Module.Text">
+    <value>模組:</value>
+  </data>
+  <data name="Pane.Text">
+    <value>窗格:</value>
+  </data>
+  <data name="Title.Text">
+    <value>標題:</value>
+  </data>
+  <data name="Align.Text">
+    <value>對齊:</value>
+  </data>
+  <data name="Visible.Text">
+    <value>顯示?</value>
+  </data>
+  <data name="AddModule.Text">
+    <value>增加</value>
+  </data>
+  <data name="AddModule.AlternateText">
+    <value>增加新模組</value>
+  </data>
+  <data name="Wizard.Text">
+    <value>精靈</value>
+  </data>
+  <data name="Wizard.AlternateText">
+    <value>建站精靈</value>
+  </data>
+  <data name="Site.Text">
+    <value>網站</value>
+  </data>
+  <data name="Site.AlternateText">
+    <value>編輯網站設定</value>
+  </data>
+  <data name="Users.Text">
+    <value>用戶</value>
+  </data>
+  <data name="Users.AlternateText">
+    <value>增加新使用者</value>
+  </data>
+  <data name="Files.Text">
+    <value>文件</value>
+  </data>
+  <data name="Files.AlternateText">
+    <value>增加新文件</value>
+  </data>
+  <data name="Help.Text">
+    <value>幫助</value>
+  </data>
+  <data name="Help.AlternateText">
+    <value>幫助</value>
+  </data>
+  <data name="PageFunctions.Text">
+    <value>頁面功能</value>
+  </data>
+  <data name="AddNewModule.Text">
+    <value>增加新模組</value>
+  </data>
+  <data name="CommonTasks.Text">
+    <value>日常工作</value>
+  </data>
+  <data name="Left.Text">
+    <value>靠左</value>
+  </data>
+  <data name="Right.Text">
+    <value>靠右</value>
+  </data>
+  <data name="Center.Text">
+    <value>置中</value>
+  </data>
+  <data name="optModuleTypeNew.Text">
+    <value>增加新模組</value>
+  </data>
+  <data name="optModuleTypeExisting.Text">
+    <value>增加現有的模組</value>
+  </data>
+  <data name="SelectModule.Text">
+    <value>選擇一個模組</value>
+  </data>
+  <data name="SelectPage.Text">
+    <value>選擇一個網頁</value>
+  </data>
+</root>

@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" />
+							<xsd:attribute name="type" type="xsd:string" />
+							<xsd:attribute name="mimetype" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="ResMimeType">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="Version">
+		<value>1.0.0.0</value>
+	</resheader>
+	<resheader name="Reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="Writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="plPortalID.Text">
+		<value>ポータル</value>
+	</data>
+	<data name="plPortalID.Help">
+		<value>参照するポータルを選択してください。</value>
+	</data>
+	<data name="plLogType.Text">
+		<value>タイプ</value>
+	</data>
+	<data name="plLogType.Help">
+		<value>参照するログを特定のタイプのイベントのみに絞り込むことができます。</value>
+	</data>
+	<data name="plShowRecords.Text">
+		<value>レコードの表示</value>
+	</data>
+	<data name="plShowRecords.Help">
+		<value>参照したいレコードを選択してください。</value>
+	</data>
+	<data name="ColorCoding.Text">
+		<value>色を付ける</value>
+	</data>
+	<data name="Settings.Text">
+		<value>ビューアの設定</value>
+	</data>
+	<data name="Legend.Text">
+		<value>色の意味</value>
+	</data>
+	<data name="Date.Text">
+		<value>日時</value>
+	</data>
+	<data name="Type.Text">
+		<value>ログのタイプ</value>
+	</data>
+	<data name="Username.Text">
+		<value>ユーザー名</value>
+	</data>
+	<data name="Portal.Text">
+		<value>ポータル</value>
+	</data>
+	<data name="Summary.Text">
+		<value>サマリ</value>
+	</data>
+	<data name="btnDelete.Text">
+		<value>選択した例外の削除</value>
+	</data>
+	<data name="btnClear.Text">
+		<value>ログのクリア</value>
+	</data>
+	<data name="SendExceptions.Text">
+		<value>例外情報の送信</value>
+	</data>
+	<data name="ExceptionsWarning.Text">
+		<value>
+            <b>注意事項</b>: この機能を利用すると、重要な情報が
+      クリアテキスト(つまり<i>暗号化されていない</i>)でインターネット上を流れる<i>可能性</i>があります。
+      以下の設定を登録する前に、実際の例外ログを確認して重要なデータが含まれて
+      いないことを確認してください。上記リスト上でチェックが付けられたエントリーのみが
+      送信の対象となります。
+    </value>
+	</data>
+	<data name="SendExceptionsEmail.Text">
+		<value>例外情報を電子メール送信する</value>
+	</data>
+	<data name="plEmailAddress.Text">
+		<value>電子メール アドレス</value>
+	</data>
+	<data name="plEmailAddress.Help">
+		<value>
+          「例外情報を電子メール送信する」のオプションを選択する場合は、例外情報を送信したいあて先の電子メールアドレスを入力してください
+          「コアチーム」のオプションを選択する場合は、あなた自身の電子メール アドレスを入力してください。
+        </value>
+	</data>
+	<data name="SendMessage.Text">
+		<value>メッセージ (任意)</value>
+	</data>
+	<data name="SendMessage.Help">
+		<value>例外情報に対する任意の追加メッセージを追加することができます。</value>
+	</data>
+	<data name="btnEmail.Text">
+		<value>例外情報を電子メール送信</value>
+	</data>
+	<data name="AddContent.Action">
+		<value>ログ設定の編集</value>
+	</data>
+	<data name="NoEntries.Text">
+		<value>ログがありません。</value>
+	</data>
+	<data name="Showing.Text">
+		<value>{2}件のうち {0}～{1}件目を表示 </value>
+	</data>
+	<data name="DeleteSuccess.Text">
+		<value>選択した例外情報の削除に成功しました。</value>
+	</data>
+	<data name="EmailSuccess.Text">
+		<value>電子メールが送信されました。</value>
+	</data>
+	<data name="EmailFailure.Text">
+		<value>電子メールは&lt;b&gt;送信されませんでした&lt;/b&gt;。</value>
+	</data>
+	<data name="ServiceUnavailable.Text">
+		<value>DotNetNuke.com上のwebサービスは現在利用できません。</value>
+	</data>
+	<data name="ServerName.Text">
+		<value>&lt;b&gt;サーバー名&lt;/b&gt;: </value>
+	</data>
+	<data name="LogCleared.Text">
+		<value>ログはクリアされました。</value>
+	</data>
+	<data name="ClickRow.Text">
+		<value>行をクリックすると詳細情報が表示されます。</value>
+	</data>
+	<data name="ExceptionCode.Text">
+		<value>例外</value>
+	</data>
+	<data name="ItemCreatedCode.Text">
+		<value>アイテムが作成されました</value>
+	</data>
+	<data name="ItemUpdatedCode.Text">
+		<value>アイテムが更新されました</value>
+	</data>
+	<data name="ItemDeletedCode.Text">
+		<value>アイテムが削除されました</value>
+	</data>
+	<data name="SuccessCode.Text">
+		<value>操作が成功しました</value>
+	</data>
+	<data name="FailureCode.Text">
+		<value>操作が失敗しました</value>
+	</data>
+	<data name="AdminOpCode.Text">
+		<value>一般的な管理者の操作</value>
+	</data>
+	<data name="AdminAlertCode.Text">
+		<value>管理者向けアラーム</value>
+	</data>
+	<data name="HostAlertCode.Text">
+		<value>ホスト向けアラーム</value>
+	</data>
+	<data name="ToEmail.Text">
+		<value>指定の電子メール宛て</value>
+	</data>
+	<data name="ControlTitle_.Text">
+		<value>ログ ビューア</value>
+	</data>
+	<data name="ModuleHelp.Text">
+		<value>&lt;h1&gt;ログ ビューアについて&lt;/h1&gt;&lt;p&gt;ポータル上のイベントに関するログの情報を参照することができます。&lt;/p&gt;</value>
+	</data>
+</root>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" />
+							<xsd:attribute name="type" type="xsd:string" />
+							<xsd:attribute name="mimetype" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="ResMimeType">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="Version">
+		<value>1.0.0.0</value>
+	</resheader>
+	<resheader name="Reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="Writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="plUsername.Text">
+		<value>ユーザー名:</value>
+	</data>
+	<data name="plUsername.Help">
+		<value>ここにユーザー名を入力してください。電子メール アドレスそのものを指定することも可能です。</value>
+	</data>
+	<data name="plPassword.Text">
+		<value>パスワード:</value>
+	</data>
+	<data name="plPassword.Help">
+		<value>パスワードを入力してください。</value>
+	</data>
+	<data name="Remember.Text">
+		<value>次回からIDの入力を省略</value>
+	</data>
+	<data name="cmdRegister.Text">
+		<value>登録</value>
+	</data>
+	<data name="cmdLogin.Text">
+		<value>ログイン</value>
+	</data>
+	<data name="cmdSendPassword.Text">
+		<value>パスワード リマインダ</value>
+	</data>
+	<data name="EnterCode.Text">
+		<value>ベリフィケーション コード</value>
+	</data>
+	<data name="InvalidCode.Text">
+		<value>ベリフィケーション コードが正しくありません</value>
+	</data>
+	<data name="LoginFailed.Text">
+		<value>ログインできません。パスワードを確認してください （アルファベットの大文字/小文字は区別される点に注意してください） 。</value>
+	</data>
+	<data name="UserLockedOut.Text">
+		<value>このアカウントはログイン失敗が続いたためロックされています。10分待った上で再度ログインしてください。パスワードを忘れた場合は、管理者に問い合わせる前に [パスワード リマインダー] を試してください。</value>
+	</data>
+	<data name="PasswordSent.Text">
+		<value>あなたの電子メール アドレスに&lt;br&gt;対してパスワードをお送りしました。</value>
+	</data>
+	<data name="UsernameError.Text">
+		<value>ユーザー名が存在しません</value>
+	</data>
+	<data name="EnterUsername.Text">
+		<value>ユーザー名を入力してください</value>
+	</data>
+	<data name="ControlTitle_.Text">
+		<value>ユーザー アカウント</value>
+	</data>
+	<data name="ControlTitle_login.Text">
+		<value>ユーザー アカウント</value>
+	</data>
+	<data name="ControlTitle_signin.Text">
+		<value>ユーザー アカウント</value>
+	</data>
+	<data name="plVerification.Text">
+		<value>ベリフィケーション コード:</value>
+	</data>
+	<data name="plVerification.Help">
+		<value>ベリフィケーション コードを入力してください。ベリフィケーション コードは、登録された電子メール アドレス宛に送信された電子メールに記載されています。</value>
+	</data>
+</root>

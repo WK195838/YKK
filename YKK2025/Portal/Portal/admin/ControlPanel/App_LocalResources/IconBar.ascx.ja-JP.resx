@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" />
+							<xsd:attribute name="type" type="xsd:string" />
+							<xsd:attribute name="mimetype" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="ResMimeType">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="Version">
+		<value>1.0.0.0</value>
+	</resheader>
+	<resheader name="Reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="Writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="AddTab.Text">
+		<value>追加</value>
+	</data>
+	<data name="AddTab.AlternateText">
+		<value>新しいページを追加</value>
+	</data>
+	<data name="EditTab.Text">
+		<value>設定</value>
+	</data>
+	<data name="EditTab.AlternateText">
+		<value>このページの設定</value>
+	</data>
+	<data name="DeleteTab.Text">
+		<value>削除</value>
+	</data>
+	<data name="DeleteTab.AlternateText">
+		<value>このページの削除</value>
+	</data>
+	<data name="DeleteTabConfirm.Text">
+		<value>このページを削除して良いですか？</value>
+	</data>
+	<data name="CopyTab.Text">
+		<value>コピー</value>
+	</data>
+	<data name="CopyTab.AlternateText">
+		<value>このページのコピー</value>
+	</data>
+	<data name="PreviewTab.Text">
+		<value>プレビュー</value>
+	</data>
+	<data name="PreviewTab.AlternateText">
+		<value>このページのプレビュー</value>
+	</data>
+	<data name="Tab.Text">
+		<value>ページ:</value>
+	</data>
+	<data name="Module.Text">
+		<value>モジュール:</value>
+	</data>
+	<data name="Pane.Text">
+		<value>ペイン:</value>
+	</data>
+	<data name="Title.Text">
+		<value>タイトル:</value>
+	</data>
+	<data name="Align.Text">
+		<value>横位置:</value>
+	</data>
+	<data name="Permission.Text">
+		<value>利用者:</value>
+	</data>
+	<data name="Position.Text">
+		<value>縦位置:</value>
+	</data>
+	<data name="AddModule.Text">
+		<value>追加</value>
+	</data>
+	<data name="AddModule.AlternateText">
+		<value>新しいモジュールの追加</value>
+	</data>
+	<data name="Wizard.Text">
+		<value>ウィザード</value>
+	</data>
+	<data name="Wizard.AlternateText">
+		<value>サイト ウィザードの設定</value>
+	</data>
+	<data name="Site.Text">
+		<value>サイト</value>
+	</data>
+	<data name="Site.AlternateText">
+		<value>サイト設定の編集</value>
+	</data>
+	<data name="Users.Text">
+		<value>ユーザー</value>
+	</data>
+	<data name="Users.AlternateText">
+		<value>新しいユーザーの追加</value>
+	</data>
+	<data name="Files.Text">
+		<value>ファイル</value>
+	</data>
+	<data name="Files.AlternateText">
+		<value>新しいファイルの追加</value>
+	</data>
+	<data name="Help.Text">
+		<value>ヘルプ</value>
+	</data>
+	<data name="Help.AlternateText">
+		<value>ヘルプ</value>
+	</data>
+	<data name="PageFunctions.Text">
+		<value>ページ設定</value>
+	</data>
+	<data name="AddNewModule.Text">
+		<value>新しいモジュールの追加</value>
+	</data>
+	<data name="CommonTasks.Text">
+		<value>共通タスク</value>
+	</data>
+	<data name="Left.Text">
+		<value>左寄せ</value>
+	</data>
+	<data name="Right.Text">
+		<value>右寄せ</value>
+	</data>
+	<data name="Center.Text">
+		<value>中央揃え</value>
+	</data>
+	<data name="Top.Text">
+		<value>上</value>
+	</data>
+	<data name="Bottom.Text">
+		<value>下</value>
+	</data>
+	<data name="PermissionView.Text">
+		<value>ページと同一</value>
+	</data>
+	<data name="PermissionEdit.Text">
+		<value>ページ編集者のみ</value>
+	</data>
+	<data name="optModuleTypeNew.Text">
+		<value>新しいモジュールの追加</value>
+	</data>
+	<data name="optModuleTypeExisting.Text">
+		<value>既存モジュールの追加</value>
+	</data>
+	<data name="SelectModule.Text">
+		<value>モジュールの選択</value>
+	</data>
+	<data name="SelectPage.Text">
+		<value>ページの選択</value>
+	</data>
+</root>

@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ChooseTemplate.Title">
+    <value>選擇網站模板</value>
+  </data>
+  <data name="Template.Help">
+    <value>&lt;p&gt;這個網站提供精靈的便利操做方式，讓系統管理員設定常用的功能&lt;/p&gt;	&lt;p&gt;您可以在精靈的網頁中只用上一步/下一步完成操作。&lt;/p&gt;	&lt;p&gt;您可以從已存在的樣版建立新的網站。如果要使用樣版，先勾選使此功能有作用，再從選單中選擇樣版&lt;/p&gt;&lt;p&gt;如果是使用樣版建立網站，必須選擇如何處理重複的模組&lt;/p&gt;</value>
+  </data>
+  <data name="lblTemplateTitle.Text">
+    <value>選擇樣版:</value>
+  </data>
+  <data name="lblTemplateTitle.Help">
+    <value>選擇一個樣版相當於一個建站方案。</value>
+  </data>
+  <data name="TemplateDetail.Text">
+    <value>通過下面的樣版建立你的網站</value>
+  </data>
+  <data name="MergeDetail.Text">
+    <value>如何處理重複模組</value>
+  </data>
+  <data name="Ignore.Text">
+    <value>忽略</value>
+  </data>
+  <data name="Replace.Text">
+    <value>取代</value>
+  </data>
+  <data name="Merge.Text">
+    <value>合併</value>
+  </data>
+  <data name="MergeWarning.Text">
+    <value>&lt;p class="NormalRed"&gt;
+注意: 如果你選擇 "Replace"（取代）, 原先的內容將會丟失！	
+&lt;/p&gt;
+		</value>
+  </data>
+  <data name="TemplateRequired.Text">
+    <value>處理前必須先選定樣版。</value>
+  </data>
+  <data name="InvalidTemplate.Text">
+    <value>{0} 不是有效的樣版文件</value>
+  </data>
+  <data name="ChooseSkin.Title">
+    <value>為你的網站選擇一個外觀</value>
+  </data>
+  <data name="lblSkinTitle.Text">
+    <value>選擇皮膚:</value>
+  </data>
+  <data name="lblSkinTitle.Help">
+    <value>選擇一個外觀他將應用到你的網站的所有頁面。</value>
+  </data>
+  <data name="SkinDetail.Text">
+    <value>從下面的外觀檢視器選擇一個外觀。</value>
+  </data>
+  <data name="Skin.Help">
+    <value>&lt;p&gt;
+你選擇的外觀將會是你的網站的所有頁面的預設外觀，但是您可以在頁面設定為網頁個別設定外觀
+&lt;/p&gt;
+		</value>
+  </data>
+  <data name="Details.Title">
+    <value>新增網站詳細資訊</value>
+  </data>
+  <data name="lblDetailsTitle.Text">
+    <value>網站信息:</value>
+  </data>
+  <data name="lblDetailsTitle.Help">
+    <value>提供基本的網站描述</value>
+  </data>
+  <data name="DetailsDetail.Text">
+    <value>提供基本的網站信息</value>
+  </data>
+  <data name="lblPortalName.Text">
+    <value>名稱/標題:</value>
+  </data>
+  <data name="lblPortalName.Help">
+    <value>網站名稱將會顯示在IE標題欄</value>
+  </data>
+  <data name="lblDescription.Text">
+    <value>網站描述:</value>
+  </data>
+  <data name="lblDescription.Help">
+    <value>輸入你的網站描述</value>
+  </data>
+  <data name="lblKeyWords.Text">
+    <value>關鍵字:</value>
+  </data>
+  <data name="lblKeyWords.Help">
+    <value>輸入關鍵字(用逗號隔開)。</value>
+  </data>
+  <data name="Details.Help">
+    <value>&lt;p&gt;
+在這裡你可以輸入你的網站的基本訊息
+&lt;/p&gt;
+&lt;p&gt;
+例如網站描述，網站關鍵字	
+&lt;/p&gt;
+&lt;p&gt;
+關鍵字必須用逗號分開	
+&lt;/p&gt;
+</value>
+  </data>
+  <data name="Logo.Title">
+    <value>選擇一個Logo </value>
+  </data>
+  <data name="lblLogoTitle.Text">
+    <value>選擇一個logo:</value>
+  </data>
+  <data name="lblLogoTitle.Help">
+    <value>為你的網站選擇一個logo。</value>
+  </data>
+  <data name="lblLogo.Text">
+    <value>Logo:</value>
+  </data>
+  <data name="lblLogo.Help">
+    <value>選擇Logo</value>
+  </data>
+  <data name="Logo.Help">
+    <value>&lt;p&gt;
+不同的外觀對LOGO的顯示方式不同，有的甚至不顯示logo</value>
+  </data>
+  <data name="SuccessMessage.Text">
+    <value>&lt;p&gt;
+你的網站成功建立		
+&lt;/p&gt;
+&lt;p&gt;如果您有改變網站的預設外觀，您要選擇首頁離開精靈，外觀的變更才會生效
+&lt;/p&gt;
+        </value>
+  </data>
+  <data name="ControlTitle_.Text">
+    <value>網站精靈</value>
+  </data>
+  <data name="ChooseContainer.Title">
+    <value>選擇網站預設的容器</value>
+  </data>
+  <data name="lblContainerTitle.Text">
+    <value>Select a Container:</value>
+  </data>
+  <data name="lblContainerTitle.Help">
+    <value>您可以從容器檢視器中選擇一個容器，此容器會套用到所有網頁的所有模組上.</value>
+  </data>
+  <data name="ContainerDetail.Text">
+    <value>從容器檢視器中選擇一個容器:</value>
+  </data>
+  <data name="Container.Help">
+    <value>&lt;p&gt;您可以從容器檢視器中選擇一個容器，此容器會套用到所有網頁的所有模組上，然而，您可以在模組的屬性設定中，設定個別模組的容器來覆蓋系統設定&lt;/p&gt;</value>
+  </data>
+</root>

@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ModuleSettings.Text">
+    <value>模組設置</value>
+  </data>
+  <data name="ModuleSettingsHelp.Text">
+    <value>模組設置</value>
+  </data>
+  <data name="plTitle.Text">
+    <value>模組標題:</value>
+  </data>
+  <data name="plTitle.Help">
+    <value>輸入模組標題</value>
+  </data>
+  <data name="PageSettings.Text">
+    <value>頁面設置</value>
+  </data>
+  <data name="PageSettingsHelp.Text">
+    <value>和這個模組相關的頁面設置</value>
+  </data>
+  <data name="Appearance.Text">
+    <value>外觀</value>
+  </data>
+  <data name="Security.Text">
+    <value>安全設置</value>
+  </data>
+  <data name="plAllTabs.Text">
+    <value>在所有頁面顯示?</value>
+  </data>
+  <data name="plAllTabs.Help">
+    <value>選擇是否在這個網站的所有頁面的同一位置顯示這個模組。</value>
+  </data>
+  <data name="plVisibility.Text">
+    <value>可見:</value>
+  </data>
+  <data name="plVisibility.Help">
+    <value>預設可見屬性</value>
+  </data>
+  <data name="plTab.Text">
+    <value>頁面:</value>
+  </data>
+  <data name="plTab.Help">
+    <value>選擇模組出現的頁面。</value>
+  </data>
+  <data name="plHeader.Text">
+    <value>頭部:</value>
+  </data>
+  <data name="plHeader.Help">
+    <value>輸入頭部文字</value>
+  </data>
+  <data name="plFooter.Text">
+    <value>底部文字:</value>
+  </data>
+  <data name="plFooter.Help">
+    <value>輸入底部文字</value>
+  </data>
+  <data name="plIcon.Text">
+    <value>Icon:</value>
+  </data>
+  <data name="plIcon.Help">
+    <value>選擇一個Icon圖標 將會顯示在模組標題欄</value>
+  </data>
+  <data name="plAlign.Text">
+    <value>對齊方式:</value>
+  </data>
+  <data name="plAlign.Help">
+    <value>選擇模組的對齊方式</value>
+  </data>
+  <data name="plColor.Text">
+    <value>顏色:</value>
+  </data>
+  <data name="plColor.Help">
+    <value>輸入模組的顏色</value>
+  </data>
+  <data name="plBorder.Text">
+    <value>邊框:</value>
+  </data>
+  <data name="plBorder.Help">
+    <value>輸入邊框寬度</value>
+  </data>
+  <data name="plModuleContainer.Text">
+    <value>模組容器:</value>
+  </data>
+  <data name="plModuleContainer.Help">
+    <value>選擇一個容器 (增加新容器請到 文件管理 )</value>
+  </data>
+  <data name="plPermissions.Text">
+    <value>權限:</value>
+  </data>
+  <data name="plPermissions.Help">
+    <value>選擇 查看、編輯權限</value>
+  </data>
+  <data name="plCacheTime.Text">
+    <value>緩存 (秒):</value>
+  </data>
+  <data name="plCacheTime.Help">
+    <value>輸入這個模組在緩存中保存的時間</value>
+  </data>
+  <data name="plStartDate.Text">
+    <value>開始日期:</value>
+  </data>
+  <data name="plStartDate.Help">
+    <value>輸入開始日期</value>
+  </data>
+  <data name="plEndDate.Text">
+    <value>截止日期:</value>
+  </data>
+  <data name="plEndDate.Help">
+    <value>輸入這個模組顯示的截止日期。可以通過日曆選擇。</value>
+  </data>
+  <data name="SpecificSettings.Text">
+    <value>模組特殊設置</value>
+  </data>
+  <data name="SpecificSettingsHelp.Text">
+    <value>進行模組特殊設置</value>
+  </data>
+  <data name="GeneralDetails.Text">
+    <value>常規設置</value>
+  </data>
+  <data name="OtherSettings.Text">
+    <value>其他設置</value>
+  </data>
+  <data name="InheritPermissions.Text">
+    <value>通過 &lt;b&gt;頁面&lt;/b&gt;繼承&lt;b&gt;查看&lt;/b&gt; 權限設置</value>
+  </data>
+  <data name="ControlTitle_module.Text">
+    <value>模組</value>
+  </data>
+  <data name="plDefault.Text">
+    <value>設定為預設參數?</value>
+  </data>
+  <data name="plDefault.Help">
+    <value>當您要在新增模組時都套用此參數時，就選擇此項目.</value>
+  </data>
+  <data name="plAllModules.Text">
+    <value>套用到所有模組?</value>
+  </data>
+  <data name="plAllModules.Help">
+    <value>當您想要所有的模組都套用此模組的設定時就選擇此項目.</value>
+  </data>
+</root>

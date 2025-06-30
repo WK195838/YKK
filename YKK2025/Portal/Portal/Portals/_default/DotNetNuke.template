@@ -1,0 +1,362 @@
+<portal version="3.0">
+  <description>My Website</description>
+  <settings>
+    <logofile>logo.gif</logofile>
+    <footertext>Copyright 2005 by My Website</footertext>
+    <expirydate>0001-01-01T00:00:00.0000000-08:00</expirydate>
+    <userregistration>2</userregistration>
+    <banneradvertising>0</banneradvertising>
+    <currency>USD</currency>
+    <hostfee>0</hostfee>
+    <hostspace>0</hostspace>
+    <backgroundfile />
+    <paymentprocessor>PayPal</paymentprocessor>
+    <siteloghistory>0</siteloghistory>
+    <defaultlanguage>en-US</defaultlanguage>
+    <timezoneoffset>-480</timezoneoffset>
+  </settings>
+  <roles>
+    <role>
+      <rolename>Administrators</rolename>
+      <description>Portal Administration</description>
+      <billingfrequency />
+      <servicefee>-3.40282347E+38</servicefee>
+      <trialfrequency />
+      <trialperiod>-1</trialperiod>
+      <billingperiod>-1</billingperiod>
+      <trialfee>-3.40282347E+38</trialfee>
+      <ispublic>false</ispublic>
+      <autoassignment>false</autoassignment>
+      <roletype>adminrole</roletype>
+    </role>
+    <role>
+      <rolename>Registered Users</rolename>
+      <description>Registered Users</description>
+      <billingfrequency />
+      <servicefee>-3.40282347E+38</servicefee>
+      <trialfrequency />
+      <trialperiod>-1</trialperiod>
+      <billingperiod>-1</billingperiod>
+      <trialfee>-3.40282347E+38</trialfee>
+      <ispublic>false</ispublic>
+      <autoassignment>true</autoassignment>
+      <roletype>registeredrole</roletype>
+    </role>
+    <role>
+      <rolename>Subscribers</rolename>
+      <description>A public role for portal subscriptions</description>
+      <billingfrequency />
+      <servicefee>-3.40282347E+38</servicefee>
+      <trialfrequency />
+      <trialperiod>-1</trialperiod>
+      <billingperiod>-1</billingperiod>
+      <trialfee>-3.40282347E+38</trialfee>
+      <ispublic>true</ispublic>
+      <autoassignment>true</autoassignment>
+      <roletype>subscriberrole</roletype>
+    </role>
+  </roles>
+  <tabs>
+    <tab>
+      <name>Home</name>
+      <visible>true</visible>
+      <iconfile />
+      <disabled>false</disabled>
+      <title />
+      <description />
+      <keywords />
+      <url />
+      <skinsrc>
+      </skinsrc>
+      <containersrc>
+      </containersrc>
+      <tabpermissions>
+        <permission>
+          <permissioncode>SYSTEM_TAB</permissioncode>
+          <permissionkey>VIEW</permissionkey>
+          <rolename>All Users</rolename>
+          <allowaccess>true</allowaccess>
+        </permission>
+        <permission>
+          <permissioncode>SYSTEM_TAB</permissioncode>
+          <permissionkey>VIEW</permissionkey>
+          <rolename>Administrators</rolename>
+          <allowaccess>true</allowaccess>
+        </permission>
+        <permission>
+          <permissioncode>SYSTEM_TAB</permissioncode>
+          <permissionkey>EDIT</permissionkey>
+          <rolename>Administrators</rolename>
+          <allowaccess>true</allowaccess>
+        </permission>
+      </tabpermissions>
+      <panes>
+        <pane>
+          <name>LeftPane</name>
+          <modules>
+            <module>
+              <title>Links</title>
+              <cachetime>0</cachetime>
+              <alignment>left</alignment>
+              <color />
+              <border />
+              <iconfile />
+              <alltabs>false</alltabs>
+              <visibility>Maximized</visibility>
+              <header />
+              <footer />
+              <containersrc>
+              </containersrc>
+              <displaytitle>true</displaytitle>
+              <displayprint>true</displayprint>
+              <displaysyndicate>false</displaysyndicate>
+              <inheritviewpermissions>true</inheritviewpermissions>
+              <modulepermissions>
+                <permission>
+                  <permissioncode>SYSTEM_MODULE_DEFINITION</permissioncode>
+                  <permissionkey>EDIT</permissionkey>
+                  <rolename>Administrators</rolename>
+                  <allowaccess>true</allowaccess>
+                </permission>
+              </modulepermissions>
+              <definition>Links</definition>
+              <content type="Links" version=""><![CDATA[&lt;links&gt;&lt;link&gt;&lt;title&gt;&lt;![CDATA[DotNetNuke&#174; Site]]&gt;&lt;/title&gt;&lt;url&gt;&lt;![CDATA[http://www.dotnetnuke.com]]&gt;&lt;/url&gt;&lt;vieworder&gt;&lt;![CDATA[1]]&gt;&lt;/vieworder&gt;&lt;description&gt;&lt;![CDATA[The Official DotNetNuke&#174; Website]]&gt;&lt;/description&gt;&lt;newwindow&gt;&lt;![CDATA[False]]&gt;&lt;/newwindow&gt;&lt;/link&gt;&lt;link&gt;&lt;title&gt;&lt;![CDATA[Discussion Forum]]&gt;&lt;/title&gt;&lt;url&gt;&lt;![CDATA[http://www.asp.net/forums/showforum.aspx?forumid=90]]&gt;&lt;/url&gt;&lt;vieworder&gt;&lt;![CDATA[2]]&gt;&lt;/vieworder&gt;&lt;description&gt;&lt;![CDATA[The Official Discussion Forum on ASP.NET]]&gt;&lt;/description&gt;&lt;newwindow&gt;&lt;![CDATA[False]]&gt;&lt;/newwindow&gt;&lt;/link&gt;&lt;link&gt;&lt;title&gt;&lt;![CDATA[Defect/Feature Tracking]]&gt;&lt;/title&gt;&lt;url&gt;&lt;![CDATA[http://support.dotnetnuke.com/Default.aspx?x=1]]&gt;&lt;/url&gt;&lt;vieworder&gt;&lt;![CDATA[3]]&gt;&lt;/vieworder&gt;&lt;description&gt;&lt;![CDATA[The Official DotNetNuke&#174; Defect/Feature Tracking System]]&gt;&lt;/description&gt;&lt;newwindow&gt;&lt;![CDATA[False]]&gt;&lt;/newwindow&gt;&lt;/link&gt;&lt;link&gt;&lt;title&gt;&lt;![CDATA[Language Packs]]&gt;&lt;/title&gt;&lt;url&gt;&lt;![CDATA[http://www.dotnetnuke.com/Community/Languages/tabid/785/Default.aspx]]&gt;&lt;/url&gt;&lt;vieworder&gt;&lt;![CDATA[4]]&gt;&lt;/vieworder&gt;&lt;description&gt;&lt;![CDATA[Language Packs for DotNetNuke&#174;]]&gt;&lt;/description&gt;&lt;newwindow&gt;&lt;![CDATA[True]]&gt;&lt;/newwindow&gt;&lt;/link&gt;&lt;link&gt;&lt;title&gt;&lt;![CDATA[Modules]]&gt;&lt;/title&gt;&lt;url&gt;&lt;![CDATA[http://www.dotnetnuke.com/Project/About/Downloads/tabid/125/Default.aspx]]&gt;&lt;/url&gt;&lt;vieworder&gt;&lt;![CDATA[5]]&gt;&lt;/vieworder&gt;&lt;description&gt;&lt;![CDATA[Modules for DotNetNuke&#174;]]&gt;&lt;/description&gt;&lt;newwindow&gt;&lt;![CDATA[True]]&gt;&lt;/newwindow&gt;&lt;/link&gt;&lt;/links&gt;]]></content>
+            </module>
+            <module>
+              <title>Books</title>
+              <cachetime>0</cachetime>
+              <alignment>left</alignment>
+              <color />
+              <border />
+              <iconfile />
+              <alltabs>false</alltabs>
+              <visibility>Maximized</visibility>
+              <header />
+              <footer />
+              <containersrc>
+              </containersrc>
+              <displaytitle>true</displaytitle>
+              <displayprint>true</displayprint>
+              <displaysyndicate>false</displaysyndicate>
+              <inheritviewpermissions>true</inheritviewpermissions>
+              <modulepermissions>
+                <permission>
+                  <permissioncode>SYSTEM_MODULE_DEFINITION</permissioncode>
+                  <permissionkey>EDIT</permissionkey>
+                  <rolename>Administrators</rolename>
+                  <allowaccess>true</allowaccess>
+                </permission>
+              </modulepermissions>
+              <definition>Text/HTML</definition>
+              <content type="TextHTML" version=""><![CDATA[&lt;htmltext&gt;&lt;desktophtml&gt;&lt;![CDATA[&amp;lt;p align=&amp;quot;center&amp;quot;&amp;gt;&amp;lt;a class=&amp;quot;&amp;quot; title=&amp;quot;&amp;quot; href=&amp;quot;http://www.amazon.com/exec/obidos/ASIN/0764595636/dotnetnuke-20?creative=327641&amp;amp;amp;camp=14573&amp;amp;amp;link_code=as1&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;&amp;lt;img height=&amp;quot;104&amp;quot; alt=&amp;quot;book.gif&amp;quot; src=&amp;quot;book.gif&amp;quot; width=&amp;quot;83&amp;quot; border=&amp;quot;0&amp;quot; /&amp;gt;&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Get this book from Amazon.com, written by members of the DotNetNuke&#174; Core Team.&amp;#160; Shaun Walker, Patrick Santry, Joe Brinkman, Scott Willhite, Dan Caron, Scott McCulloch, Bruce Hopkins&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Order your copy now at &amp;lt;a class=&amp;quot;&amp;quot; title=&amp;quot;&amp;quot; href=&amp;quot;http://www.amazon.com/exec/obidos/ASIN/0764595636/dotnetnuke-20?creative=327641&amp;amp;amp;camp=14573&amp;amp;amp;link_code=as1&amp;quot; target=&amp;quot;&amp;quot;&amp;gt;Amazon.com&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;]]&gt;&lt;/desktophtml&gt;&lt;desktopsummary&gt;&lt;![CDATA[]]&gt;&lt;/desktopsummary&gt;&lt;/htmltext&gt;]]></content>
+            </module>
+          </modules>
+        </pane>
+        <pane>
+          <name>ContentPane</name>
+          <modules>
+            <module>
+              <title>Welcome To My Website...</title>
+              <cachetime>60</cachetime>
+              <alignment>left</alignment>
+              <color />
+              <border />
+              <iconfile />
+              <alltabs>false</alltabs>
+              <visibility>Maximized</visibility>
+              <header />
+              <footer />
+              <containersrc>
+              </containersrc>
+              <displaytitle>true</displaytitle>
+              <displayprint>true</displayprint>
+              <displaysyndicate>true</displaysyndicate>
+              <inheritviewpermissions>true</inheritviewpermissions>
+              <modulepermissions>
+                <permission>
+                  <permissioncode>SYSTEM_MODULE_DEFINITION</permissioncode>
+                  <permissionkey>EDIT</permissionkey>
+                  <rolename>Administrators</rolename>
+                  <allowaccess>true</allowaccess>
+                </permission>
+              </modulepermissions>
+              <definition>Text/HTML</definition>
+              <content type="TextHTML" version=""><![CDATA[&lt;htmltext&gt;&lt;desktophtml&gt;&lt;![CDATA[&amp;lt;b&amp;gt;Administrator Login:&amp;lt;/b&amp;gt;&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;Username: admin&amp;lt;br /&amp;gt;Password: admin&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;* Select the Admin tab to manage the portal settings as the Administrator. &amp;lt;font color=&amp;quot;#ff0000&amp;quot;&amp;gt;Make sure you change the default password and specify a valid Email address for this account.&amp;lt;br /&amp;gt;&amp;lt;/font&amp;gt;&amp;lt;br /&amp;gt;&amp;lt;b&amp;gt;Host Login:&amp;lt;/b&amp;gt;&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;Username: host&amp;lt;br /&amp;gt;Password: host&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;* Select the Host tab to manage multiple portals as the Host. &amp;lt;font color=&amp;quot;#ff0000&amp;quot;&amp;gt;Make sure you change the default password and specify a valid Email address for this account.&amp;lt;br /&amp;gt;&amp;lt;/font&amp;gt;&amp;lt;br /&amp;gt;&amp;lt;b&amp;gt;Open Source License:&amp;lt;/b&amp;gt;&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;DotNetNuke&#174; - &amp;lt;a href=&amp;quot;http://www.dotnetnuke.com&amp;quot;&amp;gt;http://www.dotnetnuke.com&amp;lt;/a&amp;gt;&amp;lt;br /&amp;gt;Copyright (c) 2002-2005&amp;lt;br /&amp;gt;by Perpetual Motion Interactive Systems Inc. ( &amp;lt;a href=&amp;quot;http://www.perpetualmotion.ca&amp;quot;&amp;gt;http://www.perpetualmotion.ca&amp;lt;/a&amp;gt; )&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the &amp;quot;Software&amp;quot;), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;THE SOFTWARE IS PROVIDED &amp;quot;AS IS&amp;quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.]]&gt;&lt;/desktophtml&gt;&lt;desktopsummary&gt;&lt;![CDATA[]]&gt;&lt;/desktopsummary&gt;&lt;/htmltext&gt;]]></content>
+            </module>
+          </modules>
+        </pane>
+        <pane>
+          <name>RightPane</name>
+          <modules>
+            <module>
+              <title>Sponsors</title>
+              <cachetime>0</cachetime>
+              <alignment>center</alignment>
+              <color />
+              <border />
+              <iconfile />
+              <alltabs>false</alltabs>
+              <visibility>Maximized</visibility>
+              <header />
+              <footer />
+              <containersrc>
+              </containersrc>
+              <displaytitle>true</displaytitle>
+              <displayprint>true</displayprint>
+              <displaysyndicate>false</displaysyndicate>
+              <inheritviewpermissions>true</inheritviewpermissions>
+              <modulepermissions>
+                <permission>
+                  <permissioncode>SYSTEM_MODULE_DEFINITION</permissioncode>
+                  <permissionkey>EDIT</permissionkey>
+                  <rolename>Administrators</rolename>
+                  <allowaccess>true</allowaccess>
+                </permission>
+              </modulepermissions>
+              <definition>Text/HTML</definition>
+              <content type="TextHTML" version=""><![CDATA[&lt;htmltext&gt;&lt;desktophtml&gt;&lt;![CDATA[&lt;center&gt;&lt;br&gt;&lt;a href=&quot;http://www.perpetualmotion.ca&quot;&gt;&lt;img src=&quot;PerpetualMotion.gif&quot; border=&quot;0&quot; alt=&quot;Perpetual Motion Interactive Systems Inc.&quot;&gt;&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;a href=&quot;http://www.asp.net&quot;&gt;&lt;img src=&quot;aspnet.gif&quot; border=&quot;0&quot; alt=&quot;The Official Microsoft ASP.NET Site&quot;&gt;&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;a href=&quot;http://www.maximumasp.com&quot;&gt;&lt;img src=&quot;MaximumASP.gif&quot; border=&quot;0&quot; alt=&quot;MaximumASP - Serious Web Hosting For Serious Microsoft Developers&quot;&gt;&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;a href=&quot;http://sourcegear.com/&quot;&gt;&lt;img src=&quot;sourcegear.gif&quot; border=&quot;0&quot; alt=&quot;SourceGear - Tools for Developers&quot;&gt;&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;a href=&quot;http://www.telerik.com/dnn/&quot;&gt;&lt;img src=&quot;telerik.gif&quot; border=&quot;0&quot; alt=&quot;Telerik - The Most Comprehensive Toolset For ASP.NET&quot;&gt;&lt;/a&gt;&lt;br&gt;&lt;/center&gt;]]&gt;&lt;/desktophtml&gt;&lt;desktopsummary&gt;&lt;![CDATA[]]&gt;&lt;/desktopsummary&gt;&lt;/htmltext&gt;]]></content>
+            </module>
+          </modules>
+        </pane>
+      </panes>
+    </tab>
+    <tab>
+      <name>Search Results</name>
+      <visible>false</visible>
+      <iconfile />
+      <disabled>false</disabled>
+      <title>Search Results</title>
+      <description />
+      <keywords />
+      <url />
+      <skinsrc>
+      </skinsrc>
+      <containersrc>
+      </containersrc>
+      <tabpermissions>
+        <permission>
+          <permissioncode>SYSTEM_TAB</permissioncode>
+          <permissionkey>VIEW</permissionkey>
+          <rolename>All Users</rolename>
+          <allowaccess>true</allowaccess>
+        </permission>
+        <permission>
+          <permissioncode>SYSTEM_TAB</permissioncode>
+          <permissionkey>VIEW</permissionkey>
+          <rolename>Administrators</rolename>
+          <allowaccess>true</allowaccess>
+        </permission>
+        <permission>
+          <permissioncode>SYSTEM_TAB</permissioncode>
+          <permissionkey>EDIT</permissionkey>
+          <rolename>Administrators</rolename>
+          <allowaccess>true</allowaccess>
+        </permission>
+      </tabpermissions>
+      <panes>
+        <pane>
+          <name>ContentPane</name>
+          <modules>
+            <module>
+              <title>Search Results</title>
+              <cachetime>0</cachetime>
+              <alignment />
+              <color />
+              <border />
+              <iconfile />
+              <alltabs>false</alltabs>
+              <visibility>Maximized</visibility>
+              <header />
+              <footer />
+              <containersrc>
+              </containersrc>
+              <displaytitle>true</displaytitle>
+              <displayprint>true</displayprint>
+              <displaysyndicate>false</displaysyndicate>
+              <inheritviewpermissions>true</inheritviewpermissions>
+              <modulepermissions />
+              <definition>Search Results</definition>
+            </module>
+          </modules>
+        </pane>
+      </panes>
+    </tab>
+  </tabs>
+  <folders>
+    <folder>
+      <folderpath />
+      <folderpermissions>
+        <permission>
+          <permissioncode>SYSTEM_FOLDER</permissioncode>
+          <permissionkey>READ</permissionkey>
+          <rolename>Administrators</rolename>
+          <allowaccess>true</allowaccess>
+        </permission>
+        <permission>
+          <permissioncode>SYSTEM_FOLDER</permissioncode>
+          <permissionkey>WRITE</permissionkey>
+          <rolename>Administrators</rolename>
+          <allowaccess>true</allowaccess>
+        </permission>
+      </folderpermissions>
+      <files>
+        <file>
+          <filename>aspnet.gif</filename>
+          <extension>gif</extension>
+          <size>2814</size>
+          <width>120</width>
+          <height>60</height>
+          <contenttype>image/gif</contenttype>
+        </file>
+        <file>
+          <filename>book.gif</filename>
+          <extension>gif</extension>
+          <size>4060</size>
+          <width>81</width>
+          <height>97</height>
+          <contenttype>image/gif</contenttype>
+        </file>
+        <file>
+          <filename>logo.gif</filename>
+          <extension>gif</extension>
+          <size>5464</size>
+          <width>200</width>
+          <height>75</height>
+          <contenttype>image/gif</contenttype>
+        </file>
+        <file>
+          <filename>maximumasp.gif</filename>
+          <extension>gif</extension>
+          <size>4412</size>
+          <width>120</width>
+          <height>46</height>
+          <contenttype>image/gif</contenttype>
+        </file>
+        <file>
+          <filename>perpetualmotion.gif</filename>
+          <extension>gif</extension>
+          <size>3738</size>
+          <width>120</width>
+          <height>60</height>
+          <contenttype>image/gif</contenttype>
+        </file>
+        <file>
+          <filename>telerik.gif</filename>
+          <extension>gif</extension>
+          <size>3738</size>
+          <width>120</width>
+          <height>60</height>
+          <contenttype>image/gif</contenttype>
+        </file>
+        <file>
+          <filename>portal.css</filename>
+          <extension>css</extension>
+          <size>2832</size>
+          <width>0</width>
+          <height>0</height>
+          <contenttype>application/octet-stream</contenttype>
+        </file>
+      </files>
+    </folder>
+  </folders>
+</portal>

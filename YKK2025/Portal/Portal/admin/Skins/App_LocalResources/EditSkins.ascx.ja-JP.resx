@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" />
+							<xsd:attribute name="type" type="xsd:string" />
+							<xsd:attribute name="mimetype" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="ResMimeType">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="Version">
+		<value>1.0.0.0</value>
+	</resheader>
+	<resheader name="Reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="Writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="lblMessage.Text">
+		<value>&lt;b&gt;注:&lt;/b&gt;&amp;nbsp;&amp;nbsp;スキンまたはコンテナ パッケージをアップロードする場合はファイル マネージャを使用してください。</value>
+	</data>
+	<data name="Host.Text">
+		<value>ホスト</value>
+	</data>
+	<data name="Site.Text">
+		<value>サイト</value>
+	</data>
+	<data name="plSkins.Text">
+		<value>スキン</value>
+	</data>
+	<data name="plContainers.Text">
+		<value>コンテナ</value>
+	</data>
+	<data name="cmdRestore.Text">
+		<value>デフォルトのスキンに戻す</value>
+	</data>
+	<data name="Portal.Text">
+		<value>ポータル</value>
+	</data>
+	<data name="Admin.Text">
+		<value>管理者</value>
+	</data>
+	<data name="cmdDelete.Text">
+		<value>スキン パッケージの削除</value>
+	</data>
+	<data name="cmdParse.Text">
+		<value>スキン パッケージの解析</value>
+	</data>
+	<data name="ApplyTo.Text">
+		<value>適用先</value>
+	</data>
+	<data name="ParseOptions.Text">
+		<value>解析オプション</value>
+	</data>
+	<data name="Localized.Text">
+		<value>ローカライズ</value>
+	</data>
+	<data name="Portable.Text">
+		<value>ポータブル</value>
+	</data>
+	<data name="NoSkin.ErrorMessage">
+		<value>フォルダの中にスキン ファイルが存在していません</value>
+	</data>
+	<data name="cmdPreview.Text">
+		<value>プレビュー</value>
+	</data>
+	<data name="cmdApply.Text">
+		<value>適用</value>
+	</data>
+	<data name="NoContainer.ErrorMessage">
+		<value>フォルダの中にコンテナ ファイルが存在していません</value>
+	</data>
+	<data name="plSkins.Help">
+		<value>スキン パッケージを選択してください。</value>
+	</data>
+	<data name="plContainers.Help">
+		<value>コンテナ パッケージを選択してください。</value>
+	</data>
+	<data name="SkinUpload.Action">
+		<value>スキンのアップロード</value>
+	</data>
+	<data name="ContainerUpload.Action">
+		<value>コンテナのアップロード</value>
+	</data>
+	<data name="ControlTitle_.Text">
+		<value>スキン</value>
+	</data>
+	<data name="plType.Text">
+		<value>スキンのタイプ:</value>
+	</data>
+	<data name="plType.Help">
+		<value>表示上のスキン タイプを選択してください。</value>
+	</data>
+	<data name="About.Text">
+		<value>{0}について</value>
+	</data>
+	<data name="SkinDeleteFailure.Text">
+		<value>ホスト用のスキンを削除できるのはスーパー ユーザのみです。</value>
+	</data>
+</root>

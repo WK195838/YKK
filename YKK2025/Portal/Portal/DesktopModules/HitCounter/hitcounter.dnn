@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dotnetnuke version="3.0" type="Module">
+	<folders>
+		<folder>
+			<name>Boskone - HitCounter</name>
+			<description>Add a simple hit counter to your page.</description>
+			<version>02.00.00</version>
+			<modules>
+				<module>
+					<friendlyname>HitCounter</friendlyname>
+					<controls>
+						<control>
+							<title>HitCounter</title>
+							<src>HitCounter.ascx</src>
+							<type>View</type>
+							<helpurl>http://boskone.hmc.gotdns.org</helpurl>
+						</control>
+						<control>
+							<key>Edit</key>
+							<title>Edit HitCounter</title>
+							<src>HitCounterEdit.ascx</src>
+							<iconfile>icon_hitcounter_32px.gif</iconfile>
+							<type>Edit</type>
+							<helpurl>http://boskone.hmc.gotdns.org</helpurl>
+						</control>
+					</controls>
+				</module>
+			</modules>
+			<files>
+				<file>
+					<name>HitCounter.ascx</name>
+				</file>
+				<file>
+					<name>HitCounterEdit.ascx</name>
+				</file>
+				<file>
+					<name>Boskone.DNN.Modules.HitCounter.dll</name>
+				</file>
+				<file>
+					<name>module.css</name>
+				</file>
+				<file>
+					<name>icon_hitcounter_32px.gif</name>
+				</file>
+				<file>
+					<path>App_LocalResources</path>
+					<name>HitCounter.ascx.resx</name>
+				</file>
+				<file>
+					<path>App_LocalResources</path>
+					<name>HitCounterEdit.ascx.resx</name>
+				</file>
+				<file>
+					<path>App_LocalResources</path>
+					<name>HitCounterEdit.ascx.de-DE.resx</name>
+				</file>
+				<file>
+					<path>App_LocalResources</path>
+					<name>HitCounter.ascx.de-DE.resx</name>
+				</file>
+			</files>
+		</folder>
+	</folders>
+</dotnetnuke>

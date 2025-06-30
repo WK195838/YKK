@@ -1,0 +1,2 @@
+<%@ Control language="vb" CodeBehind="Logo.ascx.vb" AutoEventWireup="false" Explicit="True" Inherits="DotNetNuke.UI.Skins.Controls.Logo" %>
+<asp:hyperlink id="hypLogo" runat="server"><asp:image id="imgLogo" borderwidth="0" runat="server" enableviewstate="False" /></asp:hyperlink>

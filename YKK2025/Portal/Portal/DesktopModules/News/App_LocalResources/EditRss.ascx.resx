@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" />
+							<xsd:attribute name="type" type="xsd:string" />
+							<xsd:attribute name="mimetype" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="ResMimeType">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="Version">
+		<value>1.0.0.0</value>
+	</resheader>
+	<resheader name="Reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="Writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="plRSS.Text">
+		<value>News Feed Source</value>
+	</data>
+	<data name="plXSL.Text">
+		<value>News Feed Style Sheet</value>
+	</data>
+	<data name="lblSecurityTitle.Text">
+		<value>Security Options (optional)</value>
+	</data>
+	<data name="lblSecurity.Text">
+		<value>Account Information</value>
+	</data>
+	<data name="lblDomain.Text">
+		<value>Domain\username</value>
+	</data>
+	<data name="lblPassword.Text">
+		<value>Password</value>
+	</data>
+	<data name="ModuleHelp.Text">
+		<value>&lt;h1&gt;About The News Feeds (RSS) Module&lt;/h1&gt;
+
+&lt;p&gt;The News Feed Module provides visitors with up-to-date, topical information on a wide range of topics. Information includes a title linked to the source document, source and publish date.&lt;/p&gt;
+
+&lt;h1&gt;Edit News Feed&lt;/h1&gt;
+
+&lt;ol&gt;&lt;li&gt;Add a &lt;b&gt;News Feed&lt;/b&gt; module, or go to an existing &lt;b&gt;News Feed&lt;/b&gt; module.&lt;/li&gt;
+&lt;li&gt;Click &lt;b&gt;Edit Newsfeed&lt;/b&gt;. 
+&lt;li&gt;At &lt;b&gt;News Feed Source&lt;/b&gt;, select &lt;b&gt;Internal&lt;/b&gt; and &lt;b&gt;Upload New File&lt;/b&gt;, or select &lt;b&gt;External&lt;/b&gt; and enter the Url. 
+&lt;li&gt;At &lt;b&gt;News Feed Style Sheet&lt;/b&gt; (optional), select &lt;b&gt;Internal&lt;/b&gt; and &lt;b&gt;Upload New File&lt;/b&gt;, or select &lt;b&gt;External&lt;/b&gt; and enter the Url. 
+&lt;li&gt;At &lt;b&gt;Security Options&lt;/b&gt; (optional), enter the &lt;b&gt;domain\username&lt;/b&gt; and &lt;b&gt;password&lt;/b&gt; details provided by your News Feed provider. 
+&lt;li&gt;Click &lt;b&gt;Update&lt;/b&gt;.&lt;/ol&gt;
+
+</value>
+	</data>
+	<data name="ControlTitle_edit.Text">
+		<value>Edit News Feeds (RSS)</value>
+	</data>
+	<data name="lblDomain.Help">
+		<value>Enter the domain and username needed to access the News Feed Source</value>
+	</data>
+	<data name="lblPassword.Help">
+		<value>Enter the password for the accound needed to access the News Feed Source</value>
+	</data>
+	<data name="plRSS.Help">
+		<value>Select the source for the News Feed</value>
+	</data>
+	<data name="plXSL.Help">
+		<value>Select the style sheet used to transform the source</value>
+	</data>
+</root>

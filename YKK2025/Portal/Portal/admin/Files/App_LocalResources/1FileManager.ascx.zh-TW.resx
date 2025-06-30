@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" />
+							<xsd:attribute name="type" type="xsd:string" />
+							<xsd:attribute name="mimetype" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="ResMimeType">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="Version">
+		<value>1.0.0.0</value>
+	</resheader>
+	<resheader name="Reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="Writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="FileManager.Text">
+		<value>File Manager</value>
+	</data>
+	<data name="HostRoot.Text">
+		<value>Host Root</value>
+	</data>
+	<data name="PortalRoot.Text">
+		<value>Portal Root</value>
+	</data>
+	<data name="FileName.Header">
+		<value>File Name</value>
+	</data>
+	<data name="Size.Header">
+		<value>Size (Kb)</value>
+	</data>
+	<data name="DiskSpace.Text">
+		<value>Disk Space</value>
+	</data>
+	<data name="Capacity.Text">
+		<value>Capacity</value>
+	</data>
+	<data name="Used.Text">
+		<value>Used</value>
+	</data>
+	<data name="Free.Text">
+		<value>Free</value>
+	</data>
+	<data name="MB.Text">
+		<value>MB</value>
+	</data>
+	<data name="cmdSynchronize.Text">
+		<value>Synchronize Database And File System</value>
+	</data>
+	<data name="AddContent.Action">
+		<value>Upload New File(s)</value>
+	</data>
+	<data name="ControlTitle_.Text">
+		<value>File Manager</value>
+	</data>
+	<data name="Ok.Text">
+		<value>Ok</value>
+	</data>
+	<data name="Cancel.Text">
+		<value>Cancel</value>
+	</data>
+	<data name="CopyFiles.Text">
+		<value>Copy Files</value>
+	</data>
+	<data name="CancelCopy.Text">
+		<value>Cancel Copy</value>
+	</data>
+	<data name="MoveFiles.Text">
+		<value>Move Files</value>
+	</data>
+	<data name="CancelMove.Text">
+		<value>Cancel Move</value>
+	</data>
+	<data name="NoFilesChecked.Text">
+		<value>No Files Checked</value>
+	</data>
+	<data name="PleaseSpecifyAFolderNameFirst.Text">
+		<value>Please Specify A Folder Name First</value>
+	</data>
+	<data name="CopyCheckedFiles.Text">
+		<value>Copy Checked Files?</value>
+	</data>
+	<data name="MoveCheckedFiles.Text">
+		<value>Move Checked Files?</value>
+	</data>
+	<data name="DeleteFolder.Text">
+		<value>Delete Folder:</value>
+	</data>
+	<data name="MoveSelectedFilesTo.Text">
+		<value>Move Selected Files To:</value>
+	</data>
+	<data name="CopySelectedFilesTo.Text">
+		<value>Copy Selected Files To:</value>
+	</data>
+	<data name="UnzipSelectedFilesTo.Text">
+		<value>Unzip Selected Files To:</value>
+	</data>
+	<data name="AddFolderImg.AlternateText">
+		<value>Add Folder</value>
+	</data>
+	<data name="DeleteFolderImg.AlternateText">
+		<value>Delete Folder</value>
+	</data>
+	<data name="RefreshImg.AlternateText">
+		<value>Refresh</value>
+	</data>
+	<data name="CopyImg.AlternateText">
+		<value>Copy</value>
+	</data>
+	<data name="MoveImg.AlternateText">
+		<value>Move</value>
+	</data>
+	<data name="UploadImg.AlternateText">
+		<value>Upload</value>
+	</data>
+	<data name="DeleteImg.AlternateText">
+		<value>Delete</value>
+	</data>
+	<data name="FilterImg.AlternateText">
+		<value>Filter</value>
+	</data>
+	<data name="RenameFileImg.AlternateText">
+		<value>Rename File</value>
+	</data>
+	<data name="SaveChangesImg.AlternateText">
+		<value>Save Changes</value>
+	</data>
+	<data name="DeleteFileImg.AlternateText">
+		<value>Delete File</value>
+	</data>
+	<data name="CancelRenameImg.AlternateText">
+		<value>Cancel Rename</value>
+	</data>
+	<data name="UnzipFileImg.AlternateText">
+		<value>Unzip File</value>
+	</data>
+	<data name="GetFolderProperties.AlternateText">
+		<value>Get Folder Properties</value>
+	</data>
+	<data name="NotAllowedToDeleteRootFolder.Text">
+		<value>Not Allowed to delete Root folder...</value>
+	</data>
+	<data name="FolderAlreadyRemoved.Text">
+		<value>Folder already removed...</value>
+	</data>
+	<data name="PleaseRemoveFilesBeforeDeleting.Text">
+		<value>Please Remove Files/Sub-Folders Before Deleting Folder...</value>
+	</data>
+	<data name="ErrorMovingFile.Text">
+		<value>Error Moving File:</value>
+	</data>
+	<data name="ErrorCopyingFile.Text">
+		<value>Error Copying File:</value>
+	</data>
+	<data name="NotAllowedToDeleteRootFolder.Text">
+		<value>Not Allowed to delete Root folder...</value>
+	</data>
+	
+</root>

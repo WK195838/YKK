@@ -1,0 +1,2 @@
+<%@ Control language="vb" CodeBehind="Help.ascx.vb" AutoEventWireup="false" Explicit="True" Inherits="DotNetNuke.UI.Skins.Controls.Help" %>
+<asp:hyperlink id="hypHelp" runat="server" cssclass="SkinObject" enableviewstate="False"></asp:hyperlink>

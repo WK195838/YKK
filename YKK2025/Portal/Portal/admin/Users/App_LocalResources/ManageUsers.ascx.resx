@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" />
+							<xsd:attribute name="type" type="xsd:string" />
+							<xsd:attribute name="mimetype" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="ResMimeType">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="Version">
+		<value>1.0.0.0</value>
+	</resheader>
+	<resheader name="Reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="Writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="plAuthorized.Text">
+		<value>Authorized:</value>
+	</data>
+	<data name="plAuthorized.Help">
+		<value>Is the User Authorized for the site.</value>
+	</data>
+	<data name="cmdManage.Text">
+		<value>Manage Roles for this User</value>
+	</data>
+	<data name="cmdUnlock.Text">
+		<value>Unlock Account</value>
+	</data>
+	<data name="plCreatedDate.Text">
+		<value>Creation Date:</value>
+	</data>
+	<data name="plLastLoginDate.Text">
+		<value>Last Login Date:</value>
+	</data>
+	<data name="UsernameExists.Text">
+		<value>Registration Failed! Username &lt;u&gt;{0}&lt;/u&gt; is already registered.&lt;br&gt;Please select a different Username.</value>
+	</data>
+	<data name="plLocale.Text">
+		<value>Preferred Language:</value>
+	</data>
+	<data name="plLocale.Help">
+		<value>Enter your Preferred Language</value>
+	</data>
+	<data name="plTimeZone.Text">
+		<value>Time Zone:</value>
+	</data>
+	<data name="plTimeZone.Help">
+		<value>Enter your Time Zone</value>
+	</data>
+	<data name="plCreatedDate.Help">
+		<value>Date this user was created</value>
+	</data>
+	<data name="plLastLoginDate.Help">
+		<value>Date this user last logged in</value>
+	</data>
+	<data name="Preferences.Text">
+		<value>Preferences</value>
+	</data>
+	<data name="ControlTitle_edit.Text">
+		<value>Edit User Accounts</value>
+	</data>
+	<data name="ModuleHelp.Text">
+		<value>&lt;h1&gt;About the User Management Module&lt;/h1&gt;&lt;p&gt;Administrators can manage their registered users. This module allows you to add new users, modify existing users, delete users, and manage the security roles for users.&lt;/p&gt;
+</value>
+	</data>
+	<data name="UserLockedOut.Text">
+		<value>This account is currently locked out due to too many unsuccessful login attempts.</value>
+	</data>
+	<data name="InvalidUser.Text">
+		<value>This account is not a User in the current Portal.</value>
+	</data>
+	<data name="SuperUser.Text">
+		<value>This account represents a SuperUser.  You do not have the rights to edit a SuperUser Account.</value>
+	</data>
+	<data name="NoUser.Text">
+		<value>This account doesn't exist</value>
+	</data>
+	<data name="plNewPassword.Text">
+		<value>New Password:</value>
+	</data>
+	<data name="plNewPassword.Help">
+		<value>Enter the New Password</value>
+	</data>
+	<data name="plNewConfirm.Text">
+		<value>Confirm New Password:</value>
+	</data>
+	<data name="plNewConfirm.Help">
+		<value>Re-Enter the new password to make sure you haven't made a typing mistake</value>
+	</data>
+	<data name="ResetPassword.Text">
+		<value>Reset Password</value>
+	</data>
+	<data name="cmdUpdatePassword.Text">
+		<value>Update Password</value>
+	</data>
+	<data name="PasswordMatchFailure.Text">
+		<value>Password Values Entered Do Not Match.</value>
+	</data>
+	<data name="NewPassword.Text">
+		<value>You must supply a new password.</value>
+	</data>
+	<data name="PasswordChanged.Text">
+		<value>The password has been reset.</value>
+	</data>
+	<data name="PasswordResetFailed.Text">
+		<value>There was an error setting the password. The password has not been changed.</value>
+	</data>
+</root>

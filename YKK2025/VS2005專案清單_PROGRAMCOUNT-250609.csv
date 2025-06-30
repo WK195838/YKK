@@ -1,0 +1,26 @@
+﻿專案名稱,列標籤,計數 - Program
+SAP Support System,3S,5
+Debit Note,ARMail,15
+報廢申請,DASW,29
+新色申請,DTMW,68
+生產製造書申請,EApproval,15
+TWN 顧客EDI System,EDI,70
+EDI  Web Service Program,EDIService,7
+"自動発信EDL System(Order progress, Packing Inf. , Debit Note)",edLink,16
+FAS(Forcast Analyze System),FAS,11
+Integrate and Share information Over Sections,ISOS,26
+品質分析依賴 (EDX),ISOSQC,65
+Integrate and Share Information of Puller,ISOSSP,6
+ITEM申請相關,ItemRegister,67
+資料相關申請,ITM,9
+機械加工申請,MPM,16
+"交際,出差,清算,經費,客訴,單價折扣,顧客建檔,顧客建檔,資訊工作日誌",N2W,124
+無償訂單報告,NoComm,11
+S&B 特殊鈕扣申請,SBD,14
+SCD 特殊鏈條申請,SCD,35
+SPD 特殊拉頭申請,SPDSub,9
+WINGS I/F Web Service Program,WavesService,6
+WORKFLOW Web Service Program,WFS,6
+SPD 特殊拉頭申請(VS2005),WorkFlowSub,66
+SPD 特殊拉頭申請(VS2003),WorkFlow,207
+,總計,903

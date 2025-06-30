@@ -1,0 +1,187 @@
+Imports System.Data
+Imports System.Data.SqlClient
+
+Partial Class _Default
+    Inherits System.Web.UI.Page
+
+    Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
+
+        '*****取得Tree物件*****   
+        '利用Session 當Tree已經建立過，不重新建立，直接從Session中取得，加快速度   
+        If Session("Tree1") Is Nothing Then
+            'Tree不曾建立過→呼叫建立TreeView程序   
+            Call InitTree() '初始化Tree   
+            Call BuildTree()    '建立Tree內容   
+        End If
+        '宣告Tree物件   
+        Dim Tree1 As TreeView
+        '從Session中取得Tree物件   
+        Tree1 = Session("Tree1")
+
+        '設定Tree的ImageSet   
+        Tree1.ImageSet = TreeViewImageSet.XPFileExplorer
+        '置放於PlaceHolder   
+        Me.PlaceHolder1.Controls.Add(Tree1)
+
+    End Sub
+
+    Sub InitTree()
+        '********初始化Tree********   
+
+        '定義TreeView物件並實體化   
+        Dim Tree1 As New TreeView
+        '定義一個TreeNode並實體化   
+        Dim tmpNote As New TreeNode
+        '設定【根目錄】相關屬性內容   
+        tmpNote.Text = "首頁"
+        tmpNote.Value = "0"
+        tmpNote.NavigateUrl = "PtestTreeView3.aspx"
+        tmpNote.Target = "_Top"
+
+        'Tree建立該Node   
+        Tree1.Nodes.Add(tmpNote)
+
+        '將Tree存放入Session中   
+        Session("Tree1") = Tree1
+
+    End Sub
+
+    Sub BuildTree()
+        '********建立樹狀結構********   
+
+        '宣告TreeView   
+        Dim Tree1 As TreeView
+
+        '如果Session中沒有Tree,初始化Tree   
+        If Session("Tree1") Is Nothing Then
+            Call InitTree()
+        End If
+        Tree1 = Session("Tree1")
+
+        '取得根目錄節點   
+        Dim RootNode As TreeNode
+        RootNode = Tree1.Nodes(0)
+        Dim rc As String
+
+        '呼叫建立子節點的函數   
+        rc = AddNodes(RootNode, 0)
+        Session("Tree1") = Tree1
+    End Sub
+
+Sub GetDataTable()   
+        '取得DataTable   
+
+        '宣告相關變數   
+        Dim ConnStr As String
+        Dim Conn As SqlConnection
+        Dim Da As SqlDataAdapter
+        Dim Ds As DataSet
+        Dim dt As DataTable
+        Dim SqlTxt As String
+
+        Try
+            '設定連接字串，請修改符合您的資料來源的ConnectionString   
+            ConnStr = "Provider=SQLOLEDB.1;Data Source=10.245.0.112;Initial Catalog=WorkFlow;User ID=sa;"
+            '建立Connection   
+            Conn = New SqlConnection(ConnStr)
+            Conn.Open()
+
+            '設定資料來源T-SQL   
+            SqlTxt = "SELECT * FROM W_CommissionSheet "    '請修改您的資料表名稱   
+            '實體化DataAdapter並且取得資料   
+            Da = New SqlDataAdapter(SqlTxt, Conn)
+            '實體化DataSet   
+            Ds = New DataSet
+            '資料填入DataSet   
+            Da.Fill(Ds)
+            '設定DataTable   
+            dt = New DataTable
+            dt = Ds.Tables(0)
+            '將DataTable放入Session中   
+            Session("Dt") = dt
+            '關閉連線   
+            Conn.Close()
+
+        Catch ex As Exception
+            Me.lblMessage.Text = ex.Message
+        Finally
+
+            '資源回收   
+            Ds = Nothing
+            Da = Nothing
+            Conn = Nothing
+
+        End Try
+
+    End Sub
+
+
+    Function AddNodes(ByRef tNode As TreeNode, ByVal PId As Integer) As String
+        '******** 遞迴增加樹結構節點 ********   
+        Try
+            '如果Session中沒有DataTable→取得DataTable   
+            If Session("dt") Is Nothing Then
+                Call GetDataTable()
+            End If
+            '定義DataTable   
+            Dim Dt As DataTable
+            '從Session中取得DataTable   
+            Dt = Session("Dt")
+
+            '定義DataRow承接DataTable篩選的結果   
+            Dim rows() As DataRow
+            '定義篩選的條件   
+            Dim filterExpr As String
+            filterExpr = "ParentId = " & PId
+            '資料篩選並把結果傳入Rows   
+            rows = Dt.Select(filterExpr)
+
+            '如果篩選結果有資料   
+            If rows.GetUpperBound(0) >= 0 Then
+
+
+                Dim row As DataRow
+                Dim tmpNodeId As Long
+                Dim tmpsText As String
+                Dim tmpsValue As String
+                Dim tmpsUrl As String
+                Dim tmpsTarget As String
+                Dim NewNode As TreeNode
+                Dim rc As String
+
+                '逐筆取出篩選後資料   
+                For Each row In rows
+                    '放入相關變數中   
+                    tmpNodeId = row(0)
+                    tmpsText = row(2)
+                    tmpsValue = row(3)
+                    tmpsUrl = row(4)
+                    tmpsTarget = row(5)
+
+                    '實體化新節點   
+                    NewNode = New TreeNode
+                    '設定節點各屬性   
+                    NewNode.Text = tmpsText
+                    NewNode.Value = tmpsValue
+                    NewNode.NavigateUrl = tmpsUrl
+                    NewNode.Target = tmpsTarget
+                    '將節點加入Tree中   
+                    tNode.ChildNodes.Add(NewNode)
+
+                    '呼叫遞回取得子節點   
+                    rc = AddNodes(NewNode, tmpNodeId)
+
+                Next
+            End If
+            '傳回成功訊息   
+            AddNodes = "Success"
+
+        Catch ex As Exception
+            Me.lblMessage.Text = ex.Message
+            AddNodes = "False"
+
+        End Try
+    End Function
+
+
+End Class

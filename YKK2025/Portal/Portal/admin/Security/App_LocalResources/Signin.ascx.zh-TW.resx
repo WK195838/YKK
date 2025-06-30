@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="plUsername.Text">
+    <value>使用者名:</value>
+  </data>
+  <data name="plUsername.Help">
+    <value>請在這裡輸入您的使用者名，大多數情況下為您的Email地址。</value>
+  </data>
+  <data name="plPassword.Text">
+    <value>密碼:</value>
+  </data>
+  <data name="plPassword.Help">
+    <value>請輸入您的密碼</value>
+  </data>
+  <data name="Remember.Text">
+    <value>記住登入</value>
+  </data>
+  <data name="cmdRegister.Text">
+    <value>註冊</value>
+  </data>
+  <data name="cmdLogin.Text">
+    <value>登入</value>
+  </data>
+  <data name="cmdSendPassword.Text">
+    <value>密碼提示</value>
+  </data>
+  <data name="EnterCode.Text">
+    <value>請輸入您的驗證碼</value>
+  </data>
+  <data name="InvalidCode.Text">
+    <value>無效的驗證碼</value>
+  </data>
+  <data name="LoginFailed.Text">
+    <value>登錄失敗，請注意密碼區分大小寫。</value>
+  </data>
+  <data name="PasswordSent.Text">
+    <value>密碼已經發至&lt;br&gt;您的Email.</value>
+  </data>
+  <data name="UsernameError.Text">
+    <value>使用者名不存在</value>
+  </data>
+  <data name="EnterUsername.Text">
+    <value>請輸入您的使用者名</value>
+  </data>
+  <data name="MESSAGE_LOGIN_INSTRUCTIONS.Text">
+    <value>部分功能登入系統才可以使用</value>
+  </data>
+  <data name="EMAIL_PASSWORD_REMINDER_SUBJECT.Text">
+    <value>[Portal:PortalName] 密碼提示</value>
+  </data>
+  <data name="EMAIL_PASSWORD_REMINDER_BODY.Text">
+    <value>敬愛的 [Profile:FullName]：
+
+您好，您向[Portal:PortalName]網站發送的密碼提醒的請求提交成功.
+
+請根據下面的信息登陸我們的網站：
+
+網站地址: [Portal:URL]
+使用者名:   [Membership:Username]
+密碼: [Membership:Password]
+驗證碼: [User:VerificationCode]
+授權: [Membership:Approved]
+
+您永遠的朋友：
+[Portal:PortalName]
+
+*注意: 如果您沒有向我們請求密碼提示，請忽略這個訊息。</value>
+  </data>
+  <data name="ControlTitle_.Text">
+    <value>使用者帳號</value>
+  </data>
+  <data name="ControlTitle_login.Text">
+    <value>使用者帳號</value>
+  </data>
+  <data name="ControlTitle_signin.Text">
+    <value>使用者帳號</value>
+  </data>
+  <data name="UserLockedOut.Text">
+    <value>此帳號已經被鎖定，請恰系統管理員</value>
+  </data>
+</root>

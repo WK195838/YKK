@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="http://tempuri.org/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="NewFlow">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pFormNo" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="pFormSno" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="pStep" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="pSeqNo" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="pDepo" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pUser" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pApplyID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="NewFlowResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="NewFlowResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="EndFlow">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pFormNo" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="pFormSno" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="pStep" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="pSeqNo" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="pDepo" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pUser" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pApplyID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="EndFlowResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="EndFlowResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CheckFlow">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pFormNo" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="pFormSno" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="pStep" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="pDepo" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pUser" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="pEnd" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CheckFlowResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="CheckFlowResult" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="pEnd" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateFlow">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pFormNo" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="pFormSno" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="pStep" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="pSeqNo" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="pDepo" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pUser" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateFlowResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="UpdateFlowResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="NextFlow">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pFormNo" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="pFormSno" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="pStep" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="pSeqNo" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="pDepo" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pUser" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pNextUser" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pAgentID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pApplyID" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="pStartTime" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="pEndTime" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="pImportant" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="NextFlowResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="NextFlowResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DeleteArrangFlow">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pFormNo" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="pFormSno" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="pNextStep" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="pSeqNo" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DeleteArrangFlowResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="DeleteArrangFlowResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="NewFlowSoapIn">
+    <wsdl:part name="parameters" element="tns:NewFlow" />
+  </wsdl:message>
+  <wsdl:message name="NewFlowSoapOut">
+    <wsdl:part name="parameters" element="tns:NewFlowResponse" />
+  </wsdl:message>
+  <wsdl:message name="EndFlowSoapIn">
+    <wsdl:part name="parameters" element="tns:EndFlow" />
+  </wsdl:message>
+  <wsdl:message name="EndFlowSoapOut">
+    <wsdl:part name="parameters" element="tns:EndFlowResponse" />
+  </wsdl:message>
+  <wsdl:message name="CheckFlowSoapIn">
+    <wsdl:part name="parameters" element="tns:CheckFlow" />
+  </wsdl:message>
+  <wsdl:message name="CheckFlowSoapOut">
+    <wsdl:part name="parameters" element="tns:CheckFlowResponse" />
+  </wsdl:message>
+  <wsdl:message name="UpdateFlowSoapIn">
+    <wsdl:part name="parameters" element="tns:UpdateFlow" />
+  </wsdl:message>
+  <wsdl:message name="UpdateFlowSoapOut">
+    <wsdl:part name="parameters" element="tns:UpdateFlowResponse" />
+  </wsdl:message>
+  <wsdl:message name="NextFlowSoapIn">
+    <wsdl:part name="parameters" element="tns:NextFlow" />
+  </wsdl:message>
+  <wsdl:message name="NextFlowSoapOut">
+    <wsdl:part name="parameters" element="tns:NextFlowResponse" />
+  </wsdl:message>
+  <wsdl:message name="DeleteArrangFlowSoapIn">
+    <wsdl:part name="parameters" element="tns:DeleteArrangFlow" />
+  </wsdl:message>
+  <wsdl:message name="DeleteArrangFlowSoapOut">
+    <wsdl:part name="parameters" element="tns:DeleteArrangFlowResponse" />
+  </wsdl:message>
+  <wsdl:portType name="FlowServiceSoap">
+    <wsdl:operation name="NewFlow">
+      <wsdl:input message="tns:NewFlowSoapIn" />
+      <wsdl:output message="tns:NewFlowSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="EndFlow">
+      <wsdl:input message="tns:EndFlowSoapIn" />
+      <wsdl:output message="tns:EndFlowSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckFlow">
+      <wsdl:input message="tns:CheckFlowSoapIn" />
+      <wsdl:output message="tns:CheckFlowSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateFlow">
+      <wsdl:input message="tns:UpdateFlowSoapIn" />
+      <wsdl:output message="tns:UpdateFlowSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="NextFlow">
+      <wsdl:input message="tns:NextFlowSoapIn" />
+      <wsdl:output message="tns:NextFlowSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteArrangFlow">
+      <wsdl:input message="tns:DeleteArrangFlowSoapIn" />
+      <wsdl:output message="tns:DeleteArrangFlowSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="FlowServiceSoap" type="tns:FlowServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="NewFlow">
+      <soap:operation soapAction="http://tempuri.org/NewFlow" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EndFlow">
+      <soap:operation soapAction="http://tempuri.org/EndFlow" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckFlow">
+      <soap:operation soapAction="http://tempuri.org/CheckFlow" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateFlow">
+      <soap:operation soapAction="http://tempuri.org/UpdateFlow" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="NextFlow">
+      <soap:operation soapAction="http://tempuri.org/NextFlow" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteArrangFlow">
+      <soap:operation soapAction="http://tempuri.org/DeleteArrangFlow" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="FlowServiceSoap12" type="tns:FlowServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" />
+    <wsdl:operation name="NewFlow">
+      <soap12:operation soapAction="http://tempuri.org/NewFlow" style="document" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" />
+      <wsdl:input>
+        <soap12:body use="literal" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EndFlow">
+      <soap12:operation soapAction="http://tempuri.org/EndFlow" style="document" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" />
+      <wsdl:input>
+        <soap12:body use="literal" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckFlow">
+      <soap12:operation soapAction="http://tempuri.org/CheckFlow" style="document" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" />
+      <wsdl:input>
+        <soap12:body use="literal" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateFlow">
+      <soap12:operation soapAction="http://tempuri.org/UpdateFlow" style="document" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" />
+      <wsdl:input>
+        <soap12:body use="literal" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="NextFlow">
+      <soap12:operation soapAction="http://tempuri.org/NextFlow" style="document" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" />
+      <wsdl:input>
+        <soap12:body use="literal" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteArrangFlow">
+      <soap12:operation soapAction="http://tempuri.org/DeleteArrangFlow" style="document" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" />
+      <wsdl:input>
+        <soap12:body use="literal" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="FlowService">
+    <wsdl:port name="FlowServiceSoap" binding="tns:FlowServiceSoap">
+      <soap:address location="http://10.245.1.50/WFS/FlowService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="FlowServiceSoap12" binding="tns:FlowServiceSoap12">
+      <soap12:address location="http://10.245.1.50/WFS/FlowService.asmx" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

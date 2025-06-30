@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="plQuestion.Text">
+    <value>問題:</value>
+  </data>
+  <data name="plQuestion.Help">
+    <value>為你的投票輸入問題</value>
+  </data>
+  <data name="plOptionType.Text">
+    <value>類型:</value>
+  </data>
+  <data name="plOptionType.Help">
+    <value>選擇投票類型</value>
+  </data>
+  <data name="SingleSelection.Text">
+    <value>單選</value>
+  </data>
+  <data name="MultipleSelection.Text">
+    <value>多選</value>
+  </data>
+  <data name="plViewOrder.Text">
+    <value>顯示順序:</value>
+  </data>
+  <data name="plViewOrder.Help">
+    <value>輸入該問題的顯示順序</value>
+  </data>
+  <data name="plOption.Text">
+    <value>新選項:</value>
+  </data>
+  <data name="plOption.Help">
+    <value>輸入可能的回答</value>
+  </data>
+  <data name="cmdAddOption.Text">
+    <value>增加選項</value>
+  </data>
+  <data name="plOptions.Text">
+    <value>選項:</value>
+  </data>
+  <data name="plOptions.Help">
+    <value>選項有效</value>
+  </data>
+  <data name="cmdUp.Text">
+    <value>選項上移</value>
+  </data>
+  <data name="cmdDown.Text">
+    <value>選項下移</value>
+  </data>
+  <data name="cmdDeleteOption.Text">
+    <value>刪除選項</value>
+  </data>
+    <data name="ModuleHelp.Text">
+        <value>&lt;h1&gt;關於投票模組&lt;/h1&gt;&lt;p&gt;提供上網站瀏覽者方便簡單的完成投票，並顯示圖形統計資料.&lt;/p&gt;</value>
+    </data>
+</root>

@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="lbLocales.Text">
+    <value>利用可能なロケール</value>
+  </data>
+  <data name="ResourceName.Text">
+    <value>リソース名:</value>
+  </data>
+  <data name="Value.Text">
+    <value>ローカライズ後の値</value>
+  </data>
+  <data name="RequiredField.ErrorMessage">
+    <value>&lt;br&gt;入力必須の項目です</value>
+  </data>
+  <data name="lbLocales.Help">
+    <value>言語の選択。</value>
+  </data>
+  <data name="DefaultValue.Text">
+    <value>初期値</value>
+  </data>
+  <data name="DeleteItem.Text">
+    <value>このローカライズ ファイルを削除して良いですか？</value>
+  </data>
+  <data name="Delete.ErrorMessage">
+    <value>システム ロケール (en-US) は削除できません</value>
+  </data>
+  <data name="Save.ErrorMessage">
+    <value>ファイルへのアクセスに失敗しました。リソースファイルに対する更新権限があることを確認してください。</value>
+  </data>
+  <data name="MissingEntries.Text">
+    <value>システムのデフォルトリソースファイルに含まれるリソースファイルの一部がローカライズファイルに含まれていません。この部分についてはデフォルトリソースファイルの値が適用されます。</value>
+  </data>
+  <data name="SelectedFile.Text">
+    <value>選択したリソースファイル:</value>
+  </data>
+  <data name="ConfirmMessage.Text">
+    <value>このポータル上に新たなカスタム ローカライズ ファイルを作成します。デフォルトのローカライズ ファイルは上書きされますが良いですか？</value>
+  </data>
+  <data name="SaveWarning.Text">
+    <value>続けると、保存されていない変更箇所は消去されます。続けて良いですか？</value>
+  </data>
+  <data name="cmdAddMissing.Text">
+    <value>欠落したエントリの追加</value>
+  </data>
+  <data name="ControlTitle_.Text">
+    <value>カスタム ポータル ロケール</value>
+  </data>
+  <data name="ControlTitle_language.Text">
+    <value>言語ローカライズ エディタ</value>
+  </data>
+  <data name="DuplicateEntry.Text">
+    <value>このファイルには次のエントリが複数含まれています: &lt;b&gt;{0}&lt;/b&gt;。ファイルを編集して重複を排除してください。</value>
+  </data>
+  <data name="Highlight.Text">
+    <value>翻訳ペンディング部分のハイライト</value>
+  </data>
+  <data name="ModuleHelp.Text">
+    <value>&lt;h1&gt;言語について&lt;/h1&gt;&lt;p&gt;スーパー ユーザーはシステム上でサポートする言語の管理を行うことができます。&lt;/p&gt;</value>
+  </data>
+</root>

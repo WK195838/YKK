@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" />
+							<xsd:attribute name="type" type="xsd:string" />
+							<xsd:attribute name="mimetype" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="ResMimeType">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="Version">
+		<value>1.0.0.0</value>
+	</resheader>
+	<resheader name="Reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="Writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="Lists.Text">
+		<value>リスト</value>
+	</data>
+	<data name="AddList.Text">
+		<value>リストの追加</value>
+	</data>
+	<data name="ListEntries.Text">
+		<value>リスト エントリ</value>
+	</data>
+	<data name="plListParent.Text">
+		<value>上位:</value>
+	</data>
+	<data name="plListParent.Help">
+		<value>上位。</value>
+	</data>
+	<data name="plListName.Text">
+		<value>リスト名:</value>
+	</data>
+	<data name="plListName.Help">
+		<value>リスト名。</value>
+	</data>
+	<data name="plEntryCount.Text">
+		<value>合計:</value>
+	</data>
+	<data name="plEntryCount.Help">
+		<value>エントリ数。</value>
+	</data>
+	<data name="cmdAddEntry.Text">
+		<value>エントリの追加</value>
+	</data>
+	<data name="cmdDeleteList.Text">
+		<value>リストの削除</value>
+	</data>
+	<data name="btnEdit.AlternateText">
+		<value>エントリの編集</value>
+	</data>
+	<data name="btnUp.AlternateText">
+		<value>エントリを上に移動</value>
+	</data>
+	<data name="btnDown.AlternateText">
+		<value>エントリを下に移動</value>
+	</data>
+	<data name="plParentKey.Text">
+		<value>上位:</value>
+	</data>
+	<data name="plParentKey.Help">
+		<value>上位。</value>
+	</data>
+	<data name="plSelectList.Text">
+		<value>上位リスト:</value>
+	</data>
+	<data name="plSelectList.Help">
+		<value>このリストの上位リストを選択してください。</value>
+	</data>
+	<data name="plSelectParent.Text">
+		<value>上位エントリ:</value>
+	</data>
+	<data name="plSelectParent.Help">
+		<value>このリストの上位エントリを選択してください。</value>
+	</data>
+	<data name="plEntryName.Text">
+		<value>エントリ名:</value>
+	</data>
+	<data name="plEntryName.Help">
+		<value>エントリ名。</value>
+	</data>
+	<data name="plEntryText.Text">
+		<value>エントリ テキスト:</value>
+	</data>
+	<data name="plEntryText.Help">
+		<value>表示テキスト。</value>
+	</data>
+	<data name="plEntryValue.Text">
+		<value>エントリー値:</value>
+	</data>
+	<data name="plEntryValue.Help">
+		<value>エントリー値。</value>
+	</data>
+	<data name="plEnableSortOrder.Text">
+		<value>ソート指定の許可:</value>
+	</data>
+	<data name="plEnableSortOrder.Help">
+		<value>このリストでソート指定を許可する場合は選択してください。</value>
+	</data>
+	<data name="cmdSave.Text">
+		<value>保存</value>
+	</data>
+	<data name="cmdDeleteEntry.Text">
+		<value>エントリーの削除</value>
+	</data>
+	<data name="cmdCancel.Text">
+		<value>取消</value>
+	</data>
+	<data name="ControlTitle_.Text">
+		<value>リスト</value>
+	</data>
+	<data name="ModuleHelp.Text">
+		<value>&lt;h1&gt;リスト エディタについて&lt;/h1&gt;&lt;p&gt;リストの編集を行うことができます。&lt;/p&gt;</value>
+	</data>
+</root>

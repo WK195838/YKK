@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+            <xsd:complexType>
+                <xsd:choice maxOccurs="unbounded">
+                    <xsd:element name="data">
+                        <xsd:complexType>
+                            <xsd:sequence>
+                                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+                            </xsd:sequence>
+                            <xsd:attribute name="name" type="xsd:string" />
+                            <xsd:attribute name="type" type="xsd:string" />
+                            <xsd:attribute name="mimetype" type="xsd:string" />
+                        </xsd:complexType>
+                    </xsd:element>
+                    <xsd:element name="resheader">
+                        <xsd:complexType>
+                            <xsd:sequence>
+                                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                            </xsd:sequence>
+                            <xsd:attribute name="name" type="xsd:string" use="required" />
+                        </xsd:complexType>
+                    </xsd:element>
+                </xsd:choice>
+            </xsd:complexType>
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="ResMimeType">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="Version">
+        <value>1.0.0.0</value>
+    </resheader>
+    <resheader name="Reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="Writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <data name="ControlTitle_edit.Text">
+        <value>ユーザー定義テーブルの編集</value>
+    </data>
+    <data name="Integer.ErrorMessage">
+        <value>&amp;nbsp;整数を正しく入力してください。</value>
+    </data>
+    <data name="Date.ErrorMessage">
+        <value>&amp;nbsp;日付を正しく入力してください。</value>
+    </data>
+    <data name="Decimal.ErrorMessage">
+        <value>&amp;nbsp;10進数を正しく入力してください。</value>
+    </data>
+    <data name="Boolean.ErrorMessage">
+        <value>&amp;nbsp;TrueかFalseを入力してください。</value>
+    </data>
+    <data name="ModuleHelp.Text">
+        <value>&lt;h1&gt;ユーザー定義テーブル モジュールについて&lt;/h1&gt;&lt;p&gt;ユーザー定義テーブル モジュールは、表形式のデータを扱う機能を提供します。データの型としては、文字型、整数型、10進型、日付型、True/False型が含まれます。列(カラム)は、管理者権限の場合にのみ表示するよう設定することができます。列の見出しはリンクになっていて、リンクをクリックすることで昇順/降順ソートを行うことができます。&lt;/p&gt;&lt;h1&gt;ユーザー定義テーブル モジュールでの作業手順&lt;/h1&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;ユーザー管理テーブルの管理&lt;/b&gt;を選択してテーブルを作成します。&lt;li&gt;&lt;b&gt;新しい行の追加&lt;/b&gt;をクリックしてテーブルに対してデータを入力します。&lt;/li&gt;&lt;/ul&gt;</value>
+    </data>
+</root>

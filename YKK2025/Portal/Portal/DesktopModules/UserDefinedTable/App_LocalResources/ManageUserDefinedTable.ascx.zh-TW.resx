@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Visible.Header">
+    <value>可見</value>
+  </data>
+  <data name="Title.Header">
+    <value>標題</value>
+  </data>
+  <data name="Type.Header">
+    <value>類型</value>
+  </data>
+  <data name="Text.Text">
+    <value>文本</value>
+  </data>
+  <data name="Integer.Text">
+    <value>整數</value>
+  </data>
+  <data name="Decimal.Text">
+    <value>小數</value>
+  </data>
+  <data name="Date.Text">
+    <value>日期</value>
+  </data>
+  <data name="TrueFalse.Text">
+    <value>真假</value>
+  </data>
+  <data name="Save.Text">
+    <value>保存</value>
+  </data>
+  <data name="MoveUp.Text">
+    <value>字段上移</value>
+  </data>
+  <data name="MoveDown.Text">
+    <value>字段下移</value>
+  </data>
+  <data name="Ascending.Text">
+    <value>升序</value>
+  </data>
+  <data name="Descending.Text">
+    <value>倒排</value>
+  </data>
+  <data name="cmdAddField.Text">
+    <value>增加新列</value>
+  </data>
+  <data name="ModuleHelp.Text">
+    <value>使用者自定義表格模組</value>
+  </data>
+  <data name="plSort.Text">
+    <value>排序</value>
+  </data>
+  <data name="plOrder.Text">
+    <value>排序</value>
+  </data>
+  <data name="plSort.Help">
+    <value>選擇用來行排序的字段</value>
+  </data>
+  <data name="plOrder.Help">
+    <value>選擇排序方式</value>
+  </data>
+  <data name="ControlTitle_manage udt.Text">
+    <value>管理使用者自訂表格</value>
+  </data>
+</root>

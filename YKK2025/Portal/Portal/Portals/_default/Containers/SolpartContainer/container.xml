@@ -1,0 +1,20 @@
+<Objects>
+	<Object>
+		<Token>[ACTIONS]</Token>
+	</Object>
+	<Object>
+		<Token>[ICON]</Token>
+	</Object>
+	<Object>
+		<Token>[TITLE]</Token>
+		<Settings>
+			<Setting>
+				<Name>cssclass</Name>
+				<Value>dialogtitle</Value>
+			</Setting>
+		</Settings>
+	</Object>
+	<Object>
+		<Token>[VISIBILITY]</Token>
+	</Object>
+</Objects>

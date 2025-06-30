@@ -1,0 +1,462 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Configuration.Text">
+    <value>サイト設定</value>
+  </data>
+  <data name="plVersion.Text">
+    <value>DotNetNuke バージョン:</value>
+  </data>
+  <data name="plDataProvider.Text">
+    <value>データ プロバイダ:</value>
+  </data>
+  <data name="plFramework.Text">
+    <value>.NET Framework:</value>
+  </data>
+  <data name="plIdentity.Text">
+    <value>ASP.NET ユーザー:</value>
+  </data>
+  <data name="plHostName.Text">
+    <value>ホスト名:</value>
+  </data>
+  <data name="plVersion.Help">
+    <value>このDotNetNukeアプリケーションのバージョン。</value>
+  </data>
+  <data name="plDataProvider.Help">
+    <value>web.configの中でデフォルトのデータ プロバイダとして設定されたプロバイダ名。</value>
+  </data>
+  <data name="plFramework.Help">
+    <value>このアプリケーションがIISを通して動作している、.NET Frameworkのバージョン。</value>
+  </data>
+  <data name="plIdentity.Help">
+    <value>このアプリケーションを動作させているWindowsのユーザー アカウント。このユーザー アカウントに対してフォルダの権限付与を設定する必要があります。</value>
+  </data>
+  <data name="plHostName.Help">
+    <value>このサイトのホスト名。</value>
+  </data>
+  <data name="plHostPortal.Text">
+    <value>ホスト ポータル:</value>
+  </data>
+  <data name="plHostTitle.Text">
+    <value>ホスト タイトル:</value>
+  </data>
+  <data name="plHostURL.Text">
+    <value>ホスト URL:</value>
+  </data>
+  <data name="plHostEmail.Text">
+    <value>ホスト 電子メール アドレス:</value>
+  </data>
+  <data name="plHostSkin.Text">
+    <value>ホスト スキン:</value>
+  </data>
+  <data name="plHostContainer.Text">
+    <value>ホスト コンテナ:</value>
+  </data>
+  <data name="plAdminSkin.Text">
+    <value>管理者 スキン:</value>
+  </data>
+  <data name="plAdminContainer.Text">
+    <value>管理者 コンテナ:</value>
+  </data>
+  <data name="plProcessor.Text">
+    <value>支払処理方法:</value>
+  </data>
+  <data name="plUserId.Text">
+    <value>プロバイダのユーザーID:</value>
+  </data>
+  <data name="plPassword.Text">
+    <value>プロバイダのパスワード:</value>
+  </data>
+  <data name="plHostFee.Text">
+    <value>ホスティング料金 (金額):</value>
+  </data>
+  <data name="plHostCurrency.Text">
+    <value>ホスト料金 (通貨):</value>
+  </data>
+  <data name="plHostSpace.Text">
+    <value>ホスト ディスク容量 (MB):</value>
+  </data>
+  <data name="plDemoPeriod.Text">
+    <value>評価期間 (日数):</value>
+  </data>
+  <data name="plDemoSignup.Text">
+    <value>匿名の評価用サインアップの許可</value>
+  </data>
+  <data name="plSiteLogBuffer.Text">
+    <value>サイトログ バッファ (アイテム数):</value>
+  </data>
+  <data name="plSiteLogHistory.Text">
+    <value>サイトログ保存期間 (日数):</value>
+  </data>
+  <data name="plUsersOnline.Text">
+    <value>ユーザーのオンライン状態表示を無効にする</value>
+  </data>
+  <data name="plUsersOnlineTime.Text">
+    <value>ユーザーのオンライン維持時間 (分):</value>
+  </data>
+  <data name="plProxyServer.Text">
+    <value>プロキシ サーバー:</value>
+  </data>
+  <data name="plProxyPort.Text">
+    <value>プロキシ ポート番号:</value>
+  </data>
+  <data name="plProxyUsername.Text">
+    <value>プロキシ ユーザー名:</value>
+  </data>
+  <data name="plProxyPassword.Text">
+    <value>プロキシ パスワード:</value>
+  </data>
+  <data name="plWebRequestTimeout.Text">
+    <value>Web リクエストのタイムアウト:</value>
+  </data>
+  <data name="plSMTPServer.Text">
+    <value>SMTP サーバー:</value>
+  </data>
+  <data name="EmailTest.Text">
+    <value>テスト</value>
+  </data>
+  <data name="plSMTPAuthentication.Text">
+    <value>SMTP 認証:</value>
+  </data>
+  <data name="plSMTPUsername.Text">
+    <value>SMTP ユーザー名:</value>
+  </data>
+  <data name="plSMTPPassword.Text">
+    <value>SMTP パスワード:</value>
+  </data>
+  <data name="plFileExtensions.Text">
+    <value>アップロードするファイルの拡張子:</value>
+  </data>
+  <data name="plSkinUpload.Text">
+    <value>スキンのアップロード権限:</value>
+  </data>
+  <data name="plCache.Text">
+    <value>キャッシュ タイムアウト (秒):</value>
+  </data>
+  <data name="ClearCache.Text">
+    <value>キャッシュのクリア</value>
+  </data>
+  <data name="plCopyright.Text">
+    <value>著作権の表示</value>
+  </data>
+  <data name="plUseCustomErrorMessages.Text">
+    <value>カスタムエラーメッセージの使用</value>
+  </data>
+  <data name="UpgradeLog.Text">
+    <value>バージョンに関するアップグレード ログ</value>
+  </data>
+  <data name="EmailSentMessage.Text">
+    <value>電子メールの送信成功</value>
+  </data>
+  <data name="SpecifyHostEmailMessage.Text">
+    <value>ホストの電子メール アドレスが設定されていません</value>
+  </data>
+  <data name="plSchedulerMode.Text">
+    <value>スケジューラのモード:</value>
+  </data>
+  <data name="plSchedulerMode.Help">
+    <value>"Timer"メソッドは、ワーカー プロセス処理が稼動している間はスケジュール化されたタスクを別スレッドで実行する機能を提供します。一方の"Request"メソッドは、HTTPリクエストの都度タスクを実行します。スケジューラの機能は「無効」を選択することで無効にすることができます。</value>
+  </data>
+  <data name="Disabled.Text">
+    <value>無効</value>
+  </data>
+  <data name="TimerMethod.Text">
+    <value>Timer メソッド</value>
+  </data>
+  <data name="RequestMethod.Text">
+    <value>Request メソッド</value>
+  </data>
+  <data name="15Seconds.Text">
+    <value>15秒</value>
+  </data>
+  <data name="30Seconds.Text">
+    <value>30秒</value>
+  </data>
+  <data name="45Seconds.Text">
+    <value>45秒</value>
+  </data>
+  <data name="60Seconds.Text">
+    <value>60秒</value>
+  </data>
+  <data name="plPerformance.Text">
+    <value>パフォーマンスの設定:</value>
+  </data>
+  <data name="HeavyCaching.Text">
+    <value>重度なキャッシュ</value>
+  </data>
+  <data name="ModerateCaching.Text">
+    <value>適度なキャッシュ</value>
+  </data>
+  <data name="LightCaching.Text">
+    <value>軽度のキャッシュ</value>
+  </data>
+  <data name="NoCaching.Text">
+    <value>キャッシュなし</value>
+  </data>
+  <data name="BasicSettingsHelp.Text">
+    <value>ホスティング アカウント用の基本的な設定を行います</value>
+  </data>
+  <data name="BasicSettings.Text">
+    <value>基本設定</value>
+  </data>
+  <data name="HostDetails.Text">
+    <value>ホスト詳細</value>
+  </data>
+  <data name="plHostTitle.Help">
+    <value>ホスティング アカウント名を入力してください。</value>
+  </data>
+  <data name="plHostURL.Help">
+    <value>ホスティング アカウントのURLを入力してください。</value>
+  </data>
+  <data name="plHostEmail.Help">
+    <value>ホスティング アカウントのサポート用電子メール アドレスを入力してください。</value>
+  </data>
+  <data name="plHostSkin.Help">
+    <value>サイトで利用するデフォルト スキンを選択してください。</value>
+  </data>
+  <data name="plHostContainer.Help">
+    <value>サイトで利用するデフォルト コンテナを選択してください。</value>
+  </data>
+  <data name="plAdminSkin.Help">
+    <value>サイトで利用するデフォルトの管理者スキンを選択してください。</value>
+  </data>
+  <data name="plAdminContainer.Help">
+    <value>サイトで利用するデフォルトの管理者コンテナを選択してください。</value>
+  </data>
+  <data name="Appearance.Text">
+    <value>概観</value>
+  </data>
+  <data name="Payment.Text">
+    <value>支払の設定</value>
+  </data>
+  <data name="Proxy.Text">
+    <value>プロキシの設定</value>
+  </data>
+  <data name="SMTP.Text">
+    <value>SMTP サーバーの設定</value>
+  </data>
+  <data name="AdvancedSettings.Text">
+    <value>高度な設定</value>
+  </data>
+  <data name="AdvancedSettingsHelp.Text">
+    <value>ホスティング アカウント用の高度な設定を行います</value>
+  </data>
+  <data name="Other.Text">
+    <value>その他の設定</value>
+  </data>
+  <data name="plCopyright.Help">
+    <value>DotNetNukeの著作権情報を表示する場合は選択してください。</value>
+  </data>
+  <data name="plUseCustomErrorMessages.Help">
+    <value>カスタム エラー メッセージを利用する場合は選択してください。</value>
+  </data>
+  <data name="plProcessor.Help">
+    <value>利用者サイトから支払を受ける場合は、決済方法を選択してください。</value>
+  </data>
+  <data name="plUserId.Help">
+    <value>選択した決済方法で使用するユーザーIDを入力してください。</value>
+  </data>
+  <data name="plPassword.Help">
+    <value>選択した決済方法で使用するパスワードを入力してください。</value>
+  </data>
+  <data name="plHostFee.Help">
+    <value>サイト ホスティングの基本料金を入力してください。</value>
+  </data>
+  <data name="plHostCurrency.Help">
+    <value>料金で使用する通貨を選択してください。</value>
+  </data>
+  <data name="plDemoPeriod.Help">
+    <value>デモ体験用アカウントで利用できる日数を入力してください。</value>
+  </data>
+  <data name="plDemoSignup.Help">
+    <value>デモ体験用アカウントのサインアップを許可するかどうかを選択してください。</value>
+  </data>
+  <data name="plHostSpace.Help">
+    <value>アカウントごとに割り当てるディスク容量を入力してください。</value>
+  </data>
+  <data name="plSMTPServer.Help">
+    <value>SMTP サーバーのアドレスを入力してください。</value>
+  </data>
+  <data name="plSMTPAuthentication.Help">
+    <value>SMTP サーバーの認証方法を選択してください。(デフォルトは「匿名」)</value>
+  </data>
+  <data name="SMTPAnonymous.Text">
+    <value>匿名</value>
+  </data>
+  <data name="SMTPBasic.Text">
+    <value>基本</value>
+  </data>
+  <data name="SMTPNTLM.Text">
+    <value>NTLM</value>
+  </data>
+  <data name="plSMTPUsername.Help">
+    <value>SMTP サーバーのユーザー名を入力してください。</value>
+  </data>
+  <data name="plSMTPPassword.Help">
+    <value>SMTP サーバーのパスワードを入力してください。</value>
+  </data>
+  <data name="plControlPanel.Text">
+    <value>コントロールパネル:</value>
+  </data>
+  <data name="plControlPanel.Help">
+    <value>ページ管理用に別のコントロールを指定することが可能です。</value>
+  </data>
+  <data name="plFileExtensions.Help">
+    <value>有効なファイル拡張子を入力してください。(複数入力の際は、カンマ区切り)</value>
+  </data>
+  <data name="plSkinUpload.Help">
+    <value>スキンのアップロードを"Host" (ホスト) アカウントのみに制限するか、サイト管理者に許可するかを選択してください。</value>
+  </data>
+  <data name="Host.Text">
+    <value>ホスト</value>
+  </data>
+  <data name="Portal.Text">
+    <value>ポータル</value>
+  </data>
+  <data name="plCache.Help">
+    <value>キャッシュの有効期間を設定してください。</value>
+  </data>
+  <data name="plPerformance.Help">
+    <value>パフォーマンス最適化の方法を選択してください。</value>
+  </data>
+  <data name="plUpgrade.Help">
+    <value>バージョンごとのアップグレード ログを参照することができます。参照したいバージョンをリストから選択して[実行]ボタンをクリックしてください。</value>
+  </data>
+  <data name="plProxyServer.Help">
+    <value>プロキシ サーバーのアドレスを入力してください。</value>
+  </data>
+  <data name="plProxyPort.Help">
+    <value>プロキシ サーバーのポート番号を入力してください。</value>
+  </data>
+  <data name="plProxyUsername.Help">
+    <value>プロキシ サーバーのユーザー名を入力してください。</value>
+  </data>
+  <data name="plProxyPassword.Help">
+    <value>プロキシ サーバーのパスワードを入力してください。</value>
+  </data>
+  <data name="plWebRequestTimeout.Help">
+    <value>Web リクエストがタイムアウトとなる時間を入力してください。</value>
+  </data>
+  <data name="plSiteLogBuffer.Help">
+    <value>サイト ログのバッファー数を入力してください。</value>
+  </data>
+  <data name="plSiteLogHistory.Help">
+    <value>サイト ログを保持する日数を入力してください。</value>
+  </data>
+  <data name="plUsersOnline.Help">
+    <value>ユーザーのオンライン状態表示の機能を無効にすることが可能です。</value>
+  </data>
+  <data name="plUsersOnlineTime.Help">
+    <value>ユーザーのオンライン状態のバッファ時間を入力してください。</value>
+  </data>
+  <data name="plUseFriendlyUrls.Text">
+    <value>URLの最適化</value>
+  </data>
+  <data name="plUseFriendlyUrls.Help">
+    <value>検索エンジンに最適なURLを有効にします。</value>
+  </data>
+  <data name="plHostPortal.Help">
+    <value>デフォルトのポータルを選択してください。</value>
+  </data>
+  <data name="ControlTitle_.Text">
+    <value>ホストの設定</value>
+  </data>
+  <data name="SkinUpload.Text">
+    <value>スキンのアップロード</value>
+  </data>
+  <data name="ContainerUpload.Text">
+    <value>コンテナのアップロード</value>
+  </data>
+  <data name="plSiteLogStorage.Text">
+    <value>サイト ログの保存先:</value>
+  </data>
+  <data name="plSiteLogStorage.Help">
+    <value>サイト ログの保存先を選択してください。</value>
+  </data>
+  <data name="Database.Text">
+    <value>データベース</value>
+  </data>
+  <data name="FileSystem.Text">
+    <value>ファイル システム</value>
+  </data>
+  <data name="ModuleHelp.Text">
+    <value>&lt;h1&gt;ホストの設定について&lt;/h1&gt;&lt;p&gt;スーパー ユーザーは、サイト全体にまたがる設定を管理することができます。&lt;/p&gt;</value>
+  </data>
+  <data name="plLogBuffer.Text">
+    <value>イベント ログ バッファの有効化</value>
+  </data>
+  <data name="plLogBuffer.Help">
+    <value>チェックを付けると、ログはまずメモリーに書き込まれた上でデータベースに書き込まれます。チェックを付けないと、ログはイベント発生後すぐにデータベースに書き込まれます。</value>
+  </data>
+  <data name="plAutoAccountUnlock.Text">
+    <value>アカウント ロックの自動解除 (ロック後の分数):</value>
+  </data>
+  <data name="plAutoAccountUnlock.Help">
+    <value>ログイン失敗に伴ってアカウントがロックされた場合、一定時間経過後にログイン成功でロックを自動解除することができます。自動ロック解除までの時間数を入力してください。なお、自動ロック解除の機能を無効にしたい場合は、"0"を入力してください。</value>
+  </data>
+    <data name="plCacheMethod.Text">
+        <value>モジュールキャッシュ方法:</value>
+    </data>
+    <data name="plCacheMethod.Help">
+        <value>メモリ キャッシングはもっとも柔軟性があり高パフォーマンスな手段ですが、同時にもっともシステム リソースを消費します。ディスク キャッシングはリソースの問題を抑えることができますが、柔軟性もなくなります。</value>
+    </data>
+    <data name="Memory.Text">
+        <value>メモリ</value>
+    </data>
+    <data name="Disk.Text">
+        <value>ディスク</value>
+    </data>
+    <data name="ProcessorWebSite.Text">
+        <value>支払処理Web サイトを開く</value>
+    </data>
+    <data name="plHelpUrl.Text">
+        <value>ヘルプURL:</value>
+    </data>
+    <data name="plHelpUrl.Help">
+        <value>参照するオンライン ヘルプのURLを入力します。ブランクにすると管理/ホスト機能に関するオンライン ヘルプは提供されなくなります。</value>
+    </data>
+    <data name="plEnableHelp.Text">
+        <value>モジュール オンライン ヘルプの使用:</value>
+    </data>
+    <data name="plEnableHelp.Help">
+        <value>モジュールのアクション メニューに含まれるオンラインヘルプの機能を有効または無効にできます。有効にする場合は、各モジュールの定義としてモジュールのヘルプURLを指定する必要があります。</value>
+    </data>
+</root>

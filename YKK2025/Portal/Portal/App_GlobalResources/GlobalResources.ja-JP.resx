@@ -1,0 +1,787 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="SyndicateModule.Action">
+    <value>RSS配信</value>
+  </data>
+  <data name="ExportModule.Action">
+    <value>コンテンツのエクスポート</value>
+  </data>
+  <data name="ImportModule.Action">
+    <value>コンテンツのインポート</value>
+  </data>
+  <data name="OnlineHelp.Action">
+    <value>オンライン ヘルプ</value>
+  </data>
+  <data name="ModuleHelp.Action">
+    <value>ヘルプ</value>
+  </data>
+  <data name="ModuleSettings.Action">
+    <value>設定</value>
+  </data>
+  <data name="DeleteModule.Action">
+    <value>削除</value>
+  </data>
+  <data name="PrintModule.Action">
+    <value>印刷</value>
+  </data>
+  <data name="ClearCache.Action">
+    <value>キャッシュのクリア</value>
+  </data>
+  <data name="MoveTop.Action">
+    <value>一番上へ移動</value>
+  </data>
+  <data name="MoveUp.Action">
+    <value>上へ移動</value>
+  </data>
+  <data name="MoveDown.Action">
+    <value>下へ移動</value>
+  </data>
+  <data name="MoveBottom.Action">
+    <value>一番下へ移動</value>
+  </data>
+  <data name="MovePane.Action">
+    <value>移動先:</value>
+  </data>
+  <data name="MoveRoot.Action">
+    <value>移動</value>
+  </data>
+  <data name="Admin.String">
+    <value>管理</value>
+  </data>
+  <data name="Site Settings.String">
+    <value>サイト設定</value>
+  </data>
+  <data name="Tabs.String">
+    <value>ページ</value>
+  </data>
+  <data name="Security Roles.String">
+    <value>セキュリティ ーロール</value>
+  </data>
+  <data name="User Accounts.String">
+    <value>ユーザー アカウント</value>
+  </data>
+  <data name="Vendors.String">
+    <value>ベンダー</value>
+  </data>
+  <data name="Site Log.String">
+    <value>サイト ログ</value>
+  </data>
+  <data name="Bulk Email.String">
+    <value>ニュース レター</value>
+  </data>
+  <data name="File Manager.String">
+    <value>ファイル マネージャ</value>
+  </data>
+  <data name="Recycle Bin.String">
+    <value>ごみ箱</value>
+  </data>
+  <data name="Log Viewer.String">
+    <value>ログ ビューア</value>
+  </data>
+  <data name="Skins.String">
+    <value>スキン</value>
+  </data>
+  <data name="Host.String">
+    <value>ホスト</value>
+  </data>
+  <data name="Host Settings.String">
+    <value>ホスト設定</value>
+  </data>
+  <data name="Portals.String">
+    <value>ポータル</value>
+  </data>
+  <data name="Module Definitions.String">
+    <value>モジュール定義</value>
+  </data>
+  <data name="SQL.String">
+    <value>SQL</value>
+  </data>
+  <data name="Schedule.String">
+    <value>スケジュール</value>
+  </data>
+  <data name="Languages.String">
+    <value>言語</value>
+  </data>
+  <data name="BannerType.Banner.String">
+    <value>バナー</value>
+  </data>
+  <data name="BannerType.MicroButton.String">
+    <value>マイクロ ボタン</value>
+  </data>
+  <data name="BannerType.Button.String">
+    <value>ボタン</value>
+  </data>
+  <data name="BannerType.Block.String">
+    <value>ブロック</value>
+  </data>
+  <data name="BannerType.Skyscraper.String">
+    <value>スカイスクレイパー</value>
+  </data>
+  <data name="BannerType.Text.String">
+    <value>テキスト</value>
+  </data>
+  <data name="BannerType.Script.String">
+    <value>スクリプト</value>
+  </data>
+  <data name="Search Admin.String">
+    <value>検索</value>
+  </data>
+  <data name="Lists.String">
+    <value>リスト</value>
+  </data>
+  <data name="Superuser Accounts.String">
+    <value>スーパー ユーザー アカウント</value>
+  </data>
+  <data name="View.Permission">
+    <value>モジュールの表示</value>
+  </data>
+  <data name="Edit.Permission">
+    <value>モジュールの編集</value>
+  </data>
+  <data name="View Tab.Permission">
+    <value>ページの参照</value>
+  </data>
+  <data name="Edit Tab.Permission">
+    <value>ページの編集</value>
+  </data>
+  <data name="View Folder.Permission">
+    <value>フォルダの参照</value>
+  </data>
+  <data name="Write to Folder.Permission">
+    <value>フォルダへの書き込み</value>
+  </data>
+  <data name="EMAIL_SMTP_TEST_SUBJECT.Text">
+    <value>[Host:HostTitle] SMTP構成のテスト</value>
+  </data>
+  <data name="MESSAGE_PORTAL_PRIVACY.Text">
+    <value>[Portal:PortalName]は、ユーザーのプライバシー、およびもっともパワフルで安全なオンライン体験
+が提供される開発技術を保護することに万全を期しています。
+
+このプライバシーに関する声明では、 [Portal:PortalName] Web サイトでのデータ収集およびデータ
+の利用について説明します。
+ユーザーは [Portal:PortalName] Web サイトを利用することで、このプライバシーに関する声明でご
+説明するデータ収集およびデータの利用に同意されたものとします。&lt;br&gt;&lt;br&gt; 
+
+&lt;span class="SubHead"&gt;個人情報の収集&lt;/span&gt;&lt;br&gt;&lt;br&gt;
+
+ [Portal:PortalName] が収集する個人情報には、ユーザーの電子メール アドレス、名前、勤務先住所
+または自宅住所、勤務先電話番号または自宅電話番号などが含まれます。
+
+さらに、 [Portal:PortalName] は、郵便番号、年齢、性別、好み、興味などの個人を特定することの
+ない統計上の情報を収集することがあります。&lt;br&gt;&lt;br&gt;
+また、[Portal:PortalName]は自動的にユーザーのハードウェア情報およびソフトウェア情報を収集
+する場合があります。収集する情報には、ユーザーのIP アドレス、ブラウザ種別、ドメイン名、
+アクセスの日時、アクセス元のWeb サイトのインターネット アドレスなどが含まれます。
+
+これらの情報は、 [Portal:PortalName] のサービス提供のため、サービスの品質を維持するため、
+一般統計のために使用されます。&lt;br&gt;&lt;br&gt; 
+
+なお、[Portal:PortalName]内の一般ユーザー向け掲示板を通じて直接個人情報や個人情報に近い
+情報をユーザー自らが公開した場合は、この情報は他のユーザーによって収集または使用される
+場合があることをご注意ください。
+注: [Portal:PortalName]はオンライン通信上のプライベート情報を読み取ることはありません。&lt;br&gt;&lt;br&gt; 
+
+[Portal:PortalName]からリンクされたWeb サイトについては、その各々のWeb サイトのプライバシーに関する声明を確認
+し、そのWeb サイトにおける個人情報の収集および使用の方針を認識されることを推奨します。
+
+ [Portal:PortalName] は、 [Portal:PortalName] および [Portal:PortalName] 関連Web サイト以外の
+Web サイトにおけるプライバシー声明またはその他コンテンツについてその責任を負うものでは
+ありません。&lt;br&gt;&lt;br&gt;
+
+&lt;span class="SubHead"&gt;個人情報の使用&lt;/span&gt;&lt;br&gt;&lt;br&gt;
+
+ [Portal:PortalName] で収集された個人情報は、 [Portal:PortalName] を運用する目的、および
+ユーザーの要求に対してサービスを提供する目的で使用されます。
+
+ [Portal:PortalName] はまた、収集された個人情報を使用して、 [Portal:PortalName] またはその関連サイト
+から提供される製品またはサービスについてユーザーにご案内します。
+
+ [Portal:PortalName] はまた、現状のサービスや将来提供される可能性がある新たなサービスの魅力
+について調査をお願いする場合があります。&lt;br&gt;&lt;br&gt;
+
+ [Portal:PortalName] は第三者に対してユーザー リストを売却、貸与、リースすることはありません。
+ [Portal:PortalName] は時として、外部ビジネス パートナの代理としてユーザーに有益な可能性のある
+情報を提供する場合があります。このような場合において、個人情報 (電子メール アドレス、名前、
+住所、電話番号) が第三者に引き渡されることはありません。
+
+その他[Portal:PortalName]は、[Portal:PortalName]の行う分析作業、ユーザーへの電子メール送信
+または郵送、カスタマ サポートの提供、配送手配などの業務をサポートしてくれる信頼できるパートナーと
+データを共有する場合があります。
+
+これらすべての第三者パートナ団体は、ユーザーの個人情報を [Portal:PortalName] のサービスの目的
+以外に使用することが禁じられており、ユーザーの個人情報の機密性を維持することが義務付けられて
+います。&lt;br&gt;&lt;br&gt;
+
+ [Portal:PortalName] は、特に明記した場合を除き、人種、宗教、所属政党などの注意の必要な個人情報は使用せず、また公開しません。&lt;br&gt;&lt;br&gt;
+
+ [Portal:PortalName] は、[Portal:PortalName]を訪れるカスタマーが参照したウェブサイトおよびページ
+を記録しており、これによりどのサービスがもっとも利用されているかの特定を行います。
+
+このデータは、特定領域に関心を寄せることを示す行動を起こしているユーザーに対してカスタマイズ
+コンテンツや [Portal:PortalName] の広告を提供する目的で使用されます。&lt;br&gt;&lt;br&gt;
+
+[Portal:PortalName]は、法律に基づき開示しなければならない場合、または開示行為が必要である
+と合理的に判断できる以下の場合に、個人情報を開示することがあります。
+
+(a) [Portal:PortalName] またはそのサイトに対する法の要請または法的手続きに応じる場合、
+(b) [Portal:PortalName] の権利や財産を保護または防御する場合、および
+(c) [Portal:PortalName] のユーザーまたは公衆の安全を確保するために緊急に行動する場合。
+&lt;br&gt;&lt;br&gt;
+
+&lt;span class="SubHead"&gt;Cookieの使用&lt;/span&gt;&lt;br&gt;&lt;br&gt; 
+
+ユーザーのオンライン体験をパーソナライズを支援するために"Cookie"を使用します。
+Cookieは、Web  ページサーバーによってコンピュータのハードディスクに置かれるテキスト ファイルです。
+Cookieにより、プログラムが実行されたり、コンピュータにウイルスが運ばれたりすることは
+ありません。
+Cookieは各ユーザーに一意に割り当てられ、その情報はCookieの発行元ドメインのWeb サーバー
+によってのみ読み取られます。&lt;br&gt;&lt;br&gt;
+
+Cookieを使用する主な目的は、ユーザーの時間を節約する便利な機能を提供することにあります。
+Cookieの目的はウェブサーバーに対してユーザーが特定のページに戻ってきたことを伝えることにあります。
+
+たとえば、 [Portal:PortalName] のページをパーソナライズする場合、または [Portal:PortalName] 
+のサイトまたはそのサービスの利用登録をした場合、Cookieを使用すると、次にそのサイトに訪問する
+ときに個人の特定情報を呼び出しやすくなります。
+これにより、請求先住所や届け先住所などの個人情報の記録プロセスが簡略化されます。
+同じ [Portal:PortalName] Web サイトに再度アクセスすると、以前そのサイトにアクセスしたときの
+情報が読み込まれるため、カスタマイズした [Portal:PortalName] サイトの機能を簡単に利用できます。&lt;br&gt;&lt;br&gt;
+
+Cookieの受け入れを拒否することも可能です。多くのWeb ブラウザは自動的にCookieを受け入れる
+ように設定されていますが、必要に応じて、通常はCookieを拒否するよう設定を変更しておくことも
+できます。
+Cookieを拒否すると、 [Portal:PortalName] のサービスまたは他のサイトの対話型機能の一部を利用
+できなくなる可能性があります。&lt;br&gt;&lt;br&gt;
+
+&lt;span class="SubHead"&gt;個人情報のセキュリティー&lt;/span&gt;&lt;br&gt;&lt;br&gt;
+
+ [Portal:PortalName] はユーザーの個人情報を、無断アクセス、流用、または漏洩から保護します。
+ [Portal:PortalName] は個人情報を、無断アクセス、流用、または漏洩から保護するために、
+管理された安全な環境の管理下のアクセス制限のあるコンピュータ サーバーに保管します。
+
+ネットワークを通じて他のウェブサイトにクレジット カード番号などの個人の機密情報を転送
+する場合は、SSL (Secure Socket Layer) プロトコルなどの暗号化を使用して保護されます。&lt;br&gt;&lt;br&gt;
+
+&lt;span class="SubHead"&gt;プライバシーに関する声明の変更&lt;/span&gt;&lt;br&gt;&lt;br&gt;
+
+ [Portal:PortalName] は、企業やカスタマへのフィードバックを反映させるために、
+このプライバシーに関する声明を更新する場合があります。
+そのため、 [Portal:PortalName] におけるプライバシー保護の方針を、定期的にご覧いただく
+ことをお勧めします。&lt;br&gt;&lt;br&gt;
+
+&lt;span class="SubHead"&gt;お問い合わせ&lt;/span&gt;&lt;br&gt;&lt;br&gt;
+ [Portal:PortalName] では、プライバシーに関する声明についてのユーザーのご意見を歓迎します。
+[Portal:PortalName]がこのプライバシーに関する声明に従っていないと思われる場合は、
+ [Portal:PortalName] の&lt;a href="mailto:[Portal:Email]"&gt;[Portal:Email]&lt;/a&gt;へ
+ご連絡ください。 [Portal:PortalName] は商業的に合理的な範囲で直ちに問題の割り出しと解決
+に向けて努力します。
+&lt;br&gt;
+&lt;br&gt;
+【注】このプライバシーに関する声明は参考訳です。正確な表現は英語原文を確認してください。
+&lt;br&gt;&lt;br&gt;
+</value>
+  </data>
+  <data name="EMAIL_PORTAL_SIGNUP_SUBJECT.Text">
+    <value>[Host:HostTitle] 評価版ポータルへのサインアップ</value>
+  </data>
+  <data name="EMAIL_PORTAL_SIGNUP_BODY.Text">
+    <value>[User:FullName]様、
+
+[User:FullName]様のポータル Web サイトが作成されました。以下の情報をよくご確認ください。また、このメッセージは保存しておいてください。
+
+ポータル Web サイト アドレス: [Portal:URL]
+ユーザー名: [Membership:UserName]
+パスワード: [Membership:Password]
+ベリフィケーション コード: [User:VerificationCode]
+
+さっそくWeb サイトを開き、サイト コンテンツやサイトの豊富な機能をご確認ください。
+
+[Host:HostTitle]
+
+</value>
+  </data>
+  <data name="MESSAGE_PORTAL_TERMS.Text">
+    <value>&lt;span class="SubHead"&gt;ユーザーと [Portal:PortalName] との契約&lt;/span&gt;&lt;br&gt;&lt;br&gt;
+ [Portal:PortalName] Web サイトは、様々なWeb ページから構成されています。&lt;br&gt;&lt;br&gt;
+ [Portal:PortalName] Web サイトは下記に表示された利用規約ならびに注意事項を変更すること無く同意されたユーザーに対して提供させていただきます。ユーザーが [Portal:PortalName] Web サイトをご利用頂いた場合には、ご利用規約ならびに注意事項の条項内容をご理解され承諾されたものとします。
+
+&lt;br&gt;&lt;br&gt;
+
+&lt;span class="SubHead"&gt;利用規約の変更&lt;/span&gt;&lt;br&gt;&lt;br&gt;
+
+ [Portal:PortalName] は [Portal:PortalName] Web サイトに関する内容、条件、告知、および [Portal:PortalName] Web サイトの利用に基づく請求 (これに限られません) について変更を行う権限を有します。
+
+&lt;br&gt;&lt;br&gt;
+
+&lt;span class="SubHead"&gt;第三者サイトへのリンク&lt;/span&gt;&lt;br&gt;&lt;br&gt;
+
+ [Portal:PortalName] Web サイトには、他のWeb サイト ("リンク先サイト") へのリンクが含まれている場合があります。
+リンク先サイトは [Portal:PortalName] の統制下にはないため、 [Portal:PortalName] はいかなるリンク先サイトの内容、またはリンク先サイトの変更または更新について責任を負うものではありません。
+ [Portal:PortalName] はリンク先サイトから受信するWeb キャストまたはその他のいかなる種類の通信についてその責任を負うものではありません。
+ [Portal:PortalName] はこれらのリンクを利便性の目的のみに供給されます。リンク先サイトまたはそれらの運営者との関係を示唆するものではありません。
+
+&lt;br&gt;&lt;br&gt;
+&lt;span class="SubHead"&gt;違法または利用規約に反する利用の禁止&lt;/span&gt;&lt;br&gt;&lt;br&gt;
+
+ [Portal:PortalName] Web サイトの使用条件として、ユーザーは [Portal:PortalName] に対しこのWeb サイトを違法な目的またはここに記載の利用規約の諸条件および通知により禁じられた目的のために使用しないものとします。
+
+ユーザーは、 [Portal:PortalName] Web サイトに損害を与え、これを使用不能にし、これに過度な負荷を与え、もしくはこれを害するような方法、または他者による本Web サイトの使用を妨害する可能性のあるような方法で、 [Portal:PortalName] Web サイトを使用しないものとします。
+
+ユーザーは、 [Portal:PortalName] Web サイトを通じて意図されずに利用可能となったマテリアルまたは情報を、いかなる手段を使っても取得したり、取得を試みてはならないものとします。
+
+&lt;br&gt;&lt;br&gt;
+&lt;span class="SubHead"&gt;通信サービスの利用&lt;/span&gt;&lt;br&gt;&lt;br&gt;
+
+ [Portal:PortalName] Web サイトには、掲示板サービス、チャット エリア、ニュース グループ、
+フォーラム、コミュニティ、個人 Web ページ、カレンダー、またはその他の、ユーザーの自由なコミュニケーションを可能とするために設計された、メッセージまたはコミュニケーション機能 (以下「コミュニケーション サービス」と総称します) が含まれています。
+ユーザーは、特定のコミュニケーション サービスに固有で、また関連したメッセージおよび
+マテリアル (該当するものがある場合) の投稿、送信および受信のためにのみ、コミュニケー
+ション サービスを使用するものとします。
+
+ユーザーは、コミュニケーション サービスの使用にあたり、たとえば次のような事項 (これら
+に限られません) をしてはならないものとします。
+
+&lt;br&gt;&lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;
+誹謗中傷、罵倒、ハラスメント、ストーカー行為、脅迫などにより、他人の法的権利 (プライバシーの権利やパブリシティーの権利など) を侵害すること&lt;br&gt;
+&lt;br&gt;
+&lt;li&gt;
+不適切、低俗、有害、侵害、中傷的、侵害的、わいせつ、下品、違法なトピック、名前、マテリアル、または情報を公表、投稿、アップロード、頒布、伝播すること&lt;br&gt;
+&lt;br&gt;
+&lt;li&gt;
+ユーザーが権利を保有もしくは支配するか、または必要な同意をすべて得ている場合を除いて、著作権法または商標法 (またはプライバシーの権利やパブリシティーの権利) により保護されているソフトウェアその他のマテリアルを含むファイルをアップロードすること &lt;br&gt;
+&lt;br&gt;
+&lt;li&gt;
+ウイルスを含むファイル、汚染されたファイル、あるいは他者のコンピュータの動作に損害を与える可能性のある類似のソフトウェアまたはプログラムをアップロードすること &lt;br&gt;
+&lt;br&gt;
+&lt;li&gt;
+該当のコミュニケーション サービスにおいて特に許容されている場合を除き、商業目的で商品またはサービスの販売もしくは購入を申し込んだり、宣伝すること &lt;br&gt;
+&lt;br&gt;
+&lt;li&gt;
+コンテスト、ピラミッド計画、調査、チェーン レターなどを行ったり助長すること&lt;br&gt;
+&lt;br&gt;
+&lt;li&gt;
+コミュニケーション サービスのユーザーにより投稿されたファイルの頒布が違法であることを知りながら、または違法であることを合理的に知るべきでありながら、かかるファイルをダウンロードすること&lt;br&gt;
+&lt;br&gt;
+&lt;li&gt;
+著作者表示、法律上その他の適切な表示、またはソフトウェアその他のアップロードされたファイルに含まれたマテリアルの出所にかかわる財産権表示もしくはラベルを偽ったり、消去すること&lt;br&gt;
+&lt;br&gt;
+&lt;li&gt;
+他のユーザーによるコミュニケーション サービスの使用または享受を制限したり、または妨げること&lt;br&gt;
+&lt;br&gt;
+&lt;li&gt;
+特定のコミュニケーション サービスに適用される規則その他のガイドラインに違反すること&lt;br&gt;
+&lt;br&gt;
+&lt;li&gt;
+相手の承諾なく電子メール アドレスなどの他人の情報を取り込み、またはその他の方法で収集すること&lt;br&gt;
+&lt;br&gt;
+&lt;li&gt;
+適用法規に違反すること &lt;/li&gt;
+&lt;/ul&gt;
+
+
+[Portal:PortalName]は、コミュニケーション サービスを監視する義務を負わないものとします。
+ただし、[Portal:PortalName]は、コミュニケーション サービスに投稿されたマテリアルを確認
+し、[Portal:PortalName]の単独の裁量により、これらを除去する権利を留保します。
+[Portal:PortalName]は、いつでも、通告なしに、その理由を問わず、コミュニケーション サー
+ビスの全部または一部に対するお客様のアクセスを終了させる権利を留保します。&lt;br&gt;&lt;br&gt;
+
+ [Portal:PortalName] は、いつでも、適用法規、司法手続または政府の要請に従うため、
+必要な情報を開示する権利を留保します。また、 [Portal:PortalName] は、その単独の
+裁量により、情報またはマテリアルの全部または一部を編集し、それらの投稿を拒絶し、
+またはそれらを除去する権利を留保します。&lt;br&gt;&lt;br&gt;
+
+どのようなコミュニケーション サービスにおいても、ユーザーやユーザーのお子様に関する
+個人が識別される情報を送信する場合は、常に十分注意してください。
+
+ [Portal:PortalName] は、どのようなコミュニケーション サービスにおけるコンテンツ、
+メッセージもしくは情報についても、これを管理し、または推奨するものではありません。
+したがって、[Portal:PortalName]は、コミュニケーション サービスおよびお客様の
+コミュニケーション サービスへの参加に起因するいかなる行為についても一切責任を負いません。
+
+また、コミュニケーション サービスにおける管理人やホストは、 [Portal:PortalName] の見解
+を代弁する権限を有しておらず、彼らの見解は必ずしも [Portal:PortalName] の見解を反映す
+るものではありません。&lt;br&gt;&lt;br&gt;
+
+コミュニケーション サービスにアップロードされたマテリアルには、その使用、複製または
+伝播に関する制限が付されていることがあります。ユーザーがかかるマテリアルをダウンロ
+ードされる場合は、お客様はそれらの制限を遵守する責任を負います。&lt;br&gt;&lt;br&gt; 
+
+&lt;span class="SubHead"&gt; [Portal:PortalName] に提供された、またはいずれかの [Portal:PortalName] Web サイトに投稿されたマテリアル
+&lt;/span&gt;&lt;br&gt;&lt;br&gt;
+
+[Portal:PortalName]は、ユーザーが[Portal:PortalName]に提供したマテリアル (フィードバックおよびご意見を含む)、またはいずれかの本サービスもしくはそれに関連するサービスに投稿、アップロード、入力、送信したマテリアル(以下「提出マテリアル」といいます) の所有権を主張しません。
+
+ただし、提出マテリアルを投稿、アップロード、入力、提供、送信することにより、
+ユーザーは、 [Portal:PortalName] 、その関連会社、および必要に応じてサブ ライセンスを
+与えられた会社に対し、それぞれのインターネット ビジネスの運営に関連して、ユーザーの
+提出マテリアルを複写、頒布、送信、公に展示、公に上映、複製、編集、翻訳、書式変更す
+る権利、およびユーザーの名前をお客様の提出マテリアルと共に公表する権利など (これに限
+られません) を許諾するものとします。 &lt;br&gt;&lt;br&gt; 
+
+ [Portal:PortalName] の本サービスに提供されたユーザーの提出マテリアルの利用に
+関して、いかなる対価も支払われません。
+
+ [Portal:PortalName] は、ユーザーにより提供された提出マテリアルを投稿および利用
+する義務を負うものではありません。また、 [Portal:PortalName] は、 [Portal:PortalName] 
+の単独の裁量により、提出マテリアルをいつでも除去できるものとします。&lt;br&gt;&lt;br&gt;
+
+ユーザーは、提出マテリアルを投稿、アップロード、入力、提供、送信する行為により、
+それらの提出マテリアルをお客様が提供、投稿、アップロード、入力、または送信するのに
+必要なすべての権利 (これに限られません) を含め、本使用条件に記載されているとおり
+提出マテリアルのすべての権利をお客様が有しているかまたは管理していることを表明し
+、かつ保証するものとします。&lt;br&gt;&lt;br&gt;
+
+&lt;span class="SubHead"&gt;免責事項&lt;/span&gt;&lt;br&gt;&lt;br&gt;
+
+[Portal:PortalName]ウェブサイトの中に含まれる、もしくは[Portal:PortalName]ウェブ
+サイトを通じて取得できる情報、ソフトウェア、製品、サービスには正確性を欠く場合
+または誤植を含む場合があります。本規約の情報は時と共に変更になる場合があります。
+
+ [Portal:PortalName] および、またはそのサプライヤーは如何なる時においても
+ [Portal:PortalName] Web サイトに対して改善または変更を行うことができるものとします。
+
+個人、医療、法、財政面などでの判断において [Portal:PortalName] Web サイトを通じて
+受領した助言は信頼せず、その状況に応じて適切な助言を行うことのできる専門家の意見を
+聞くべきです。&lt;br&gt;&lt;br&gt; 
+
+ [Portal:PortalName] および、またはそのサプライヤーは、いかなる目的で [Portal:PortalName] 
+Web サイトに掲載された情報、ソフトウェア、製品、サービス、関連画像であっても、
+その合致性、信頼性、可用性、適時性、正確性についての表示は行いません。
+
+それらすべての情報、ソフトウェア、製品、サービス、関連画像は、法が認める最大限に
+一切の保障を行わず、ありのままに提供されます。
+
+ [Portal:PortalName] および、またはそのサプライヤは、商品性、特定目的への適合性、
+権利、遵法に対する保障も含めて、これらソフトウェア、製品、サービス、関連画像に関
+する一切の保障をしません。&lt;br&gt;&lt;br&gt;
+
+ [Portal:PortalName] および、またはそのサプライヤは、法が認める最大限の範囲において、
+いかなる契約、不法行為、過失、厳格な責任に基づくものであったとしても、
+また損害の可能性について[Portal:PortalName]またはそのサプライヤーが告知していたとしても、
+ [Portal:PortalName] Web サイトの使用や実行、 [Portal:PortalName] Web サイト
+または関連サービスの遅延または停止、サービスの準備、サービスの提供失敗、
+または [Portal:PortalName] Web サイトから得た情報、ソフトウェア、製品、サービス、関連画像
+から生じたまたは関連付いた、もしくはその他の [Portal:PortalName] Web サイトの使用において、
+使用の損失、データの損失、利益の損失(これに限られません) を含む、
+直接的、間接的、懲罰的、偶発的、特殊、重大な損害に対して責任を負いません。
+
+なお、州または司法管轄区によって、結果として生じた損害または偶発的な損害についてその
+責任の免除または制限を認めていない場合においては、本免責事項が適用にならないことがあります。
+
+ [Portal:PortalName] Web サイトのいずれかの部分、または本使用条件について不満足な場合は、
+それに対する唯一の方策は [Portal:PortalName] Web サイトの使用を継続しないことです。&lt;br&gt;&lt;br&gt; 
+
+サービスに関する相談窓口 : [Portal:Email]&lt;br&gt;&lt;br&gt;
+
+&lt;span class="SubHead"&gt;終了/アクセス制限&lt;/span&gt;&lt;br&gt;&lt;br&gt;
+
+ [Portal:PortalName] は、その判断にもとづき、告知なしに [Portal:PortalName] Web サイトや関連サービス
+またはその一部分に対するアクセスを終了させることができます。
+
+ [Portal:PortalName] Web サイトの使用に伴う一切の論争においては、法が認める最大限の範囲において、
+本契約は米国ワシントン州法に基づくものとし、またここに米国ワシントン州キングカウンティーの排他的
+な司法権および法廷裁判に同意されるものとします。
+
+この段落 (これに限られません) を含む本使用条件のすべての規約に寄らない
+司法管轄区においては、 [Portal:PortalName] Web サイトの使用は認められません。
+
+あなたは、本契約または [Portal:PortalName] の使用の結果としてあなたと [Portal:PortalName] 
+との間にジョイント ベンチャー関係、パートナ関係、雇用関係、代理関係が生じることはない
+ことを承諾するものとします。
+
+ [Portal:PortalName] による本契約の実行は既存の法や訴訟手続きに準拠し、政府、法廷、
+法律から [Portal:PortalName] Web サイトまたは [Portal:PortalName] 
+の使用によってもたらされた情報の提出指示に応ずることによって、本契約に記載されて
+いる事象で [Portal:PortalName] の権利を減損させるものはありません。
+
+本契約のいずれかの部分において、上記記載の保障の否認者や責任の免除 (これに限られません) 
+を含む、法的に不適当または準拠させることができていないと判断された場合は、
+その妥当でないまたは準拠させることのできない規定は、当初の目的にもっとも
+近づけることが可能で妥当かつ準拠可能な規定に置き換えられると共に、その他の契約条項
+は引き続き有効性が維持されます。
+
+ここに明記されていない限り、ユーザーと [Portal:PortalName] との間の [Portal:PortalName] 
+Web サイトに関する契約はすべてこの文書によって構成されます。
+このユーザーと [Portal:PortalName] との間の [Portal:PortalName] Web サイトに関する契約は、
+口頭か記述されているかを問わず、一切のコミュニケーションや提案に優先されます。
+
+印刷された本契約および電子的に告知された本契約は共に同様に、他のビジネス文書や印刷物
+として生成された記録と同様の条件で、司法または本契約に基づく行政上の処理において受け入れられます。
+
+本契約書および関連文書が英語で記述されていることについて団体皆様のご理解をお願いします。
+
+&lt;br&gt;&lt;br&gt;
+
+&lt;span class="SubHead"&gt;著作権および商標の告知:&lt;/span&gt;&lt;br&gt;&lt;br&gt;
+ [Portal:PortalName] Web サイトのすべての内容の著作権は、 [Portal:FooterText] および、
+またはそのサプライヤに属します。&lt;br&gt;&lt;br&gt;
+
+&lt;span class="SubHead"&gt;商標&lt;/span&gt;&lt;br&gt;&lt;br&gt; 
+
+このサイト内で使用される、会社名、製品はそれぞれの所有者の固有商標です。&lt;br&gt;&lt;br&gt;
+
+ここに描写される企業、組織、製品、人物、イベントの例はすべて架空のものです。
+実在の企業、組織、製品、人物、イベントとは関係ありません。&lt;br&gt;&lt;br&gt;
+
+&lt;br&gt;&lt;br&gt;
+
+
+&lt;span class="SubHead"&gt;著作権違反に関する告知および手続き&lt;/span&gt;&lt;br&gt;&lt;br&gt;
+
+米国の著作権法のセクション512(c)(2)、合衆国コード、タイトル17～に基づいて、
+著作権違反の主張に関する告知はサービス プロバイダの指定代理人に送付されなければなりません。
+
+以下の手続きに則っていない一切の照会に対する返答は行われません。
+
+"著作権違反に関する告知および手続き"を確認してください。&lt;/span&gt;
+&lt;br&gt;
+&lt;br&gt;
+【注】この使用条件は参考訳です。正確な表現は英語原文を確認してください。
+&lt;br&gt;&lt;br&gt;
+</value>
+  </data>
+  <data name="EMAIL_USER_REGISTRATION_ADMINISTRATOR_SUBJECT.Text">
+    <value>[Portal:PortalName] 新規ユーザー登録</value>
+  </data>
+  <data name="EMAIL_USER_REGISTRATION_ADMINISTRATOR_BODY.Text">
+    <value>日付: [Date:Current]
+名(下の名前): [Profile:FirstName]
+姓(上の名前): [Profile:LastName]
+部屋番号: [Profile:Unit]
+番地: [Profile:Street]
+市町村: [Profile:City]
+都道府県: [Profile:Region]
+国: [Profile:Country]
+郵便番号: [Profile:PostalCode]
+電話番号: [Profile:Telephone]
+電子メール アドレス: [Membership:Email]
+</value>
+  </data>
+  <data name="EMAIL_USER_REGISTRATION_PRIVATE_SUBJECT.Text">
+    <value>[Portal:PortalName] 新規ユーザー登録
+</value>
+  </data>
+  <data name="EMAIL_USER_REGISTRATION_PRIVATE_BODY.Text">
+    <value>		[User:FullName]様、
+
+[Portal:PortalName]ポータル Web サイトに登録いただきましてありがとうございます。以下の情報をよくご確認ください。また、このメッセージは保存しておいてください。
+
+ポータル Web サイト アドレス: [Portal:URL]
+ユーザー名: [Membership:UserName]
+パスワード: [Membership:Password]
+
+[User:FullName]様のアカウント情報はポータル管理者によって確認されます。管理者によりアカウントのアクティベーションが行われると[User:FullName]様に電子メール通知が届きます。
+
+[Portal:PortalName]
+
+</value>
+  </data>
+  <data name="MESSAGE_REGISTRATION_INSTRUCTIONS.Text">
+    <value>
+    </value>
+  </data>
+  <data name="EMAIL_ROLE_ASSIGNMENT_SUBJECT.Text">
+    <value>[Portal:PortalName] ユーザーアカウントの更新
+</value>
+  </data>
+  <data name="EMAIL_ROLE_ASSIGNMENT_BODY.Text">
+    <value>[User:FullName]様、
+
+[Portal:PortalName]ポータル Web サイト上の[User:FullName]様のアカウント情報が変更され、次の権限が付与されました。
+
+ロール: [Custom:0]
+説明: [Custom:1]
+有効期限: [Custom:2]
+
+[Portal:PortalName]
+</value>
+  </data>
+  <data name="EMAIL_ROLE_UNASSIGNMENT_SUBJECT.Text">
+    <value>[Portal:PortalName] ユーザーアカウントの更新
+</value>
+  </data>
+  <data name="EMAIL_ROLE_UNASSIGNMENT_BODY.Text">
+    <value>[User:FullName]様、
+
+[Portal:PortalName]ポータル Web サイト上の[User:FullName]様のアカウント情報が変更され、次の権限が削除されました。
+
+ロール: [Custom:0]
+説明: [Custom:1]
+有効期限: [Custom:2]
+
+[Portal:PortalName]
+</value>
+  </data>
+  <data name="MESSAGE_LOGIN_INSTRUCTIONS.Text">
+    <value>
+    </value>
+  </data>
+  <data name="EMAIL_PASSWORD_REMINDER_SUBJECT.Text">
+    <value>[Portal:PortalName] パスワード リマインダ
+</value>
+  </data>
+  <data name="EMAIL_PASSWORD_REMINDER_BODY.Text">
+    <value>[Profile:FullName]様、
+
+[Portal:PortalName]ポータルウェブサイトにおいて[Profile:FullName]様からパスワード リマインダの要求を承りました。
+
+次の情報を参照してログインしてください:
+
+ポータル Web サイト アドレス: [Portal:URL]
+ユーザー名:   [Membership:Username]
+パスワード: [Membership:Password]
+ベリフィケーション コード: [User:VerificationCode]
+承認状態: [Membership:Approved]
+
+[Portal:PortalName]
+
+*注: [Profile:FullName]様がパスワード リマインダ機能を使用していないのにこのメッセージを受け取った場合は、このメッセージは破棄してください。
+</value>
+  </data>
+  <data name="EMAIL_USER_UNREGISTER_SUBJECT.Text">
+    <value>			[Portal:PortalName]ユーザー登録の削除
+		</value>
+  </data>
+  <data name="EMAIL_USER_UNREGISTER_BODY.Text">
+    <value>日付: [Date:Current]
+名(下の名前): [Profile:FirstName]
+姓(上の名前): [Profile:LastName]
+部屋番号: [Profile:Unit]
+番地: [Profile:Street]
+市町村: [Profile:City]
+都道府県: [Profile:Region]
+国: [Profile:Country]
+郵便番号: [Profile:PostalCode]
+電話番号: [Profile:Telephone]
+電子メール アドレス: [Membership:Email]
+		</value>
+  </data>
+  <data name="EMAIL_USER_REGISTRATION_PUBLIC_SUBJECT.Text">
+    <value>			[Portal:PortalName] 新規ユーザー登録
+		</value>
+  </data>
+  <data name="EMAIL_USER_REGISTRATION_PUBLIC_BODY.Text">
+    <value>[User:FullName]様、
+
+[Portal:PortalName]ポータル Web サイトの登録ユーザーとして [Profile:FullName] 様が登録されました。以下の情報をよくご確認ください。また、このメッセージは保存しておいてください。
+
+ポータル Web サイト アドレス: [Portal:URL]
+ユーザー名: [Membership:UserName]
+パスワード: [Membership:Password]
+ベリフィケーション コード: [User:VerificationCode]
+
+さっそくWeb サイトを開き、サイト コンテンツやサイトの豊富な機能をご確認ください。
+
+[Portal:PortalName]
+
+</value>
+  </data>
+  <data name="EMAIL_AFFILIATE_NOTIFICATION_SUBJECT.Text">
+    <value>[Portal:PortalName] アフィリエイトのご案内
+</value>
+  </data>
+  <data name="EMAIL_AFFILIATE_NOTIFICATION_BODY.Text">
+    <value>[Custom:0]様、
+
+[Custom:0]様の[Portal:PortalName]アフィリエイト プログラム用アカウントが作成されました。
+
+[Custom:0]様専用の[Portal:PortalName]アフィリエイト プログラム用URLは次の通りです。
+
+[Custom:1]
+
+[Portal:PortalName]
+
+</value>
+  </data>
+  <data name="Site Wizard.String">
+    <value>サイト ウィザード</value>
+  </data>
+  <data name="EMAIL_BANNER_NOTIFICATION_BODY.Text">
+    <value>バナー: [Custom:0]
+説明: [Custom:1]
+イメージ: [Custom:2]
+CPM/コスト: [Custom:3]
+インプレッション: [Custom:4]
+開始日: [Custom:5]
+終了日: [Custom:6]
+ビュー数: [Custom:7]
+クリック スルー数: [Custom:8]</value>
+  </data>
+  <data name="EMAIL_BANNER_NOTIFICATION_SUBJECT.Text">
+    <value>[Custom:0]</value>
+  </data>
+  <data name="EMAIL_VENDOR_REGISTRATION_ADMINISTRATOR_BODY.Text">
+    <value>日付: [Custom:0]
+ベンダー名: [Custom:1]
+名(下の名前): [Custom:2]
+姓(上の名前): [Custom:3]
+部屋番号: [Custom:4]
+番地: [Custom:5]
+市町村: [Custom:6]
+都道府県: [Custom:7]
+国: [Custom:8]
+郵便番号: [Custom:9]
+電話番号: [Custom:10]
+FAX番号: [Custom:11]
+携帯電話: [Custom:12]
+電子メール アドレス: [Custom:13]
+Webサイト: [Custom:14]</value>
+  </data>
+  <data name="EMAIL_VENDOR_REGISTRATION_ADMINISTRATOR_SUBJECT.Text">
+    <value>[Portal:PortalName] ベンダー アプリケーション</value>
+  </data>
+  <data name="EMAIL_VENDOR_REGISTRATION_BODY.Text">
+    <value> [Custom:1] [Custom:0]様、
+ 
+ 貴社が[Portal:PortalName]ポータル Web サイトに登録されたことをご案内します。
+ 
+ [Portal.PortalName]</value>
+  </data>
+  <data name="EMAIL_VENDOR_REGISTRATION_SUBJECT.Text">
+    <value>[Portal:PortalName] ベンダー アプリケーション</value>
+  </data>
+  <data name="Authentication.String">
+    <value>認証</value>
+  </data>
+</root>

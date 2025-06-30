@@ -1,0 +1,38 @@
+﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="HR_OverTimeChart.aspx.vb" Inherits="HR_OverTimeChart" %>
+
+<%@ Register Assembly="DundasWebChart" Namespace="Dundas.Charting.WebControl" TagPrefix="DCWC" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>未命名頁面</title>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <asp:HyperLink ID="HyperLink1" runat="server" Width="90px" Style="z-index: 103; left: 2px; position: absolute; top: 4px"> 台北總公司</asp:HyperLink>
+        <asp:HyperLink ID="HyperLink2" runat="server" Style="z-index: 103; left: 121px; position: absolute;
+            top: 4px" Width="142px"> 台北總公司(事業別)</asp:HyperLink>
+        <asp:HyperLink ID="ExpandLink1" runat="server" Style="z-index: 103; left: 94px; position: absolute;
+            top: 4px" Width="25px">→</asp:HyperLink>
+        <asp:HyperLink ID="HyperLink3" runat="server" Width="54px" Style="z-index: 103; left: 291px; position: absolute; top: 4px">拉鏈</asp:HyperLink>
+        <asp:HyperLink ID="ExpandLink2" runat="server" Style="z-index: 103; left: 264px; position: absolute;
+            top: 4px" Width="25px">→</asp:HyperLink>
+        <asp:HyperLink ID="HyperLink4" runat="server" Style="z-index: 103; left: 372px; position: absolute;
+            top: 4px" Width="164px">資訊</asp:HyperLink>
+        <asp:HyperLink ID="ExpandLink3" runat="server" Style="z-index: 103; left: 346px; position: absolute;
+            top: 4px" Width="25px">→</asp:HyperLink>
+        <br />
+        <asp:TextBox ID="TextBox1" runat="server" BackColor="White" BorderStyle="None" ForeColor="Black"
+            Height="20px" Style="z-index: 103; left: 750px; position: absolute; top: 27px"
+           Width="54px">單位=Ｈ</asp:TextBox>
+        <asp:TextBox ID="Message" runat="server" BackColor="White" BorderStyle="None" ForeColor="#0000C0"
+            Height="20px" Style="z-index: 103; left: 3px; position: absolute; top: 27px"
+            Width="448px">可點選統計圖上方名稱展開..</asp:TextBox>
+        <br />
+    </div>
+    </form>
+    
+</body>
+</html>

@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AddContent.Action">
+    <value>給日程增加項目</value>
+  </data>
+  <data name="ContentOptions.Action">
+    <value>查看日程狀態</value>
+  </data>
+  <data name="ScheduleHistory.Action">
+    <value>查看日程歷史</value>
+  </data>
+  <data name="Type.Header">
+    <value>類型</value>
+  </data>
+  <data name="Enabled.Header">
+    <value>生效</value>
+  </data>
+  <data name="Frequency.Header">
+    <value>頻率</value>
+  </data>
+  <data name="RetryTimeLapse.Header">
+    <value>重試時間失效</value>
+  </data>
+  <data name="NextStart.Header">
+    <value>下一次開始</value>
+  </data>
+  <data name="lnkHistory.Text">
+    <value>歷史</value>
+  </data>
+  <data name="TimeLapsePrefix.Text">
+    <value>每</value>
+  </data>
+  <data name="Minute.Text">
+    <value>分鐘</value>
+  </data>
+  <data name="Hour.Text">
+    <value>小時</value>
+  </data>
+  <data name="Day.Text">
+    <value>天</value>
+  </data>
+  <data name="n/a.Text">
+    <value>n/a</value>
+  </data>
+  <data name="ControlTitle_.Text">
+    <value>日程表</value>
+  </data>
+</root>

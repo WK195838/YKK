@@ -1,0 +1,324 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" />
+							<xsd:attribute name="type" type="xsd:string" />
+							<xsd:attribute name="mimetype" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="ResMimeType">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="Version">
+		<value>1.0.0.0</value>
+	</resheader>
+	<resheader name="Reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="Writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="BasicSettings.Text">
+		<value>基本設定</value>
+	</data>
+	<data name="BasicSettingsHelp.Text">
+		<value>このセクションでは、サイトの基本的な設定を行います。</value>
+	</data>
+	<data name="SiteDetails.Text">
+		<value>サイト詳細</value>
+	</data>
+	<data name="plPortalName.Text">
+		<value>タイトル:</value>
+	</data>
+	<data name="plPortalName.Help">
+		<value>ポータルのタイトルです。ここで設定された文字はタイトル バーに表示されます。</value>
+	</data>
+	<data name="plDescription.Text">
+		<value>説明:</value>
+	</data>
+	<data name="plDescription.Help">
+		<value>サイトに関する説明を入力します。</value>
+	</data>
+	<data name="plKeyWords.Text">
+		<value>キーワード:</value>
+	</data>
+	<data name="plKeyWords.Help">
+		<value>サイトを表すキーワードを入力します。キーワード間はカンマで区切ります。入力された説明やキーワードは、サイト名と共に検索エンジンから参照され、インデックス化されます。</value>
+	</data>
+	<data name="Appearance.Text">
+		<value>表示</value>
+	</data>
+	<data name="plLogo.Text">
+		<value>ロゴ:</value>
+	</data>
+	<data name="plLogo.Help">
+		<value>選択するスキンによっては、このイメージはページの左上に表示されます。</value>
+	</data>
+	<data name="plPortalSkin.Text">
+		<value>ポータル スキン:</value>
+	</data>
+	<data name="plPortalSkin.Help">
+		<value>ここで選択されたスキンは、サイトのすべてのページに適用されます。ただし、ページ単位で上書きされた場合はその設定が優先されます。</value>
+	</data>
+	<data name="plPortalContainer.Text">
+		<value>ポータル コンテナ:</value>
+	</data>
+	<data name="plPortalContainer.Help">
+		<value>ここで選択されたコンテナは、サイトのすべてのモジュールに適用されます。ただし、ページ単位またはモジュール単位で上書きされた場合はその設定が優先されます。</value>
+	</data>
+	<data name="plAdminSkin.Text">
+		<value>管理者スキン:</value>
+	</data>
+	<data name="plAdminSkin.Help">
+		<value>ここで選択されたスキンは、サイトのすべての管理者向けページに適用されます。</value>
+	</data>
+	<data name="plAdminContainer.Text">
+		<value>管理者コンテナ:</value>
+	</data>
+	<data name="plAdminContainer.Help">
+		<value>ここで選択されたコンテナは、サイトのすべての管理者向けモジュールに適用されます。</value>
+	</data>
+	<data name="plBackground.Text">
+		<value>body背景:</value>
+	</data>
+	<data name="plBackground.Help">
+		<value>選択されたスキンによっては、ここで選択された画像がすべてのページの背景に表示されます。</value>
+	</data>
+	<data name="AdvancedSettings.Text">
+		<value>高度な設定</value>
+	</data>
+	<data name="AdvancedSettingsHelp.Text">
+		<value>このセクションでは、サイトのより高度な設定を行います。</value>
+	</data>
+	<data name="SecuritySettings.Text">
+		<value>セキュリティ設定</value>
+	</data>
+	<data name="plUserRegistration.Text">
+		<value>ユーザー登録:</value>
+	</data>
+	<data name="plUserRegistration.Help">
+		<value>サイトで許可するユーザー登録のタイプ。</value>
+	</data>
+	<data name="None.Text">
+		<value>なし</value>
+	</data>
+	<data name="Private.Text">
+		<value>プライベート</value>
+	</data>
+	<data name="Public.Text">
+		<value>パブリック</value>
+	</data>
+	<data name="Verified.Text">
+		<value>ベリファイ</value>
+	</data>
+	<data name="Pages.Text">
+		<value>ページ管理</value>
+	</data>
+	<data name="plSplashTabId.Text">
+		<value>スプラッシュ ページ:</value>
+	</data>
+	<data name="plSplashTabId.Help">
+		<value>サイトのスプラッシュ ページ。</value>
+	</data>
+	<data name="plHomeTabId.Text">
+		<value>ホーム ページ:</value>
+	</data>
+	<data name="plHomeTabId.Help">
+		<value>サイトのホーム ページ。</value>
+	</data>
+	<data name="plLoginTabId.Text">
+		<value>ログイン ページ:</value>
+	</data>
+	<data name="plLoginTabId.Help">
+		<value>サイトのログイン ページ。</value>
+	</data>
+	<data name="plUserTabId.Text">
+		<value>ユーザー ページ:</value>
+	</data>
+	<data name="plUserTabId.Help">
+		<value>サイトのユーザー ページ。</value>
+	</data>
+	<data name="Payment.Text">
+		<value>支払設定</value>
+	</data>
+	<data name="plCurrency.Text">
+		<value>通貨:</value>
+	</data>
+	<data name="plCurrency.Help">
+		<value>サイトで使用する通貨。</value>
+	</data>
+	<data name="plProcessor.Text">
+		<value>支払処理方法:</value>
+	</data>
+	<data name="plProcessor.Help">
+		<value>サイトの支払を処理する方法。</value>
+	</data>
+	<data name="ProcessorWebSite.Text">
+		<value>支払処理方法のプロバイダ サイトへ</value>
+	</data>
+	<data name="plUserId.Text">
+		<value>プロバイダのユーザーID:</value>
+	</data>
+	<data name="plUserId.Help">
+		<value>支払処理プロバイダのユーザーID。</value>
+	</data>
+	<data name="plPassword.Text">
+		<value>プロバイダのパスワード:</value>
+	</data>
+	<data name="plPassword.Help">
+		<value>プロバイダのパスワード。</value>
+	</data>
+	<data name="Other.Text">
+		<value>その他の設定</value>
+	</data>
+	<data name="plFooterText.Text">
+		<value>著作権:</value>
+	</data>
+	<data name="plFooterText.Help">
+		<value>ここで指定した著作権文言がサイト上に表示されます。 (サポートされているスキンの場合に限る) </value>
+	</data>
+	<data name="plBannerAdvertising.Text">
+		<value>バナー広告:</value>
+	</data>
+	<data name="plBannerAdvertising.Help">
+		<value>サイト上のバナー広告のタイプ。</value>
+	</data>
+	<data name="Site.Text">
+		<value>サイト</value>
+	</data>
+	<data name="Host.Text">
+		<value>ホスト</value>
+	</data>
+	<data name="plAdministrator.Text">
+		<value>管理者:</value>
+	</data>
+	<data name="plAdministrator.Help">
+		<value>サイトの管理者ユーザー。</value>
+	</data>
+	<data name="plDefaultLanguage.Text">
+		<value>デフォルト言語:</value>
+	</data>
+	<data name="plDefaultLanguage.Help">
+		<value>サイトのデフォルト言語。</value>
+	</data>
+	<data name="plTimeZone.Text">
+		<value>ポータル タイム ゾーン:</value>
+	</data>
+	<data name="plTimeZone.Help">
+		<value>サイトが設置された場所のタイム ゾーン。</value>
+	</data>
+	<data name="HostSettings.Text">
+		<value>ホスト設定</value>
+	</data>
+	<data name="plPortalAlias.Text">
+		<value>ポータル エイリアス:</value>
+	</data>
+	<data name="plPortalAlias.Help">
+		<value>ポータル エイリアスはポータルを利用するためのURL。</value>
+	</data>
+	<data name="plExpiryDate.Text">
+		<value>有効期限:</value>
+	</data>
+	<data name="plExpiryDate.Help">
+		<value>ホスティング契約上のポータルの有効期限。</value>
+	</data>
+	<data name="plHostFee.Text">
+		<value>ホスティング料金:</value>
+	</data>
+	<data name="plHostFee.Help">
+		<value>月々のホスティング料金。</value>
+	</data>
+	<data name="plHostSpace.Text">
+		<value>ディスク スペース:</value>
+	</data>
+	<data name="plHostSpace.Help">
+		<value>サイトに与えるディスク スペース (単位:MB)。</value>
+	</data>
+	<data name="plSiteLogHistory.Text">
+		<value>サイト ログ保存期間 (日数):</value>
+	</data>
+	<data name="plSiteLogHistory.Help">
+		<value>サイト上のログを保存する日数。</value>
+	</data>
+	<data name="plDesktopModules.Text">
+		<value>プレミアム モジュール</value>
+	</data>
+	<data name="plDesktopModules.Help">
+		<value>プレミアム モジュールとは、特定の一部のポータルにのみ許可したいモジュールのこと。</value>
+	</data>
+	<data name="StylesheetEditor.Text">
+		<value>スタイルシート エディタ</value>
+	</data>
+	<data name="SaveStyleSheet.Text">
+		<value>スタイルシートの保存</value>
+	</data>
+	<data name="RestoreDefaultStyleSheet.Text">
+		<value>デフォルトのスタイルシートに戻す</value>
+	</data>
+	<data name="LoginInstructions.Text">
+		<value>ログインに関する説明</value>
+	</data>
+	<data name="RegistrationInstructions.Text">
+		<value>ユーザー登録に関する説明</value>
+	</data>
+	<data name="NewUserSignupMessage.Text">
+		<value>新規ユーザー登録メッセージ</value>
+	</data>
+	<data name="DeleteMessage.Text">
+		<value>このポータルを削除して良いですか？</value>
+	</data>
+	<data name="SubmitGoogle.Text">
+		<value>サイトをGoogleに登録</value>
+	</data>
+	<data name="LastPortal.Text">
+		<value>データベース上の最後のポータルを削除することはできません</value>
+	</data>
+	<data name="plHomeDirectory.Text">
+		<value>ホーム ディレクトリ:</value>
+	</data>
+	<data name="plHomeDirectory.Help">
+		<value>このサイトのホーム ディレクトリを入力。</value>
+	</data>
+	<data name="ControlTitle_.Text">
+		<value>サイト設定</value>
+	</data>
+	<data name="ControlTitle_edit.Text">
+		<value>ポータル編集</value>
+	</data>
+	<data name="SkinUpload.Text">
+		<value>スキンのアップロード</value>
+	</data>
+	<data name="ContainerUpload.Text">
+		<value>コンテナのアップロード</value>
+	</data>
+	<data name="ModuleHelp.Text">
+		<value>&lt;h1&gt;サイト設定について&lt;/h1&gt;&lt;p&gt;サイト設定モジュールでは、ポータルに対するローカル オプションを設定する機能が提供されます。ローカル設定を利用することによって、ビジネス ニーズに見合ったポータルにカスタマイズすることが可能になります。&lt;/p&gt;</value>
+	</data>
+	<data name="cmdGoogle.Text">
+		<value>サイトをGoogleに登録</value>
+	</data>
+	<data name="RestoreCCSMessage.Text">
+		<value>現在のスタイルシート設定はすべて削除されます。スタイルシートの設定を初期化して良いですか？</value>
+	</data>
+</root>

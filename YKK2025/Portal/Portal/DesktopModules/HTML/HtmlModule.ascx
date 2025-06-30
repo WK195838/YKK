@@ -1,0 +1,2 @@
+<%@ Control language="vb" Inherits="DotNetNuke.Modules.Html.HtmlModule" CodeBehind="HtmlModule.ascx.vb" AutoEventWireup="false" Explicit="True" %>
+<span id="HtmlHolder" class="Normal" runat="server"></span>

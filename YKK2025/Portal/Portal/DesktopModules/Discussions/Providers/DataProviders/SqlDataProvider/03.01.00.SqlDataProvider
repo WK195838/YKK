@@ -1,0 +1,228 @@
+﻿/************************************************************/
+/*****              SqlDataProvider                     *****/
+/*****                                                  *****/
+/*****                                                  *****/
+/***** Note: To manually execute this script you must   *****/
+/*****       perform a search and replace operation     *****/
+/*****       for {databaseOwner} and {objectQualifier}  *****/
+/*****                                                  *****/
+/************************************************************/
+
+/** Create Documents Table **/
+
+if not exists (select * from dbo.sysobjects where id = object_id(N'{databaseOwner}[{objectQualifier}Discussion]') and OBJECTPROPERTY(id, N'IsTable') = 1)
+	BEGIN
+		CREATE TABLE {databaseOwner}[{objectQualifier}Discussion]
+		(
+			[ItemID] [int] NOT NULL IDENTITY(0, 1),
+			[ModuleID] [int] NOT NULL,
+			[Title] [nvarchar] (100) NULL,
+			[CreatedDate] [datetime] NULL,
+			[Body] [nvarchar] (3000) NULL,
+			[DisplayOrder] [nvarchar] (750) NULL,
+			[CreatedByUser] [nvarchar] (100) NULL
+		)
+
+		ALTER TABLE {databaseOwner}[{objectQualifier}Discussion] ADD CONSTRAINT [PK_{objectQualifier}Discussion] PRIMARY KEY NONCLUSTERED  ([ItemID])
+		CREATE NONCLUSTERED INDEX [IX_{objectQualifier}Discussion] ON {databaseOwner}[{objectQualifier}Discussion] ([ModuleID])
+
+		ALTER TABLE {databaseOwner}[{objectQualifier}Discussion] WITH NOCHECK ADD
+		CONSTRAINT [FK_{objectQualifier}Discussion_{objectQualifier}Modules] FOREIGN KEY ([ModuleID]) REFERENCES {databaseOwner}[{objectQualifier}Modules] ([ModuleID]) ON DELETE CASCADE NOT FOR REPLICATION
+	END
+GO
+
+
+/** Drop Existing Stored Procedures **/
+
+if exists (select * from dbo.sysobjects where id = object_id(N'{databaseOwner}[{objectQualifier}AddMessage]') and OBJECTPROPERTY(id, N'IsProcedure') = 1)
+	drop procedure {databaseOwner}{objectQualifier}AddMessage
+GO
+
+
+if exists (select * from dbo.sysobjects where id = object_id(N'{databaseOwner}[{objectQualifier}DeleteMessage]') and OBJECTPROPERTY(id, N'IsProcedure') = 1)
+	drop procedure {databaseOwner}{objectQualifier}DeleteMessage
+GO
+
+
+if exists (select * from dbo.sysobjects where id = object_id(N'{databaseOwner}[{objectQualifier}GetMessage]') and OBJECTPROPERTY(id, N'IsProcedure') = 1)
+	drop procedure {databaseOwner}{objectQualifier}GetMessage
+GO
+
+
+if exists (select * from dbo.sysobjects where id = object_id(N'{databaseOwner}[{objectQualifier}GetMessageByParentId]') and OBJECTPROPERTY(id, N'IsProcedure') = 1)
+	drop procedure {databaseOwner}{objectQualifier}GetMessageByParentId
+GO
+
+
+if exists (select * from dbo.sysobjects where id = object_id(N'{databaseOwner}[{objectQualifier}GetTopLevelMessages]') and OBJECTPROPERTY(id, N'IsProcedure') = 1)
+	drop procedure {databaseOwner}{objectQualifier}GetTopLevelMessages
+GO
+
+
+if exists (select * from dbo.sysobjects where id = object_id(N'{databaseOwner}[{objectQualifier}GetThreadMessages]') and OBJECTPROPERTY(id, N'IsProcedure') = 1)
+	drop procedure {databaseOwner}{objectQualifier}GetThreadMessages
+GO
+
+
+if exists (select * from dbo.sysobjects where id = object_id(N'{databaseOwner}[{objectQualifier}UpdateMessage]') and OBJECTPROPERTY(id, N'IsProcedure') = 1)
+	drop procedure {databaseOwner}{objectQualifier}UpdateMessage
+GO
+
+
+/** Create Stored Procedures **/
+
+create procedure {databaseOwner}{objectQualifier}AddMessage
+
+	@Title nvarchar(100),
+	@Body nvarchar(3000),
+	@DisplayOrder nvarchar(750),
+	@UserName nvarchar(100),
+	@ModuleId int
+
+as
+
+insert into {objectQualifier}Discussion (
+	Title,
+	Body,
+	DisplayOrder,
+	CreatedDate, 
+	CreatedByUser,
+	ModuleId
+)
+values (
+	@Title,
+	@Body,
+	@DisplayOrder,
+	getdate(),
+	@UserName,
+	@ModuleId
+)
+
+select SCOPE_IDENTITY()
+
+GO
+
+
+create procedure {databaseOwner}{objectQualifier}DeleteMessage
+
+	@ModuleId int,
+	@Start    int,
+	@Parent   nvarchar(19)
+
+as
+
+delete
+from {objectQualifier}Discussion
+where  ModuleId = @ModuleId
+and    substring(DisplayOrder, @Start, 19) = @Parent
+
+GO
+
+
+create procedure {databaseOwner}{objectQualifier}GetMessage
+
+@ItemId   int,
+@ModuleId int
+
+as
+
+select 
+	ItemId,
+	ModuleId,
+    Title,
+    'CreatedByUser' = {objectQualifier}Users.FirstName + ' ' + {objectQualifier}Users.LastName,
+    {objectQualifier}Discussion.CreatedDate,
+    Body,
+    DisplayOrder
+from {objectQualifier}Discussion
+left outer join {objectQualifier}Users on {objectQualifier}Discussion.CreatedByUser = {objectQualifier}Users.UserId
+where  ItemId = @ItemId
+and    ModuleId = @ModuleId
+
+GO
+
+
+create procedure {databaseOwner}{objectQualifier}GetMessageByParentId
+
+	@ParentId int
+
+as
+
+select DisplayOrder
+from   {objectQualifier}Discussion 
+where  ItemId = @ParentId
+
+GO
+
+
+create procedure {databaseOwner}{objectQualifier}GetTopLevelMessages
+
+@ModuleId int
+
+as
+
+select 
+	ItemId,
+	ModuleId,
+    DisplayOrder,
+    'Parent' = LEFT(DisplayOrder, 19),    
+    'ChildCount' = (SELECT COUNT(*) -1  from {objectQualifier}Discussion Disc2 WHERE LEFT(Disc2.DisplayOrder,LEN(RTRIM({objectQualifier}Discussion.DisplayOrder))) = {objectQualifier}Discussion.DisplayOrder),
+    Title,  
+    'CreatedByUser' = {objectQualifier}Users.FirstName + ' ' + {objectQualifier}Users.LastName,
+    {objectQualifier}Discussion.CreatedDate,
+    body
+from {objectQualifier}Discussion
+left outer join {objectQualifier}Users on {objectQualifier}Discussion.CreatedByUser = {objectQualifier}Users.UserId
+where  ModuleId = @ModuleId
+and    (LEN( DisplayOrder ) / 19 ) = 1
+order by DisplayOrder
+
+GO
+
+
+create procedure {databaseOwner}{objectQualifier}GetThreadMessages
+
+@Parent nvarchar(750)
+
+as
+
+select 
+	ItemId,
+	ModuleId,
+    DisplayOrder,
+    'Indent' = ((LEN( DisplayOrder ) / 19 ) - 1 ) * 5,
+    Title,  
+    'CreatedByUser' = {objectQualifier}Users.FirstName + ' ' + {objectQualifier}Users.LastName,
+    {objectQualifier}Discussion.CreatedDate,
+    Body
+from {objectQualifier}Discussion
+left outer join {objectQualifier}Users on {objectQualifier}Discussion.CreatedByUser = {objectQualifier}Users.UserId
+where  LEFT(DisplayOrder, 19) = @Parent
+and    (LEN( DisplayOrder ) / 19 ) > 1
+order by DisplayOrder
+
+GO
+
+
+create procedure {databaseOwner}{objectQualifier}UpdateMessage
+
+	@ItemId     int,
+	@Title      nvarchar(100),
+	@Body       nvarchar(3000),
+	@UserName   nvarchar(100)
+
+as
+
+update {objectQualifier}Discussion
+set    Title             = @Title,
+       Body              = @Body,
+       CreatedByUser     = @UserName,
+       CreatedDate       = getdate()
+where  ItemId = @ItemId
+
+GO
+
+
+/************************************************************/
+/*****              SqlDataProvider                     *****/
+/************************************************************/

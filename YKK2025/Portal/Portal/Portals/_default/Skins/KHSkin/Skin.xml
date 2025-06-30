@@ -1,0 +1,57 @@
+<Objects>
+
+	<Object>
+		<Token>[COPYRIGHT]</Token>
+		<Settings>
+			<Setting>
+				<Name>CssClass</Name>
+				<Value>Copyright</Value>
+			</Setting>
+		</Settings>
+	</Object>
+	<Object>
+		<Token>[CURRENTDATE]</Token>
+		<Settings>
+			<Setting>
+				<Name>CssClass</Name>
+				<Value>Login</Value>
+			</Setting>
+		</Settings>
+	</Object>
+	<Object>
+		<Token>[LOGIN]</Token>
+		<Settings>
+			<Setting>
+				<Name>CssClass</Name>
+				<Value>Login</Value>
+			</Setting>
+		</Settings>
+	</Object>
+	<Object>
+		<Token>[USER]</Token>
+		<Settings>
+			<Setting>
+				<Name>CssClass</Name>
+				<Value>Login</Value>
+			</Setting>
+		</Settings>
+	</Object>
+	<Object>
+		<Token>[BREADCRUMB]</Token>
+		<Settings>
+			<Setting>
+				<Name>CssClass</Name>
+				<Value>Breadcrumb</Value>
+			</Setting>
+			<Setting>
+				<Name>Separator</Name>
+				<Value> ~</Value>
+			</Setting>
+			<Setting>
+				<Name>RootLevel</Name>
+				<Value>1</Value>
+			</Setting>
+		</Settings>
+	</Object>
+
+</Objects>

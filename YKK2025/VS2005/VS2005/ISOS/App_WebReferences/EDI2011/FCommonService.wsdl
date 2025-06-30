@@ -1,0 +1,2535 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="MakeForcastNo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pLogID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pBuyer" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pUserID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pGRBuyer" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pFunList" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="pLastUniqueID" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="MakeForcastNoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="MakeForcastNoResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ForcastPlan">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pLogID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pBuyer" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pUserID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pGRBuyer" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pFunList" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="pLastUniqueID" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ForcastPlanResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="ForcastPlanResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="NewForcastPlan">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pLogID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pBuyer" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pUserID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pGRBuyer" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pFunList" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="pLastUniqueID" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="NewForcastPlanResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="NewForcastPlanResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="VendorForcastPlan">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pLogID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pBuyer" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pUserID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pGRBuyer" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pFunList" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="pLastUniqueID" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="VendorForcastPlanResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="VendorForcastPlanResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="TPForcastPlan">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pLogID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pBuyer" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pUserID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pGRBuyer" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pFunList" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="pLastUniqueID" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="TPForcastPlanResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="TPForcastPlanResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="MatForcastPlan">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pLogID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pBuyer" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pUserID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pGRBuyer" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pFunList" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="pLastUniqueID" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="MatForcastPlanResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="MatForcastPlanResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="LocalStockPlan">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pLogID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pBuyer" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pUserID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pGRBuyer" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pFunList" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="LocalStockPlanResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="LocalStockPlanResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="NewLocalStockPlan">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pLogID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pBuyer" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pUserID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pGRBuyer" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pFunList" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="NewLocalStockPlanResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="NewLocalStockPlanResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="LocalStockPlanProdInf">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pLogID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pBuyer" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pUserID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pGRBuyer" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pFunList" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="LocalStockPlanProdInfResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="LocalStockPlanProdInfResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="BuyerLocalStockPlan">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pLogID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pBuyer" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pUserID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pGRBuyer" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pFunList" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="BuyerLocalStockPlanResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="BuyerLocalStockPlanResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="LastFinalLocalStockPlan">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pLogID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pBuyer" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pUserID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pGRBuyer" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pFunList" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="LastFinalLocalStockPlanResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="LastFinalLocalStockPlanResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="BYFCTDataCheck">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pLogID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pBuyer" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pUserID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pGRBuyer" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pFunList" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="BYFCTDataCheckResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="BYFCTDataCheckResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="NewBYFCTImport">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pLogID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pBuyer" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pUserID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pGRBuyer" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pFunList" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="NewBYFCTImportResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="NewBYFCTImportResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ConvertToBYFCT">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pLogID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pBuyer" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pUserID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pGRBuyer" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pFunList" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ConvertToBYFCTResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="ConvertToBYFCTResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="EDITransfer">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pLogID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pBuyer" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pUserID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pGRBuyer" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pFunList" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="EDITransferResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="EDITransferResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateControlRecord">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pBuyer" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pUserID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pAction1" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="pStatus1" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="pAction2" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="pStatus2" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateControlRecordResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="UpdateControlRecordResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CheckControlRecord">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pBuyer" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pAction" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="pValue" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CheckControlRecordResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="CheckControlRecordResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DeleteHistory">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pBuyer" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DeleteHistoryResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="DeleteHistoryResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DeleteActionHistory">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pLogID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pBuyer" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pAction" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DeleteActionHistoryResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="DeleteActionHistoryResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DeleteFCTData">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pBuyer" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DeleteFCTDataResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="DeleteFCTDataResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DeleteFCTLevelData">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pBuyer" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DeleteFCTLevelDataResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="DeleteFCTLevelDataResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DeleteLSData">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pBuyer" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DeleteLSDataResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="DeleteLSDataResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DeleteBuyerLSData">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pBuyer" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pGRBuyer" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DeleteBuyerLSDataResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="DeleteBuyerLSDataResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DeleteLSProdInfData">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pBuyer" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DeleteLSProdInfDataResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="DeleteLSProdInfDataResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DeleteLS2EDIInterface">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pBuyer" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pGRBuyer" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DeleteLS2EDIInterfaceResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="DeleteLS2EDIInterfaceResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetLSSeqNo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pBuyer" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pLSNo" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetLSSeqNoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetLSSeqNoResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetBuyerLSSeqNo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pBuyer" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pBULSNo" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetBuyerLSSeqNoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetBuyerLSSeqNoResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetFCTSeqNo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pBuyer" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pFCTNo" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pFCTType" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetFCTSeqNoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetFCTSeqNoResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetLastPlanVersion">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pGRBuyer" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetLastPlanVersionResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetLastPlanVersionResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateNextFCTNo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pBuyer" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pFCTNo" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pFCTType" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateNextFCTNoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="UpdateNextFCTNoResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateNextLSNo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pBuyer" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pLSNo" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateNextLSNoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="UpdateNextLSNoResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateNextBuyerLSNo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pBuyer" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pBULSNo" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateNextBuyerLSNoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="UpdateNextBuyerLSNoResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="WriteFCTPlan">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="pID" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="pSubNo" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="pLevel" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="pFatherItem" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pItem" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pColor" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pClass" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pQty" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="WriteFCTPlanResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="WriteFCTPlanResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="WriteNewFCTPlan">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pBuyer" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="pID" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="pSubNo" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="pLevel" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="pFatherItem" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pItem" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pColor" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pClass" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pQty" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pRuleNo" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="WriteNewFCTPlanResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="WriteNewFCTPlanResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CanRunLFLocalStockPlan">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pBuyer" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pGRBuyer" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CanRunLFLocalStockPlanResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="CanRunLFLocalStockPlanResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetLastUniqueID">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pBuyer" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pGRBuyer" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetLastUniqueIDResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetLastUniqueIDResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ResetFCTNo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pBuyer" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pGRBuyer" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ResetFCTNoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="ResetFCTNoResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ResetPlanFCTNo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pBuyer" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ResetPlanFCTNoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="ResetPlanFCTNoResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ResetLSNo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pBuyer" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pGRBuyer" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ResetLSNoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="ResetLSNoResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ResetBuyerLSNo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pBuyer" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pGRBuyer" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ResetBuyerLSNoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="ResetBuyerLSNoResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateBYFCTStatus">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pBuyer" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pUserID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pStatus" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateBYFCTStatusResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="UpdateBYFCTStatusResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetNativeVendorCode">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pBuyer" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pFactory" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pType" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetNativeVendorCodeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetNativeVendorCodeResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetColor">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pType" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pBuyerCode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pColorString" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pColor" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pColorCode" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetColorResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetColorResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CheckItemNoDisplay">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pCode" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CheckItemNoDisplayResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="CheckItemNoDisplayResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CheckColorNotFound">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pCode" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CheckColorNotFoundResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="CheckColorNotFoundResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetProdQtyUnit">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pBuyer" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pPartType" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="pQtyUnit" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetProdQtyUnitResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetProdQtyUnitResult" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="pQtyUnit" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetZipper">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pBuyer" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pItem" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetZipperResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetZipperResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetFilterRuleNo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pBuyer" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pLTType" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pPartType" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pSearchItem" type="tns:ArrayOfString" />
+            <s:element minOccurs="0" maxOccurs="1" name="pRuleNo" type="tns:ArrayOfString" />
+            <s:element minOccurs="0" maxOccurs="1" name="pAction" type="tns:ArrayOfString" />
+            <s:element minOccurs="0" maxOccurs="1" name="pObjectType" type="tns:ArrayOfString" />
+            <s:element minOccurs="0" maxOccurs="1" name="pObjectProduct" type="tns:ArrayOfString" />
+            <s:element minOccurs="1" maxOccurs="1" name="pCount" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfString">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="string" nillable="true" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetFilterRuleNoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetFilterRuleNoResult" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="pRuleNo" type="tns:ArrayOfString" />
+            <s:element minOccurs="0" maxOccurs="1" name="pAction" type="tns:ArrayOfString" />
+            <s:element minOccurs="0" maxOccurs="1" name="pObjectType" type="tns:ArrayOfString" />
+            <s:element minOccurs="0" maxOccurs="1" name="pObjectProduct" type="tns:ArrayOfString" />
+            <s:element minOccurs="1" maxOccurs="1" name="pCount" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="MaterialExpansion">
+        <s:complexType />
+      </s:element>
+      <s:element name="MaterialExpansionResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="CanRunVendorFCFinal">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pBuyer" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pGRBuyer" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CanRunVendorFCFinalResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="CanRunVendorFCFinalResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="VendorFCFinal">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pLogID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pBuyer" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pUserID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pGRBuyer" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pFunList" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="VendorFCFinalResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="VendorFCFinalResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="KPIExpansion">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pLogID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pBuyer" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pUserID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pGRBuyer" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pFunList" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="KPIExpansionResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="KPIExpansionResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ISOS2FAS">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pLogID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pBuyer" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pUserID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pGRBuyer" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pFunList" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="pLastUniqueID" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ISOS2FASResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="ISOS2FASResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ForcastPlanISOS">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pLogID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pBuyer" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pUserID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pGRBuyer" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pFunList" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="pLastUniqueID" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ForcastPlanISOSResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="ForcastPlanISOSResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="WriteNewFCTPlanISOS">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pBuyer" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="pID" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="pSubNo" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="pLevel" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="pFatherItem" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pItem" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pColor" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pClass" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pQty" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pRuleNo" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="WriteNewFCTPlanISOSResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="WriteNewFCTPlanISOSResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="LocalStockPlanISOS">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pLogID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pBuyer" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pUserID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pGRBuyer" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pFunList" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="LocalStockPlanISOSResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="LocalStockPlanISOSResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="MakeForcastNoSoapIn">
+    <wsdl:part name="parameters" element="tns:MakeForcastNo" />
+  </wsdl:message>
+  <wsdl:message name="MakeForcastNoSoapOut">
+    <wsdl:part name="parameters" element="tns:MakeForcastNoResponse" />
+  </wsdl:message>
+  <wsdl:message name="ForcastPlanSoapIn">
+    <wsdl:part name="parameters" element="tns:ForcastPlan" />
+  </wsdl:message>
+  <wsdl:message name="ForcastPlanSoapOut">
+    <wsdl:part name="parameters" element="tns:ForcastPlanResponse" />
+  </wsdl:message>
+  <wsdl:message name="NewForcastPlanSoapIn">
+    <wsdl:part name="parameters" element="tns:NewForcastPlan" />
+  </wsdl:message>
+  <wsdl:message name="NewForcastPlanSoapOut">
+    <wsdl:part name="parameters" element="tns:NewForcastPlanResponse" />
+  </wsdl:message>
+  <wsdl:message name="VendorForcastPlanSoapIn">
+    <wsdl:part name="parameters" element="tns:VendorForcastPlan" />
+  </wsdl:message>
+  <wsdl:message name="VendorForcastPlanSoapOut">
+    <wsdl:part name="parameters" element="tns:VendorForcastPlanResponse" />
+  </wsdl:message>
+  <wsdl:message name="TPForcastPlanSoapIn">
+    <wsdl:part name="parameters" element="tns:TPForcastPlan" />
+  </wsdl:message>
+  <wsdl:message name="TPForcastPlanSoapOut">
+    <wsdl:part name="parameters" element="tns:TPForcastPlanResponse" />
+  </wsdl:message>
+  <wsdl:message name="MatForcastPlanSoapIn">
+    <wsdl:part name="parameters" element="tns:MatForcastPlan" />
+  </wsdl:message>
+  <wsdl:message name="MatForcastPlanSoapOut">
+    <wsdl:part name="parameters" element="tns:MatForcastPlanResponse" />
+  </wsdl:message>
+  <wsdl:message name="LocalStockPlanSoapIn">
+    <wsdl:part name="parameters" element="tns:LocalStockPlan" />
+  </wsdl:message>
+  <wsdl:message name="LocalStockPlanSoapOut">
+    <wsdl:part name="parameters" element="tns:LocalStockPlanResponse" />
+  </wsdl:message>
+  <wsdl:message name="NewLocalStockPlanSoapIn">
+    <wsdl:part name="parameters" element="tns:NewLocalStockPlan" />
+  </wsdl:message>
+  <wsdl:message name="NewLocalStockPlanSoapOut">
+    <wsdl:part name="parameters" element="tns:NewLocalStockPlanResponse" />
+  </wsdl:message>
+  <wsdl:message name="LocalStockPlanProdInfSoapIn">
+    <wsdl:part name="parameters" element="tns:LocalStockPlanProdInf" />
+  </wsdl:message>
+  <wsdl:message name="LocalStockPlanProdInfSoapOut">
+    <wsdl:part name="parameters" element="tns:LocalStockPlanProdInfResponse" />
+  </wsdl:message>
+  <wsdl:message name="BuyerLocalStockPlanSoapIn">
+    <wsdl:part name="parameters" element="tns:BuyerLocalStockPlan" />
+  </wsdl:message>
+  <wsdl:message name="BuyerLocalStockPlanSoapOut">
+    <wsdl:part name="parameters" element="tns:BuyerLocalStockPlanResponse" />
+  </wsdl:message>
+  <wsdl:message name="LastFinalLocalStockPlanSoapIn">
+    <wsdl:part name="parameters" element="tns:LastFinalLocalStockPlan" />
+  </wsdl:message>
+  <wsdl:message name="LastFinalLocalStockPlanSoapOut">
+    <wsdl:part name="parameters" element="tns:LastFinalLocalStockPlanResponse" />
+  </wsdl:message>
+  <wsdl:message name="BYFCTDataCheckSoapIn">
+    <wsdl:part name="parameters" element="tns:BYFCTDataCheck" />
+  </wsdl:message>
+  <wsdl:message name="BYFCTDataCheckSoapOut">
+    <wsdl:part name="parameters" element="tns:BYFCTDataCheckResponse" />
+  </wsdl:message>
+  <wsdl:message name="NewBYFCTImportSoapIn">
+    <wsdl:part name="parameters" element="tns:NewBYFCTImport" />
+  </wsdl:message>
+  <wsdl:message name="NewBYFCTImportSoapOut">
+    <wsdl:part name="parameters" element="tns:NewBYFCTImportResponse" />
+  </wsdl:message>
+  <wsdl:message name="ConvertToBYFCTSoapIn">
+    <wsdl:part name="parameters" element="tns:ConvertToBYFCT" />
+  </wsdl:message>
+  <wsdl:message name="ConvertToBYFCTSoapOut">
+    <wsdl:part name="parameters" element="tns:ConvertToBYFCTResponse" />
+  </wsdl:message>
+  <wsdl:message name="EDITransferSoapIn">
+    <wsdl:part name="parameters" element="tns:EDITransfer" />
+  </wsdl:message>
+  <wsdl:message name="EDITransferSoapOut">
+    <wsdl:part name="parameters" element="tns:EDITransferResponse" />
+  </wsdl:message>
+  <wsdl:message name="UpdateControlRecordSoapIn">
+    <wsdl:part name="parameters" element="tns:UpdateControlRecord" />
+  </wsdl:message>
+  <wsdl:message name="UpdateControlRecordSoapOut">
+    <wsdl:part name="parameters" element="tns:UpdateControlRecordResponse" />
+  </wsdl:message>
+  <wsdl:message name="CheckControlRecordSoapIn">
+    <wsdl:part name="parameters" element="tns:CheckControlRecord" />
+  </wsdl:message>
+  <wsdl:message name="CheckControlRecordSoapOut">
+    <wsdl:part name="parameters" element="tns:CheckControlRecordResponse" />
+  </wsdl:message>
+  <wsdl:message name="DeleteHistorySoapIn">
+    <wsdl:part name="parameters" element="tns:DeleteHistory" />
+  </wsdl:message>
+  <wsdl:message name="DeleteHistorySoapOut">
+    <wsdl:part name="parameters" element="tns:DeleteHistoryResponse" />
+  </wsdl:message>
+  <wsdl:message name="DeleteActionHistorySoapIn">
+    <wsdl:part name="parameters" element="tns:DeleteActionHistory" />
+  </wsdl:message>
+  <wsdl:message name="DeleteActionHistorySoapOut">
+    <wsdl:part name="parameters" element="tns:DeleteActionHistoryResponse" />
+  </wsdl:message>
+  <wsdl:message name="DeleteFCTDataSoapIn">
+    <wsdl:part name="parameters" element="tns:DeleteFCTData" />
+  </wsdl:message>
+  <wsdl:message name="DeleteFCTDataSoapOut">
+    <wsdl:part name="parameters" element="tns:DeleteFCTDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="DeleteFCTLevelDataSoapIn">
+    <wsdl:part name="parameters" element="tns:DeleteFCTLevelData" />
+  </wsdl:message>
+  <wsdl:message name="DeleteFCTLevelDataSoapOut">
+    <wsdl:part name="parameters" element="tns:DeleteFCTLevelDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="DeleteLSDataSoapIn">
+    <wsdl:part name="parameters" element="tns:DeleteLSData" />
+  </wsdl:message>
+  <wsdl:message name="DeleteLSDataSoapOut">
+    <wsdl:part name="parameters" element="tns:DeleteLSDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="DeleteBuyerLSDataSoapIn">
+    <wsdl:part name="parameters" element="tns:DeleteBuyerLSData" />
+  </wsdl:message>
+  <wsdl:message name="DeleteBuyerLSDataSoapOut">
+    <wsdl:part name="parameters" element="tns:DeleteBuyerLSDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="DeleteLSProdInfDataSoapIn">
+    <wsdl:part name="parameters" element="tns:DeleteLSProdInfData" />
+  </wsdl:message>
+  <wsdl:message name="DeleteLSProdInfDataSoapOut">
+    <wsdl:part name="parameters" element="tns:DeleteLSProdInfDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="DeleteLS2EDIInterfaceSoapIn">
+    <wsdl:part name="parameters" element="tns:DeleteLS2EDIInterface" />
+  </wsdl:message>
+  <wsdl:message name="DeleteLS2EDIInterfaceSoapOut">
+    <wsdl:part name="parameters" element="tns:DeleteLS2EDIInterfaceResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetLSSeqNoSoapIn">
+    <wsdl:part name="parameters" element="tns:GetLSSeqNo" />
+  </wsdl:message>
+  <wsdl:message name="GetLSSeqNoSoapOut">
+    <wsdl:part name="parameters" element="tns:GetLSSeqNoResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetBuyerLSSeqNoSoapIn">
+    <wsdl:part name="parameters" element="tns:GetBuyerLSSeqNo" />
+  </wsdl:message>
+  <wsdl:message name="GetBuyerLSSeqNoSoapOut">
+    <wsdl:part name="parameters" element="tns:GetBuyerLSSeqNoResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetFCTSeqNoSoapIn">
+    <wsdl:part name="parameters" element="tns:GetFCTSeqNo" />
+  </wsdl:message>
+  <wsdl:message name="GetFCTSeqNoSoapOut">
+    <wsdl:part name="parameters" element="tns:GetFCTSeqNoResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetLastPlanVersionSoapIn">
+    <wsdl:part name="parameters" element="tns:GetLastPlanVersion" />
+  </wsdl:message>
+  <wsdl:message name="GetLastPlanVersionSoapOut">
+    <wsdl:part name="parameters" element="tns:GetLastPlanVersionResponse" />
+  </wsdl:message>
+  <wsdl:message name="UpdateNextFCTNoSoapIn">
+    <wsdl:part name="parameters" element="tns:UpdateNextFCTNo" />
+  </wsdl:message>
+  <wsdl:message name="UpdateNextFCTNoSoapOut">
+    <wsdl:part name="parameters" element="tns:UpdateNextFCTNoResponse" />
+  </wsdl:message>
+  <wsdl:message name="UpdateNextLSNoSoapIn">
+    <wsdl:part name="parameters" element="tns:UpdateNextLSNo" />
+  </wsdl:message>
+  <wsdl:message name="UpdateNextLSNoSoapOut">
+    <wsdl:part name="parameters" element="tns:UpdateNextLSNoResponse" />
+  </wsdl:message>
+  <wsdl:message name="UpdateNextBuyerLSNoSoapIn">
+    <wsdl:part name="parameters" element="tns:UpdateNextBuyerLSNo" />
+  </wsdl:message>
+  <wsdl:message name="UpdateNextBuyerLSNoSoapOut">
+    <wsdl:part name="parameters" element="tns:UpdateNextBuyerLSNoResponse" />
+  </wsdl:message>
+  <wsdl:message name="WriteFCTPlanSoapIn">
+    <wsdl:part name="parameters" element="tns:WriteFCTPlan" />
+  </wsdl:message>
+  <wsdl:message name="WriteFCTPlanSoapOut">
+    <wsdl:part name="parameters" element="tns:WriteFCTPlanResponse" />
+  </wsdl:message>
+  <wsdl:message name="WriteNewFCTPlanSoapIn">
+    <wsdl:part name="parameters" element="tns:WriteNewFCTPlan" />
+  </wsdl:message>
+  <wsdl:message name="WriteNewFCTPlanSoapOut">
+    <wsdl:part name="parameters" element="tns:WriteNewFCTPlanResponse" />
+  </wsdl:message>
+  <wsdl:message name="CanRunLFLocalStockPlanSoapIn">
+    <wsdl:part name="parameters" element="tns:CanRunLFLocalStockPlan" />
+  </wsdl:message>
+  <wsdl:message name="CanRunLFLocalStockPlanSoapOut">
+    <wsdl:part name="parameters" element="tns:CanRunLFLocalStockPlanResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetLastUniqueIDSoapIn">
+    <wsdl:part name="parameters" element="tns:GetLastUniqueID" />
+  </wsdl:message>
+  <wsdl:message name="GetLastUniqueIDSoapOut">
+    <wsdl:part name="parameters" element="tns:GetLastUniqueIDResponse" />
+  </wsdl:message>
+  <wsdl:message name="ResetFCTNoSoapIn">
+    <wsdl:part name="parameters" element="tns:ResetFCTNo" />
+  </wsdl:message>
+  <wsdl:message name="ResetFCTNoSoapOut">
+    <wsdl:part name="parameters" element="tns:ResetFCTNoResponse" />
+  </wsdl:message>
+  <wsdl:message name="ResetPlanFCTNoSoapIn">
+    <wsdl:part name="parameters" element="tns:ResetPlanFCTNo" />
+  </wsdl:message>
+  <wsdl:message name="ResetPlanFCTNoSoapOut">
+    <wsdl:part name="parameters" element="tns:ResetPlanFCTNoResponse" />
+  </wsdl:message>
+  <wsdl:message name="ResetLSNoSoapIn">
+    <wsdl:part name="parameters" element="tns:ResetLSNo" />
+  </wsdl:message>
+  <wsdl:message name="ResetLSNoSoapOut">
+    <wsdl:part name="parameters" element="tns:ResetLSNoResponse" />
+  </wsdl:message>
+  <wsdl:message name="ResetBuyerLSNoSoapIn">
+    <wsdl:part name="parameters" element="tns:ResetBuyerLSNo" />
+  </wsdl:message>
+  <wsdl:message name="ResetBuyerLSNoSoapOut">
+    <wsdl:part name="parameters" element="tns:ResetBuyerLSNoResponse" />
+  </wsdl:message>
+  <wsdl:message name="UpdateBYFCTStatusSoapIn">
+    <wsdl:part name="parameters" element="tns:UpdateBYFCTStatus" />
+  </wsdl:message>
+  <wsdl:message name="UpdateBYFCTStatusSoapOut">
+    <wsdl:part name="parameters" element="tns:UpdateBYFCTStatusResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetNativeVendorCodeSoapIn">
+    <wsdl:part name="parameters" element="tns:GetNativeVendorCode" />
+  </wsdl:message>
+  <wsdl:message name="GetNativeVendorCodeSoapOut">
+    <wsdl:part name="parameters" element="tns:GetNativeVendorCodeResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetColorSoapIn">
+    <wsdl:part name="parameters" element="tns:GetColor" />
+  </wsdl:message>
+  <wsdl:message name="GetColorSoapOut">
+    <wsdl:part name="parameters" element="tns:GetColorResponse" />
+  </wsdl:message>
+  <wsdl:message name="CheckItemNoDisplaySoapIn">
+    <wsdl:part name="parameters" element="tns:CheckItemNoDisplay" />
+  </wsdl:message>
+  <wsdl:message name="CheckItemNoDisplaySoapOut">
+    <wsdl:part name="parameters" element="tns:CheckItemNoDisplayResponse" />
+  </wsdl:message>
+  <wsdl:message name="CheckColorNotFoundSoapIn">
+    <wsdl:part name="parameters" element="tns:CheckColorNotFound" />
+  </wsdl:message>
+  <wsdl:message name="CheckColorNotFoundSoapOut">
+    <wsdl:part name="parameters" element="tns:CheckColorNotFoundResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetProdQtyUnitSoapIn">
+    <wsdl:part name="parameters" element="tns:GetProdQtyUnit" />
+  </wsdl:message>
+  <wsdl:message name="GetProdQtyUnitSoapOut">
+    <wsdl:part name="parameters" element="tns:GetProdQtyUnitResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetZipperSoapIn">
+    <wsdl:part name="parameters" element="tns:GetZipper" />
+  </wsdl:message>
+  <wsdl:message name="GetZipperSoapOut">
+    <wsdl:part name="parameters" element="tns:GetZipperResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetFilterRuleNoSoapIn">
+    <wsdl:part name="parameters" element="tns:GetFilterRuleNo" />
+  </wsdl:message>
+  <wsdl:message name="GetFilterRuleNoSoapOut">
+    <wsdl:part name="parameters" element="tns:GetFilterRuleNoResponse" />
+  </wsdl:message>
+  <wsdl:message name="MaterialExpansionSoapIn">
+    <wsdl:part name="parameters" element="tns:MaterialExpansion" />
+  </wsdl:message>
+  <wsdl:message name="MaterialExpansionSoapOut">
+    <wsdl:part name="parameters" element="tns:MaterialExpansionResponse" />
+  </wsdl:message>
+  <wsdl:message name="CanRunVendorFCFinalSoapIn">
+    <wsdl:part name="parameters" element="tns:CanRunVendorFCFinal" />
+  </wsdl:message>
+  <wsdl:message name="CanRunVendorFCFinalSoapOut">
+    <wsdl:part name="parameters" element="tns:CanRunVendorFCFinalResponse" />
+  </wsdl:message>
+  <wsdl:message name="VendorFCFinalSoapIn">
+    <wsdl:part name="parameters" element="tns:VendorFCFinal" />
+  </wsdl:message>
+  <wsdl:message name="VendorFCFinalSoapOut">
+    <wsdl:part name="parameters" element="tns:VendorFCFinalResponse" />
+  </wsdl:message>
+  <wsdl:message name="KPIExpansionSoapIn">
+    <wsdl:part name="parameters" element="tns:KPIExpansion" />
+  </wsdl:message>
+  <wsdl:message name="KPIExpansionSoapOut">
+    <wsdl:part name="parameters" element="tns:KPIExpansionResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISOS2FASSoapIn">
+    <wsdl:part name="parameters" element="tns:ISOS2FAS" />
+  </wsdl:message>
+  <wsdl:message name="ISOS2FASSoapOut">
+    <wsdl:part name="parameters" element="tns:ISOS2FASResponse" />
+  </wsdl:message>
+  <wsdl:message name="ForcastPlanISOSSoapIn">
+    <wsdl:part name="parameters" element="tns:ForcastPlanISOS" />
+  </wsdl:message>
+  <wsdl:message name="ForcastPlanISOSSoapOut">
+    <wsdl:part name="parameters" element="tns:ForcastPlanISOSResponse" />
+  </wsdl:message>
+  <wsdl:message name="WriteNewFCTPlanISOSSoapIn">
+    <wsdl:part name="parameters" element="tns:WriteNewFCTPlanISOS" />
+  </wsdl:message>
+  <wsdl:message name="WriteNewFCTPlanISOSSoapOut">
+    <wsdl:part name="parameters" element="tns:WriteNewFCTPlanISOSResponse" />
+  </wsdl:message>
+  <wsdl:message name="LocalStockPlanISOSSoapIn">
+    <wsdl:part name="parameters" element="tns:LocalStockPlanISOS" />
+  </wsdl:message>
+  <wsdl:message name="LocalStockPlanISOSSoapOut">
+    <wsdl:part name="parameters" element="tns:LocalStockPlanISOSResponse" />
+  </wsdl:message>
+  <wsdl:portType name="FCommonServiceSoap">
+    <wsdl:operation name="MakeForcastNo">
+      <wsdl:input message="tns:MakeForcastNoSoapIn" />
+      <wsdl:output message="tns:MakeForcastNoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ForcastPlan">
+      <wsdl:input message="tns:ForcastPlanSoapIn" />
+      <wsdl:output message="tns:ForcastPlanSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="NewForcastPlan">
+      <wsdl:input message="tns:NewForcastPlanSoapIn" />
+      <wsdl:output message="tns:NewForcastPlanSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="VendorForcastPlan">
+      <wsdl:input message="tns:VendorForcastPlanSoapIn" />
+      <wsdl:output message="tns:VendorForcastPlanSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="TPForcastPlan">
+      <wsdl:input message="tns:TPForcastPlanSoapIn" />
+      <wsdl:output message="tns:TPForcastPlanSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="MatForcastPlan">
+      <wsdl:input message="tns:MatForcastPlanSoapIn" />
+      <wsdl:output message="tns:MatForcastPlanSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="LocalStockPlan">
+      <wsdl:input message="tns:LocalStockPlanSoapIn" />
+      <wsdl:output message="tns:LocalStockPlanSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="NewLocalStockPlan">
+      <wsdl:input message="tns:NewLocalStockPlanSoapIn" />
+      <wsdl:output message="tns:NewLocalStockPlanSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="LocalStockPlanProdInf">
+      <wsdl:input message="tns:LocalStockPlanProdInfSoapIn" />
+      <wsdl:output message="tns:LocalStockPlanProdInfSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="BuyerLocalStockPlan">
+      <wsdl:input message="tns:BuyerLocalStockPlanSoapIn" />
+      <wsdl:output message="tns:BuyerLocalStockPlanSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="LastFinalLocalStockPlan">
+      <wsdl:input message="tns:LastFinalLocalStockPlanSoapIn" />
+      <wsdl:output message="tns:LastFinalLocalStockPlanSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="BYFCTDataCheck">
+      <wsdl:input message="tns:BYFCTDataCheckSoapIn" />
+      <wsdl:output message="tns:BYFCTDataCheckSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="NewBYFCTImport">
+      <wsdl:input message="tns:NewBYFCTImportSoapIn" />
+      <wsdl:output message="tns:NewBYFCTImportSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ConvertToBYFCT">
+      <wsdl:input message="tns:ConvertToBYFCTSoapIn" />
+      <wsdl:output message="tns:ConvertToBYFCTSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="EDITransfer">
+      <wsdl:input message="tns:EDITransferSoapIn" />
+      <wsdl:output message="tns:EDITransferSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateControlRecord">
+      <wsdl:input message="tns:UpdateControlRecordSoapIn" />
+      <wsdl:output message="tns:UpdateControlRecordSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckControlRecord">
+      <wsdl:input message="tns:CheckControlRecordSoapIn" />
+      <wsdl:output message="tns:CheckControlRecordSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteHistory">
+      <wsdl:input message="tns:DeleteHistorySoapIn" />
+      <wsdl:output message="tns:DeleteHistorySoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteActionHistory">
+      <wsdl:input message="tns:DeleteActionHistorySoapIn" />
+      <wsdl:output message="tns:DeleteActionHistorySoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteFCTData">
+      <wsdl:input message="tns:DeleteFCTDataSoapIn" />
+      <wsdl:output message="tns:DeleteFCTDataSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteFCTLevelData">
+      <wsdl:input message="tns:DeleteFCTLevelDataSoapIn" />
+      <wsdl:output message="tns:DeleteFCTLevelDataSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteLSData">
+      <wsdl:input message="tns:DeleteLSDataSoapIn" />
+      <wsdl:output message="tns:DeleteLSDataSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteBuyerLSData">
+      <wsdl:input message="tns:DeleteBuyerLSDataSoapIn" />
+      <wsdl:output message="tns:DeleteBuyerLSDataSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteLSProdInfData">
+      <wsdl:input message="tns:DeleteLSProdInfDataSoapIn" />
+      <wsdl:output message="tns:DeleteLSProdInfDataSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteLS2EDIInterface">
+      <wsdl:input message="tns:DeleteLS2EDIInterfaceSoapIn" />
+      <wsdl:output message="tns:DeleteLS2EDIInterfaceSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetLSSeqNo">
+      <wsdl:input message="tns:GetLSSeqNoSoapIn" />
+      <wsdl:output message="tns:GetLSSeqNoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBuyerLSSeqNo">
+      <wsdl:input message="tns:GetBuyerLSSeqNoSoapIn" />
+      <wsdl:output message="tns:GetBuyerLSSeqNoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetFCTSeqNo">
+      <wsdl:input message="tns:GetFCTSeqNoSoapIn" />
+      <wsdl:output message="tns:GetFCTSeqNoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetLastPlanVersion">
+      <wsdl:input message="tns:GetLastPlanVersionSoapIn" />
+      <wsdl:output message="tns:GetLastPlanVersionSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateNextFCTNo">
+      <wsdl:input message="tns:UpdateNextFCTNoSoapIn" />
+      <wsdl:output message="tns:UpdateNextFCTNoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateNextLSNo">
+      <wsdl:input message="tns:UpdateNextLSNoSoapIn" />
+      <wsdl:output message="tns:UpdateNextLSNoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateNextBuyerLSNo">
+      <wsdl:input message="tns:UpdateNextBuyerLSNoSoapIn" />
+      <wsdl:output message="tns:UpdateNextBuyerLSNoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="WriteFCTPlan">
+      <wsdl:input message="tns:WriteFCTPlanSoapIn" />
+      <wsdl:output message="tns:WriteFCTPlanSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="WriteNewFCTPlan">
+      <wsdl:input message="tns:WriteNewFCTPlanSoapIn" />
+      <wsdl:output message="tns:WriteNewFCTPlanSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CanRunLFLocalStockPlan">
+      <wsdl:input message="tns:CanRunLFLocalStockPlanSoapIn" />
+      <wsdl:output message="tns:CanRunLFLocalStockPlanSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetLastUniqueID">
+      <wsdl:input message="tns:GetLastUniqueIDSoapIn" />
+      <wsdl:output message="tns:GetLastUniqueIDSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ResetFCTNo">
+      <wsdl:input message="tns:ResetFCTNoSoapIn" />
+      <wsdl:output message="tns:ResetFCTNoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ResetPlanFCTNo">
+      <wsdl:input message="tns:ResetPlanFCTNoSoapIn" />
+      <wsdl:output message="tns:ResetPlanFCTNoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ResetLSNo">
+      <wsdl:input message="tns:ResetLSNoSoapIn" />
+      <wsdl:output message="tns:ResetLSNoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ResetBuyerLSNo">
+      <wsdl:input message="tns:ResetBuyerLSNoSoapIn" />
+      <wsdl:output message="tns:ResetBuyerLSNoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateBYFCTStatus">
+      <wsdl:input message="tns:UpdateBYFCTStatusSoapIn" />
+      <wsdl:output message="tns:UpdateBYFCTStatusSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetNativeVendorCode">
+      <wsdl:input message="tns:GetNativeVendorCodeSoapIn" />
+      <wsdl:output message="tns:GetNativeVendorCodeSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetColor">
+      <wsdl:input message="tns:GetColorSoapIn" />
+      <wsdl:output message="tns:GetColorSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckItemNoDisplay">
+      <wsdl:input message="tns:CheckItemNoDisplaySoapIn" />
+      <wsdl:output message="tns:CheckItemNoDisplaySoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckColorNotFound">
+      <wsdl:input message="tns:CheckColorNotFoundSoapIn" />
+      <wsdl:output message="tns:CheckColorNotFoundSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetProdQtyUnit">
+      <wsdl:input message="tns:GetProdQtyUnitSoapIn" />
+      <wsdl:output message="tns:GetProdQtyUnitSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetZipper">
+      <wsdl:input message="tns:GetZipperSoapIn" />
+      <wsdl:output message="tns:GetZipperSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetFilterRuleNo">
+      <wsdl:input message="tns:GetFilterRuleNoSoapIn" />
+      <wsdl:output message="tns:GetFilterRuleNoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="MaterialExpansion">
+      <wsdl:input message="tns:MaterialExpansionSoapIn" />
+      <wsdl:output message="tns:MaterialExpansionSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CanRunVendorFCFinal">
+      <wsdl:input message="tns:CanRunVendorFCFinalSoapIn" />
+      <wsdl:output message="tns:CanRunVendorFCFinalSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="VendorFCFinal">
+      <wsdl:input message="tns:VendorFCFinalSoapIn" />
+      <wsdl:output message="tns:VendorFCFinalSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="KPIExpansion">
+      <wsdl:input message="tns:KPIExpansionSoapIn" />
+      <wsdl:output message="tns:KPIExpansionSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ISOS2FAS">
+      <wsdl:input message="tns:ISOS2FASSoapIn" />
+      <wsdl:output message="tns:ISOS2FASSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ForcastPlanISOS">
+      <wsdl:input message="tns:ForcastPlanISOSSoapIn" />
+      <wsdl:output message="tns:ForcastPlanISOSSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="WriteNewFCTPlanISOS">
+      <wsdl:input message="tns:WriteNewFCTPlanISOSSoapIn" />
+      <wsdl:output message="tns:WriteNewFCTPlanISOSSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="LocalStockPlanISOS">
+      <wsdl:input message="tns:LocalStockPlanISOSSoapIn" />
+      <wsdl:output message="tns:LocalStockPlanISOSSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="FCommonServiceSoap" type="tns:FCommonServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="MakeForcastNo">
+      <soap:operation soapAction="http://tempuri.org/MakeForcastNo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ForcastPlan">
+      <soap:operation soapAction="http://tempuri.org/ForcastPlan" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="NewForcastPlan">
+      <soap:operation soapAction="http://tempuri.org/NewForcastPlan" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="VendorForcastPlan">
+      <soap:operation soapAction="http://tempuri.org/VendorForcastPlan" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TPForcastPlan">
+      <soap:operation soapAction="http://tempuri.org/TPForcastPlan" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MatForcastPlan">
+      <soap:operation soapAction="http://tempuri.org/MatForcastPlan" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LocalStockPlan">
+      <soap:operation soapAction="http://tempuri.org/LocalStockPlan" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="NewLocalStockPlan">
+      <soap:operation soapAction="http://tempuri.org/NewLocalStockPlan" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LocalStockPlanProdInf">
+      <soap:operation soapAction="http://tempuri.org/LocalStockPlanProdInf" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BuyerLocalStockPlan">
+      <soap:operation soapAction="http://tempuri.org/BuyerLocalStockPlan" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LastFinalLocalStockPlan">
+      <soap:operation soapAction="http://tempuri.org/LastFinalLocalStockPlan" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BYFCTDataCheck">
+      <soap:operation soapAction="http://tempuri.org/BYFCTDataCheck" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="NewBYFCTImport">
+      <soap:operation soapAction="http://tempuri.org/NewBYFCTImport" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ConvertToBYFCT">
+      <soap:operation soapAction="http://tempuri.org/ConvertToBYFCT" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EDITransfer">
+      <soap:operation soapAction="http://tempuri.org/EDITransfer" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateControlRecord">
+      <soap:operation soapAction="http://tempuri.org/UpdateControlRecord" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckControlRecord">
+      <soap:operation soapAction="http://tempuri.org/CheckControlRecord" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteHistory">
+      <soap:operation soapAction="http://tempuri.org/DeleteHistory" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteActionHistory">
+      <soap:operation soapAction="http://tempuri.org/DeleteActionHistory" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteFCTData">
+      <soap:operation soapAction="http://tempuri.org/DeleteFCTData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteFCTLevelData">
+      <soap:operation soapAction="http://tempuri.org/DeleteFCTLevelData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteLSData">
+      <soap:operation soapAction="http://tempuri.org/DeleteLSData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteBuyerLSData">
+      <soap:operation soapAction="http://tempuri.org/DeleteBuyerLSData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteLSProdInfData">
+      <soap:operation soapAction="http://tempuri.org/DeleteLSProdInfData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteLS2EDIInterface">
+      <soap:operation soapAction="http://tempuri.org/DeleteLS2EDIInterface" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLSSeqNo">
+      <soap:operation soapAction="http://tempuri.org/GetLSSeqNo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBuyerLSSeqNo">
+      <soap:operation soapAction="http://tempuri.org/GetBuyerLSSeqNo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFCTSeqNo">
+      <soap:operation soapAction="http://tempuri.org/GetFCTSeqNo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLastPlanVersion">
+      <soap:operation soapAction="http://tempuri.org/GetLastPlanVersion" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateNextFCTNo">
+      <soap:operation soapAction="http://tempuri.org/UpdateNextFCTNo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateNextLSNo">
+      <soap:operation soapAction="http://tempuri.org/UpdateNextLSNo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateNextBuyerLSNo">
+      <soap:operation soapAction="http://tempuri.org/UpdateNextBuyerLSNo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WriteFCTPlan">
+      <soap:operation soapAction="http://tempuri.org/WriteFCTPlan" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WriteNewFCTPlan">
+      <soap:operation soapAction="http://tempuri.org/WriteNewFCTPlan" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CanRunLFLocalStockPlan">
+      <soap:operation soapAction="http://tempuri.org/CanRunLFLocalStockPlan" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLastUniqueID">
+      <soap:operation soapAction="http://tempuri.org/GetLastUniqueID" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ResetFCTNo">
+      <soap:operation soapAction="http://tempuri.org/ResetFCTNo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ResetPlanFCTNo">
+      <soap:operation soapAction="http://tempuri.org/ResetPlanFCTNo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ResetLSNo">
+      <soap:operation soapAction="http://tempuri.org/ResetLSNo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ResetBuyerLSNo">
+      <soap:operation soapAction="http://tempuri.org/ResetBuyerLSNo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateBYFCTStatus">
+      <soap:operation soapAction="http://tempuri.org/UpdateBYFCTStatus" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetNativeVendorCode">
+      <soap:operation soapAction="http://tempuri.org/GetNativeVendorCode" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetColor">
+      <soap:operation soapAction="http://tempuri.org/GetColor" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckItemNoDisplay">
+      <soap:operation soapAction="http://tempuri.org/CheckItemNoDisplay" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckColorNotFound">
+      <soap:operation soapAction="http://tempuri.org/CheckColorNotFound" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetProdQtyUnit">
+      <soap:operation soapAction="http://tempuri.org/GetProdQtyUnit" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetZipper">
+      <soap:operation soapAction="http://tempuri.org/GetZipper" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFilterRuleNo">
+      <soap:operation soapAction="http://tempuri.org/GetFilterRuleNo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MaterialExpansion">
+      <soap:operation soapAction="http://tempuri.org/MaterialExpansion" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CanRunVendorFCFinal">
+      <soap:operation soapAction="http://tempuri.org/CanRunVendorFCFinal" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="VendorFCFinal">
+      <soap:operation soapAction="http://tempuri.org/VendorFCFinal" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="KPIExpansion">
+      <soap:operation soapAction="http://tempuri.org/KPIExpansion" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ISOS2FAS">
+      <soap:operation soapAction="http://tempuri.org/ISOS2FAS" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ForcastPlanISOS">
+      <soap:operation soapAction="http://tempuri.org/ForcastPlanISOS" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WriteNewFCTPlanISOS">
+      <soap:operation soapAction="http://tempuri.org/WriteNewFCTPlanISOS" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LocalStockPlanISOS">
+      <soap:operation soapAction="http://tempuri.org/LocalStockPlanISOS" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="FCommonServiceSoap12" type="tns:FCommonServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="MakeForcastNo">
+      <soap12:operation soapAction="http://tempuri.org/MakeForcastNo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ForcastPlan">
+      <soap12:operation soapAction="http://tempuri.org/ForcastPlan" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="NewForcastPlan">
+      <soap12:operation soapAction="http://tempuri.org/NewForcastPlan" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="VendorForcastPlan">
+      <soap12:operation soapAction="http://tempuri.org/VendorForcastPlan" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TPForcastPlan">
+      <soap12:operation soapAction="http://tempuri.org/TPForcastPlan" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MatForcastPlan">
+      <soap12:operation soapAction="http://tempuri.org/MatForcastPlan" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LocalStockPlan">
+      <soap12:operation soapAction="http://tempuri.org/LocalStockPlan" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="NewLocalStockPlan">
+      <soap12:operation soapAction="http://tempuri.org/NewLocalStockPlan" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LocalStockPlanProdInf">
+      <soap12:operation soapAction="http://tempuri.org/LocalStockPlanProdInf" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BuyerLocalStockPlan">
+      <soap12:operation soapAction="http://tempuri.org/BuyerLocalStockPlan" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LastFinalLocalStockPlan">
+      <soap12:operation soapAction="http://tempuri.org/LastFinalLocalStockPlan" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BYFCTDataCheck">
+      <soap12:operation soapAction="http://tempuri.org/BYFCTDataCheck" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="NewBYFCTImport">
+      <soap12:operation soapAction="http://tempuri.org/NewBYFCTImport" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ConvertToBYFCT">
+      <soap12:operation soapAction="http://tempuri.org/ConvertToBYFCT" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EDITransfer">
+      <soap12:operation soapAction="http://tempuri.org/EDITransfer" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateControlRecord">
+      <soap12:operation soapAction="http://tempuri.org/UpdateControlRecord" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckControlRecord">
+      <soap12:operation soapAction="http://tempuri.org/CheckControlRecord" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteHistory">
+      <soap12:operation soapAction="http://tempuri.org/DeleteHistory" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteActionHistory">
+      <soap12:operation soapAction="http://tempuri.org/DeleteActionHistory" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteFCTData">
+      <soap12:operation soapAction="http://tempuri.org/DeleteFCTData" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteFCTLevelData">
+      <soap12:operation soapAction="http://tempuri.org/DeleteFCTLevelData" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteLSData">
+      <soap12:operation soapAction="http://tempuri.org/DeleteLSData" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteBuyerLSData">
+      <soap12:operation soapAction="http://tempuri.org/DeleteBuyerLSData" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteLSProdInfData">
+      <soap12:operation soapAction="http://tempuri.org/DeleteLSProdInfData" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteLS2EDIInterface">
+      <soap12:operation soapAction="http://tempuri.org/DeleteLS2EDIInterface" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLSSeqNo">
+      <soap12:operation soapAction="http://tempuri.org/GetLSSeqNo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBuyerLSSeqNo">
+      <soap12:operation soapAction="http://tempuri.org/GetBuyerLSSeqNo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFCTSeqNo">
+      <soap12:operation soapAction="http://tempuri.org/GetFCTSeqNo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLastPlanVersion">
+      <soap12:operation soapAction="http://tempuri.org/GetLastPlanVersion" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateNextFCTNo">
+      <soap12:operation soapAction="http://tempuri.org/UpdateNextFCTNo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateNextLSNo">
+      <soap12:operation soapAction="http://tempuri.org/UpdateNextLSNo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateNextBuyerLSNo">
+      <soap12:operation soapAction="http://tempuri.org/UpdateNextBuyerLSNo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WriteFCTPlan">
+      <soap12:operation soapAction="http://tempuri.org/WriteFCTPlan" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WriteNewFCTPlan">
+      <soap12:operation soapAction="http://tempuri.org/WriteNewFCTPlan" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CanRunLFLocalStockPlan">
+      <soap12:operation soapAction="http://tempuri.org/CanRunLFLocalStockPlan" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLastUniqueID">
+      <soap12:operation soapAction="http://tempuri.org/GetLastUniqueID" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ResetFCTNo">
+      <soap12:operation soapAction="http://tempuri.org/ResetFCTNo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ResetPlanFCTNo">
+      <soap12:operation soapAction="http://tempuri.org/ResetPlanFCTNo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ResetLSNo">
+      <soap12:operation soapAction="http://tempuri.org/ResetLSNo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ResetBuyerLSNo">
+      <soap12:operation soapAction="http://tempuri.org/ResetBuyerLSNo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateBYFCTStatus">
+      <soap12:operation soapAction="http://tempuri.org/UpdateBYFCTStatus" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetNativeVendorCode">
+      <soap12:operation soapAction="http://tempuri.org/GetNativeVendorCode" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetColor">
+      <soap12:operation soapAction="http://tempuri.org/GetColor" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckItemNoDisplay">
+      <soap12:operation soapAction="http://tempuri.org/CheckItemNoDisplay" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckColorNotFound">
+      <soap12:operation soapAction="http://tempuri.org/CheckColorNotFound" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetProdQtyUnit">
+      <soap12:operation soapAction="http://tempuri.org/GetProdQtyUnit" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetZipper">
+      <soap12:operation soapAction="http://tempuri.org/GetZipper" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFilterRuleNo">
+      <soap12:operation soapAction="http://tempuri.org/GetFilterRuleNo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MaterialExpansion">
+      <soap12:operation soapAction="http://tempuri.org/MaterialExpansion" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CanRunVendorFCFinal">
+      <soap12:operation soapAction="http://tempuri.org/CanRunVendorFCFinal" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="VendorFCFinal">
+      <soap12:operation soapAction="http://tempuri.org/VendorFCFinal" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="KPIExpansion">
+      <soap12:operation soapAction="http://tempuri.org/KPIExpansion" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ISOS2FAS">
+      <soap12:operation soapAction="http://tempuri.org/ISOS2FAS" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ForcastPlanISOS">
+      <soap12:operation soapAction="http://tempuri.org/ForcastPlanISOS" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WriteNewFCTPlanISOS">
+      <soap12:operation soapAction="http://tempuri.org/WriteNewFCTPlanISOS" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LocalStockPlanISOS">
+      <soap12:operation soapAction="http://tempuri.org/LocalStockPlanISOS" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="FCommonService">
+    <wsdl:port name="FCommonServiceSoap" binding="tns:FCommonServiceSoap">
+      <soap:address location="http://10.245.0.153/EDIService/FCommonService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="FCommonServiceSoap12" binding="tns:FCommonServiceSoap12">
+      <soap12:address location="http://10.245.0.153/EDIService/FCommonService.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

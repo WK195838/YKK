@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+            <xsd:complexType>
+                <xsd:choice maxOccurs="unbounded">
+                    <xsd:element name="data">
+                        <xsd:complexType>
+                            <xsd:sequence>
+                                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+                            </xsd:sequence>
+                            <xsd:attribute name="name" type="xsd:string" />
+                            <xsd:attribute name="type" type="xsd:string" />
+                            <xsd:attribute name="mimetype" type="xsd:string" />
+                        </xsd:complexType>
+                    </xsd:element>
+                    <xsd:element name="resheader">
+                        <xsd:complexType>
+                            <xsd:sequence>
+                                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                            </xsd:sequence>
+                            <xsd:attribute name="name" type="xsd:string" use="required" />
+                        </xsd:complexType>
+                    </xsd:element>
+                </xsd:choice>
+            </xsd:complexType>
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="ResMimeType">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="Version">
+        <value>1.0.0.0</value>
+    </resheader>
+    <resheader name="Reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="Writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <data name="AddContent.Action">
+        <value>新しいドキュメントの追加</value>
+    </data>
+    <data name="Title.Header">
+        <value>タイトル</value>
+    </data>
+    <data name="Owner.Header">
+        <value>所有者</value>
+    </data>
+    <data name="Category.Header">
+        <value>カテゴリ</value>
+    </data>
+    <data name="LastUpdated.Header">
+        <value>最終更新日</value>
+    </data>
+    <data name="Size.Header">
+        <value>サイズ(Kb)</value>
+    </data>
+    <data name="ModuleHelp.Text">
+        <value>&lt;h1&gt;ドキュメント モジュールについて&lt;/h1&gt;&lt;p&gt;ドキュメント モジュールでは、ドキュメントのリストとそのドキュメントを参照するためのリンク、そしてドキュメントのダウンロード機能が提供されています。ポータルの中に保存されたドキュメントの他、他のWeb サイトやポータルにあるドキュメントへのリンクを管理することもできます。ドキュメント リストとしてはドキュメントのタイトルとカテゴリが表示されます。また、ドキュメントを最後に更新したユーザーの名前、ドキュメントが追加された日または最終更新日、そしてファイル サイズ (内部ドキュメントの場合のみ) もまたリスト上に表示されます。&lt;/p&gt;&lt;h1&gt;新しいドキュメントの追加&lt;/h1&gt;&lt;ol&gt;&lt;li&gt;&lt;b&gt;ドキュメント&lt;/b&gt;モジュールを追加、または既存の&lt;b&gt;ドキュメント&lt;/b&gt;モジュールを開きます。
+&lt;li&gt;&lt;b&gt;新しいドキュメントの追加&lt;/b&gt;をクリックします。
+&lt;li&gt;&lt;b&gt;タイトル&lt;/b&gt;には、ドキュメントのタイトルを入力します。
+&lt;li&gt;&lt;b&gt;リンク タイプ&lt;/b&gt;では、&lt;b&gt;URL&lt;/b&gt;か&lt;b&gt;ファイル&lt;/b&gt;かを選択した上で、&lt;b&gt;リンク&lt;/b&gt;にてURLを入力またはファイルを選択します。
+&lt;li&gt;&lt;b&gt;このリンクのクリック回数を保存&lt;/b&gt;(オプション)は、必要に応じてチェックを付けます。
+&lt;li&gt;At &lt;b&gt;リンクをクリックしたユーザー、日付および時間をログとして保存&lt;/b&gt; (オプション) についても、同様に必要に応じてチェックを付けます。
+&lt;li&gt;&lt;b&gt;カテゴリ&lt;/b&gt; (オプション) には、ドキュメントのカテゴリを入力します。
+&lt;li&gt;&lt;b&gt;更新&lt;/b&gt;をクリックします。&lt;/ol&gt;</value>
+    </data>
+</root>

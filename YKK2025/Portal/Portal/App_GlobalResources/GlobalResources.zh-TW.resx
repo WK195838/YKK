@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="SyndicateModule.Action">
+    <value>聚合</value>
+  </data>
+  <data name="ExportModule.Action">
+    <value>轉出內容</value>
+  </data>
+  <data name="ImportModule.Action">
+    <value>轉入內容</value>
+  </data>
+  <data name="OnlineHelp.Action">
+    <value>線上幫助</value>
+  </data>
+  <data name="ModuleHelp.Action">
+    <value>模組幫助</value>
+  </data>
+  <data name="ModuleSettings.Action">
+    <value>設置</value>
+  </data>
+  <data name="DeleteModule.Action">
+    <value>刪除</value>
+  </data>
+  <data name="PrintModule.Action">
+    <value>列印</value>
+  </data>
+  <data name="ClearCache.Action">
+    <value>清除緩衝</value>
+  </data>
+  <data name="MoveTop.Action">
+    <value>最頂</value>
+  </data>
+  <data name="MoveUp.Action">
+    <value>上移</value>
+  </data>
+  <data name="MoveDown.Action">
+    <value>下移</value>
+  </data>
+  <data name="MoveBottom.Action">
+    <value>置底</value>
+  </data>
+  <data name="MovePane.Action">
+    <value>移動到</value>
+  </data>
+  <data name="MoveRoot.Action">
+    <value>移動</value>
+  </data>
+  <data name="Admin.String">
+    <value>網站管理</value>
+  </data>
+  <data name="Site Settings.String">
+    <value>網站設置</value>
+  </data>
+  <data name="Tabs.String">
+    <value>頁面管理</value>
+  </data>
+  <data name="Security Roles.String">
+    <value>安全角色</value>
+  </data>
+  <data name="User Accounts.String">
+    <value>使用者管理</value>
+  </data>
+  <data name="Vendors.String">
+    <value>廣告商</value>
+  </data>
+  <data name="Site Log.String">
+    <value>網站記錄</value>
+  </data>
+  <data name="Bulk Email.String">
+    <value>郵件群發</value>
+  </data>
+  <data name="File Manager.String">
+    <value>文件管理</value>
+  </data>
+  <data name="Recycle Bin.String">
+    <value>垃圾回收</value>
+  </data>
+  <data name="Log Viewer.String">
+    <value>查看記錄</value>
+  </data>
+  <data name="Skins.String">
+    <value>外觀</value>
+  </data>
+  <data name="Host.String">
+    <value>主機管理</value>
+  </data>
+  <data name="Host Settings.String">
+    <value>主機設置</value>
+  </data>
+  <data name="Portals.String">
+    <value>網站</value>
+  </data>
+  <data name="Module Definitions.String">
+    <value>模組定義</value>
+  </data>
+  <data name="SQL.String">
+    <value>SQL服務</value>
+  </data>
+  <data name="Schedule.String">
+    <value>排程</value>
+  </data>
+  <data name="Languages.String">
+    <value>語言</value>
+  </data>
+	<data name="BannerType.Banner.String">
+		<value>廣告</value>
+	</data>
+	<data name="BannerType.MicroButton.String">
+		<value>小按鈕</value>
+	</data>
+	<data name="BannerType.Button.String">
+		<value>按鈕</value>
+	</data>
+	<data name="BannerType.Block.String">
+		<value>區塊</value>
+	</data>
+	<data name="BannerType.Skyscraper.String">
+		<value>摩天樓</value>
+	</data>
+	<data name="BannerType.Text.String">
+		<value>文字</value>
+	</data>
+	<data name="BannerType.Script.String">
+		<value>描述</value>
+	</data>
+	<data name="Search Admin.String">
+		<value>搜尋管理</value>
+	</data>
+	<data name="Lists.String">
+		<value>列表</value>
+	</data>
+	<data name="Superuser Accounts.String">
+		<value>SuperUsers帳號</value>
+	</data>
+	<data name="View.Permission">
+		<value>觀看模組</value>
+	</data>
+	<data name="Edit.Permission">
+		<value>編輯網頁</value>
+	</data>
+	<data name="View Tab.Permission">
+		<value>觀看網頁</value>
+	</data>
+	<data name="Edit Tab.Permission">
+		<value>編輯網頁</value>
+	</data>
+	<data name="View Folder.Permission">
+		<value>觀看資料夾</value>
+	</data>
+	<data name="Write to Folder.Permission">
+		<value>寫入資料夾</value>
+	</data>
+</root>
+<!--漢化 師域 http://www.t910.net       http://www.dnnchina.net-->

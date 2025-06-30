@@ -1,0 +1,1389 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="UseAgentApprov">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pFormNo" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="pStep" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="pFun" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UseAgentApprovResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="UseAgentApprovResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RunAgentApprov">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pFun" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="pAction" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="pSts" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pStsDes" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pFormNo" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="pFormSno" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="pStep" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="pSeqNo" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="pDecideCalendar" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pDecideID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pApplyID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pAgentID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pAllocteID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pDecideDesc" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pTableName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pUserIP" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RunAgentApprovResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="RunAgentApprovResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AgentApprovStart">
+        <s:complexType />
+      </s:element>
+      <s:element name="AgentApprovStartResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="AgentApprovStartResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AgentApprov">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pFun" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="pAction" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="pSts" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pStsDes" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pFormNo" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="pFormSno" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="pStep" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="pSeqNo" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="pDecideCalendar" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pDecideID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pApplyID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pAgentID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pAllocteID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pDecideDesc" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pTableName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pNextDecideID" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="pNextStep1" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AgentApprovResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="AgentApprovResult" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="pNextDecideID" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="pNextStep1" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="BatchFlowControl">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pFun" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="pAction" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="pSts" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pFormNo" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="pFormSno" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="pStep" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="pSeqNo" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="pDecideCalendar" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pDecideID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pApplyID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pAgentID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pTableName" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="BatchFlowControlResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="BatchFlowControlResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SendMail">
+        <s:complexType />
+      </s:element>
+      <s:element name="SendMailResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="SendMailResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Send">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pFrom" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pTo" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pApplyID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pFormNo" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="pFormSno" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="pStep" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="pType" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SendResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="SendResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetNextGate">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pFormNo" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="pStep" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="pUserID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pApplyID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pAgentID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pAllocateID" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="pMultiJob" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="pNextStep" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="pNextGate" type="tns:ArrayOfString" />
+            <s:element minOccurs="0" maxOccurs="1" name="pAgentGate" type="tns:ArrayOfString" />
+            <s:element minOccurs="1" maxOccurs="1" name="pCount" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="pFlowType" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="pAction" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfString">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="string" nillable="true" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetNextGateResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetNextGateResult" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="pNextStep" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="pNextGate" type="tns:ArrayOfString" />
+            <s:element minOccurs="0" maxOccurs="1" name="pAgentGate" type="tns:ArrayOfString" />
+            <s:element minOccurs="1" maxOccurs="1" name="pCount" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="pFlowType" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetMainJobID">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pUser" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetMainJobIDResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetMainJobIDResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAgentID">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pFormNo" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pUser" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pNowDateTime" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAgentIDResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetAgentIDResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetFormSeqNo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pFormNo" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="pSeqNo" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetFormSeqNoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetFormSeqNoResult" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="pSeqNo" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetFieldAttribute">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pFormNo" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="pStep" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="pFieldName" type="tns:ArrayOfString" />
+            <s:element minOccurs="0" maxOccurs="1" name="pAttribute" type="tns:ArrayOfInt" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfInt">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="int" type="s:int" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetFieldAttributeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetFieldAttributeResult" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="pFieldName" type="tns:ArrayOfString" />
+            <s:element minOccurs="0" maxOccurs="1" name="pAttribute" type="tns:ArrayOfInt" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CommissionNo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pFormNo" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="pFormSno" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="pStep" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="pNo" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CommissionNoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="CommissionNoResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetOPLeadTime">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pFormNo" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="pStep" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="pLevel" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetOPLeadTimeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetOPLeadTimeResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetSystemData">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pCat" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pDKey" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetSystemDataResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetSystemDataResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetQCLeadTime">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pFormNo" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="pStep" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetQCLeadTimeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetQCLeadTimeResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetTableName">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pFormNo" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetTableNameResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetTableNameResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUserName">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pUser" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUserNameResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetUserNameResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUserID">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pUserName" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUserIDResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetUserIDResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetCalendarGroup">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pUser" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetCalendarGroupResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetCalendarGroupResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetWorkID">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pUser" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetWorkIDResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetWorkIDResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetSignType">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pFormNo" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="pStep" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetSignTypeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetSignTypeResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetFlowType">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pFormNo" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="pStep" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetFlowTypeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetFlowTypeResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetApplyTime">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pFormNo" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="pFormSno" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="pNowDateTime" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetApplyTimeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetApplyTimeResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetDecideHistory">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pFormNo" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="pFormSno" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetDecideHistoryResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetDecideHistoryResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="WriteWaitCheck">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pFormNo" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="pFormSno" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="pNowDateTime" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="WriteWaitCheckResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="WriteWaitCheckResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CanUseSheet">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pFormNo" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pUserID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CanUseSheetResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="CanUseSheetResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetFlowLoading">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pFormNo" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="pStep" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetFlowLoadingResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetFlowLoadingResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetNextAction">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pFormNo" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="pStep" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetNextActionResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetNextActionResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ArrangFlowControl">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pFormNo" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="pFormSno" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="pStep" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="pLevel" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pApplyID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pUserID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pAllocateID" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="pAction" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="pNextStep" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ArrangFlowControlResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="ArrangFlowControlResult" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="pNextStep" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="UseAgentApprovSoapIn">
+    <wsdl:part name="parameters" element="tns:UseAgentApprov" />
+  </wsdl:message>
+  <wsdl:message name="UseAgentApprovSoapOut">
+    <wsdl:part name="parameters" element="tns:UseAgentApprovResponse" />
+  </wsdl:message>
+  <wsdl:message name="RunAgentApprovSoapIn">
+    <wsdl:part name="parameters" element="tns:RunAgentApprov" />
+  </wsdl:message>
+  <wsdl:message name="RunAgentApprovSoapOut">
+    <wsdl:part name="parameters" element="tns:RunAgentApprovResponse" />
+  </wsdl:message>
+  <wsdl:message name="AgentApprovStartSoapIn">
+    <wsdl:part name="parameters" element="tns:AgentApprovStart" />
+  </wsdl:message>
+  <wsdl:message name="AgentApprovStartSoapOut">
+    <wsdl:part name="parameters" element="tns:AgentApprovStartResponse" />
+  </wsdl:message>
+  <wsdl:message name="AgentApprovSoapIn">
+    <wsdl:part name="parameters" element="tns:AgentApprov" />
+  </wsdl:message>
+  <wsdl:message name="AgentApprovSoapOut">
+    <wsdl:part name="parameters" element="tns:AgentApprovResponse" />
+  </wsdl:message>
+  <wsdl:message name="BatchFlowControlSoapIn">
+    <wsdl:part name="parameters" element="tns:BatchFlowControl" />
+  </wsdl:message>
+  <wsdl:message name="BatchFlowControlSoapOut">
+    <wsdl:part name="parameters" element="tns:BatchFlowControlResponse" />
+  </wsdl:message>
+  <wsdl:message name="SendMailSoapIn">
+    <wsdl:part name="parameters" element="tns:SendMail" />
+  </wsdl:message>
+  <wsdl:message name="SendMailSoapOut">
+    <wsdl:part name="parameters" element="tns:SendMailResponse" />
+  </wsdl:message>
+  <wsdl:message name="SendSoapIn">
+    <wsdl:part name="parameters" element="tns:Send" />
+  </wsdl:message>
+  <wsdl:message name="SendSoapOut">
+    <wsdl:part name="parameters" element="tns:SendResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetNextGateSoapIn">
+    <wsdl:part name="parameters" element="tns:GetNextGate" />
+  </wsdl:message>
+  <wsdl:message name="GetNextGateSoapOut">
+    <wsdl:part name="parameters" element="tns:GetNextGateResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetMainJobIDSoapIn">
+    <wsdl:part name="parameters" element="tns:GetMainJobID" />
+  </wsdl:message>
+  <wsdl:message name="GetMainJobIDSoapOut">
+    <wsdl:part name="parameters" element="tns:GetMainJobIDResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetAgentIDSoapIn">
+    <wsdl:part name="parameters" element="tns:GetAgentID" />
+  </wsdl:message>
+  <wsdl:message name="GetAgentIDSoapOut">
+    <wsdl:part name="parameters" element="tns:GetAgentIDResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetFormSeqNoSoapIn">
+    <wsdl:part name="parameters" element="tns:GetFormSeqNo" />
+  </wsdl:message>
+  <wsdl:message name="GetFormSeqNoSoapOut">
+    <wsdl:part name="parameters" element="tns:GetFormSeqNoResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetFieldAttributeSoapIn">
+    <wsdl:part name="parameters" element="tns:GetFieldAttribute" />
+  </wsdl:message>
+  <wsdl:message name="GetFieldAttributeSoapOut">
+    <wsdl:part name="parameters" element="tns:GetFieldAttributeResponse" />
+  </wsdl:message>
+  <wsdl:message name="CommissionNoSoapIn">
+    <wsdl:part name="parameters" element="tns:CommissionNo" />
+  </wsdl:message>
+  <wsdl:message name="CommissionNoSoapOut">
+    <wsdl:part name="parameters" element="tns:CommissionNoResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetOPLeadTimeSoapIn">
+    <wsdl:part name="parameters" element="tns:GetOPLeadTime" />
+  </wsdl:message>
+  <wsdl:message name="GetOPLeadTimeSoapOut">
+    <wsdl:part name="parameters" element="tns:GetOPLeadTimeResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetSystemDataSoapIn">
+    <wsdl:part name="parameters" element="tns:GetSystemData" />
+  </wsdl:message>
+  <wsdl:message name="GetSystemDataSoapOut">
+    <wsdl:part name="parameters" element="tns:GetSystemDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetQCLeadTimeSoapIn">
+    <wsdl:part name="parameters" element="tns:GetQCLeadTime" />
+  </wsdl:message>
+  <wsdl:message name="GetQCLeadTimeSoapOut">
+    <wsdl:part name="parameters" element="tns:GetQCLeadTimeResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetTableNameSoapIn">
+    <wsdl:part name="parameters" element="tns:GetTableName" />
+  </wsdl:message>
+  <wsdl:message name="GetTableNameSoapOut">
+    <wsdl:part name="parameters" element="tns:GetTableNameResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetUserNameSoapIn">
+    <wsdl:part name="parameters" element="tns:GetUserName" />
+  </wsdl:message>
+  <wsdl:message name="GetUserNameSoapOut">
+    <wsdl:part name="parameters" element="tns:GetUserNameResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetUserIDSoapIn">
+    <wsdl:part name="parameters" element="tns:GetUserID" />
+  </wsdl:message>
+  <wsdl:message name="GetUserIDSoapOut">
+    <wsdl:part name="parameters" element="tns:GetUserIDResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetCalendarGroupSoapIn">
+    <wsdl:part name="parameters" element="tns:GetCalendarGroup" />
+  </wsdl:message>
+  <wsdl:message name="GetCalendarGroupSoapOut">
+    <wsdl:part name="parameters" element="tns:GetCalendarGroupResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetWorkIDSoapIn">
+    <wsdl:part name="parameters" element="tns:GetWorkID" />
+  </wsdl:message>
+  <wsdl:message name="GetWorkIDSoapOut">
+    <wsdl:part name="parameters" element="tns:GetWorkIDResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetSignTypeSoapIn">
+    <wsdl:part name="parameters" element="tns:GetSignType" />
+  </wsdl:message>
+  <wsdl:message name="GetSignTypeSoapOut">
+    <wsdl:part name="parameters" element="tns:GetSignTypeResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetFlowTypeSoapIn">
+    <wsdl:part name="parameters" element="tns:GetFlowType" />
+  </wsdl:message>
+  <wsdl:message name="GetFlowTypeSoapOut">
+    <wsdl:part name="parameters" element="tns:GetFlowTypeResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetApplyTimeSoapIn">
+    <wsdl:part name="parameters" element="tns:GetApplyTime" />
+  </wsdl:message>
+  <wsdl:message name="GetApplyTimeSoapOut">
+    <wsdl:part name="parameters" element="tns:GetApplyTimeResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetDecideHistorySoapIn">
+    <wsdl:part name="parameters" element="tns:GetDecideHistory" />
+  </wsdl:message>
+  <wsdl:message name="GetDecideHistorySoapOut">
+    <wsdl:part name="parameters" element="tns:GetDecideHistoryResponse" />
+  </wsdl:message>
+  <wsdl:message name="WriteWaitCheckSoapIn">
+    <wsdl:part name="parameters" element="tns:WriteWaitCheck" />
+  </wsdl:message>
+  <wsdl:message name="WriteWaitCheckSoapOut">
+    <wsdl:part name="parameters" element="tns:WriteWaitCheckResponse" />
+  </wsdl:message>
+  <wsdl:message name="CanUseSheetSoapIn">
+    <wsdl:part name="parameters" element="tns:CanUseSheet" />
+  </wsdl:message>
+  <wsdl:message name="CanUseSheetSoapOut">
+    <wsdl:part name="parameters" element="tns:CanUseSheetResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetFlowLoadingSoapIn">
+    <wsdl:part name="parameters" element="tns:GetFlowLoading" />
+  </wsdl:message>
+  <wsdl:message name="GetFlowLoadingSoapOut">
+    <wsdl:part name="parameters" element="tns:GetFlowLoadingResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetNextActionSoapIn">
+    <wsdl:part name="parameters" element="tns:GetNextAction" />
+  </wsdl:message>
+  <wsdl:message name="GetNextActionSoapOut">
+    <wsdl:part name="parameters" element="tns:GetNextActionResponse" />
+  </wsdl:message>
+  <wsdl:message name="ArrangFlowControlSoapIn">
+    <wsdl:part name="parameters" element="tns:ArrangFlowControl" />
+  </wsdl:message>
+  <wsdl:message name="ArrangFlowControlSoapOut">
+    <wsdl:part name="parameters" element="tns:ArrangFlowControlResponse" />
+  </wsdl:message>
+  <wsdl:portType name="CommonServiceSoap">
+    <wsdl:operation name="UseAgentApprov">
+      <wsdl:input message="tns:UseAgentApprovSoapIn" />
+      <wsdl:output message="tns:UseAgentApprovSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="RunAgentApprov">
+      <wsdl:input message="tns:RunAgentApprovSoapIn" />
+      <wsdl:output message="tns:RunAgentApprovSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AgentApprovStart">
+      <wsdl:input message="tns:AgentApprovStartSoapIn" />
+      <wsdl:output message="tns:AgentApprovStartSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AgentApprov">
+      <wsdl:input message="tns:AgentApprovSoapIn" />
+      <wsdl:output message="tns:AgentApprovSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="BatchFlowControl">
+      <wsdl:input message="tns:BatchFlowControlSoapIn" />
+      <wsdl:output message="tns:BatchFlowControlSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SendMail">
+      <wsdl:input message="tns:SendMailSoapIn" />
+      <wsdl:output message="tns:SendMailSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Send">
+      <wsdl:input message="tns:SendSoapIn" />
+      <wsdl:output message="tns:SendSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetNextGate">
+      <wsdl:input message="tns:GetNextGateSoapIn" />
+      <wsdl:output message="tns:GetNextGateSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMainJobID">
+      <wsdl:input message="tns:GetMainJobIDSoapIn" />
+      <wsdl:output message="tns:GetMainJobIDSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAgentID">
+      <wsdl:input message="tns:GetAgentIDSoapIn" />
+      <wsdl:output message="tns:GetAgentIDSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetFormSeqNo">
+      <wsdl:input message="tns:GetFormSeqNoSoapIn" />
+      <wsdl:output message="tns:GetFormSeqNoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetFieldAttribute">
+      <wsdl:input message="tns:GetFieldAttributeSoapIn" />
+      <wsdl:output message="tns:GetFieldAttributeSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CommissionNo">
+      <wsdl:input message="tns:CommissionNoSoapIn" />
+      <wsdl:output message="tns:CommissionNoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetOPLeadTime">
+      <wsdl:input message="tns:GetOPLeadTimeSoapIn" />
+      <wsdl:output message="tns:GetOPLeadTimeSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSystemData">
+      <wsdl:input message="tns:GetSystemDataSoapIn" />
+      <wsdl:output message="tns:GetSystemDataSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetQCLeadTime">
+      <wsdl:input message="tns:GetQCLeadTimeSoapIn" />
+      <wsdl:output message="tns:GetQCLeadTimeSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTableName">
+      <wsdl:input message="tns:GetTableNameSoapIn" />
+      <wsdl:output message="tns:GetTableNameSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUserName">
+      <wsdl:input message="tns:GetUserNameSoapIn" />
+      <wsdl:output message="tns:GetUserNameSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUserID">
+      <wsdl:input message="tns:GetUserIDSoapIn" />
+      <wsdl:output message="tns:GetUserIDSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCalendarGroup">
+      <wsdl:input message="tns:GetCalendarGroupSoapIn" />
+      <wsdl:output message="tns:GetCalendarGroupSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetWorkID">
+      <wsdl:input message="tns:GetWorkIDSoapIn" />
+      <wsdl:output message="tns:GetWorkIDSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSignType">
+      <wsdl:input message="tns:GetSignTypeSoapIn" />
+      <wsdl:output message="tns:GetSignTypeSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetFlowType">
+      <wsdl:input message="tns:GetFlowTypeSoapIn" />
+      <wsdl:output message="tns:GetFlowTypeSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetApplyTime">
+      <wsdl:input message="tns:GetApplyTimeSoapIn" />
+      <wsdl:output message="tns:GetApplyTimeSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDecideHistory">
+      <wsdl:input message="tns:GetDecideHistorySoapIn" />
+      <wsdl:output message="tns:GetDecideHistorySoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="WriteWaitCheck">
+      <wsdl:input message="tns:WriteWaitCheckSoapIn" />
+      <wsdl:output message="tns:WriteWaitCheckSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CanUseSheet">
+      <wsdl:input message="tns:CanUseSheetSoapIn" />
+      <wsdl:output message="tns:CanUseSheetSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetFlowLoading">
+      <wsdl:input message="tns:GetFlowLoadingSoapIn" />
+      <wsdl:output message="tns:GetFlowLoadingSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetNextAction">
+      <wsdl:input message="tns:GetNextActionSoapIn" />
+      <wsdl:output message="tns:GetNextActionSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ArrangFlowControl">
+      <wsdl:input message="tns:ArrangFlowControlSoapIn" />
+      <wsdl:output message="tns:ArrangFlowControlSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="CommonServiceSoap" type="tns:CommonServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="UseAgentApprov">
+      <soap:operation soapAction="http://tempuri.org/UseAgentApprov" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RunAgentApprov">
+      <soap:operation soapAction="http://tempuri.org/RunAgentApprov" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AgentApprovStart">
+      <soap:operation soapAction="http://tempuri.org/AgentApprovStart" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AgentApprov">
+      <soap:operation soapAction="http://tempuri.org/AgentApprov" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BatchFlowControl">
+      <soap:operation soapAction="http://tempuri.org/BatchFlowControl" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendMail">
+      <soap:operation soapAction="http://tempuri.org/SendMail" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Send">
+      <soap:operation soapAction="http://tempuri.org/Send" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetNextGate">
+      <soap:operation soapAction="http://tempuri.org/GetNextGate" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMainJobID">
+      <soap:operation soapAction="http://tempuri.org/GetMainJobID" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAgentID">
+      <soap:operation soapAction="http://tempuri.org/GetAgentID" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFormSeqNo">
+      <soap:operation soapAction="http://tempuri.org/GetFormSeqNo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFieldAttribute">
+      <soap:operation soapAction="http://tempuri.org/GetFieldAttribute" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CommissionNo">
+      <soap:operation soapAction="http://tempuri.org/CommissionNo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOPLeadTime">
+      <soap:operation soapAction="http://tempuri.org/GetOPLeadTime" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSystemData">
+      <soap:operation soapAction="http://tempuri.org/GetSystemData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetQCLeadTime">
+      <soap:operation soapAction="http://tempuri.org/GetQCLeadTime" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTableName">
+      <soap:operation soapAction="http://tempuri.org/GetTableName" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUserName">
+      <soap:operation soapAction="http://tempuri.org/GetUserName" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUserID">
+      <soap:operation soapAction="http://tempuri.org/GetUserID" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCalendarGroup">
+      <soap:operation soapAction="http://tempuri.org/GetCalendarGroup" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetWorkID">
+      <soap:operation soapAction="http://tempuri.org/GetWorkID" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSignType">
+      <soap:operation soapAction="http://tempuri.org/GetSignType" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFlowType">
+      <soap:operation soapAction="http://tempuri.org/GetFlowType" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetApplyTime">
+      <soap:operation soapAction="http://tempuri.org/GetApplyTime" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDecideHistory">
+      <soap:operation soapAction="http://tempuri.org/GetDecideHistory" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WriteWaitCheck">
+      <soap:operation soapAction="http://tempuri.org/WriteWaitCheck" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CanUseSheet">
+      <soap:operation soapAction="http://tempuri.org/CanUseSheet" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFlowLoading">
+      <soap:operation soapAction="http://tempuri.org/GetFlowLoading" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetNextAction">
+      <soap:operation soapAction="http://tempuri.org/GetNextAction" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ArrangFlowControl">
+      <soap:operation soapAction="http://tempuri.org/ArrangFlowControl" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="CommonServiceSoap12" type="tns:CommonServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="UseAgentApprov">
+      <soap12:operation soapAction="http://tempuri.org/UseAgentApprov" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RunAgentApprov">
+      <soap12:operation soapAction="http://tempuri.org/RunAgentApprov" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AgentApprovStart">
+      <soap12:operation soapAction="http://tempuri.org/AgentApprovStart" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AgentApprov">
+      <soap12:operation soapAction="http://tempuri.org/AgentApprov" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BatchFlowControl">
+      <soap12:operation soapAction="http://tempuri.org/BatchFlowControl" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendMail">
+      <soap12:operation soapAction="http://tempuri.org/SendMail" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Send">
+      <soap12:operation soapAction="http://tempuri.org/Send" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetNextGate">
+      <soap12:operation soapAction="http://tempuri.org/GetNextGate" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMainJobID">
+      <soap12:operation soapAction="http://tempuri.org/GetMainJobID" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAgentID">
+      <soap12:operation soapAction="http://tempuri.org/GetAgentID" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFormSeqNo">
+      <soap12:operation soapAction="http://tempuri.org/GetFormSeqNo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFieldAttribute">
+      <soap12:operation soapAction="http://tempuri.org/GetFieldAttribute" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CommissionNo">
+      <soap12:operation soapAction="http://tempuri.org/CommissionNo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOPLeadTime">
+      <soap12:operation soapAction="http://tempuri.org/GetOPLeadTime" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSystemData">
+      <soap12:operation soapAction="http://tempuri.org/GetSystemData" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetQCLeadTime">
+      <soap12:operation soapAction="http://tempuri.org/GetQCLeadTime" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTableName">
+      <soap12:operation soapAction="http://tempuri.org/GetTableName" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUserName">
+      <soap12:operation soapAction="http://tempuri.org/GetUserName" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUserID">
+      <soap12:operation soapAction="http://tempuri.org/GetUserID" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCalendarGroup">
+      <soap12:operation soapAction="http://tempuri.org/GetCalendarGroup" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetWorkID">
+      <soap12:operation soapAction="http://tempuri.org/GetWorkID" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSignType">
+      <soap12:operation soapAction="http://tempuri.org/GetSignType" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFlowType">
+      <soap12:operation soapAction="http://tempuri.org/GetFlowType" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetApplyTime">
+      <soap12:operation soapAction="http://tempuri.org/GetApplyTime" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDecideHistory">
+      <soap12:operation soapAction="http://tempuri.org/GetDecideHistory" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WriteWaitCheck">
+      <soap12:operation soapAction="http://tempuri.org/WriteWaitCheck" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CanUseSheet">
+      <soap12:operation soapAction="http://tempuri.org/CanUseSheet" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFlowLoading">
+      <soap12:operation soapAction="http://tempuri.org/GetFlowLoading" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetNextAction">
+      <soap12:operation soapAction="http://tempuri.org/GetNextAction" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ArrangFlowControl">
+      <soap12:operation soapAction="http://tempuri.org/ArrangFlowControl" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="CommonService">
+    <wsdl:port name="CommonServiceSoap" binding="tns:CommonServiceSoap">
+      <soap:address location="http://10.245.1.50/WFS/CommonService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="CommonServiceSoap12" binding="tns:CommonServiceSoap12">
+      <soap12:address location="http://10.245.1.50/WFS/CommonService.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

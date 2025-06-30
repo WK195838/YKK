@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" />
+							<xsd:attribute name="type" type="xsd:string" />
+							<xsd:attribute name="mimetype" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="ResMimeType">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="Version">
+		<value>1.0.0.0</value>
+	</resheader>
+	<resheader name="Reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="Writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="plSendTo.Text">
+		<value>Send To</value>
+	</data>
+	<data name="plSendTo.Help">
+		<value>Enter the email address of the recipient of this message</value>
+	</data>
+	<data name="plWidth.Text">
+		<value>Width</value>
+	</data>
+	<data name="plWidth.Help">
+		<value>Enter a width (in pixels) for the textboxes</value>
+	</data>
+	<data name="plRows.Text">
+		<value>Rows</value>
+	</data>
+	<data name="plRows.Help">
+		<value>Enter the number of rows to display for the body textbox</value>
+	</data>
+	<data name="valWidth.ErrorMessage">
+		<value>&lt;br&gt;Width Must Be A Valid Integer</value>
+	</data>
+	<data name="valRows.ErrorMessage">
+		<value>&lt;br&gt;Rows Must Be A Valid Integer</value>
+	</data>
+	<data name="ControlTitle_settings.Text">
+		<value>Feedback Settings</value>
+	</data>
+	<data name="ModuleHelp.Text">
+		<value>
+		&lt;h1&gt;About The Feedback Settings &lt;/h1&gt;
+		&lt;p&gt;The Feedback Module offers authorized site users the ability to direct a message to a defined email location.  There are 3 Feedback Settings that control the display and action performed within the module.   &lt;/p&gt;
+		&lt;ul&gt;
+				&lt;li&gt;
+						&lt;div align="left"&gt;
+								&lt;b&gt;Send To &lt;/b&gt;– this is the email address where the information is sent. The email must be in a valid email format.   &lt;/div&gt;
+				&lt;/li&gt;
+		&lt;/ul&gt;
+		&lt;ul&gt;
+				&lt;li&gt;
+						&lt;div align="left"&gt;
+								&lt;b&gt;Width &lt;/b&gt;– set the number of pixels across the defined module area for the body of the message text.  Note: be careful to keep this to value within the defined width of the panel where the module is placed, otherwise there may not be enough room to actually use the desired setting.   &lt;/div&gt;
+				&lt;/li&gt;
+		&lt;/ul&gt;
+		&lt;ul&gt;
+				&lt;li&gt;
+						&lt;div align="left"&gt;
+								&lt;b&gt;Rows &lt;/b&gt;– set the number of rows of text available for the body of the message text. Note: Again, be careful to keep this value within the defined height of the panel where the module is placed, otherwise there may not be enough room to actually use the desired setting. &lt;/div&gt;
+				&lt;/li&gt;
+		&lt;/ul&gt;
+</value>
+	</data>
+	<data name="valSendTo.Text">
+		<value>&lt;br&gt;Email Must be Valid</value>
+	</data>
+</root>

@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" />
+							<xsd:attribute name="type" type="xsd:string" />
+							<xsd:attribute name="mimetype" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="ResMimeType">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="Version">
+		<value>1.0.0.0</value>
+	</resheader>
+	<resheader name="Reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="Writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="Name.Header">
+		<value>名前</value>
+	</data>
+	<data name="Username.Header">
+		<value>ユーザー名</value>
+	</data>
+	<data name="Address.Header">
+		<value>住所</value>
+	</data>
+	<data name="Telephone.Header">
+		<value>電話番号</value>
+	</data>
+	<data name="Email.Header">
+		<value>電子メール アドレス</value>
+	</data>
+	<data name="LastLogin.Header">
+		<value>前回ログイン</value>
+	</data>
+	<data name="Authorized.Header">
+		<value>承認</value>
+	</data>
+	<data name="DeleteUnauthorized.Text">
+		<value>未承認ユーザーの削除</value>
+	</data>
+	<data name="AddContent.Action">
+		<value>新しいユーザーの追加</value>
+	</data>
+	<data name="ControlTitle_.Text">
+		<value>ユーザー アカウント</value>
+	</data>
+	<data name="Search.Text">
+		<value>検索:</value>
+	</data>
+	<data name="RecordsPage.Text">
+		<value>ページ行数:</value>
+	</data>
+	<data name="First.Text">
+		<value>最初へ</value>
+	</data>
+	<data name="Next.Text">
+		<value>次へ</value>
+	</data>
+	<data name="Previous.Text">
+		<value>前へ</value>
+	</data>
+	<data name="Last.Text">
+		<value>最後へ</value>
+	</data>
+	<data name="CreatedDate.Header">
+		<value>作成日</value>
+	</data>
+	<data name="DisplayDate.Text">
+		<value>表示する日付:</value>
+	</data>
+	<data name="ModuleHelp.Text">
+		<value>&lt;h1&gt;ユーザー管理モジュールについて&lt;/h1&gt;&lt;p&gt;管理者は登録済みユーザーを管理することができます。このモジュールでは新しいユーザーの追加、既存のユーザーの編集、ユーザーの削除、そしてユーザーのセキュリティ ロールの管理を行うことができます。&lt;/p&gt;
+</value>
+	</data>
+</root>

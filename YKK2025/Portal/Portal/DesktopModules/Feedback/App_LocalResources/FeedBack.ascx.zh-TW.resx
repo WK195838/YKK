@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="plEmail.Text">
+    <value>Email</value>
+  </data>
+  <data name="plEmail.Help">
+    <value>輸入您的email</value>
+  </data>
+  <data name="plName.Text">
+    <value>姓名</value>
+  </data>
+  <data name="plName.Help">
+    <value>輸入您的姓名</value>
+  </data>
+  <data name="plSubject.Text">
+    <value>主題</value>
+  </data>
+  <data name="plSubject.Help">
+    <value>輸入主題</value>
+  </data>
+  <data name="plBody.Text">
+    <value>回應內容</value>
+  </data>
+  <data name="plBody.Help">
+    <value>輸入回應內容</value>
+  </data>
+    <data name="plCopy.Text">
+        <value>寄送副本</value>
+    </data>
+    <data name="plCopy.Help">
+        <value>寄送副本給自己?</value>
+    </data>
+  <data name="cmdSend.Text">
+    <value>發送</value>
+  </data>
+  <data name="MessageSent.Text">
+    <value>&lt;br&gt;已經發送</value>
+  </data>
+  <data name="EmailAddress.Text">
+    <value>&lt;br&gt;請輸入您的 Email </value>
+  </data>
+<data name="ModuleHelp.Text">
+        <value>&lt;h1&gt;關於聯繫站長模組&lt;/h1&gt;
+
+&lt;p&gt;聯繫站長模組允許瀏覽者寄送訊息給網站管理.&lt;/p&gt;
+
+&lt;h1&gt;送出訊息&lt;/h1&gt;
+
+&lt;ol&gt;&lt;li&gt;新增 一個 &lt;b&gt;聯繫站長&lt;/b&gt; 模組, 或是一個已經存在的 &lt;b&gt;聯繫站長&lt;/b&gt; 模組. &lt;/li&gt;
+&lt;li&gt;在&lt;b&gt;Email&lt;/b&gt;, 輸入您的E-mail. 
+&lt;li&gt;在 &lt;b&gt;Name&lt;/b&gt;, 輸入您的名稱. 
+&lt;li&gt;在 &lt;b&gt;Subject&lt;/b&gt;, 輸入主旨. 
+&lt;li&gt;在 &lt;b&gt;Body&lt;/b&gt;, 輸入您的訊息. 
+&lt;li&gt;按下 &lt;b&gt;送出&lt;/b&gt;.&lt;/ol&gt;</value>
+    </data>
+</root>

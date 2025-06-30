@@ -1,0 +1,20 @@
+.SMHead   {
+    font-family: Verdana, Arial, Helvetica;
+    font-size:  13px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+#SMContainer 
+{
+ color: #336633;
+ border-style: solid;
+ border-width: 1px 1px 1px 1px;
+ padding: 3px 3px 3px 3px;
+ width: 100%;
+}
+
+.SMTitleBg 
+{
+ background-color: #336633;
+}

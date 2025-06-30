@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" />
+							<xsd:attribute name="type" type="xsd:string" />
+							<xsd:attribute name="mimetype" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="ResMimeType">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="Version">
+		<value>1.0.0.0</value>
+	</resheader>
+	<resheader name="Reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="Writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="ModuleSettings.Text">
+		<value>モジュールの設定</value>
+	</data>
+	<data name="ModuleSettingsHelp.Text">
+		<value>このセクションでは、モジュールのコンテンツや権限に関する設定を定義することができます。設定は、そのモジュールが利用されているすべてのページに対して適用されます。</value>
+	</data>
+	<data name="plTitle.Text">
+		<value>モジュール タイトル:</value>
+	</data>
+	<data name="plTitle.Help">
+		<value>モジュールのタイトルを入力してください。入力したタイトルは、モジュール コンテナのタイトル バー部分に表示されます（コンテナが表示をサポートしていない場合は表示されません）。</value>
+	</data>
+	<data name="PageSettings.Text">
+		<value>ページの設定</value>
+	</data>
+	<data name="PageSettingsHelp.Text">
+		<value>このセクションでは、このページ内におけるモジュールの設定を定義することができます。</value>
+	</data>
+	<data name="Security.Text">
+		<value>高度な設定</value>
+	</data>
+	<data name="plAllTabs.Text">
+		<value>すべてのページにモジュールを表示</value>
+	</data>
+	<data name="plAllTabs.Help">
+		<value>モジュールをサイトのすべてのページの同じ位置に表示する場合は選択してください。</value>
+	</data>
+	<data name="plVisibility.Text">
+		<value>表示方法:</value>
+	</data>
+	<data name="plVisibility.Help">
+		<value>このモジュールを初期状態でどのように表示させるかを選択してください。</value>
+	</data>
+	<data name="plTab.Text">
+		<value>ページに移動:</value>
+	</data>
+	<data name="plTab.Help">
+		<value>このモジュールのインスタンスを別のページに移動します。</value>
+	</data>
+	<data name="plHeader.Text">
+		<value>ヘッダー:</value>
+	</data>
+	<data name="plHeader.Help">
+		<value>このモジュールに付けるヘッダーの文字を入力してください。</value>
+	</data>
+	<data name="plFooter.Text">
+		<value>フッター:</value>
+	</data>
+	<data name="plFooter.Help">
+		<value>このモジュールに付けるフッターの文字を入力してください。</value>
+	</data>
+	<data name="plIcon.Text">
+		<value>アイコン:</value>
+	</data>
+	<data name="plIcon.Help">
+		<value>モジュールを表示する際、タイトルバー部分に表示するアイコンを選択してください。</value>
+	</data>
+	<data name="plAlign.Text">
+		<value>横位置:</value>
+	</data>
+	<data name="plAlign.Help">
+		<value>このモジュールの横位置を選択してください。</value>
+	</data>
+	<data name="plColor.Text">
+		<value>色:</value>
+	</data>
+	<data name="plColor.Help">
+		<value>モジュールの色を入力してください。</value>
+	</data>
+	<data name="plBorder.Text">
+		<value>ボーダー:</value>
+	</data>
+	<data name="plBorder.Help">
+		<value>このモジュールのボーダー幅を入力してください。</value>
+	</data>
+	<data name="plModuleContainer.Text">
+		<value>モジュールコンテナ:</value>
+	</data>
+	<data name="plModuleContainer.Help">
+		<value>モジュールのコンテナを選択してください。（新しいコンテナを追加したい場合はファイル マネージャから行ってください）</value>
+	</data>
+	<data name="plPermissions.Text">
+		<value>権限:</value>
+	</data>
+	<data name="plPermissions.Help">
+		<value>表のチェックを付ける/外すことで、参照および編集権限の設定を行ってください。ページの参照権限を継承させたい場合は、 [参照権限の継承] チェック ボックスを選択してください。</value>
+	</data>
+	<data name="plCacheTime.Text">
+		<value>キャッシュ時間 (秒):</value>
+	</data>
+	<data name="plCacheTime.Help">
+		<value>このオブジェクトをキャッシュする時間を入力してください。</value>
+	</data>
+	<data name="plStartDate.Text">
+		<value>開始日:</value>
+	</data>
+	<data name="plStartDate.Help">
+		<value>このモジュールの表示を開始する日を入力してください。カレンダから選択することもできます。</value>
+	</data>
+	<data name="plEndDate.Text">
+		<value>終了日:</value>
+	</data>
+	<data name="plEndDate.Help">
+		<value>このモジュールの表示を終了する日を入力してください。カレンダから選択することもできます。</value>
+	</data>
+	<data name="plDefault.Text">
+		<value>この設定をデフォルトとする</value>
+	</data>
+	<data name="plDefault.Help">
+		<value>このモジュールのページ設定を、新しいモジュールを追加する際のデフォルト設定とする場合に選択してください。</value>
+	</data>
+	<data name="plAllModules.Text">
+		<value>すべてのモジュールに適用</value>
+	</data>
+	<data name="plAllModules.Help">
+		<value>このモジュールのページ設定を、既存の他のモジュールにも反映させる場合に選択してください。</value>
+	</data>
+	<data name="SpecificSettings.Text">
+		<value>モジュール固有の設定</value>
+	</data>
+	<data name="SpecificSettingsHelp.Text">
+		<value>このセクションでは、このモジュールに固有の設定を行うことができます。</value>
+	</data>
+	<data name="GeneralDetails.Text">
+		<value>基本的な設定</value>
+	</data>
+	<data name="Appearance.Text">
+		<value>基本的な設定</value>
+	</data>
+	<data name="OtherSettings.Text">
+		<value>高度な設定</value>
+	</data>
+	<data name="InheritPermissions.Text">
+		<value>&lt;b&gt;ページ&lt;/b&gt;から&lt;b&gt;参照&lt;/b&gt;権限を継承</value>
+	</data>
+	<data name="ControlTitle_module.Text">
+		<value>モジュール</value>
+	</data>
+	<data name="plDisplayTitle.Text">
+		<value>コンテナの表示</value>
+	</data>
+	<data name="plDisplayTitle.Help">
+		<value>モジュール コンテナを表示させたい場合はこのオプションを選択してください。</value>
+	</data>
+	<data name="plDisplaySyndicate.Text">
+		<value>配信の許可</value>
+	</data>
+	<data name="plDisplayPrint.Help">
+		<value>このモジュールで印刷を許可する場合はこのオプションを選択してください。</value>
+	</data>
+	<data name="plDisplaySyndicate.Help">
+		<value>このモジュールでRSS配信を許可する場合はこのオプションを選択してください。</value>
+	</data>
+	<data name="plDisplayPrint.Text">
+		<value>印刷の許可</value>
+	</data>
+	<resheader name="valStartDate">
+		<value>&lt;br&gt;開始日が正しくありません</value>
+	</resheader>
+	<resheader name="valEndDate">
+		<value>&lt;br&gt;終了日が正しくありません</value>
+	</resheader>
+	<data name="valStartDate.ErrorMessage">
+		<value>&lt;br&gt;開始日が正しくありません</value>
+	</data>
+	<data name="valEndDate.ErrorMessage">
+		<value>&lt;br&gt;終了日が正しくありません</value>
+	</data>
+	<data name="valCacheTime.ErrorMessage">
+		<value>&lt;br&gt;キャッシュ時間の設定が正しくありません</value>
+	</data>
+	<data name="ModuleHelp.Text">
+		<value>&lt;h1&gt;モジュールの設定&lt;/h1&gt;&lt;p&gt;管理者は現在のページについてのモジュールの設定を行うことができます。この設定によってモジュールのコンテンツ、権限、表示方法などを変更することができます。&lt;/p&gt;</value>
+	</data>
+    <data name="valBorder.ErrorMessage">
+        <value>&lt;br&gt;ボーダーの値が正しくありません。0～9の数字を入力してください。</value>
+    </data>
+</root>

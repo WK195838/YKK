@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" />
+							<xsd:attribute name="type" type="xsd:string" />
+							<xsd:attribute name="mimetype" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="ResMimeType">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="Version">
+		<value>1.0.0.0</value>
+	</resheader>
+	<resheader name="Reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="Writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="Visible.Header">
+		<value>表示</value>
+	</data>
+	<data name="Title.Header">
+		<value>項目名</value>
+	</data>
+	<data name="Type.Header">
+		<value>データ型</value>
+	</data>
+	<data name="Text.Text">
+		<value>文字型</value>
+	</data>
+	<data name="Integer.Text">
+		<value>整数型</value>
+	</data>
+	<data name="Decimal.Text">
+		<value>10進型</value>
+	</data>
+	<data name="Date.Text">
+		<value>日付型</value>
+	</data>
+	<data name="TrueFalse.Text">
+		<value>TrueFalse型</value>
+	</data>
+	<data name="Save.Text">
+		<value>保存</value>
+	</data>
+	<data name="MoveUp.Text">
+		<value>上に移動</value>
+	</data>
+	<data name="MoveDown.Text">
+		<value>下に移動</value>
+	</data>
+	<data name="Ascending.Text">
+		<value>昇順</value>
+	</data>
+	<data name="Descending.Text">
+		<value>降順</value>
+	</data>
+	<data name="cmdAddField.Text">
+		<value>新しい列を追加</value>
+	</data>
+	<data name="ModuleHelp.Text">
+		<value>ユーザー定義テーブル モジュールは、表形式のデータを扱う機能を提供します。データの型としては、文字型、整数型、10進型、日付型、True/False型が含まれます。列 (カラム) は、管理者権限の場合にのみ表示するよう設定することができます。列の見出しはリンクになっていて、リンクをクリックすることで昇順/降順ソートを行うことができます。</value>
+	</data>
+	<data name="plSort.Text">
+		<value>ソート</value>
+	</data>
+	<data name="plOrder.Text">
+		<value>順序</value>
+	</data>
+	<data name="plSort.Help">
+		<value>ソートのキーとする列名を選択してください。</value>
+	</data>
+	<data name="plOrder.Help">
+		<value>昇順ソートか降順ソートかを選択してください。</value>
+	</data>
+	<data name="ControlTitle_manage udt.Text">
+		<value>ユーザー定義テーブルの管理</value>
+	</data>
+	<data name="DeleteColumn.Text">
+		<value>この列を削除しますか？</value>
+	</data>
+</root>

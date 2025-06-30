@@ -1,0 +1,2 @@
+<%@ Control language="vb" CodeBehind="HostName.ascx.vb" AutoEventWireup="false" Explicit="True" Inherits="DotNetNuke.UI.Skins.Controls.HostName" %>
+<asp:hyperlink id="hypHostName" runat="server" cssclass="SkinObject" enableviewstate="False"></asp:hyperlink>

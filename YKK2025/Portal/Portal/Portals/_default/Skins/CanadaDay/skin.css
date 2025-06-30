@@ -1,0 +1,310 @@
+/* ================================
+    CSS STYLES FOR Canada Day Skin by joie http://portals.my-asp.net
+   ================================
+*/   
+
+Body
+{
+    scrollbar-base-color: #efebef;
+    scrollbar-face-color: White; 
+    scrollbar-track-color: #DE2918; 
+    scrollbar-arrow-color: Black;
+    scrollbar-highlight-color: Black; 
+    scrollbar-3dlight-color: #DE2918; 
+    scrollbar-shadow-color: Black;
+    scrollbar-darkshadow-color: #A4A2A2;
+    background-color:#FFFFFF;
+    padding-top:5;
+}
+
+.Head
+{
+	font-family: Verdana,Tahoma, Arial, Helvetica;
+    font-size:  20px;
+    font-weight:    normal;
+    color: #10429c;
+}
+.RightPane  
+{
+
+	 background-color:White;
+
+}
+.LeftPane  
+{
+
+	 background-color:White;
+
+}
+.Breadcrumb, A.Breadcrumb:link, A.Breadcrumb:visited, A.Breadcrumb:active
+{
+	color: #DE2918;
+	font-weight: bold;
+    font-size:8pt;
+    height:16;
+    font-family: Verdana,Tahoma,Arial, Helvetica;
+    text-decoration: none;
+	background-color:transparent;
+
+}
+
+.Breadcrumb:hover
+{
+	color: Black;
+	text-decoration:underline;
+}
+
+.ContentPane  
+{ 
+	 background-color:White;
+}
+
+
+/* Main Menu */
+
+.MainMenu_MenuContainer {
+	width:100%;
+	PADDING-LEFT: 0px;
+	PADDING-RIGHT: 0px;
+	PADDING-BOTTOM: 0px;
+	PADDING-TOP: 0px;
+	border-bottom: #fffc00 0px solid; 
+	border-left: #fffc00 0px solid; 
+	border-top: #fffc00 0px solid; 
+	border-right: #fffc00 0px solid;
+	background: transparent;  
+	height: 16px;
+	text-align:center;
+}
+
+.MainMenu_MenuBar {
+	cursor: pointer; 
+	cursor: hand;
+}
+
+.MainMenu_MenuItem {
+	cursor: pointer; 
+	cursor: hand; 
+	color: #DE2918; 
+	font-family: Verdana; 
+	font-size: 11px; 
+	font-weight: bold; 
+	font-style: normal; 
+	text-decoration: none; 
+	border-bottom: #99CCFF 0px solid;
+	border-top: #99CCFF 0px solid; 
+	border-right: #99CCFF 0px solid;
+}
+
+.MainMenu_MenuIcon {
+	cursor: pointer; 
+	cursor: hand; 
+	background-color: White; 
+	border-left: #000000 0px solid; 
+	border-top: #000000 0px solid; 
+	border-bottom: #000000 0px solid; 
+	text-align: center; 
+	width: 20;
+	height: 20;
+}
+
+.MainMenu_SubMenu {
+	z-index: 999; 
+	cursor: pointer; 
+	cursor: hand; 
+	background-color: White;
+	filter:progid:DXImageTransform.Microsoft.Shadow(color='#DE2918', Direction=135, Strength=3) ;
+}
+
+.MainMenu_MenuBreak {
+	border-bottom: #0060ff 0px solid; 
+	border-left: #0060ff 0px solid; 
+	border-top: #0060ff 0px solid;  
+	border-right: #0060ff 0px solid; 
+	background-color: Black;
+	height:16px; 
+}
+
+.MainMenu_MenuItemSel {
+	cursor: pointer; 
+	cursor: hand; 
+	background-color: #DE2918; 
+	color: black; 
+	font-family: Verdana; 
+	font-size: 11px; 
+	font-weight: bold; 
+	font-style: normal; 
+	text-decoration:none ; 
+	border-bottom: #000000 1px solid; 
+	border-top: #000000 1px solid;
+}
+
+.MainMenu_MenuArrow {
+	font-family: webdings; 
+	font-size: 10pt; 
+	cursor: pointer; 
+	cursor: hand; 
+	border-top: #99CCFF 0px solid; 
+	border-bottom: #99CCFF 0px solid; 
+	border-right: #99CCFF 0px solid;
+
+}
+
+.MainMenu_RootMenuArrow {
+	font-family: none; 
+	font-size: 2pt;
+	cursor: hand;
+	border-bottom: #FF8080 0px solid; 
+	border-left: #FF8080 0px solid; 
+	border-top: #FF8080 0px solid;  
+	border-right: #FF8080 0px solid;
+	text-decoration:none;
+	overflow:hidden;
+	width:1;
+}
+
+.MenuPane
+{
+	background-color: white;
+	background-repeat: no-repeat;
+    background-position:left bottom;
+}
+
+.TopBarlinks, A.TopBarlinks:link, A.TopBarlinks:active, A.TopBarlinks:visited
+
+{
+	font-family: Verdana, tahoma, sans-serif;
+    font-size: 11px;
+    font-weight: bold; 
+	height:16;
+    color:#DE2918;
+	background-color: transparent;
+}
+
+A.TopBarlinks:hover
+{
+    color:Black;
+}
+.Date
+{
+	font-family: Verdana, tahoma, sans-serif;
+    font-size: 11px;
+    font-weight: bold; 
+	height:25;
+    color:#DE2918;
+	background-color: transparent;
+	padding-left:5;
+	width:200;
+
+}
+
+.CanadaFlag
+{
+    height:108;
+    background-image:url(canadaflagbanner.gif);
+    background-repeat:no-repeat;
+}
+
+.Title
+{
+	font-family: Tahoma, Arial, Helvetica;
+    font-size:  20px;
+    font-weight:    normal;
+    color: WHITE;
+}
+
+.skin-border-container
+{
+    HEIGHT:97%;
+    WIDTH:97%;
+}
+.skin-border-top-left
+{    
+    PADDING:4px;
+    BACKGROUND-IMAGE:url(border-top-left.jpg);
+    BACKGROUND-REPEAT: no-repeat;
+}
+.skin-border-top-tile
+{    
+    PADDING:4px;
+    WIDTH:100%;
+    BACKGROUND-IMAGE:url(border-top-tile.jpg);
+    BACKGROUND-REPEAT-X: repeat;
+}
+.skin-border-top-right
+{    
+    PADDING:4px;
+    BACKGROUND-IMAGE:url(border-top-right.jpg);
+    BACKGROUND-REPEAT: no-repeat;
+}
+.skin-border-right-tile
+{    
+    HEIGHT:100%;
+    PADDING:4px;
+    BACKGROUND-IMAGE:url(border-right-tile.jpg);
+    BACKGROUND-REPEAT-Y: repeat;
+}
+.skin-border-bottom-right
+{    
+    PADDING:4px;
+    BACKGROUND-IMAGE:url(border-bottom-right.jpg);
+    BACKGROUND-REPEAT: no-repeat;
+}
+.skin-border-bottom-tile
+{    
+    PADDING:4px;
+    WIDTH:100%;
+    BACKGROUND-IMAGE:url(border-bottom-tile.jpg);
+    BACKGROUND-REPEAT-X: repeat;
+}
+.skin-border-bottom-left
+{    
+    PADDING:4px;
+    BACKGROUND-IMAGE:url(border-bottom-left.jpg);
+    BACKGROUND-REPEAT: no-repeat;
+}
+.skin-border-left-tile
+{    
+    HEIGHT:100%;
+    PADDING:4px;
+    BACKGROUND-IMAGE:url(border-left-tile.jpg);
+    BACKGROUND-REPEAT-Y: repeat;
+}
+
+.Footergif {
+    font-weight: normal;
+    font-size: 8pt;
+    color: #DE2918;
+    font-family: Tahoma, Arial, Helvetica;
+    text-decoration: none;
+    height:25px;
+    width:100%;
+    background-image:url(footer.gif);
+    background-repeat:repeat;    
+}
+
+.Footer {
+    font-weight: normal;
+    font-size: 8pt;
+    color: #DE2918;
+    background-color:Transparent;
+    font-family: Tahoma, Arial, Helvetica;
+    text-decoration: none;
+    border:none;
+}
+/* hyperlink style for the unselected tabs */
+A.Footer:link, A.Footer:visited, A.Footer:active {
+   font-weight: normal;
+    font-size: 8pt;
+    background-color:Transparent;
+    text-decoration:    none;
+    border:none;
+    color:#DE2918;
+}
+/* hyperlink style for the unselected tabs */
+A.Footer:hover {
+    text-decoration:    none;
+    border:none;
+    color:Black;
+    background-color:Transparent;
+}

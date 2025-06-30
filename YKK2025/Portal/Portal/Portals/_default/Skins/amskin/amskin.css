@@ -1,0 +1,250 @@
+/* ================================
+    CSS STYLES FOR DotNetNuke
+   ================================
+*/   
+
+/* GENERAL */
+/* style for module titles */
+.Head
+{
+	font-weight: bold;
+	font-size: 13px;
+	color: white;
+	font-family: Verdana;
+}
+
+/* background color for the content part of the pages */
+Body
+{
+	background-color: #314252;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	scrollbar-3dlight-color:red;
+    scrollbar-arrow-color:#212A31;
+    scrollbar-base-color:#00CC00;
+    scrollbar-darkshadow-color:#314252;
+    scrollbar-face-color:#314252;
+    scrollbar-highlight-color:#4A627A;
+    scrollbar-shadow-color:#000000
+}
+
+.LeftPane {
+    background-color: #314252;
+	width:100%;
+	overflow:auto;
+}
+
+.ContentPane {
+    background-color: #314252;
+	width:100%;
+	overflow:auto;
+}
+
+.RightPane {
+    background-color: #314252;
+	width:100%;
+	overflow:auto;
+}}
+
+/* text style used for most text rendered by modules */
+.Normal
+{
+	font-family: Verdana;
+    font-size: 10px;
+    font-weight: normal;
+    color: white;
+}
+
+/* text style for the selected tab */
+.SelectedTab {
+    font-weight: normal;
+    font-size: 12px;
+    color: white;
+    font-family: Verdana;
+    text-decoration: none;
+}
+
+/* hyperlink style for the selected tab */
+
+A.SelectedTab:link {
+    text-decoration:    none;
+    color: #FFCC00;
+    font-size: 12px;
+}
+
+A.SelectedTab:visited  {
+    text-decoration:    none;
+    color: #FFCC00;
+}
+
+A.SelectedTab:active   {
+    text-decoration:    none;
+    color: Red;
+}
+
+A.SelectedTab:hover    {
+    text-decoration:    none;
+    color: Red;
+}
+
+.SubHead    {
+
+    color: white;
+}
+
+/* module title style used instead of Head for compact rendering by QuickLinks and Signin modules */
+.SubSubHead {
+    color: white;
+}
+
+A:link  {
+    color: #FFCC00;
+    text-decoration: underline;
+
+}
+
+A:Hover  {
+    color: Red;
+}
+
+A:visited  {
+    color: #FFCC00;
+    text-decoration: underline;
+
+}
+
+/* hyperlink style for buttons and link buttons used in the portal admin pages */
+A.CommandButton:link {
+    color: white;
+}
+
+A.CommandButton:visited  {
+    color: white;
+}
+
+
+/* text style for the unselected tabs */
+.OtherTabs {
+    font-weight: strong;
+    font-size: 12px;
+    color:white;
+    font-family: Verdana;
+    text-decoration: none;
+}
+    
+/* hyperlink style for the unselected tabs */
+A.OtherTabs:link {
+    text-decoration:    none;
+    color:white;
+}
+
+A.OtherTabs:visited  {
+    text-decoration:    none;
+    color: White;
+}
+
+A.OtherTabs:active   {
+    text-decoration:    none;
+    color:white;
+}
+
+A.OtherTabs:hover    {
+    text-decoration:    underline;
+    color:white;
+}
+
+.Footer
+{
+	font-weight: normal;
+	font-size: 10px;
+	color: white;
+	font-family: Verdana;
+	text-decoration: none;
+	cursor: default;
+}
+/* Main Menu */
+
+.MainMenu_MenuContainer {
+	border-top: 0px;
+	border-right: 0px;
+	border-bottom: 0px;
+	border-left: 0px;
+	background-color:transparent;
+}
+
+.MainMenu_MenuBar {
+	cursor: default;
+	color: #FFFFFF;
+	font: 12px Verdana;
+}
+
+.MainMenu_MenuItem {
+	cursor: pointer;
+	cursor: hand;
+	color: white;
+	font-family: Verdana;
+	font-weight: normal;
+	border: 0px solid;
+	}
+
+.MainMenu_MenuIcon {
+	cursor: pointer;
+	cursor: hand;
+	border-left: 0px solid;
+	border-right: 1px solid #FFFFFF;
+	border-bottom: 0px solid #0AFF00;
+	border-top: 0px solid #0AFF00;
+	text-align: center;
+	width: 21;
+	height: 21;
+	background: #465D75;
+}
+
+.MainMenu_SubMenu
+{
+	z-index: 1000;
+	filter: progid:DXImageTransform.Microsoft.Shadow(color= 'DimGray' , Direction=135, Strength=3);
+	cursor: hand;
+	background: #9C100F;
+	border: 1px solid White;
+}
+
+.MainMenu_MenuBreak {
+	height: 1px;
+	background: #FFCC00;
+	border: #FF8080;
+}
+
+.MainMenu_MenuItemSel
+{
+	font-weight: lighter;
+	cursor: hand;
+	color: Black;
+	font-family: Verdana;
+	background: #FFCC00;
+	border: #0aff00;
+}
+
+.MainMenu_MenuArrow {
+	font-family: webdings;
+	color: white;
+	cursor: pointer;
+	cursor: hand;
+	border: 0px solid;
+	}
+
+.MainMenu_RootMenuArrow {
+	cursor: default;
+	cursor: hand;
+	color:white;
+	font-family: webdings;
+}
+
+.intro
+{ 
+	position: absolute; left: 0; top: 0; 
+	background-color: #314252; border: 0.3px solid red 
+}
+

@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+            <xsd:complexType>
+                <xsd:choice maxOccurs="unbounded">
+                    <xsd:element name="data">
+                        <xsd:complexType>
+                            <xsd:sequence>
+                                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+                            </xsd:sequence>
+                            <xsd:attribute name="name" type="xsd:string" />
+                            <xsd:attribute name="type" type="xsd:string" />
+                            <xsd:attribute name="mimetype" type="xsd:string" />
+                        </xsd:complexType>
+                    </xsd:element>
+                    <xsd:element name="resheader">
+                        <xsd:complexType>
+                            <xsd:sequence>
+                                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                            </xsd:sequence>
+                            <xsd:attribute name="name" type="xsd:string" use="required" />
+                        </xsd:complexType>
+                    </xsd:element>
+                </xsd:choice>
+            </xsd:complexType>
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="ResMimeType">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="Version">
+        <value>1.0.0.0</value>
+    </resheader>
+    <resheader name="Reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="Writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <data name="plName.Text">
+        <value>Title</value>
+    </data>
+    <data name="plName.Help">
+        <value>Enter a name for the Document</value>
+    </data>
+    <data name="Name.ErrorMessage">
+        <value>&lt;br&gt;You Must Enter A Title For The Document</value>
+    </data>
+    <data name="plURL.Text">
+        <value>Link</value>
+    </data>
+    <data name="plURL.Help">
+        <value>Select the Url for the Document</value>
+    </data>
+    <data name="plCategory.Text">
+        <value>Category</value>
+    </data>
+    <data name="plCategory.Help">
+        <value>Enter a category for the Document</value>
+    </data>
+    <data name="ModuleHelp.Text">
+        <value>&lt;h1&gt;About the Documents Module&lt;/h1&gt;&lt;p&gt;The Documents Module produces a list of documents with links to view (depending on user's file associations) or download the document. Documents can be located within the portal, or can be a link to a document on another website or portal. Each document listing displays a document title and category. The name of the authorized user who last updated the document, the date that the document was added or last updated, and the file size (internal documents only) are automatically rendered for each listing.  Link click tracking and logging are also available.&lt;/p&gt;&lt;h1&gt;Add a Document&lt;/h1&gt;&lt;ol&gt;&lt;li&gt;Add a &lt;b&gt;Documents&lt;/b&gt; module, or go to an existing &lt;b&gt;Documents&lt;/b&gt; module. 
+&lt;li&gt;Click &lt;b&gt;Add New Document&lt;/b&gt;. 
+&lt;li&gt;At &lt;b&gt;Title&lt;/b&gt;, enter a title for the document. 
+&lt;li&gt;At &lt;b&gt;Link Type&lt;/b&gt;, select &lt;b&gt;URL&lt;/b&gt; or &lt;b&gt;File&lt;/b&gt; and then at &lt;b&gt;Link&lt;/b&gt; select or enter the required URL or file.
+&lt;li&gt;At &lt;b&gt;Track Number Of Times This Link Is Clicked?&lt;/b&gt; (optional), check the box if required.
+&lt;li&gt;At &lt;b&gt;Log The User, Date, And Time For Every Link Click&lt;/b&gt; (optional), check the box if required.
+&lt;li&gt;At &lt;b&gt;Category&lt;/b&gt; (optional), enter a category for the document.
+&lt;li&gt;Click &lt;b&gt;Update&lt;/b&gt;.&lt;/ol&gt;</value>
+    </data>
+    <data name="ControlTitle_edit.Text">
+        <value>Edit Documents</value>
+    </data>
+</root>

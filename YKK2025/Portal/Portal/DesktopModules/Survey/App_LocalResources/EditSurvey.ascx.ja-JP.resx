@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+            <xsd:complexType>
+                <xsd:choice maxOccurs="unbounded">
+                    <xsd:element name="data">
+                        <xsd:complexType>
+                            <xsd:sequence>
+                                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+                            </xsd:sequence>
+                            <xsd:attribute name="name" type="xsd:string" />
+                            <xsd:attribute name="type" type="xsd:string" />
+                            <xsd:attribute name="mimetype" type="xsd:string" />
+                        </xsd:complexType>
+                    </xsd:element>
+                    <xsd:element name="resheader">
+                        <xsd:complexType>
+                            <xsd:sequence>
+                                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                            </xsd:sequence>
+                            <xsd:attribute name="name" type="xsd:string" use="required" />
+                        </xsd:complexType>
+                    </xsd:element>
+                </xsd:choice>
+            </xsd:complexType>
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="ResMimeType">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="Version">
+        <value>1.0.0.0</value>
+    </resheader>
+    <resheader name="Reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="Writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <data name="plQuestion.Text">
+        <value>質問:</value>
+    </data>
+    <data name="plQuestion.Help">
+        <value>アンケートの質問を入力してください。</value>
+    </data>
+    <data name="plOptionType.Text">
+        <value>回答方法:</value>
+    </data>
+    <data name="plOptionType.Help">
+        <value>アンケートの回答方法を選択してください。</value>
+    </data>
+    <data name="SingleSelection.Text">
+        <value>単一選択</value>
+    </data>
+    <data name="MultipleSelection.Text">
+        <value>複数選択</value>
+    </data>
+    <data name="plViewOrder.Text">
+        <value>表示順序:</value>
+    </data>
+    <data name="plViewOrder.Help">
+        <value>質問の表示順序を入力してください。</value>
+    </data>
+    <data name="plOption.Text">
+        <value>オプションの追加:</value>
+    </data>
+    <data name="plOption.Help">
+        <value>質問に対する回答の選択肢を入力してください。</value>
+    </data>
+    <data name="cmdAddOption.Text">
+        <value>追加</value>
+    </data>
+    <data name="plOptions.Text">
+        <value>オプション:</value>
+    </data>
+    <data name="plOptions.Help">
+        <value>回答の選択肢。</value>
+    </data>
+    <data name="cmdUp.Text">
+        <value>選択肢を上に移動</value>
+    </data>
+    <data name="cmdDown.Text">
+        <value>選択肢を下に移動</value>
+    </data>
+    <data name="cmdDeleteOption.Text">
+        <value>選択肢を削除</value>
+    </data>
+    <data name="ModuleHelp.Text">
+        <value>&lt;h1&gt;アンケート モジュールについて&lt;/h1&gt;&lt;p&gt;アンケート モジュールは、Web サイトを訪れる人が入力しやすいよう選択形式のアンケートを実施する機能を提供します。アンケートの回答結果は棒グラフと回答数として集計表示されます。&lt;/p&gt;</value>
+    </data>
+</root>

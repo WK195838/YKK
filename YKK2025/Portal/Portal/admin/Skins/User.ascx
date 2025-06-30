@@ -1,0 +1,2 @@
+<%@ Control language="vb" CodeBehind="User.ascx.vb" AutoEventWireup="false" Explicit="True" Inherits="DotNetNuke.UI.Skins.Controls.User" %>
+<asp:hyperlink id="hypRegister" runat="server" cssclass="SkinObject" enableviewstate="False"></asp:hyperlink>

@@ -1,0 +1,76 @@
+﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="IRWNOActivityCust.aspx.vb" Inherits="IRWNOActivityCust" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+
+<head id="Head1" runat="server">
+    <title>ITEM No Activity Customer</title>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+    <asp:ImageButton ID="BExcel" runat="server" Height="24px" ImageUrl="Images\msexcel.gif"
+            Style="z-index: 103; left: 6px; position: absolute; top: 2px" Width="24px" />
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- ++  Action (CheckBox)                                                                   ++ -->
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+    <asp:Label style="Z-INDEX: 103; LEFT: 172px; POSITION: absolute; TOP: 8px" id="Label1" runat="server" Font-Size="10pt">YES = 有生產活動</asp:Label>
+    <asp:Label style="Z-INDEX: 103; LEFT: 316px; POSITION: absolute; TOP: 8px" id="Label2" runat="server" Font-Size="10pt">NG = 無生產活動</asp:Label>
+    <asp:Label style="Z-INDEX: 103; LEFT: 468px; POSITION: absolute; TOP: 8px" id="Label3" runat="server" Font-Size="10pt" ForeColor="Blue" Width="304px">% = NG比例　(超過15%=紅字)</asp:Label>
+
+	<asp:hyperlink id="LViewAll" style="Z-INDEX: 102; LEFT: 52px; POSITION: absolute; TOP: 8px" runat="server"
+				Width="88px" Height="16px" Font-Size="10pt" NavigateUrl="http://10.245.1.6/IRW/IRWNOActivityCust.aspx?pTop10=0" Target="_blank">全顧客</asp:hyperlink>
+
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- ++  Customer GridView                                                                   ++ -->
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+        <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False"  Width="1200px" Style="z-index: 103; left: 0px; position: absolute; top: 25px" CellPadding="3" Font-Size="10pt" GridLines="Vertical" PageSize="200" ForeColor="Black" BackColor="White" BorderColor="#999999" BorderStyle="Solid" BorderWidth="1px" >
+            <Columns>
+                <asp:HyperLinkField DataNavigateUrlFields="URL" DataNavigateUrlFormatString="{0}"
+                    DataTextField="CustName" HeaderText="客戶" Target="_blank">
+                </asp:HyperLinkField>
+                
+                <asp:BoundField DataField="MM1_YES" HeaderText="" DataFormatString="{0:N0}" ItemStyle-HorizontalAlign="Right"/> 
+                <asp:BoundField DataField="MM1_NO" HeaderText=""  DataFormatString="{0:N0}" ItemStyle-HorizontalAlign="Right"/> 
+                <asp:BoundField DataField="MM1_PER" HeaderText=""  > <ItemStyle HorizontalAlign="Right" /> </asp:BoundField>
+
+                <asp:BoundField DataField="MM2_YES" HeaderText="" DataFormatString="{0:N0}" ItemStyle-HorizontalAlign="Right"/> 
+                <asp:BoundField DataField="MM2_NO" HeaderText="" DataFormatString="{0:N0}" ItemStyle-HorizontalAlign="Right"/> 
+                <asp:BoundField DataField="MM2_PER" HeaderText=""  > <ItemStyle HorizontalAlign="Right" /> </asp:BoundField>
+
+                <asp:BoundField DataField="MM3_YES" HeaderText=""  DataFormatString="{0:N0}" ItemStyle-HorizontalAlign="Right"/> 
+                <asp:BoundField DataField="MM3_NO" HeaderText=""  DataFormatString="{0:N0}" ItemStyle-HorizontalAlign="Right"/> 
+                <asp:BoundField DataField="MM3_PER" HeaderText=""  > <ItemStyle HorizontalAlign="Right" /> </asp:BoundField>
+
+                <asp:BoundField DataField="MM4_YES" HeaderText="" DataFormatString="{0:N0}" ItemStyle-HorizontalAlign="Right"/> 
+                <asp:BoundField DataField="MM4_NO" HeaderText=""  DataFormatString="{0:N0}" ItemStyle-HorizontalAlign="Right"/> 
+                <asp:BoundField DataField="MM4_PER" HeaderText=""  > <ItemStyle HorizontalAlign="Right" /> </asp:BoundField>
+
+                <asp:BoundField DataField="MM5_YES" HeaderText=""  DataFormatString="{0:N0}" ItemStyle-HorizontalAlign="Right"/> 
+                <asp:BoundField DataField="MM5_NO" HeaderText=""  DataFormatString="{0:N0}" ItemStyle-HorizontalAlign="Right"/> 
+                <asp:BoundField DataField="MM5_PER" HeaderText=""  > <ItemStyle HorizontalAlign="Right" /> </asp:BoundField>
+
+                <asp:BoundField DataField="MM6_YES" HeaderText=""  DataFormatString="{0:N0}" ItemStyle-HorizontalAlign="Right"/> 
+                <asp:BoundField DataField="MM6_NO" HeaderText=""  DataFormatString="{0:N0}" ItemStyle-HorizontalAlign="Right"/> 
+                <asp:BoundField DataField="MM6_PER" HeaderText=""  > <ItemStyle HorizontalAlign="Right" /> </asp:BoundField>
+
+                <asp:BoundField DataField="TOTAL_YES" HeaderText="" DataFormatString="{0:N0}" ItemStyle-HorizontalAlign="Right"/> 
+                <asp:BoundField DataField="TOTAL_NO" HeaderText=""  DataFormatString="{0:N0}" ItemStyle-HorizontalAlign="Right"/> 
+                <asp:BoundField DataField="TOTAL_PER" HeaderText=""  > <ItemStyle HorizontalAlign="Right" /> </asp:BoundField>
+
+                <asp:BoundField DataField="DepName" HeaderText=""  />
+
+            </Columns>
+            <HeaderStyle BackColor="Black" ForeColor="White" HorizontalAlign="Center" VerticalAlign="Middle" Font-Bold="True" />
+            <FooterStyle BackColor="#CCCCCC" />
+            <PagerStyle BackColor="#999999" ForeColor="Black" HorizontalAlign="Center" />
+            <SelectedRowStyle BackColor="#000099" Font-Bold="True" ForeColor="White" />
+            <AlternatingRowStyle BackColor="White" />
+        </asp:GridView>
+    
+    </div>
+    </form>
+</body>
+
+</html>

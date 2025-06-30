@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" />
+							<xsd:attribute name="type" type="xsd:string" />
+							<xsd:attribute name="mimetype" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="ResMimeType">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="Version">
+		<value>1.0.0.0</value>
+	</resheader>
+	<resheader name="Reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="Writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="plClosingDate.Text">
+		<value>アンケートの終了日:</value>
+	</data>
+	<data name="plClosingDate.Help">
+		<value>アンケートの終了日を入力してください。カレンダーを表示させてそこから選択することも可能です。</value>
+	</data>
+	<data name="valClosingDate.ErrorMessage">
+		<value>&lt;br&gt;正しい終了日を入力してください。</value>
+	</data>
+	<data name="plGraphWidth.Text">
+		<value>棒グラフの最大横幅:</value>
+	</data>
+	<data name="plGraphWidth.Help">
+		<value>集計結果棒グラフの表示幅の上限を入力してください。</value>
+	</data>
+	<data name="plPersonal.Text">
+		<value>投票のトラッキング:</value>
+	</data>
+	<data name="plPersonal.Help">
+		<value>投票のトラッキング方法を選択してください。</value>
+	</data>
+	<data name="plSurveyResults.Text">
+		<value>回答集計の公開:</value>
+	</data>
+	<data name="plSurveyResults.Help">
+		<value>回答の集計結果について一般公開するか管理者のみに限定するか選択してください。</value>
+	</data>
+	<data name="No.Text">
+		<value>クッキーを利用</value>
+	</data>
+	<data name="Yes.Text">
+		<value>1登録ユーザーあたり1投票</value>
+	</data>
+	<data name="PublicResults.Text">
+		<value>一般公開</value>
+	</data>
+	<data name="PrivateResults.Text">
+		<value>管理者のみ</value>
+	</data>
+	<data name="ControlTitle_settings.Text">
+		<value>アンケートの設定</value>
+	</data>
+	<data name="ModuleHelp.Text">
+		<value>設定のヘルプ</value>
+	</data>
+</root>

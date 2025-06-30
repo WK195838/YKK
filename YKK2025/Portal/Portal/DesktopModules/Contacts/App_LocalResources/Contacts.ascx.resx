@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" />
+							<xsd:attribute name="type" type="xsd:string" />
+							<xsd:attribute name="mimetype" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="ResMimeType">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="Version">
+		<value>1.0.0.0</value>
+	</resheader>
+	<resheader name="Reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="Writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="AddContent.Action">
+		<value>Add New Contact</value>
+	</data>
+	<data name="Name.Header">
+		<value>Name</value>
+	</data>
+	<data name="Role.Header">
+		<value>Role</value>
+	</data>
+	<data name="Email.Header">
+		<value>Email</value>
+	</data>
+	<data name="Telephone.Header">
+		<value>Telephone</value>
+	</data>
+	<data name="ModuleHelp.Text">
+		<value>&lt;h1&gt;About the Contacts Module&lt;/h1&gt;&lt;p&gt;The Contact module renders contact information for a group of people, for example a project team.  Each contact record includes the Contact's name, role, email address and two telephone numbers.  The Contact's email address automatically renders as a 'mailto' hyperlink (the link is cloaked to prevent harvesting by spambots).&lt;/p&gt;&lt;h1&gt;Add a Contact&lt;/h1&gt;&lt;ol&gt;&lt;li&gt;Add a &lt;b&gt;Contacts&lt;/b&gt; module, or go to an existing &lt;b&gt;Contacts&lt;/b&gt; module.&lt;li&gt;Click &lt;b&gt;Add New Contact&lt;/b&gt;. &lt;li&gt;At &lt;b&gt;Name&lt;/b&gt;, enter the title, first name and last name of the contact. E.g. Ms Lorraine Young. &lt;li&gt;At &lt;b&gt;Role&lt;/b&gt; (optional), enter the contact's role within the group. E.g. Project Manager. &lt;li&gt;At &lt;b&gt;Email&lt;/b&gt; (optional), enter the contact's email address.  E.g. lorraine.young@mydomain.com.&lt;li&gt;At &lt;b&gt;Telephone 1&lt;/b&gt; (optional), enter the contact's primary telephone number.&lt;li&gt;At &lt;b&gt;Telephone 2&lt;/b&gt; (optional), enter the contact's secondary or mobile number.&lt;li&gt;Click &lt;b&gt;Update&lt;/b&gt;.
+
+</value>
+	</data>
+	<data name="Telephone2.Header">
+		<value>Telephone 2</value>
+	</data>
+</root>

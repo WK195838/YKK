@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="UserName.Header">
+    <value>使用者名</value>
+  </data>
+  <data name="SecurityRole.Header">
+    <value>安全角色</value>
+  </data>
+  <data name="ExpiryDate.Header">
+    <value>終止日期</value>
+  </data>
+  <data name="plUsers.Text">
+    <value>使用者名</value>
+  </data>
+    <data name="plUsers.Help">
+        <value>選擇使用者名稱</value>
+    </data>
+  <data name="plRoles.Text">
+    <value>安全角色</value>
+  </data>
+    <data name="plRoles.Help">
+        <value>選擇角色</value>
+    </data>
+  <data name="plExpiryDate.Text">
+    <value>終止日期</value>
+  </data>
+    <data name="plExpiryDate.Help">
+        <value>指定這個角色過期的日子 ( 選填 ). 不輸入表示不過期.</value>
+    </data>
+  <data name="SendNotification.Text">
+    <value>是否發送通知?</value>
+  </data>
+  <data name="cmdAdd.Text">
+    <value>添加角色</value>
+  </data>
+  <data name="valExpiryDate.Text">
+    <value>&lt;br&gt;無效的終止日期</value>
+  </data>
+  <data name="EMAIL_ROLE_ASSIGNMENT_SUBJECT.Text">
+    <value>[Portal:PortalName] 使用者帳戶更新</value>
+  </data>
+  <data name="EMAIL_ROLE_ASSIGNMENT_BODY.Text">
+    <value>敬愛的[User:FullName]：
+
+您好，我們很高興的告訴您，您在[Portal:PortalName]網站的帳號已經被提升為如下安全授權，您將擁有更多的訪問權限:
+
+角色: [Custom:0]
+簡介: [Custom:1]
+終止日期: [Custom:2]
+
+感謝您對我們的支持...
+[Portal:PortalName]
+</value>
+  </data>
+  <data name="EMAIL_ROLE_UNASSIGNMENT_SUBJECT.Text">
+    <value>[Portal:PortalName] 使用者帳戶更新</value>
+  </data>
+  <data name="EMAIL_ROLE_UNASSIGNMENT_BODY.Text">
+    <value>敬愛的[User:FullName]：
+
+您好，我們很遺憾的告訴您，您在[Portal:PortalName]網站的帳號被降級為如下安全授權，這可能造成一些資料您無法訪問:
+
+角色: [Custom:0]
+簡介: [Custom:1]
+終止日期: [Custom:2]
+
+感謝您對我們的支持...
+[Portal:PortalName]
+</value>
+  </data>
+  <data name="RoleRemoveError.Text">
+    <value>您無法移除網站管理員或者註冊使用者權限</value>
+  </data>
+  <data name="ControlTitle_user roles.Text">
+    <value>使用者角色</value>
+  </data>
+    <data name="UserTitle.Text">
+        <value>管理使用者角色 {0} (Id: {1})</value>
+    </data>
+    <data name="RoleTitle.Text">
+        <value>管理角色中的使用者 {0} (Id: {1})</value>
+    </data>
+</root>

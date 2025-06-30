@@ -1,0 +1,342 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="plHostPortal.Text">
+    <value>主機網站:</value>
+  </data>
+  <data name="plHostTitle.Text">
+    <value>主機標題:</value>
+  </data>
+  <data name="plHostURL.Text">
+    <value>主機URL:</value>
+  </data>
+  <data name="plHostEmail.Text">
+    <value>主機Email:</value>
+  </data>
+  <data name="plHostSkin.Text">
+    <value>主機外觀:</value>
+  </data>
+  <data name="plHostContainer.Text">
+    <value>主機容器:</value>
+  </data>
+  <data name="plAdminSkin.Text">
+    <value>管理員外觀:</value>
+  </data>
+  <data name="plAdminContainer.Text">
+    <value>管理員容器:</value>
+  </data>
+  <data name="plProcessor.Text">
+    <value>付款方式:</value>
+  </data>
+  <data name="plUserId.Text">
+    <value>付款方式帳號:</value>
+  </data>
+  <data name="plPassword.Text">
+    <value>付款方式密碼:</value>
+  </data>
+  <data name="plHostFee.Text">
+    <value>空間租用費</value>
+  </data>
+  <data name="plHostCurrency.Text">
+    <value>空間租用幣別:</value>
+  </data>
+  <data name="plHostSpace.Text">
+    <value>主機空間(MB):</value>
+  </data>
+  <data name="plDemoPeriod.Text">
+    <value>試用(天):</value>
+  </data>
+  <data name="plDemoSignup.Text">
+    <value>允許匿名使用者試用?</value>
+  </data>
+  <data name="plSiteLogBuffer.Text">
+    <value>網站記錄緩衝數:</value>
+  </data>
+  <data name="plSiteLogHistory.Text">
+    <value>保存網站記錄的的天數:</value>
+  </data>
+  <data name="plUsersOnline.Text">
+    <value>讓在線使用者無效?</value>
+  </data>
+  <data name="plUsersOnlineTime.Text">
+    <value>使用者在線時間(分鐘):</value>
+  </data>
+  <data name="plProxyServer.Text">
+    <value>代理伺服器:</value>
+  </data>
+  <data name="plProxyPort.Text">
+    <value>代理伺服器Port:</value>
+  </data>
+  <data name="plProxyUsername.Text">
+    <value>代理伺服器帳號:</value>
+  </data>
+  <data name="plProxyPassword.Text">
+    <value>代理伺服器密碼:</value>
+  </data>
+  <data name="plWebRequestTimeout.Text">
+    <value>WEB請求過期:</value>
+  </data>
+  <data name="plSMTPServer.Text">
+    <value>SMTP:</value>
+  </data>
+  <data name="EmailTest.Text">
+    <value>測試</value>
+  </data>
+  <data name="plSMTPUsername.Text">
+    <value>SMTP帳號:</value>
+  </data>
+  <data name="plSMTPPassword.Text">
+    <value>SMTP密碼:</value>
+  </data>
+  <data name="plFileExtensions.Text">
+    <value>允許上傳的文件延伸名稱:</value>
+  </data>
+  <data name="plSkinUpload.Text">
+    <value>外觀檔上傳權限:</value>
+  </data>
+  <data name="plCache.Text">
+    <value>緩衝過期 (秒):</value>
+  </data>
+  <data name="ClearCache.Text">
+    <value>清除緩衝</value>
+  </data>
+  <data name="plEncryptionKey.Text">
+    <value>密碼密鑰:</value>
+  </data>
+  <data name="plCopyright.Text">
+    <value>顯示版權信息?</value>
+  </data>
+  <data name="plUseCustomErrorMessages.Text">
+    <value>使用者自定義錯誤信息?</value>
+  </data>
+  <data name="UpgradeLog.Text">
+    <value>為版本上傳記錄</value>
+  </data>
+  <data name="EmailSentMessage.Text">
+    <value>Email成功發送</value>
+  </data>
+  <data name="SpecifyHostEmailMessage.Text">
+    <value>你必須設定主機Email</value>
+  </data>
+  <data name="plPerformance.Text">
+    <value>運行設置:</value>
+  </data>
+  <data name="HeavyCaching.Text">
+    <value>多使用緩衝</value>
+  </data>
+  <data name="ModerateCaching.Text">
+    <value>一般程度緩衝</value>
+  </data>
+  <data name="LightCaching.Text">
+    <value>少使用緩衝</value>
+  </data>
+  <data name="NoCaching.Text">
+    <value>不緩衝</value>
+  </data>
+  <data name="BasicSettingsHelp.Text">
+    <value>輸入基本設置</value>
+  </data>
+  <data name="BasicSettings.Text">
+    <value>基本設置</value>
+  </data>
+  <data name="HostDetails.Text">
+    <value>主機訊息</value>
+  </data>
+  <data name="plHostTitle.Help">
+    <value>輸入你的主機管理員帳號</value>
+  </data>
+  <data name="plHostURL.Help">
+    <value>輸入主機URL</value>
+  </data>
+  <data name="plHostEmail.Help">
+    <value>為你的主機服務輸入一個技術支持Email</value>
+  </data>
+  <data name="plHostSkin.Help">
+    <value>為你的網站選擇預設的外觀</value>
+  </data>
+  <data name="plHostContainer.Help">
+    <value>選擇使用者容器</value>
+  </data>
+  <data name="plAdminSkin.Help">
+    <value>選擇管理員外觀</value>
+  </data>
+  <data name="plAdminContainer.Help">
+    <value>選擇預設管理員容器</value>
+  </data>
+  <data name="Appearance.Text">
+    <value>外觀</value>
+  </data>
+  <data name="Payment.Text">
+    <value>付款設定</value>
+  </data>
+  <data name="Proxy.Text">
+    <value>代理伺服器設定</value>
+  </data>
+  <data name="SMTP.Text">
+    <value>郵件伺服器設定</value>
+  </data>
+  <data name="AdvancedSettings.Text">
+    <value>進階設定</value>
+  </data>
+  <data name="AdvancedSettingsHelp.Text">
+    <value>輸入進階設定</value>
+  </data>
+  <data name="Other.Text">
+    <value>其他設定</value>
+  </data>
+  <data name="plCopyright.Help">
+    <value>選擇這個來顯示DotNetNuke版權信息</value>
+  </data>
+  <data name="plUseCustomErrorMessages.Help">
+    <value>選擇使用者自定義錯誤信息</value>
+  </data>
+  <data name="plProcessor.Help">
+    <value>選擇支付處理器從客戶端網站接受支付</value>
+  </data>
+  <data name="plUserId.Help">
+    <value>輸入支付處理器 使用者Id</value>
+  </data>
+  <data name="plPassword.Help">
+    <value>輸入你的支付處理器密碼</value>
+  </data>
+  <data name="plHostFee.Help">
+    <value>輸入基本網站使用費</value>
+  </data>
+  <data name="plHostCurrency.Help">
+    <value>選擇目前的空間租用費貨幣單位</value>
+  </data>
+  <data name="plDemoPeriod.Help">
+    <value>輸入測試帳號的天數</value>
+  </data>
+  <data name="plDemoSignup.Help">
+    <value>選擇之後，使用者可以自己建立範例網站</value>
+  </data>
+  <data name="plHostSpace.Help">
+    <value>為每個新建網站輸入預設的空間大小</value>
+  </data>
+  <data name="plSMTPServer.Help">
+    <value>輸入SMTP Email服務地址</value>
+  </data>
+  <data name="plSMTPUsername.Help">
+    <value>輸入SMTP使用者名</value>
+  </data>
+  <data name="plSMTPPassword.Help">
+    <value>輸入SMTP密碼</value>
+  </data>
+  <data name="plControlPanel.Text">
+    <value>控制窗格:</value>
+  </data>
+  <data name="plControlPanel.Help">
+    <value>設定替換控制頁面管理</value>
+  </data>
+  <data name="plFileExtensions.Help">
+    <value>輸入允許上傳的文件副檔名 (用逗號隔開）</value>
+  </data>
+  <data name="plSkinUpload.Help">
+    <value>設置外觀上傳權限</value>
+  </data>
+  <data name="Host.Text">
+    <value>主機</value>
+  </data>
+  <data name="Portal.Text">
+    <value>網站</value>
+  </data>
+  <data name="plCache.Help">
+    <value>設置保持緩衝時間</value>
+  </data>
+  <data name="plEncryptionKey.Help">
+    <value>輸入加秘密鑰.</value>
+  </data>
+  <data name="plPerformance.Help">
+    <value>選擇如何運行.</value>
+  </data>
+  <data name="plUpgrade.Help">
+    <value>選擇版本點擊GO按鈕查看升級記錄</value>
+  </data>
+  <data name="plProxyServer.Help">
+    <value>輸入代理伺服器地址</value>
+  </data>
+  <data name="plProxyPort.Help">
+    <value>輸入代理伺服器端口</value>
+  </data>
+  <data name="plProxyUsername.Help">
+    <value>輸入代理伺服器使用者名</value>
+  </data>
+  <data name="plProxyPassword.Help">
+    <value>輸入代理伺服器密碼</value>
+  </data>
+  <data name="plWebRequestTimeout.Help">
+    <value>輸入WEB請求過期時間值</value>
+  </data>
+  <data name="plSiteLogBuffer.Help">
+    <value>輸入網站記錄緩衝項目數</value>
+  </data>
+  <data name="plSiteLogHistory.Help">
+    <value>輸入保存網站記錄的的天數</value>
+  </data>
+  <data name="plUsersOnline.Help">
+    <value>你可以選擇是否要線上使用者功能</value>
+  </data>
+  <data name="plUsersOnlineTime.Help">
+    <value>輸入線上使用者緩衝時間</value>
+  </data>
+  <data name="EMAIL_SMTP_TEST_SUBJECT.Text">
+    <value>[Host:HostTitle] 郵件伺服器配置測試</value>
+  </data>
+  <data name="plUseFriendlyUrls.Text">
+    <value>使用易讀的URL?</value>
+  </data>
+  <data name="plUseFriendlyUrls.Help">
+    <value>選擇使用易讀的URL方便搜索引擎檢索</value>
+  </data>
+  <data name="plHostPortal.Help">
+    <value>選擇預設網站</value>
+  </data>
+  <data name="ControlTitle_.Text">
+    <value>主機設置</value>
+  </data>
+	<data name="SkinUpload.Text">
+		<value>上傳外觀檔案</value>
+	</data>
+	<data name="ContainerUpload.Text">
+		<value>上傳容器檔案</value>
+	</data>
+</root>

@@ -1,0 +1,280 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" />
+							<xsd:attribute name="type" type="xsd:string" />
+							<xsd:attribute name="mimetype" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="ResMimeType">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="Version">
+		<value>1.0.0.0</value>
+	</resheader>
+	<resheader name="Reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="Writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="plFirstName.Text">
+		<value>姓:</value>
+	</data>
+	<data name="plLastName.Text">
+		<value>名:</value>
+	</data>
+	<data name="plUserName.Text">
+		<value>帳號:</value>
+	</data>
+	<data name="plUserName.Help">
+		<value>輸入帳號.如果帳號已經被使用，您還有機會選擇別的名稱.</value>
+	</data>
+	<data name="plPassword.Text">
+		<value>密碼:</value>
+	</data>
+	<data name="plPassword.Help">
+		<value>輸入密碼</value>
+	</data>
+	<data name="plConfirm.Text">
+		<value>確認:</value>
+	</data>
+	<data name="plConfirm.Help">
+		<value>重新輸入一遍您的密碼</value>
+	</data>
+	<data name="plEmail.Text">
+		<value>Email</value>
+	</data>
+	<data name="valFirstName.Text">
+		<value>&lt;br&gt;姓必填</value>
+	</data>
+	<data name="valLastName.Text">
+		<value>&lt;br&gt;名必填</value>
+	</data>
+	<data name="valUsername.Text">
+		<value>&lt;br&gt;帳號必填</value>
+	</data>
+	<data name="valPassword.Text">
+		<value>&lt;br&gt;密碼必填</value>
+	</data>
+	<data name="valConfirm1.Text">
+		<value>&lt;br&gt;確認密碼必須輸入</value>
+	</data>
+	<data name="valConfirm2.Text">
+		<value>&lt;br&gt;密碼不一致</value>
+	</data>
+	<data name="valEmail1.Text">
+		<value>&lt;br&gt;Email 必須輸入</value>
+	</data>
+	<data name="valEmail2.Text">
+		<value>&lt;br&gt;Email 必須是有效的</value>
+	</data>
+	<data name="Name.Header">
+		<value>名稱</value>
+	</data>
+	<data name="Description.Header">
+		<value>介紹</value>
+	</data>
+	<data name="Fee.Header">
+		<value>費用</value>
+	</data>
+	<data name="Every.Header">
+		<value>每</value>
+	</data>
+	<data name="Period.Header">
+		<value>期限</value>
+	</data>
+	<data name="Trial.Header">
+		<value>試用</value>
+	</data>
+	<data name="ExpiryDate.Header">
+		<value>過期日期</value>
+	</data>
+	<data name="MESSAGE_REGISTRATION_INSTRUCTIONS.Text">
+		<value></value>
+	</data>
+	<data name="EMAIL_USER_REGISTRATION_ADMINISTRATOR_SUBJECT.Text">
+		<value>[Portal:PortalName] 新使用者註冊</value>
+	</data>
+	<data name="EMAIL_USER_REGISTRATION_ADMINISTRATOR_BODY.Text">
+		<value>
+時間: [Date:Current]
+姓: [Profile:FirstName]
+名: [Profile:LastName]
+單位: [Profile:Unit]
+街: [Profile:Street]
+城市: [Profile:City]
+地區: [Profile:Region]
+國家: [Profile:Country]
+郵遞區號: [Profile:PostalCode]
+電話: [Profile:Telephone]
+Email: [Membership:Email]
+		</value>
+	</data>
+	<data name="EMAIL_USER_REGISTRATION_PRIVATE_SUBJECT.Text">
+		<value>[Portal:PortalName]新使用者註冊
+</value>
+	</data>
+	<data name="EMAIL_USER_REGISTRATION_PRIVATE_BODY.Text">
+		<value>
+親愛的 [User:FullName]:
+
+感謝您在 [Portal:PortalName] 網站註冊. 請仔細閱讀下面的訊息，為了以後的使用請妥善保管此信件.
+
+網站網址: [Portal:URL]
+帳號: [User:UserName]
+密碼: [User:Password]
+
+在網站管理員審核過您的資料以後，會寄送給帳號開通的通知給您
+
+感謝您的支持...
+
+[Portal:PortalName]
+
+</value>
+	</data>
+	<data name="PleaseRegister.Text">
+		<value>&lt;br&gt;必須通過身份驗證才能訪問本站的特定頁面。如果您是本站使用者請現在 &lt;a class=""CommandButton"" href=""{0}?tabid={1}&amp;showlogin=1""&gt;登錄&lt;/a&gt; 。如果您還不是本站使用者，那麼請現在&lt;a class=""CommandButton"" href=""{0}?tabid={1}&amp;def=Register""&gt;註冊&lt;/a&gt;。</value>
+	</data>
+	<data name="MembershipNotOffered.Text">
+		<value>會員服務沒有開通。</value>
+	</data>
+	<data name="RegisterNote.Text">
+		<value>&lt;b&gt;*注意:&lt;/b&gt;  所有打(*)的欄位必須填寫。</value>
+	</data>
+	<data name="PrivateMembership.Text">
+		<value>&lt;b&gt;*注意:&lt;/b&gt;本站屬於私有網站。當你的送出個人資料後，網站管理員會收到通知，他來決定是否讓您成為授權使用者。</value>
+	</data>
+	<data name="PublicMembership.Text">
+		<value>&lt;b&gt;*注意:&lt;/b&gt; 本站的註冊完全開放，註冊不需要任何審核或者驗證。</value>
+	</data>
+	<data name="VerifiedMembership.Text">
+		<value>&lt;b&gt;*注意:&lt;/b&gt; 本站註冊是要進行驗證的，填寫完您的註冊信息提交後，您會收到一份帶有驗證碼的驗證電子郵件，您的第一次登入必須輸入驗證碼才能夠正式登入。</value>
+	</data>
+	<data name="Required.Text">
+		<value> 所有打(*)的字段必須填寫。</value>
+	</data>
+	<data name="cmdRegister.Text">
+		<value>註冊</value>
+	</data>
+	<data name="Subscribe.Text">
+		<value>訂閱</value>
+	</data>
+	<data name="CancelConfirm.Text">
+		<value>javascript:return confirm('您卻定要取消您的帳號？');</value>
+	</data>
+	<data name="PasswordMatchFailure.Text">
+		<value>密碼不一致！</value>
+	</data>
+	<data name="RegistrationFailure.Text">
+		<value>註冊失敗！使用者名&lt;u&gt;{0}&lt;/u&gt; 已經被註冊。&lt;br&gt;請選擇新的使用者名註冊。</value>
+	</data>
+	<data name="OldPassword.Text">
+		<value>您必須提供久的密碼</value>
+	</data>
+	<data name="NewPassword.Text">
+		<value>您必須提供新的密碼</value>
+	</data>
+	<data name="PasswordChanged.Text">
+		<value>您的密碼已經修改</value>
+	</data>
+	<data name="plFirstName.Help">
+		<value>輸入您的姓氏</value>
+	</data>
+	<data name="plLastName.Help">
+		<value>輸入您的名字</value>
+	</data>
+	<data name="plEmail.Help">
+		<value>輸入您的Email</value>
+	</data>
+	<data name="plWebsite.Text">
+		<value>網址:</value>
+	</data>
+	<data name="plWebsite.Help">
+		<value>輸入您的網址</value>
+	</data>
+	<data name="plIM.Text">
+		<value>即時訊息系統ID:</value>
+	</data>
+	<data name="plIM.Help">
+		<value>輸入您的(Yahoo, AOL, MSN 等等)ID</value>
+	</data>
+	<data name="plLocale.Text">
+		<value>語言:</value>
+	</data>
+	<data name="plLocale.Help">
+		<value>選擇您使用的語言</value>
+	</data>
+	<data name="plTimeZone.Text">
+		<value>時區：</value>
+	</data>
+	<data name="plTimeZone.Help">
+		<value>選擇您所在的時區</value>
+	</data>
+	<data name="plDateFormat.Text">
+		<value>日期格式:</value>
+	</data>
+	<data name="plDateFormat.Help">
+		<value>選擇日期格式</value>
+	</data>
+	<data name="cmdUnregister.Text">
+		<value>未註冊</value>
+	</data>
+	<data name="plOldPassword.Text">
+		<value>舊密碼：</value>
+	</data>
+	<data name="plOldPassword.Help">
+		<value>輸入舊密碼</value>
+	</data>
+	<data name="plNewPassword.Text">
+		<value>新密碼：</value>
+	</data>
+	<data name="plNewPassword.Help">
+		<value>輸入您的新密碼</value>
+	</data>
+	<data name="plNewConfirm.Text">
+		<value>確認新密碼</value>
+	</data>
+	<data name="plNewConfirm.Help">
+		<value>重新輸入一次您的密碼，確保無誤。</value>
+	</data>
+	<data name="ChangePassword.Text">
+		<value>修改密碼</value>
+	</data>
+	<data name="Services.Text">
+		<value>會員服務</value>
+	</data>
+	<data name="cmdUpdatePassword.Text">
+		<value>更新密碼</value>
+	</data>
+	<data name="Preferences.Text">
+		<value>進階設定</value>
+	</data>
+	<data name="ControlTitle_register.Text">
+		<value>註冊</value>
+	</data>
+	<data name="ControlTitle_.Text">
+		<value>使用者帳號</value>
+	</data>
+</root>

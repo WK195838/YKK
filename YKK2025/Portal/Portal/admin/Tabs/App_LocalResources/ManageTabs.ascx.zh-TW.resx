@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BasicSettings.Text">
+    <value>基本設置</value>
+  </data>
+  <data name="BasicSettingsHelp.Text">
+    <value>在本部分，您可以設置本頁的基本設定。</value>
+  </data>
+  <data name="TabName.Text">
+    <value>名稱</value>
+  </data>
+  <data name="TabNameHelp.Text">
+    <value>這是頁面的名稱，您輸入的文本將在標題欄中顯示。</value>
+  </data>
+  <data name="Title.Text">
+    <value>標題</value>
+  </data>
+  <data name="TitleHelp.Text">
+    <value>在此輸入頁面標題。</value>
+  </data>
+  <data name="Description.Text">
+    <value>描述</value>
+  </data>
+  <data name="DescriptionHelp.Text">
+    <value>在此輸入對此頁面的描述。</value>
+  </data>
+  <data name="ParentTab.Text">
+    <value>上層頁面</value>
+  </data>
+  <data name="ParentTabHelp.Text">
+    <value>選擇此頁面的上層頁面。.</value>
+  </data>
+  <data name="Url.Text">
+    <value>連結Url</value>
+  </data>
+  <data name="UrlHelp.Text">
+    <value>您可以選擇將此頁面連結到一個URL。</value>
+  </data>
+  <data name="Copy.Text">
+    <value>複製頁面</value>
+  </data>
+  <data name="CopyModules.Text">
+    <value>複製模組</value>
+  </data>
+  <data name="CopyModulesHelp.Text">
+    <value>選擇您想複製的模組所在的頁面(如果有的話)。</value>
+  </data>
+  <data name="CopyContent.Text">
+    <value>複製內容</value>
+  </data>
+  <data name="CopyContentHelp.Text">
+    <value>如果您想同時複製模組的內容請勾選此項。</value>
+  </data>
+  <data name="AdvancedSettings.Text">
+    <value>進階設定。</value>
+  </data>
+  <data name="AdvancedSettingsHelp.Text">
+    <value>在此部分，您可以設置關於本頁面的進階設定。</value>
+  </data>
+  <data name="Appearance.Text">
+    <value>外觀</value>
+  </data>
+  <data name="Icon.Text">
+    <value>圖示</value>
+  </data>
+  <data name="IconHelp.Text">
+    <value>您可以選擇在選單中顯示的圖示。</value>
+  </data>
+  <data name="TabSkin.Text">
+    <value>頁面外觀</value>
+  </data>
+  <data name="TabSkinHelp.Text">
+    <value>您所選擇的外觀將作用於此頁面。</value>
+  </data>
+  <data name="TabContainer.Text">
+    <value>頁面容器</value>
+  </data>
+  <data name="TabContainerHelp.Text">
+    <value>被選擇的容器將作用於此頁面的所有模組上。</value>
+  </data>
+  <data name="Hidden.Text">
+    <value>隱藏</value>
+  </data>
+  <data name="HiddenHelp.Text">
+    <value>如果頁面被隱藏，那麼將不再出現在菜單中。您仍然可以通過其他如「公告」等模組連接到此頁面。</value>
+  </data>
+  <data name="Disabled.Text">
+    <value>無效</value>
+  </data>
+  <data name="DisabledHelp.Text">
+    <value>如果頁面被設定為無效，那麼將不能為使用者所訪問。您可以使用此選項隱藏一些您不想立即顯示的內容。</value>
+  </data>
+  <data name="SecuritySettings.Text">
+    <value>安全設定</value>
+  </data>
+  <data name="Permissions.Text">
+    <value>權限</value>
+  </data>
+  <data name="PermissionsHelp.Text">
+    <value>選擇可以訪問和管理此頁面的使用者組。</value>
+  </data>
+  <data name="OtherSettings.Text">
+    <value>其他設定</value>
+  </data>
+  <data name="KeyWords.Text">
+    <value>關鍵字</value>
+  </data>
+  <data name="KeyWordsHelp.Text">
+    <value>輸入和本頁相關的關鍵字(以逗號分隔)，搜索引擎將使用這些關鍵字來對您網站的頁面進行索引。</value>
+  </data>
+  <data name="plStartDate.Text">
+    <value>開始日期：</value>
+  </data>
+  <data name="plStartDate.Help">
+    <value>輸入開始顯示此頁面的日期，您可以從日曆中選擇一個日期。</value>
+  </data>
+  <data name="plEndDate.Text">
+    <value>終止日期：</value>
+  </data>
+  <data name="plEndDate.Help">
+    <value>輸入終止顯示此頁面的日期，您可以從日曆中選擇一個日期。</value>
+  </data>
+  <data name="SubmitToGoogle.Text">
+    <value>將此頁面提交到Google</value>
+  </data>
+  <data name="ControlTitle_tab.Text">
+    <value>網頁管理</value>
+  </data>
+  <data name="ControlTitle_edit.Text">
+    <value>編輯網頁</value>
+  </data>
+  <data name="valTabName.ErrorMessage">
+    <value>&lt;br&gt;頁面名稱必填</value>
+  </data>
+  <data name="valregTabName.ErrorMessage">
+    <value>&lt;br&gt;頁面名稱只可以是數字、文字、 _ 和 - </value>
+  </data>
+</root>

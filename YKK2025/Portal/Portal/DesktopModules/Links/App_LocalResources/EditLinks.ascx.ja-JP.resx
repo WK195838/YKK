@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+            <xsd:complexType>
+                <xsd:choice maxOccurs="unbounded">
+                    <xsd:element name="data">
+                        <xsd:complexType>
+                            <xsd:sequence>
+                                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+                            </xsd:sequence>
+                            <xsd:attribute name="name" type="xsd:string" />
+                            <xsd:attribute name="type" type="xsd:string" />
+                            <xsd:attribute name="mimetype" type="xsd:string" />
+                        </xsd:complexType>
+                    </xsd:element>
+                    <xsd:element name="resheader">
+                        <xsd:complexType>
+                            <xsd:sequence>
+                                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                            </xsd:sequence>
+                            <xsd:attribute name="name" type="xsd:string" use="required" />
+                        </xsd:complexType>
+                    </xsd:element>
+                </xsd:choice>
+            </xsd:complexType>
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="ResMimeType">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="Version">
+        <value>1.0.0.0</value>
+    </resheader>
+    <resheader name="Reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="Writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <data name="plTitle.Text">
+        <value>タイトル</value>
+    </data>
+    <data name="plTitle.Help">
+        <value>リンクのタイトルまたは名前を入力してください。</value>
+    </data>
+    <data name="valTitle.ErrorMessage">
+        <value>リンクのタイトルは必ず入力してください。</value>
+    </data>
+    <data name="plURL.Text">
+        <value>リンク</value>
+    </data>
+    <data name="plURL.Help">
+        <value>リンクのURLを選択してください。</value>
+    </data>
+    <data name="plDescription.Text">
+        <value>説明</value>
+    </data>
+    <data name="plDescription.Help">
+        <value>リンクの説明を入力してください。設定によってはこの説明は [...] リンク ボタンを選択することで表示されます。</value>
+    </data>
+    <data name="plViewOrder.Text">
+        <value>表示順序</value>
+    </data>
+    <data name="plViewOrder.Help">
+        <value>このリンクをリスト上のどの位置に表示させるかを数字で入力してください。</value>
+    </data>
+    <data name="valViewOrder.ErrorMessage">
+        <value>表示順序は数字で入力するか、入力しないでください。</value>
+    </data>
+    <data name="plNewWindow.Text">
+        <value>新しいウィンドウを開く</value>
+    </data>
+    <data name="plNewWindow.Help">
+        <value>リンク先をブラウザの新しいウィンドウで表示するかどうかを選択してください。</value>
+    </data>
+    <data name="ModuleHelp.Text">
+        <value>&lt;h1&gt;リンク モジュールについて&lt;/h1&gt;
+
+&lt;p&gt;リンク モジュールは、ポータル内の任意のタブやイメージやファイル、または外部のWeb ページに向けたハイパー リンクのリストを管理する機能を提供します。リンクの表示は縦 (垂直) 方向、横 (水平) 方向、またはドロップダウン ボックスの形式で表示することができます。初期状態では、リンクはアルファベット順にソート表示されます。ソート順序のカスタマイズは表示順序の欄を利用することで可能です。また補足の説明を登録しておくことにより、リンクにマウスを載せた際にその説明を表示させることができます。リンク クリックのトラッキングおよびログ収集も利用できます。&lt;/p&gt;
+
+&lt;h1&gt;リンク追加&lt;/h1&gt;
+
+&lt;ol&gt;&lt;li&gt;&lt;b&gt;リンク&lt;/b&gt;モジュールを追加、または既存の&lt;b&gt;リンク&lt;/b&gt;モジュールを開きます。&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;リンク追加&lt;/b&gt;をクリックします。
+&lt;li&gt;&lt;b&gt;タイトル&lt;/b&gt;には、リンクのタイトルを入力します。
+&lt;li&gt;&lt;b&gt;リンク タイプ&lt;/b&gt;では、&lt;b&gt;URL&lt;/b&gt;、&lt;b&gt;ページ&lt;/b&gt;、&lt;b&gt;ファイル&lt;/b&gt;から選択した上で、&lt;b&gt;リンク&lt;/b&gt;にて実際のリンク/ページ/ファイルを入力または選択します。
+&lt;li&gt;&lt;b&gt;このリンクのクリック回数を保存&lt;/b&gt; (オプション) では、必要に応じてチェックを付けます。
+&lt;li&gt;&lt;b&gt;リンクをクリックしたユーザー、日付および時間をログとして保存&lt;/b&gt; (オプション) では、必要に応じてチェックを付けます。
+&lt;li&gt;&lt;b&gt;説明&lt;/b&gt;には、リンクの説明を入力します。
+&lt;li&gt;&lt;b&gt;表示順序&lt;/b&gt; (オプション) には、リンクの表示順序を入力します。
+&lt;li&gt;&lt;b&gt;更新&lt;/b&gt;をクリックします。&lt;/ol&gt;</value>
+    </data>
+    <data name="ControlTitle_edit.Text">
+        <value>リンクの編集</value>
+    </data>
+</root>

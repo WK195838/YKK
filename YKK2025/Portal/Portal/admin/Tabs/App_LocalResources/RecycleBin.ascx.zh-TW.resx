@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" />
+							<xsd:attribute name="type" type="xsd:string" />
+							<xsd:attribute name="mimetype" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="ResMimeType">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="Version">
+		<value>1.0.0.0</value>
+	</resheader>
+	<resheader name="Reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="Writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="Tabs.Text">
+		<value>頁面</value>
+	</data>
+	<data name="cmdRestoreTab.Help">
+		<value>恢復選定頁面</value>
+	</data>
+	<data name="cmdDeleteTab.Help">
+		<value>刪除選定頁面</value>
+	</data>
+	<data name="Modules.Text">
+		<value>模組</value>
+	</data>
+	<data name="cmdRestoreModule.Help">
+		<value>恢復選定模組到指定頁面</value>
+	</data>
+	<data name="cmdDeleteModule.Help">
+		<value>永久刪除選定模組</value>
+	</data>
+	<data name="cmdEmpty.Text">
+		<value>清空回收站</value>
+	</data>
+	<data name="DeleteTab.Text">
+		<value>您確定要徹底刪除此頁面嗎？</value>
+	</data>
+	<data name="DeleteModule.Text">
+		<value>您確定要徹底刪除此模組嗎？</value>
+	</data>
+	<data name="DeleteAll.Text">
+		<value>您確定要徹底刪除所有的頁面和模組嗎？</value>
+	</data>
+	<data name="ParentTab.ErrorMessage">
+		<value>&lt;b&gt;{0}&lt;/b&gt; 在其子頁面尚未刪除之前，頁面不能被刪除。</value>
+	</data>
+	<data name="ChildTab.ErrorMessage">
+		<value>&lt;b&gt;{0}&lt;/b&gt; 在其父頁面尚未恢復之前，葉面不能被恢復。</value>
+	</data>
+	<data name="Tab.Text">
+		<value>恢復到頁面</value>
+	</data>
+	<data name="TabHelp.Text">
+		<value>模組將被恢復到指定的頁面</value>
+	</data>
+	<data name="ControlTitle_.Text">
+		<value>回收站</value>
+	</data>
+</root>

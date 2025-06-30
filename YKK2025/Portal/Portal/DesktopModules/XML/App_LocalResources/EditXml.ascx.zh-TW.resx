@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+	<data name="plXSL.Text">
+		<value>XSL 轉換文件</value>
+	</data>
+	<data name="plXML.Text">
+		<value>XML 資料文件</value>
+	</data>
+	<data name="ModuleHelp.Text">
+		<value>&lt;h1&gt;關於 XML/XSL 模組&lt;/h1&gt;&lt;p&gt;XML/XSL 模組產生 XML/XSL 轉換結果.  XML 與 XSL 檔案藉由 UNC路徑也就是模組的 xmlsrc 或 xslsrc兩個屬性來區分.  XML/XSL 包含編輯網頁, 將這些設定存在資料庫中.&lt;/p&gt;&lt;h1&gt;編輯 XML/XSL &lt;/h1&gt;&lt;ol&gt;&lt;li&gt;新增一個 &lt;b&gt;XML/XSL&lt;/b&gt; 模組, 或者選擇一個已經存在的 &lt;b&gt;XML/XSL&lt;/b&gt; 模組.&lt;/li&gt;&lt;li&gt;按下 &lt;b&gt;編輯 XML/XSL&lt;/b&gt;.&lt;li&gt;在 &lt;b&gt;XML 資料檔&lt;/b&gt;, 選擇 &lt;b&gt;內部&lt;/b&gt; 並且選擇一個檔案或 &lt;b&gt;上傳新檔案&lt;/b&gt;; 或者選擇 &lt;b&gt;外部&lt;/b&gt; 並輸入 Url.&lt;li&gt;
+		在 &lt;b&gt;XSL 轉換文件&lt;/b&gt; (選填), 選擇 &lt;b&gt;內部&lt;/b&gt; 並且選擇一個檔案 或 &lt;b&gt;上傳新檔案&lt;/b&gt;; 或選擇 &lt;b&gt;外部&lt;/b&gt; 並且輸入 Url.&lt;li&gt;按下 &lt;b&gt;存檔&lt;/b&gt;.&lt;/ol&gt;</value>
+	</data>
+	<data name="plXSL.Help">
+		<value>選擇XSL 轉換文件</value>
+	</data>
+	<data name="plXML.Help">
+		<value>選擇XML 資料文件</value>
+	</data>
+</root>

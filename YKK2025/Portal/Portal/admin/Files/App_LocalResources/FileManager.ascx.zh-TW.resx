@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" />
+							<xsd:attribute name="type" type="xsd:string" />
+							<xsd:attribute name="mimetype" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="ResMimeType">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="Version">
+		<value>1.0.0.0</value>
+	</resheader>
+	<resheader name="Reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="Writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="FileManager.Text">
+		<value>檔案管理</value>
+	</data>
+	<data name="HostRoot.Text">
+		<value>主機根目錄</value>
+	</data>
+	<data name="PortalRoot.Text">
+		<value>網站根目錄</value>
+	</data>
+	<data name="FileName.Header">
+		<value>檔名</value>
+	</data>
+	<data name="Size.Header">
+		<value>大小(Kb)</value>
+	</data>
+	<data name="DiskSpace.Text">
+		<value>磁碟空間</value>
+	</data>
+	<data name="Capacity.Text">
+		<value>容量</value>
+	</data>
+	<data name="Used.Text">
+		<value>已用</value>
+	</data>
+	<data name="Free.Text">
+		<value>剩餘</value>
+	</data>
+	<data name="MB.Text">
+		<value>MB</value>
+	</data>
+	<data name="cmdSynchronize.Text">
+		<value>與資料庫同步檔案列表</value>
+	</data>
+	<data name="AddContent.Action">
+		<value>上傳新檔案（組）</value>
+	</data>
+	<data name="ControlTitle_.Text">
+		<value>檔案管理</value>
+	</data>
+	<data name="Ok.Text">
+		<value>Ok</value>
+	</data>
+	<data name="Cancel.Text">
+		<value>取消</value>
+	</data>
+	<data name="CopyFiles.Text">
+		<value>複製檔案</value>
+	</data>
+	<data name="CancelCopy.Text">
+		<value>取消複製</value>
+	</data>
+	<data name="MoveFiles.Text">
+		<value>移動檔案</value>
+	</data>
+	<data name="CancelMove.Text">
+		<value>取消移動</value>
+	</data>
+	<data name="NoFilesChecked.Text">
+		<value>沒有檔案被選中</value>
+	</data>
+	<data name="PleaseSpecifyAFolderNameFirst.Text">
+		<value>先設定一個資料夾名</value>
+	</data>
+	<data name="CopyCheckedFiles.Text">
+		<value>複製選中的檔案?</value>
+	</data>
+	<data name="MoveCheckedFiles.Text">
+		<value>移動選中的?</value>
+	</data>
+	<data name="DeleteFolder.Text">
+		<value>刪除資料夾</value>
+	</data>
+	<data name="MoveSelectedFilesTo.Text">
+		<value>移動選中的檔案到:</value>
+	</data>
+	<data name="CopySelectedFilesTo.Text">
+		<value>複製選中的檔案到:</value>
+	</data>
+	<data name="UnzipSelectedFilesTo.Text">
+		<value>解壓選中的檔案到:</value>
+	</data>
+	<data name="AddFolderImg.AlternateText">
+		<value>增加資料夾</value>
+	</data>
+	<data name="DeleteFolderImg.AlternateText">
+		<value>刪除資料夾</value>
+	</data>
+	<data name="RefreshImg.AlternateText">
+		<value>重整</value>
+	</data>
+	<data name="CopyImg.AlternateText">
+		<value>複製</value>
+	</data>
+	<data name="MoveImg.AlternateText">
+		<value>移動</value>
+	</data>
+	<data name="UploadImg.AlternateText">
+		<value>上傳</value>
+	</data>
+	<data name="DeleteImg.AlternateText">
+		<value>刪除</value>
+	</data>
+	<data name="FilterImg.AlternateText">
+		<value>過濾</value>
+	</data>
+	<data name="RenameFileImg.AlternateText">
+		<value>檔案重命名</value>
+	</data>
+	<data name="SaveChangesImg.AlternateText">
+		<value>\存檔</value>
+	</data>
+	<data name="DeleteFileImg.AlternateText">
+		<value>刪除檔案</value>
+	</data>
+	<data name="CancelRenameImg.AlternateText">
+		<value>取消重命名</value>
+	</data>
+	<data name="UnzipFileImg.AlternateText">
+		<value>解壓檔案</value>
+	</data>
+	<data name="GetFolderProperties.AlternateText">
+		<value>獲得資料夾屬性</value>
+	</data>
+	<data name="NotAllowedToDeleteRootFolder.Text">
+		<value>不允許刪除根目錄...</value>
+	</data>
+	<data name="FolderAlreadyRemoved.Text">
+		<value>資料夾已經移走...</value>
+	</data>
+	<data name="PleaseRemoveFilesBeforeDeleting.Text">
+		<value>刪除前請先移走檔案或資料夾...</value>
+	</data>
+	<data name="ErrorMovingFile.Text">
+		<value>移動檔案錯誤</value>
+	</data>
+	<data name="ErrorCopyingFile.Text">
+		<value>複製檔案錯誤</value>
+	</data>
+	<data name="plPermissions.Text">
+		<value>權限:</value>
+	</data>
+	<data name="plPermissions.Help">
+		<value>設定資料夾權限</value>
+	</data>
+	<data name="Folders.Text">
+		<value>資料夾</value>
+	</data>
+	<data name="Date.Header">
+		<value>日期</value>
+	</data>
+	<data name="ErrorDeletingFolder.Text">
+		<value>刪除資料夾錯誤:&lt;BR&gt;</value>
+	</data>
+	<data name="NotEnoughSpace.Text">
+		<value>您網站可用的空間不足</value>
+	</data>
+	<data name="PleaseLogin.Text">
+		<value>在拷貝與複製檔案前請先登入</value>
+	</data>
+	<data name="ErrorUnzippingFile.Text">
+		<value>解壓縮程式發生錯誤:</value>
+	</data>
+	<data name="ItemsPerPage.Text">
+		<value>每頁顯示筆數:</value>
+	</data>
+	<data name="SpaceUsed.Text">
+		<value>使用: {0} / {1}</value>
+	</data>
+	<data name="MovingFiles.Text">
+		<value>移動檔案:</value>
+	</data>
+	<data name="CopyingFiles.Text">
+		<value>正在拷貝檔案:</value>
+	</data>
+	<data name="UnzippingFile.Text">
+		<value>正在解壓縮檔案:</value>
+	</data>
+	<data name="FromFolder.Text">
+		<value>從資料夾:</value>
+	</data>
+	<data name="ToFolder.Text">
+		<value>到資料夾:  從檔案管理選擇目的資料夾.</value>
+	</data>
+	<data name="DeleteFiles.Text">
+		<value>刪除檔案:</value>
+	</data>
+</root>

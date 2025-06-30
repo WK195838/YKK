@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ControlTitle_.Text">
+    <value>Windows 認証
+</value>
+  </data>
+  <data name="plAuthentication.Text">
+    <value>Windows 認証？
+</value>
+  </data>
+  <data name="plAuthentication.Help">
+    <value>選択時、このポータルはWindows 認証になります。
+</value>
+  </data>
+  <data name="chkAuthentication.Text">
+    <value>
+    </value>
+  </data>
+  <data name="plSynchronizeRole.Text">
+    <value>ロールを一致させますか？
+</value>
+  </data>
+  <data name="plSynchronizeRole.Help">
+    <value>選択時、ログオンするたびにユーザー ロールはWindows アクティブ ディレクトリのセキュリティ グループと同期化されます。
+</value>
+  </data>
+  <data name="chkSynchronizeRole.Text">
+    <value>
+    </value>
+  </data>
+  <data name="plSynchornizePassword.Text">
+    <value>パスワードを一致させますか？
+</value>
+  </data>
+  <data name="plSynchornizePassword.Help">
+    <value>選択時、ユーザーがログオンする時（2つのパスワードが合致しなければ）Windowsパスワードとして更新されます。
+</value>
+  </data>
+  <data name="chkSynchronizePassword.Text">
+    <value>
+    </value>
+  </data>
+  <data name="plProvider.Text">
+    <value>プロバイダ
+</value>
+  </data>
+  <data name="plProvider.Help">
+    <value>このポータルのための認証プロバイダを選択してください。
+</value>
+  </data>
+  <data name="plAuthenticationType.Text">
+    <value>認証の種類
+</value>
+  </data>
+  <data name="plAuthenticationType.Help">
+    <value>このポータルの認証の種類を選択してください（Delegationを推奨）。
+</value>
+  </data>
+  <data name="plRootDomain.Text">
+    <value>ルート ドメイン:
+</value>
+  </data>
+  <data name="plRootDomain.Help">
+    <value>ルート ドメインのフォーマット。yourdomain.com あるいは DC=yourdomain,DC=com。ルートフォレストからアクティブ ディレクトリを取得したい場合は、ブランクのまま残してください。
+</value>
+  </data>
+  <data name="plUserName.Text">
+    <value>ユーザー名:
+</value>
+  </data>
+  <data name="plUserName.Help">
+    <value>アクティブ ディレクトリにアクセスできるユーザー名を入力してください。
+</value>
+  </data>
+  <data name="plPassword.Text">
+    <value>パスワード:
+</value>
+  </data>
+  <data name="plPassword.Help">
+    <value>パスワードを入力してください。
+</value>
+  </data>
+  <data name="plConfirm.Text">
+    <value>パスワードの確認:
+</value>
+  </data>
+  <data name="plConfirm.Help">
+    <value>確認のため、再度、パスワードを入力してください。
+</value>
+  </data>
+  <data name="plEmailDomain.Text">
+    <value>電子メール ドメイン:
+</value>
+  </data>
+  <data name="plEmailDomain.Help">
+    <value>ネットワークがWindows アクティブ ディレクトリに対応していない場合、電子メールに利用されるドメインを入力してください（ブランクを推奨）。
+</value>
+  </data>
+  <data name="cmdUpdate.Text">
+    <value>更新
+</value>
+  </data>
+  <data name="[Global Catalog Status].Text">
+    <value>グローバル カタログへのアクセス:
+</value>
+  </data>
+  <data name="[Root Domain Status].Text">
+    <value>ルート ドメインの確認:
+</value>
+  </data>
+  <data name="[LDAP Status].Text">
+    <value>LDAPへのアクセス:
+</value>
+  </data>
+  <data name="[Network Domains Status].Text">
+    <value>ネットワーク ドメインを探す:
+</value>
+  </data>
+  <data name="[LDAP Error Message].Text">
+    <value>ドメイン情報を得るためにLDAPへアクセスできませんでした。
+</value>
+  </data>
+  <data name="OK.Text">
+    <value>成功</value>
+  </data>
+  <data name="FAIL.Text">
+    <value>失敗</value>
+  </data>
+  <data name="AuthProviderError.Text">
+    <value>web.configで指定されたデフォルトの認証プロバイダが不正です。認証設定は無効となります。
+</value>
+  </data>
+  <data name="SameDomainError.Text">
+    <value>認証済ユーザー ({0}) のドメイン名は、サーバ名({1})と同じです。これは通常、サーバがドメインのメンバでないことを表します。認証の設定は無効です。
+</value>
+  </data>
+</root>

@@ -1,0 +1,741 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DeleteItem.Text">
+    <value>このアイテムを削除しますか？</value>
+  </data>
+  <data name="Calendar.Text">
+    <value>カレンダー</value>
+  </data>
+  <data name="Yes.Text">
+    <value>はい</value>
+  </data>
+  <data name="No.Text">
+    <value>いいえ</value>
+  </data>
+  <data name="Not_Specified.Text">
+    <value>指定されていません</value>
+  </data>
+  <data name="None_Specified.Text">
+    <value>指定されていません</value>
+  </data>
+  <data name="cmdCancel.Text">
+    <value>取消</value>
+  </data>
+  <data name="cmdDelete.Text">
+    <value>削除</value>
+  </data>
+  <data name="cmdDisplay.Text">
+    <value>表示</value>
+  </data>
+  <data name="cmdGo.Text">
+    <value>実行</value>
+  </data>
+  <data name="cmdUpdate.Text">
+    <value>更新</value>
+  </data>
+  <data name="cmdUpload.Text">
+    <value>新しいファイルのアップロード</value>
+  </data>
+  <data name="Select.Text">
+    <value>選択</value>
+  </data>
+  <data name="Upload.Text">
+    <value>アップロード</value>
+  </data>
+  <data name="Add.Text">
+    <value>追加</value>
+  </data>
+  <data name="All.Text">
+    <value>すべて</value>
+  </data>
+  <data name="Unauthorized.Text">
+    <value>許可されていません</value>
+  </data>
+  <data name="Today.Text">
+    <value>今日</value>
+  </data>
+  <data name="Close.Text">
+    <value>閉じる</value>
+  </data>
+  <data name="cmdReturn.Text">
+    <value>戻る</value>
+  </data>
+  <data name="cmdDownLoad.Text">
+    <value>ダウンロード</value>
+  </data>
+  <data name="Seconds.Text">
+    <value>秒</value>
+  </data>
+  <data name="Second.Text">
+    <value>秒</value>
+  </data>
+  <data name="Minutes.Text">
+    <value>分</value>
+  </data>
+  <data name="Minute.Text">
+    <value>分</value>
+  </data>
+  <data name="Hours.Text">
+    <value>時</value>
+  </data>
+  <data name="Hour.Text">
+    <value>時</value>
+  </data>
+  <data name="Days.Text">
+    <value>日</value>
+  </data>
+  <data name="Day.Text">
+    <value>日</value>
+  </data>
+  <data name="DeleteItems.Text">
+    <value>これらのアイテムを削除しますか？</value>
+  </data>
+  <data name="cmdEdit.Text">
+    <value>編集</value>
+  </data>
+  <data name="Edit.Text">
+    <value>編集</value>
+  </data>
+  <data name="Unknown.Text">
+    <value>不明</value>
+  </data>
+  <data name="Weeks.Text">
+    <value>週</value>
+  </data>
+  <data name="Week.Text">
+    <value>週</value>
+  </data>
+  <data name="Months.Text">
+    <value>月</value>
+  </data>
+  <data name="Month.Text">
+    <value>月</value>
+  </data>
+  <data name="Years.Text">
+    <value>年</value>
+  </data>
+  <data name="Year.Text">
+    <value>年</value>
+  </data>
+  <data name="New.Text">
+    <value>新規</value>
+  </data>
+  <data name="DeleteModule.Confirm">
+    <value>confirm('このモジュールを削除しますか？')</value>
+  </data>
+  <data name="EXCEPTION.Log">
+    <value>例外: {0}</value>
+  </data>
+  <data name="PURGE.Log">
+    <value>サイト ログのクリアに成功しました</value>
+  </data>
+  <data name="SkinObjects.Text">
+    <value>[スキンオブジェクト]</value>
+  </data>
+  <data name="SkinObjectsDescription.Text">
+    <value>スキン オブジェクトは、スキン ファイルを改変するなどの際に利用されるユーザー コントロールです。</value>
+  </data>
+  <data name="ReadError.Text">
+    <value>すべてのデータを読み込むことができません: {0}/{1}</value>
+  </data>
+  <data name="Help.Text">
+    <value>ヘルプ</value>
+  </data>
+  <data name="PURGEUSERS.Log">
+    <value>ユーザーのオンライン状態のクリアに成功しました</value>
+  </data>
+  <data name="ErrorOccurred.Text">
+    <value>エラーが発生しました。</value>
+  </data>
+  <data name="ModuleUnavailable.Text">
+    <value>エラー: {0} は現在、利用できません。</value>
+  </data>
+  <data name="PURGEDSCHEDULE.Log">
+    <value>スケジュールの履歴をクリアしました</value>
+  </data>
+  <data name="TESTCOMPLETE.Log">
+    <value>テストは終了しました。実行時間 {0} ミリ秒。</value>
+  </data>
+  <data name="UserEmailExists.Text">
+    <value>電子メール アドレスが既に登録されています。この電子メール アドレスで既に登録されているアカウントを利用してログインしてください。</value>
+  </data>
+  <data name="InvalidAnswer.Text">
+    <value>[回答] が無効です。 [質問] に対する有効な回答を入力してください。</value>
+  </data>
+  <data name="InvalidEmail.Text">
+    <value>電子メール アドレスが正しくありません。正しい電子メール アドレスを入力してください。</value>
+  </data>
+  <data name="InvalidPassword.Text">
+    <value>パスワードが正しくありません。正しいパスワードを入力してください。</value>
+  </data>
+  <data name="InvalidQuestion.Text">
+    <value>[質問] が無効です。有効な [質問] を入力してください。</value>
+  </data>
+  <data name="InvalidUserName.Text">
+    <value>ユーザー名が正しくありません。正しいユーザー名を入力してください。</value>
+  </data>
+  <data name="UserRejected.Text">
+    <value>ユーザー登録を行なうことができません。詳細は管理者に確認してください。</value>
+  </data>
+  <data name="UserNameExists.Text">
+    <value>ユーザー名が既に登録されています。別のユーザー名を入力してください。</value>
+  </data>
+  <data name="RegError.Text">
+    <value>登録中に予期しないエラーが発生しました。詳細はポータル管理者に確認してください。</value>
+  </data>
+  <data name="PaneNotFound.Error">
+    <value>このスキンのコンテンツ ペインを見つけることができません</value>
+  </data>
+  <data name="ContractExpired.Error">
+    <value>{0} のホスティング契約は {1} に有効期限が切れました. 詳細は &lt;a href="mailto:{2}"&gt;{2}&lt;/a&gt; に確認してください。</value>
+  </data>
+  <data name="TabAccess.Error">
+    <value>このポータルのこのタブに対してアクセス権限がありません。</value>
+  </data>
+  <data name="ModuleAccess.Error">
+    <value>このポータルのこのモジュールを利用する権限がありません。</value>
+  </data>
+  <data name="CriticalError.Error">
+    <value>致命的なエラーが発生しました。</value>
+  </data>
+  <data name="ModuleLoad.Error">
+    <value>モジュール読み込み時のエラー。</value>
+  </data>
+  <data name="ModuleAdd.Error">
+    <value>{0} へのモジュール追加中のエラー</value>
+  </data>
+  <data name="ContainerLoad.Error">
+    <value>次のコンテナを読み込みません: {0}</value>
+  </data>
+  <data name="BeginZip.Text">
+    <value>zipファイルの作成開始</value>
+  </data>
+  <data name="CreateDir.Text">
+    <value>ディレクトリを作成中</value>
+  </data>
+  <data name="WriteFile.Text">
+    <value>ファイル書き込み中</value>
+  </data>
+  <data name="FileError.Text">
+    <value>ファイル処理エラー</value>
+  </data>
+  <data name="EndZip.Text">
+    <value>zipファイルの作成終了</value>
+  </data>
+  <data name="FileRestricted.Text">
+    <value>{0} のファイル形式は許可されていません。許可されているファイル形式は ( *.{1})です。これ以外のファイル形式のファイルをアップロードしたい場合は、ホスティング プロバイダに連絡してください。</value>
+  </data>
+  <data name="Skins.Text">
+    <value>スキン</value>
+  </data>
+  <data name="Containers.Text">
+    <value>コンテナ</value>
+  </data>
+  <data name="StartProcessor.Text">
+    <value>スキン/コンテナ ファイルの初期化</value>
+  </data>
+  <data name="PackageLoad.Text">
+    <value>パッケージ レベルの属性ファイルを読み込みました</value>
+  </data>
+  <data name="PackageLoad.Error">
+    <value>パッケージ レベルの属性ファイルの読み込みに失敗しました: ({0})</value>
+  </data>
+  <data name="DuplicateSkinObject.Error">
+    <value>[0]のスキン オブジェクトが重複していたため、重複分を削除しました。</value>
+  </data>
+  <data name="DuplicateSkinObject.Detail">
+    <value>重複したスキン コントロール ([1]) については、元々登録されていたスキンコントロール ({0})の方が優先されます。スキンの表示に問題が出る場合があります。</value>
+  </data>
+  <data name="LoadingSkinToken.Text">
+    <value>{0} のスキン オブジェクトを読み込んでいます。</value>
+  </data>
+  <data name="BeginSkinFile.Text">
+    <value>ファイルへの処理を開始します</value>
+  </data>
+  <data name="EndSkinFile.Text">
+    <value>ファイルへの処理を終了します</value>
+  </data>
+  <data name="EndSkinFiles.Text">
+    <value>スキン/コンテナ ファイルへの処理を終了します</value>
+  </data>
+  <data name="FileFormat.Error">
+    <value>ファイルのフォーマット エラー</value>
+  </data>
+  <data name="FileFormat.Detail">
+    <value>{0} にはコンテンツ ペインが含まれていません。</value>
+  </data>
+  <data name="SkinFileLoad.Text">
+    <value>属性ファイルの読み込み</value>
+  </data>
+  <data name="SkinFileLoad.Error">
+    <value>属性ファイルの読み込みに失敗しました</value>
+  </data>
+  <data name="FileWrite.Text">
+    <value>ファイルの書き込み</value>
+  </data>
+  <data name="ControlDirective.Text">
+    <value>コントロールの設定をフォーマット</value>
+  </data>
+  <data name="ControlRegister.Text">
+    <value>登録の設定をフォーマット</value>
+  </data>
+  <data name="Substituting.Text">
+    <value>置換</value>
+  </data>
+  <data name="Substituting.Detail">
+    <value>{0}&lt;br&gt;を: {1}へ</value>
+  </data>
+  <data name="ProcessToken.Text">
+    <value>トークンの処理</value>
+  </data>
+  <data name="SkinToken.Text">
+    <value>このトークンはスキン オブジェクトです</value>
+  </data>
+  <data name="PaneToken.Text">
+    <value>このトークンはコンテンツ ペインです</value>
+  </data>
+  <data name="TokenFound.Text">
+    <value>属性ファイルの中にトークンが見つかりました</value>
+  </data>
+  <data name="TokenFormat.Text">
+    <value>トークンの属性をフォーマットする</value>
+  </data>
+  <data name="TokenNotFoundInFile.Text">
+    <value>属性ファイルの中にトークンは見つかりませんでした</value>
+  </data>
+  <data name="ControlFormat.Text">
+    <value>コントロール ステートメントをフォーマットする</value>
+  </data>
+  <data name="TokenNotFound.Text">
+    <value>トークンが見つかりませんでした</value>
+  </data>
+  <data name="cmdNext.Text">
+    <value>次へ</value>
+  </data>
+  <data name="cmdBack.Text">
+    <value>戻る</value>
+  </data>
+  <data name="cmdFinish.Text">
+    <value>完了</value>
+  </data>
+  <data name="cmdBack.Help">
+    <value>クリックすると前のページに戻ります。</value>
+  </data>
+  <data name="cmdNext.Help">
+    <value>クリックすると次のページに進みます。</value>
+  </data>
+  <data name="Left.Text">
+    <value>左</value>
+  </data>
+  <data name="Right.Text">
+    <value>右</value>
+  </data>
+  <data name="Center.Text">
+    <value>中央</value>
+  </data>
+  <data name="Maximized.Text">
+    <value>最大化</value>
+  </data>
+  <data name="Minimized.Text">
+    <value>最小化</value>
+  </data>
+  <data name="None.Text">
+    <value>なし</value>
+  </data>
+  <data name="Pages.Text">
+    <value>{0} / {1} ページ</value>
+  </data>
+  <data name="cmdHelp.Text">
+    <value>ヘルプ</value>
+  </data>
+  <data name="cmdHelp.Help">
+    <value>クリックするとこのページに関するヘルプが表示されます。</value>
+  </data>
+  <data name="DNN_Reading.Text">
+    <value>DNNファイルの読み込み</value>
+  </data>
+  <data name="DNN_Success.Text">
+    <value>DNNファイルの読み込みに成功しました</value>
+  </data>
+  <data name="DNN_Valid.Text">
+    <value>DNNファイルは有効なフォーマット ({0}) でした。</value>
+  </data>
+  <data name="DNN_ValidSkinObject.Text">
+    <value>DNNファイルは有効な2.0のスキンオブジェクトです。</value>
+  </data>
+  <data name="EXCEPTION.Text">
+    <value>例外</value>
+  </data>
+  <data name="EXCEPTION_DesktopSrc.Text">
+    <value>このモジュールコントロールには Desktopsrc値がありません。処理を中止します。</value>
+  </data>
+  <data name="EXCEPTION_FileLoad.Text">
+    <value>ファイルの読み込みに失敗しました。処理を中止します。</value>
+  </data>
+  <data name="EXCEPTION_FileName.Text">
+    <value>ファイルの名前が入力されていません。処理を中止します。</value>
+  </data>
+  <data name="EXCEPTION_FileRead.Text">
+    <value>データをすべて読み込むことはできませんでした: </value>
+  </data>
+  <data name="EXCEPTION_FolderDesc.Text">
+    <value>フォルダの説明が入力されていません。処理を中止します。</value>
+  </data>
+  <data name="EXCEPTION_FolderName.Text">
+    <value>フォルダの名前が入力されていません。処理を中止します。</value>
+  </data>
+  <data name="EXCEPTION_FolderProvider.Text">
+    <value>フォルダのプロバイダ タイプが指定されていません。処理を中止します。</value>
+  </data>
+  <data name="EXCEPTION_FolderVersion.Text">
+    <value>フォルダにはバージョンが指定されている必要があります。処理を中止します。</value>
+  </data>
+  <data name="EXCEPTION_Format.Text">
+    <value>不正なDNNフォーマットです。処理を中止します。</value>
+  </data>
+  <data name="EXCEPTION_LoadFailed.Text">
+    <value>DNNの読み込みに失敗しました。処理を中止します。</value>
+  </data>
+  <data name="EXCEPTION_MissingDnn.Text">
+    <value>.dnnファイルが見つかりません</value>
+  </data>
+  <data name="EXCEPTION_MissingResource.Text">
+    <value>zipファイルの中にDnnに対応したリソース ファイルが見つかりません: </value>
+  </data>
+  <data name="EXCEPTION_MultipleDnn.Text">
+    <value>zipファイルの中に複数の .dnnファイルが見つかりました: </value>
+  </data>
+  <data name="EXCEPTION_Src.Text">
+    <value>モジュール コントロールには src値が必要です。処理を中止します。</value>
+  </data>
+  <data name="EXCEPTION_Type.Text">
+    <value>モジュール コントロールには type値が必要です。処理を中止します。</value>
+  </data>
+  <data name="FILE_Created.Text">
+    <value>作成されました</value>
+  </data>
+  <data name="FILE_Found.Text">
+    <value>{1}に有効なパス ({0}) が見つかりました。</value>
+  </data>
+  <data name="FILE_Loading.Text">
+    <value>読み込み中</value>
+  </data>
+  <data name="FILE_NotFound.Text">
+    <value>zipファイルの中にdnnに対応したファイルが見つかりません: </value>
+  </data>
+  <data name="FILE_ReadSuccess.Text">
+    <value>ファイル {0} の読み込みに成功しました</value>
+  </data>
+  <data name="FILES_Created.Text">
+    <value>ファイルが作成されました</value>
+  </data>
+  <data name="FILES_CreatedResources.Text">
+    <value>リソース ファイルが作成されました</value>
+  </data>
+  <data name="FILES_Creating.Text">
+    <value>ファイルを作成中</value>
+  </data>
+  <data name="FILES_Expanding.Text">
+    <value>リソース ファイルを拡張します</value>
+  </data>
+  <data name="FILES_Loading.Text">
+    <value>ファイルの情報を読み込み中</value>
+  </data>
+  <data name="FILES_Reading.Text">
+    <value>ファイルを読み込み中</value>
+  </data>
+  <data name="FILES_ReadingEnd.Text">
+    <value>ファイルの読み込みが終了しました。</value>
+  </data>
+  <data name="INSTALL_Start.Text">
+    <value>インストールを開始します</value>
+  </data>
+  <data name="INSTALL_Success.Text">
+    <value>インストールが成功しました。</value>
+  </data>
+  <data name="MODULES_ControlInfo.Text">
+    <value>'{0}' モジュール用のコントロール情報を読み込み中</value>
+  </data>
+  <data name="MODULES_Loading.Text">
+    <value>モジュール情報を読み込みます</value>
+  </data>
+  <data name="REGISTER_Controls.Text">
+    <value>コントロールを登録中</value>
+  </data>
+  <data name="REGISTER_Definition.Text">
+    <value>定義を登録中</value>
+  </data>
+  <data name="REGISTER_End.Text">
+    <value>登録完了</value>
+  </data>
+  <data name="REGISTER_Module.Text">
+    <value>デスクトップ モジュールの登録</value>
+  </data>
+  <data name="SQL_Begin.Text">
+    <value>SQLの実行開始</value>
+  </data>
+  <data name="SQL_BeginFile.Text">
+    <value>SQLの実行開始: {0} ファイル</value>
+  </data>
+  <data name="SQL_End.Text">
+    <value>SQLの実行完了</value>
+  </data>
+  <data name="SQL_EndFile.Text">
+    <value>SQLの実行完了: {0} ファイル</value>
+  </data>
+  <data name="SQL_Exceptions.Text">
+    <value>SQLの実行で例外が発生: {0}{1}</value>
+  </data>
+  <data name="SQL_Executing.Text">
+    <value>実行中</value>
+  </data>
+  <data name="SQL_UnknownFile.Text">
+    <value>{0}ファイルのエンコードが正しくありません。処理を中止します。</value>
+  </data>
+  <data name="XML_Loaded">
+    <value>xmlを読み込みました。</value>
+  </data>
+  <data name="Folders.Text">
+    <value>フォルダ:</value>
+  </data>
+  <data name="Files.Text">
+    <value>ファイル:</value>
+  </data>
+  <data name="Page.Text">
+    <value>ページ:</value>
+  </data>
+  <data name="URL.Text">
+    <value>URL:</value>
+  </data>
+  <data name="Home.Text">
+    <value>ホーム</value>
+  </data>
+  <data name="Maximize.Text">
+    <value>最大化</value>
+  </data>
+  <data name="Minimize.Text">
+    <value>最小化</value>
+  </data>
+  <data name="EXCEPTION_DirectoryExists.Text">
+    <value>ディレクトリはすでに存在します</value>
+  </data>
+  <data name="EXCEPTION.DuplicateLocale.Text">
+    <value>このロケールはすでに定義されています</value>
+  </data>
+  <data name="EXCEPTION.SaveLocale.Text">
+    <value>ファイルの処理に失敗しました。リソース ファイルに対する更新権限を確認してください。</value>
+  </data>
+  <data name="LOG.LangPack.LoadFiles">
+    <value>{0} リソース ファイルを読み込み。</value>
+  </data>
+  <data name="LOG.LangPack.Global">
+    <value>グローバル</value>
+  </data>
+  <data name="LOG.LangPack.Control">
+    <value>コントロール</value>
+  </data>
+  <data name="LOG.LangPack.Module">
+    <value>モジュール</value>
+  </data>
+  <data name="LOG.LangPack.Admin">
+    <value>管理</value>
+  </data>
+  <data name="LOG.LangPack.ArchiveFiles">
+    <value>リソース パックの圧縮ファイルを作成。</value>
+  </data>
+  <data name="LOG.LangPack.LoadFromFolder">
+    <value>フォルダからリソース ファイルを読み込み: {0}</value>
+  </data>
+  <data name="LOG.LangPack.LoadFileName">
+    <value>リソース ファイルを読み込み: {0}</value>
+  </data>
+  <data name="LOG.LangPack.SerializeManifest">
+    <value>マニフェスト ファイルの作成が成功しました。</value>
+  </data>
+  <data name="LOG.LangPack.SavedFile">
+    <value>リソース ファイル {0} をリソース パックに保存しました。</value>
+  </data>
+  <data name="LOG.LangPack.CreateArchive">
+    <value>リソース パックにファイルを追加します: {0}</value>
+  </data>
+  <data name="LOG.LangPack.ERROR.SavingFile">
+    <value>リソースパックへのファイルの保存でエラーが発生しました: {0}</value>
+  </data>
+  <data name="LOG.LangPack.ERROR.CreatingFile">
+    <value>リソース パックのファイル作成でエラーが発生しました: {0}</value>
+  </data>
+  <data name="LOG.LangPack.ERROR.ManifestFile">
+    <value>マニフェスト ファイルの作成でエラーが発生しました: {0}</value>
+  </data>
+  <data name="EXCEPTION.LangPack.ManifestZip">
+    <value>zipファイルからの言語パック マニフェストの読み込みでエラーが発生しました: {0}</value>
+  </data>
+  <data name="EXCEPTION.LangPack.ManifestLoad">
+    <value>言語パック マニフェストの読み込みでエラーが発生しました: {0}</value>
+  </data>
+  <data name="EXCEPTION.LangPack.FileMissing">
+    <value>ファイル {0} が言語パック マニフェストに含まれていません。</value>
+  </data>
+  <data name="EXCEPTION.LangPack.Install">
+    <value>言語パック リソース ファイルの読み込みでエラーが発生しました: {0}</value>
+  </data>
+  <data name="LOG.LangPack.Job.LoadManifest">
+    <value>マニフェスト ファイルを読み込みます。</value>
+  </data>
+  <data name="LOG.LangPack.Job.DeserializeManifest">
+    <value>マニフェスト ファイルの処理準備中。</value>
+  </data>
+  <data name="LOG.LangPack.Job.LoadFiles">
+    <value>言語ファイルの解凍中</value>
+  </data>
+  <data name="LOG.LangPack.Job.SaveFiles">
+    <value>言語ファイルをインポート中</value>
+  </data>
+  <data name="LOG.LangPack.Job.CreateLocale">
+    <value>ロケールを作成/更新中</value>
+  </data>
+  <data name="LOG.LangPackReader.LoadFiles">
+    <value>言語ファイルを解凍中: {0}</value>
+  </data>
+  <data name="LOG.LangPackReader.UnzipFiles">
+    <value>ファイルのインポート: {0}</value>
+  </data>
+  <data name="LOG.LangPackReader.CreateLocale">
+    <value>ロケールの作成: {0}</value>
+  </data>
+  <data name="Wizard.Success.SuccessTitle">
+    <value>おめでとうございます:</value>
+  </data>
+  <data name="Wizard.Success.SuccessDetail">
+    <value>&lt;p&gt;
+					おめでとうございます。ウィザードは成功しました。
+				&lt;/p&gt;</value>
+  </data>
+  <data name="Wizard.Success.FailureTitle">
+    <value>ウィザード失敗:</value>
+  </data>
+  <data name="Wizard.Success.FailureDetail">
+    <value>				&lt;p&gt;
+					ウィザードの処理でエラーが発生しました。
+					以下のメッセージを確認の上、ご利用のプロバイダに相談してください。
+				&lt;/p&gt;
+</value>
+  </data>
+  <data name="LOG.PAWriter.CreateManifest">
+    <value>マニフェスト ファイル{0}を作成しました。</value>
+  </data>
+  <data name="LOG.PAWriter.CreateArchive">
+    <value>プライベート アセンブリにファイルを追加します: {0}</value>
+  </data>
+  <data name="LOG.PAWriter.SavedFile">
+    <value>ファイル {0} をプライベート アセンブリに保存しました。</value>
+  </data>
+  <data name="LOG.PAWriter.ERROR.SavingFile">
+    <value>プライベート アセンブリへのファイル保存中にエラーが発生しました: {0}</value>
+  </data>
+  <data name="LOG.PAWriter.CreateZipFile">
+    <value>プライベートアセンブリの作成: {0}</value>
+  </data>
+  <data name="ModuleVisibleAdministrator.Text">
+    <value>管理者のみに公開</value>
+  </data>
+  <data name="LOG.PALogger.Info">
+    <value>情報</value>
+  </data>
+  <data name="LOG.PALogger.Warning">
+    <value>警告</value>
+  </data>
+  <data name="LOG.PALogger.Failure">
+    <value>失敗</value>
+  </data>
+  <data name="LOG.PALogger.StartJob">
+    <value>ジョブ開始</value>
+  </data>
+  <data name="LOG.PALogger.EndJob">
+    <value>ジョブ終了</value>
+  </data>
+  <data name="AllUsers.Text">
+    <value>すべてのユーザー</value>
+  </data>
+  <data name="Superuser.Text">
+    <value>スーパー ユーザー</value>
+  </data>
+  <data name="UnauthenticatedUsers.Text">
+    <value>未ログイン ユーザー</value>
+  </data>
+  <data name="RestrictedFileType.Text">
+    <value>{0} のファイル形式は許可されていません。許可されているファイル形式は ( *.{1})です。これ以外のファイル形式のファイルをアップロードしたい場合は、ホスティング プロバイダに連絡してください。</value>
+  </data>
+  <data name="SaveFileError.Text">
+    <value>ファイル {0} の保存中にエラーが発生しました。サーバー上のセキュリティ設定に問題がないか、ホスティング プロバイダに確認してください。</value>
+  </data>
+  <data name="DiskSpaceExceeded.Text">
+    <value>容量の上限に達したため、ファイル {0} の保存中にエラーが発生しました。ポータル ディスク容量の拡張についてはホスティング プロバイダに連絡してください。</value>
+  </data>
+  <data name="WordCleanButton.Text">
+    <value>MS Word HTMLのクリーン化</value>
+  </data>
+  <data name="INSTALL_Aborted.Text">
+    <value>インストールを中止しました。インストールするバージョンは、すでにインストールされているバージョンより新しいものでなければなりません。</value>
+  </data>
+  <data name="First.Text">
+    <value>最初</value>
+  </data>
+  <data name="Next.Text">
+    <value>次</value>
+  </data>
+  <data name="Previous.Text">
+    <value>前</value>
+  </data>
+  <data name="Last.Text">
+    <value>最後</value>
+  </data>
+  <data name="Recordsperpage.Text">
+    <value>1ページあたりの件数</value>
+  </data>
+  <data name="Recordsperpage.Help">
+    <value>1ページに表示する最大件数を選択してください。</value>
+  </data>
+  <data name="LOG.LangPack.Provider">
+    <value>モジュール</value>
+  </data>
+</root>

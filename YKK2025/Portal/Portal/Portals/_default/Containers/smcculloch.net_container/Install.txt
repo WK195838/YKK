@@ -1,0 +1,14 @@
+Container install (smcculloch_container.zip)
+----------------------------------------------------------
+1. Login into your Portal with host or admin account
+2. Open File Manager
+3. select container
+4  upload (unzip flag must be checked!)
+5. in Site Settings or per module - set your desired container (smcculloch_container - Content)
+
+Should work...
+
+any comments, critics on this version (0.1)
+mail to smcculloch@iinet.net.au
+
+have fun!

@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="MESSAGE_PORTAL_PRIVACY.Text">
+    <value>[Portal:PortalName] &lt;p&gt;個人信息 &lt;/p&gt;
+&lt;p&gt;您在訪問[Portal:PortalName]網站的時候可以自行決定是否提供您的真實資料。但為了更好的為您提供服務、 或者便於您更好的參與[Portal:PortalName]社區的交流，您可能需要提供一些證明您身份或者表明您的需要的資料，這些資料包括但不限於：姓名、身份證件號碼、出生日期、性別、聯絡資料、通訊及網絡聯繫方式、教育程度、職業、專業技能、興趣愛好、企業性質及關注欄位等。為了獲得向您提供特定的客戶服務，我們將採取措施驗證有特殊需要的客戶註冊資料的真實性。以上資料我們可能用於改善[Portal:PortalName]集團（包括[Portal:PortalName]子公司、分公司）的產品、服務、市場策略或者公司管理，我們也可能利用您提供的資料向您發送電子郵件等信息，但我們承諾我們在網站管理中將採取切實有效的措施，保證未經您的允許，我們不會將您的註冊信息向廣告商提供；除非出於您自己的意願，我們也不會將您的信息向其他第三方提供。&lt;/p&gt;
+&lt;p&gt; 商業關係 &lt;/p&gt;
+&lt;p&gt;您在填寫資料時是否真實填寫與[Portal:PortalName]的商業關係由您決定。我們設定了你與[Portal:PortalName]之間可能存在的若干關係，目的是為了分類分析訪客的需要，更好的完善網站的內容和功能，您的準確填寫有助於我們更好的為您提供服務。該項資料不會引起您承擔額外的義務，我們也不會根據該項填寫確定您與[Portal:PortalName]的關係。&lt;/p&gt;
+&lt;p&gt;我們可能會讓[Portal:PortalName]網站的聯盟夥伴瞭解[Portal:PortalName]網站有哪些商業關係以及各種商業關係的比重，但這並不意味著我們可能向第三者公開您的個人身份資料。&lt;/p&gt;
+&lt;p&gt;其他保密問題 &lt;/p&gt;
+&lt;p&gt;如果您提交資料以後，對您的個人資料還有其他保密需要，請和我們聯繫：&lt;a href="mailto:unruledboy@hotmail.com" class="blue"&gt;t9106@126.com&lt;/a&gt;。 
+  &lt;br&gt;
+&lt;/p&gt;</value>
+  </data>
+  <data name="ControlTitle_privacy.Text">
+    <value>隱私條款</value>
+  </data>
+</root>

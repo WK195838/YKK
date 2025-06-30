@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Name.Header">
+    <value>名字</value>
+  </data>
+  <data name="Username.Header">
+    <value>使用者名</value>
+  </data>
+  <data name="Address.Header">
+    <value>地址</value>
+  </data>
+  <data name="Telephone.Header">
+    <value>電話</value>
+  </data>
+  <data name="Email.Header">
+    <value>Email</value>
+  </data>
+  <data name="LastLogin.Header">
+    <value>最新註冊</value>
+  </data>
+  <data name="Authorized.Header">
+    <value>已審核</value>
+  </data>
+  <data name="DeleteUnauthorized.Text">
+    <value>刪除未審核使用者</value>
+  </data>
+  <data name="AddContent.Action">
+    <value>添加新使用者</value>
+  </data>
+  <data name="ControlTitle_.Text">
+    <value>管理使用者</value>
+  </data>
+  <data name="Search.Text">
+    <value>搜索：</value>
+  </data>
+  <data name="RecordsPage.Text">
+    <value>每頁記錄</value>
+  </data>
+  <data name="First.Text">
+    <value>第一</value>
+  </data>
+  <data name="Next.Text">
+    <value>下一個</value>
+  </data>
+  <data name="Previous.Text">
+    <value>前一個</value>
+  </data>
+  <data name="Last.Text">
+    <value>最後</value>
+  </data>
+  <data name="CreatedDate.Header">
+    <value>建立日期</value>
+  </data>
+  <data name="DisplayDate.Text">
+    <value>顯示日期:</value>
+  </data>
+  <data name="ModuleHelp.Text">
+    <value>&lt;h1&gt;關於使用者帳號模組&lt;/h1&gt;&lt;p&gt;使用者帳號模組用於將使用者加入成為註冊使用者, 更新資料, 取消註冊, 與管理他們會員服務的功能.&lt;/p&gt;
+   </value>
+  </data>
+</root>

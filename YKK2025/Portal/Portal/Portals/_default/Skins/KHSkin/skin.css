@@ -1,0 +1,565 @@
+/* ================================
+    CSS STYLES FOR Suncor Skin
+   ================================
+*/   
+
+
+/* PAGE BACKGROUND */
+/* background color for the header at the top of the page  */
+.HeadBg {
+    background-color: #CCCCCC;
+}
+
+/* background color for the content part of the pages */
+Body
+{
+    background: WHITE
+}
+
+/* background/border colors for the selected tab */
+.TabBg {
+    background-color: black;
+}
+
+
+/* text style for the selected tab */
+.SelectedTab {
+    font-weight: normal;
+    font-size: 8pt;
+    line-height: 0em;
+    color: black;
+    font-family: Verdana,Tahoma, Arial, Helvetica;
+    text-decoration: none;
+}
+
+/* hyperlink style for the selected tab */
+A.SelectedTab:link {
+    text-decoration:    none;
+    color:black;
+}
+
+A.SelectedTab:visited  {
+    text-decoration:    none;
+    color:black;
+}
+
+A.SelectedTab:active   {
+    text-decoration:    none;
+    color:black;
+}
+
+A.SelectedTab:hover    {
+    text-decoration: underline;
+    color:NAVY;
+}
+
+/* text style for the unselected tabs */
+.OtherTabs {
+    font-weight: bold;
+    font-size: 15;
+    color: white;
+    font-family: Tahoma, Arial, Helvetica;
+    text-decoration: none;
+}
+    
+/* hyperlink style for the unselected tabs */
+A.OtherTabs:link {
+    text-decoration:    none;
+    color:white;
+}
+
+A.OtherTabs:visited  {
+    text-decoration:    none;
+    color:#eeeeee;
+}
+
+A.OtherTabs:active   {
+    text-decoration:    none;
+    color:#eeeeee;
+}
+
+A.OtherTabs:hover    {
+    text-decoration:    none;
+    color:NAVY;
+}
+
+/* GENERAL */
+/* style for module titles */
+.Head   {
+    font-family: Tahoma, Arial, Helvetica;
+    font-size:  20px;
+    font-weight:    normal;
+    color: #B5A9AD;
+}
+
+/* style of item titles on edit and admin pages */
+.SubHead    {
+    font-family: Tahoma, Arial, Helvetica;
+    font-size:  11px;
+    font-weight:    bold;
+    color: #B5A9AD;
+}
+
+/* module title style used instead of Head for compact rendering by QuickLinks and Signin modules */
+.SubSubHead {
+    font-family: Tahoma, Arial, Helvetica;
+    font-size:  11px;
+    font-weight:    bold;
+    color: #B5A9AD;
+}
+
+/* text style used for most text rendered by modules */
+.Normal
+{
+    font-family: Tahoma, Arial, Helvetica;
+    font-size: 11px;
+    font-weight: normal;
+}
+
+/* text style used for textboxes in the admin and edit pages, for Nav compatibility */
+.NormalTextBox
+{
+    font-family: Tahoma, Arial, Helvetica;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.NormalRed
+{
+    font-family: Tahoma, Arial, Helvetica;
+    font-size: 12px;
+    font-weight: bold;
+    color: #ff0000
+}
+
+.NormalBold
+{
+    font-family: Tahoma, Arial, Helvetica;
+    font-size: 11px;
+    font-weight: bold
+}
+
+/* text style for buttons and link buttons used in the portal admin pages */
+.CommandButton     {
+    font-family: Tahoma, Arial, Helvetica;
+    font-size: 11px;
+    font-weight: normal;
+}
+    
+/* hyperlink style for buttons and link buttons used in the portal admin pages */
+A.CommandButton:link {
+    text-decoration:    underline;
+    color: #9ABEEC;
+}
+
+A.CommandButton:visited  {
+    text-decoration:    underline;
+    color: #9ABEEC;
+}
+
+A.CommandButton:active   {
+    text-decoration:    underline;
+    color: #9ABEEC;
+}
+
+A.CommandButton:hover    {
+    text-decoration:    underline;
+    color: NAVY;
+}
+    
+/* GENERIC */
+H1  {
+    font-family: Tahoma, Arial, Helvetica;
+    font-size:  20px;
+    font-weight:    normal;
+    color: #B5A9AD;
+}
+
+H2  {
+    font-family: Tahoma, Arial, Helvetica;
+    font-size:  20px;
+    font-weight:    normal;
+    color: #B5A9AD;
+}
+
+H3  {
+    font-family: Tahoma, Arial, Helvetica;
+    font-size:  12px;
+    font-weight:    normal;
+    color: #9ABEEC;
+}
+
+H4  {
+    font-family: Tahoma, Arial, Helvetica;
+    font-size:  12px;
+    font-weight:    normal;
+    color: #9ABEEC;
+}
+
+H5, DT  {
+    font-family: Tahoma, Arial, Helvetica;
+    font-size:  11px;
+    font-weight:    bold;
+    color: #9ABEEC;
+}
+
+H6  {
+    font-family: Tahoma, Arial, Helvetica;
+    font-size:  11px;
+    font-weight:    bold;
+    color: #9ABEEC;
+}
+
+TFOOT, THEAD    {
+    font-family: Tahoma, Arial, Helvetica;
+    font-size:  12px;
+    color: #B7AEAB;
+}
+
+TH  {
+    vertical-align: baseline;
+    font-family: Tahoma, Arial, Helvetica;
+    font-size:  12px;
+    font-weight:    bold;
+    color: #B7AEAB;
+}
+
+A:link  {
+    text-decoration:    none;
+    color:  #9ABEEC;
+}
+
+A:visited   {
+    text-decoration:    none;
+    color:  #9ABEEC;
+}
+
+A:active    {
+    text-decoration:    none;
+    color:  #9ABEEC;
+}
+
+A:hover {
+    text-decoration:    underline;
+    color:  NAVY;
+}
+
+SMALL   {
+    font-size:  8px;
+}
+
+BIG {
+    font-size:  14px;
+}
+
+BLOCKQUOTE, PRE {
+    font-family:    Lucida Console, monospace;
+}
+
+
+UL LI   {
+    list-style-type:    square ;
+}
+
+UL LI LI    {
+    list-style-type:    disc;
+}
+
+UL LI LI LI {
+    list-style-type:    circle;
+}
+
+OL LI   {
+    list-style-type:    decimal;
+}
+
+OL OL LI    {
+    list-style-type:    lower-alpha;
+}
+
+OL OL OL LI {
+    list-style-type:    lower-roman;
+}
+
+HR {
+    color: dimgrey;
+    height:1pt;
+    text-align:left
+}
+
+/* MODULE-SPECIFIC */
+/* text style for reading messages in Discussion */    
+.Message    {
+    font-family: Tahoma, Arial, Helvetica;
+    font-size: 11px;
+    font-weight: normal;
+    font-size: 11px;
+    background-color: #eeeeee
+}   
+
+/* style of item titles by Announcements and events */
+.ItemTitle    {
+    font-family: Tahoma, Arial, Helvetica;
+    font-size:  11px;
+    font-weight:    bold;
+    color: #003366;
+}
+
+
+.LogoPane
+{
+  padding: 0 15 3 15;
+  vertical-align:bottom;
+}
+
+.ContentPane
+{
+	border-width:0;
+	padding: 3 3 0 3;
+}
+
+.HeadPane
+{
+	background-image: url(Top.gif);
+	background-repeat: no-repeat;
+	background-position: left bottom;
+	padding: 10 25 25 5;
+}
+.MenuPane
+{
+	background-image: url(Left.gif);
+	background-position: bottom;
+	background-repeat: repeat-x;
+	padding:  0 5 0 5;
+}
+.BreadcrumbPane
+{
+	background-image: url(Bottom.gif);
+	background-position: left top;
+	background-repeat: no-repeat;
+	padding: 2 5 2 15;
+	border-right-color:#B5A9AD;
+	border-right-width:3;
+	border-right-style:solid;
+	font-weight: bold;
+    font-size: 15;
+    color:  #B5A9AD;
+    font-family: Tahoma, Arial, Helvetica;
+    text-decoration: none;	
+}
+
+.HeaderTable
+{
+
+}
+
+.ContentTable
+{
+	border-right-color:#B5A9AD;
+	border-right-width:3;
+	border-right-style:solid;
+	border-left-color:#B5A9AD;
+	border-left-width:3;
+	border-left-style:solid;
+}
+.BottomLeft
+{
+	border-bottom-color:#B5A9AD;
+	border-bottom-width:3;
+	border-bottom-style:solid;
+	background-image:url(footerTrans.gif);
+	background-position: right bottom;
+	background-repeat: no-repeat;
+	background-color: #B5A9AD;
+	padding: 0 40 0 5;
+	
+}
+.BottomRight
+{
+	border-bottom-color:#B5A9AD;
+	border-bottom-width:3;
+	border-bottom-style:solid;
+	border-right-color:#B5A9AD;
+	border-right-width:3;
+	border-right-style:solid;
+	padding: 0 5 0 10;
+	}
+
+/* Main Menu */
+
+.MainMenu_MenuContainer {
+	width:100%;
+	border-bottom: #B5A9AD 0px solid; 
+	border-left: #B5A9AD 0px solid; 
+	border-top: #B5A9AD 0px solid; 
+	border-right: #B5A9AD 0px solid;  
+	background-color: Transparent; 
+	height: 15;
+}
+
+.MainMenu_MenuBar {
+	cursor: pointer; 
+	cursor: hand; 
+}
+
+.MainMenu_MenuItem {
+	cursor: pointer; 
+	cursor: hand; 
+	color: #B5A9AD; 
+	font-family:  Verdana,Tahoma, Arial, Helvetica; 
+	font-size: 12; 
+	font-style: normal; 
+	border-style:solid;
+	border-left: #B5A9AD 0px solid; 
+	border-bottom: #B5A9AD 0px solid; 
+	border-top: #B5A9AD 0px solid; 
+	border-right: #B5A9AD 0px solid;
+	height:15;
+}
+
+.MainMenu_MenuIcon {
+	cursor: pointer; 
+	cursor: hand; 
+	background-color: #B5A9AD; 
+	border-left: #dae3f3 1px solid; 
+	border-bottom: #dae3f3 1px solid; 
+	border-top: #dae3f3 1px solid; 
+        padding-left: 0px;
+        padding-right: 0px;
+	text-align: center; 
+	width: 20; 
+	height:15;
+}
+
+.MainMenu_SubMenu {
+	z-index: 1000; 
+	cursor: pointer; 
+	cursor: hand; 
+	background-color:White; 
+	border-bottom: #B5A9AD 0px solid; 
+	border-left: #B5A9AD 0px solid; 
+	border-top: #B5A9AD 0px solid; 
+	border-right: #B5A9AD 0px solid;
+	font-family:  Verdana,Tahoma, Arial, Helvetica; 
+	font-size: 12; 
+	font-style: normal; 
+	color: #B5A9AD;
+	height:15;
+}
+
+.MainMenu_MenuBreak {
+	border-bottom: #B5A9AD 1px solid; 
+	border-left: #B5A9AD 1px solid; 
+	border-top: #B5A9AD 1px solid;  
+	border-right: #B5A9AD 1px solid; 
+	background-color: White; 
+}
+
+.MainMenu_MenuItemSel {
+	border-bottom: #B5A9AD 0px solid; 
+	border-left: #B5A9AD 0px solid; 
+	border-top: #B5A9AD 0px solid;  
+	border-right: #B5A9AD 0px solid; 
+	background-color: #B5A9AD; 
+	cursor: pointer; 
+	cursor: hand; 
+	color: White; 
+	font-family:  Verdana,Tahoma, Arial, Helvetica; 
+	font-size: 12; 
+	font-style: normal; 
+	height:15;
+}
+
+
+.MainMenu_MenuArrow {
+	font-family: webdings; 
+	font-size: 10pt; 
+	cursor: pointer; 
+	cursor: hand; 
+	border-right: #999999 0px solid; 
+	border-bottom: #999999 0px solid; 
+	border-top: #999999 0px solid;
+	visibility:hidden;
+	width:0;
+}
+
+.MainMenu_RootMenuArrow {
+	font-family: webdings; 
+	font-size: 10pt; 
+	cursor: pointer; 
+	cursor: hand;
+	color:#B5A9AD;
+
+}
+
+.Copyright
+{
+    font-weight: bold;
+    font-size: 15;
+    color: #B5A9AD;
+    font-family: Tahoma, Arial, Helvetica;
+    text-decoration: none;	
+}
+
+/* hyperlink style for the Login Links */
+.Login
+{	
+	font-weight: bold;
+    font-size: 15;
+    color: BLACK;
+    font-family: Tahoma, Arial, Helvetica;
+    text-decoration: none;	
+}
+
+    
+
+A.Login:link {
+    text-decoration:    none;
+    color:BLACK;
+}
+
+A.Login:visited  {
+    text-decoration:    none;
+    color:BLACK;
+}
+
+A.Login:active   {
+    text-decoration:    none;
+    color:BLACK;
+}
+
+A.Login:hover    {
+    text-decoration:    none;
+    color:NAVY;
+}
+/* hyperlink style for the Login Links */
+.Breadcrumb
+{	
+	font-weight: bold;
+    font-size: 15;
+    color:  #B5A9AD;
+    font-family: Tahoma, Arial, Helvetica;
+    text-decoration: none;	
+}
+
+    
+
+A.Breadcrumb:link {
+    text-decoration:    none;
+    color: #B5A9AD;
+}
+
+A.Breadcrumb:visited  {
+    text-decoration:    none;
+    color: #B5A9AD;
+}
+
+A.Breadcrumb:active   {
+    text-decoration:    none;
+    color: #B5A9AD;
+}
+
+A.Breadcrumb:hover    {
+    text-decoration:    none;
+    color:NAVY;
+}

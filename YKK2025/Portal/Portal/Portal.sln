@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Portal", "http://10.245.0.178/Portal/Portal.vbproj", "{B2C842BB-E9DE-4C11-A408-61C94D53B20A}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{B2C842BB-E9DE-4C11-A408-61C94D53B20A}.Debug.ActiveCfg = Debug|.NET
+		{B2C842BB-E9DE-4C11-A408-61C94D53B20A}.Debug.Build.0 = Debug|.NET
+		{B2C842BB-E9DE-4C11-A408-61C94D53B20A}.Release.ActiveCfg = Release|.NET
+		{B2C842BB-E9DE-4C11-A408-61C94D53B20A}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
